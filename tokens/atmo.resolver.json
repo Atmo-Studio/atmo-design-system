@@ -1,0 +1,83 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "version": "2025.10",
+  "name": "Atmo design system",
+  "description": "Core and Patterns in one mode; Intent in six, brand x theme. Atlas and Brand OS layer their overrides on Atmo in the same theme.",
+  "sets": {
+    "core": {
+      "sources": [
+        {
+          "$ref": "core.tokens.json"
+        }
+      ]
+    },
+    "patterns": {
+      "sources": [
+        {
+          "$ref": "patterns.tokens.json"
+        }
+      ]
+    }
+  },
+  "modifiers": {
+    "mode": {
+      "description": "Brand x theme",
+      "default": "atmo-light",
+      "contexts": {
+        "atmo-light": [
+          {
+            "$ref": "intent/atmo.light.tokens.json"
+          }
+        ],
+        "atmo-dark": [
+          {
+            "$ref": "intent/atmo.dark.tokens.json"
+          }
+        ],
+        "atlas-light": [
+          {
+            "$ref": "intent/atmo.light.tokens.json"
+          },
+          {
+            "$ref": "intent/atlas.light.tokens.json"
+          }
+        ],
+        "atlas-dark": [
+          {
+            "$ref": "intent/atmo.dark.tokens.json"
+          },
+          {
+            "$ref": "intent/atlas.dark.tokens.json"
+          }
+        ],
+        "brand-os-light": [
+          {
+            "$ref": "intent/atmo.light.tokens.json"
+          },
+          {
+            "$ref": "intent/brand-os.light.tokens.json"
+          }
+        ],
+        "brand-os-dark": [
+          {
+            "$ref": "intent/atmo.dark.tokens.json"
+          },
+          {
+            "$ref": "intent/brand-os.dark.tokens.json"
+          }
+        ]
+      }
+    }
+  },
+  "resolutionOrder": [
+    {
+      "$ref": "#/sets/core"
+    },
+    {
+      "$ref": "#/modifiers/mode"
+    },
+    {
+      "$ref": "#/sets/patterns"
+    }
+  ]
+}

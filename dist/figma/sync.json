@@ -1,0 +1,5356 @@
+{
+  "collections": {
+    "01 Core": {
+      "modes": [
+        "Value"
+      ]
+    },
+    "02 Intent": {
+      "modes": [
+        "Atmo Light",
+        "Atmo Dark",
+        "Atlas Light",
+        "Atlas Dark",
+        "Brand OS Light",
+        "Brand OS Dark"
+      ]
+    },
+    "03 Patterns": {
+      "modes": [
+        "Value"
+      ]
+    }
+  },
+  "variables": [
+    {
+      "name": "color/neutral/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9255,
+          "g": 0.9098,
+          "b": 0.8902,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.851,
+          "g": 0.8314,
+          "b": 0.8118,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7451,
+          "g": 0.7255,
+          "b": 0.702,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6196,
+          "g": 0.5961,
+          "b": 0.5765,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5176,
+          "g": 0.498,
+          "b": 0.4745,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4275,
+          "g": 0.4039,
+          "b": 0.3843,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.3451,
+          "g": 0.3255,
+          "b": 0.3059,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2706,
+          "g": 0.251,
+          "b": 0.2353,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2,
+          "g": 0.1843,
+          "b": 0.1686,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/neutral/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9294,
+          "g": 0.9569,
+          "b": 0.9137,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8863,
+          "g": 0.9255,
+          "b": 0.8627,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7922,
+          "g": 0.8627,
+          "b": 0.7569,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6745,
+          "g": 0.7647,
+          "b": 0.6196,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5451,
+          "g": 0.6431,
+          "b": 0.4902,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4471,
+          "g": 0.5412,
+          "b": 0.3843,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.3647,
+          "g": 0.4471,
+          "b": 0.3137,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.298,
+          "g": 0.3608,
+          "b": 0.2588,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2314,
+          "g": 0.2824,
+          "b": 0.2,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1725,
+          "g": 0.2118,
+          "b": 0.1451,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/green/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-green-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1216,
+          "g": 0.149,
+          "b": 0.102,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9255,
+          "g": 0.949,
+          "b": 0.9725,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8784,
+          "g": 0.9176,
+          "b": 0.9569,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7765,
+          "g": 0.8471,
+          "b": 0.9176,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.651,
+          "g": 0.7373,
+          "b": 0.8392,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5216,
+          "g": 0.6078,
+          "b": 0.7255,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4314,
+          "g": 0.502,
+          "b": 0.6314,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.3529,
+          "g": 0.4078,
+          "b": 0.5333,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2824,
+          "g": 0.3255,
+          "b": 0.4353,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2196,
+          "g": 0.2549,
+          "b": 0.3333,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1647,
+          "g": 0.1882,
+          "b": 0.2471,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/blue/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-blue-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1176,
+          "g": 0.1333,
+          "b": 0.1725,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9882,
+          "g": 0.9333,
+          "b": 0.9098,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9882,
+          "g": 0.8902,
+          "b": 0.8549,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9529,
+          "g": 0.8039,
+          "b": 0.7451,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8824,
+          "g": 0.6863,
+          "b": 0.6118,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7725,
+          "g": 0.5569,
+          "b": 0.4706,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6627,
+          "g": 0.4549,
+          "b": 0.3725,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5529,
+          "g": 0.3725,
+          "b": 0.302,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4431,
+          "g": 0.302,
+          "b": 0.251,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.349,
+          "g": 0.2353,
+          "b": 0.1922,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2627,
+          "g": 0.1725,
+          "b": 0.1373,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/clay/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-clay-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1922,
+          "g": 0.1216,
+          "b": 0.098,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9686,
+          "g": 0.9451,
+          "b": 0.8784,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9451,
+          "g": 0.9098,
+          "b": 0.8039,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8863,
+          "g": 0.8353,
+          "b": 0.6784,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8157,
+          "g": 0.7373,
+          "b": 0.5098,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7294,
+          "g": 0.6196,
+          "b": 0.2902,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6275,
+          "g": 0.502,
+          "b": 0.1451,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5294,
+          "g": 0.4196,
+          "b": 0.1294,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4235,
+          "g": 0.3294,
+          "b": 0.1529,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.3216,
+          "g": 0.2471,
+          "b": 0.149,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2471,
+          "g": 0.1804,
+          "b": 0.1059,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ochre/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ochre-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1804,
+          "g": 0.1294,
+          "b": 0.0745,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/50",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-50)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9882,
+          "g": 0.9333,
+          "b": 0.9216,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/100",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-100)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9882,
+          "g": 0.8863,
+          "b": 0.8706,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/200",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-200)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.9569,
+          "g": 0.8,
+          "b": 0.7725,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8824,
+          "g": 0.6824,
+          "b": 0.6471,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/400",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-400)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7804,
+          "g": 0.5529,
+          "b": 0.5176,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/500",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-500)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6667,
+          "g": 0.4471,
+          "b": 0.4157,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.549,
+          "g": 0.3608,
+          "b": 0.3333,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.4431,
+          "g": 0.298,
+          "b": 0.2745,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/800",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-800)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.349,
+          "g": 0.2314,
+          "b": 0.2118,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/900",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-900)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2627,
+          "g": 0.1686,
+          "b": 0.1569,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/red/950",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-red-950)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.1882,
+          "g": 0.1176,
+          "b": 0.1098,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-green/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-green-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.5569,
+          "g": 0.8235,
+          "b": 0.5608,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-green/550",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-green-550)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.2667,
+          "g": 0.5255,
+          "b": 0.2824,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/shadow/deep-ink",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-shadow-deep-ink)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.0275,
+          "g": 0.0196,
+          "b": 0.0157,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "font/sans",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-sans)"
+      },
+      "description": "",
+      "values": {
+        "Value": "Satoshi Variable"
+      }
+    },
+    {
+      "name": "font-weight/regular",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-regular)"
+      },
+      "description": "",
+      "values": {
+        "Value": "regular"
+      }
+    },
+    {
+      "name": "font-weight/medium",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-medium)"
+      },
+      "description": "",
+      "values": {
+        "Value": "medium"
+      }
+    },
+    {
+      "name": "font-weight/semibold",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-semibold)"
+      },
+      "description": "",
+      "values": {
+        "Value": "semibold"
+      }
+    },
+    {
+      "name": "font-weight/bold",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-bold)"
+      },
+      "description": "",
+      "values": {
+        "Value": "bold"
+      }
+    },
+    {
+      "name": "text/font-size/2xs",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-2xs)"
+      },
+      "description": "",
+      "values": {
+        "Value": 9
+      }
+    },
+    {
+      "name": "text/font-size/xs",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-xs)"
+      },
+      "description": "",
+      "values": {
+        "Value": 11
+      }
+    },
+    {
+      "name": "text/font-size/sm",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-sm)"
+      },
+      "description": "",
+      "values": {
+        "Value": 13
+      }
+    },
+    {
+      "name": "text/font-size/base",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-base)"
+      },
+      "description": "",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "name": "text/font-size/lg",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-lg)"
+      },
+      "description": "",
+      "values": {
+        "Value": 19
+      }
+    },
+    {
+      "name": "text/font-size/xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 23
+      }
+    },
+    {
+      "name": "text/font-size/2xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-2xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 28
+      }
+    },
+    {
+      "name": "text/font-size/3xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-3xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 33
+      }
+    },
+    {
+      "name": "text/font-size/4xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-4xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 40
+      }
+    },
+    {
+      "name": "text/font-size/5xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-5xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 48
+      }
+    },
+    {
+      "name": "text/font-size/6xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-6xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 57
+      }
+    },
+    {
+      "name": "text/font-size/7xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-7xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 69
+      }
+    },
+    {
+      "name": "text/font-size/8xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-8xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 83
+      }
+    },
+    {
+      "name": "text/font-size/9xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-9xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 99
+      }
+    },
+    {
+      "name": "text/font-size/10xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-10xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 119
+      }
+    },
+    {
+      "name": "text/font-size/11xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-font-size-11xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 143
+      }
+    },
+    {
+      "name": "text/line-height/leading-1",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-1)"
+      },
+      "description": "",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "name": "text/line-height/leading-2",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "name": "text/line-height/leading-3",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-3)"
+      },
+      "description": "",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "name": "text/line-height/leading-4",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-4)"
+      },
+      "description": "",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "name": "text/line-height/leading-5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "name": "text/line-height/leading-6",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-6)"
+      },
+      "description": "",
+      "values": {
+        "Value": 24
+      }
+    },
+    {
+      "name": "text/line-height/leading-7",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-7)"
+      },
+      "description": "",
+      "values": {
+        "Value": 28
+      }
+    },
+    {
+      "name": "text/line-height/leading-8",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-8)"
+      },
+      "description": "",
+      "values": {
+        "Value": 32
+      }
+    },
+    {
+      "name": "text/line-height/leading-9",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-9)"
+      },
+      "description": "",
+      "values": {
+        "Value": 36
+      }
+    },
+    {
+      "name": "text/line-height/leading-10",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-10)"
+      },
+      "description": "",
+      "values": {
+        "Value": 40
+      }
+    },
+    {
+      "name": "text/line-height/leading-11",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-11)"
+      },
+      "description": "",
+      "values": {
+        "Value": 44
+      }
+    },
+    {
+      "name": "text/line-height/leading-12",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-12)"
+      },
+      "description": "",
+      "values": {
+        "Value": 48
+      }
+    },
+    {
+      "name": "text/line-height/leading-13",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-13)"
+      },
+      "description": "",
+      "values": {
+        "Value": 52
+      }
+    },
+    {
+      "name": "text/line-height/leading-14",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-14)"
+      },
+      "description": "",
+      "values": {
+        "Value": 56
+      }
+    },
+    {
+      "name": "text/line-height/leading-15",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-15)"
+      },
+      "description": "",
+      "values": {
+        "Value": 60
+      }
+    },
+    {
+      "name": "text/line-height/leading-16",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-16)"
+      },
+      "description": "",
+      "values": {
+        "Value": 64
+      }
+    },
+    {
+      "name": "text/line-height/leading-17",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-17)"
+      },
+      "description": "",
+      "values": {
+        "Value": 68
+      }
+    },
+    {
+      "name": "text/line-height/leading-18",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-18)"
+      },
+      "description": "",
+      "values": {
+        "Value": 72
+      }
+    },
+    {
+      "name": "text/line-height/leading-19",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-19)"
+      },
+      "description": "",
+      "values": {
+        "Value": 76
+      }
+    },
+    {
+      "name": "text/line-height/leading-20",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-20)"
+      },
+      "description": "",
+      "values": {
+        "Value": 80
+      }
+    },
+    {
+      "name": "text/line-height/leading-21",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-21)"
+      },
+      "description": "",
+      "values": {
+        "Value": 84
+      }
+    },
+    {
+      "name": "text/line-height/leading-25",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-25)"
+      },
+      "description": "",
+      "values": {
+        "Value": 100
+      }
+    },
+    {
+      "name": "text/line-height/leading-30",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-30)"
+      },
+      "description": "",
+      "values": {
+        "Value": 120
+      }
+    },
+    {
+      "name": "text/line-height/leading-36",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-line-height-leading-36)"
+      },
+      "description": "",
+      "values": {
+        "Value": 144
+      }
+    },
+    {
+      "name": "text/tracking/0",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-tracking-0)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "name": "text/tracking/plus-6",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-tracking-plus-6)"
+      },
+      "description": "",
+      "values": {
+        "Value": 6
+      }
+    },
+    {
+      "name": "text/tracking/plus-2",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-tracking-plus-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "name": "text/tracking/minus-1",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-tracking-minus-1)"
+      },
+      "description": "",
+      "values": {
+        "Value": -1
+      }
+    },
+    {
+      "name": "text/tracking/minus-2",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--text-tracking-minus-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": -2
+      }
+    },
+    {
+      "name": "text/feature-settings/text",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--text-feature-settings-text)"
+      },
+      "description": "",
+      "values": {
+        "Value": "\"ss02\" 1, \"ss03\" 1, \"kern\" 1"
+      }
+    },
+    {
+      "name": "text/feature-settings/numeric",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--text-feature-settings-numeric)"
+      },
+      "description": "",
+      "values": {
+        "Value": "\"ss02\" 1, \"ss03\" 1, \"kern\" 1, \"tnum\" 1"
+      }
+    },
+    {
+      "name": "spacing/0",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-0)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "name": "spacing/1",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-1)"
+      },
+      "description": "",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "name": "spacing/2",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "name": "spacing/3",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-3)"
+      },
+      "description": "",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "name": "spacing/4",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-4)"
+      },
+      "description": "",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "name": "spacing/5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "name": "spacing/6",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-6)"
+      },
+      "description": "",
+      "values": {
+        "Value": 24
+      }
+    },
+    {
+      "name": "spacing/7",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-7)"
+      },
+      "description": "",
+      "values": {
+        "Value": 28
+      }
+    },
+    {
+      "name": "spacing/8",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-8)"
+      },
+      "description": "",
+      "values": {
+        "Value": 32
+      }
+    },
+    {
+      "name": "spacing/9",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-9)"
+      },
+      "description": "",
+      "values": {
+        "Value": 36
+      }
+    },
+    {
+      "name": "spacing/10",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-10)"
+      },
+      "description": "",
+      "values": {
+        "Value": 40
+      }
+    },
+    {
+      "name": "spacing/11",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-11)"
+      },
+      "description": "",
+      "values": {
+        "Value": 44
+      }
+    },
+    {
+      "name": "spacing/12",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-12)"
+      },
+      "description": "",
+      "values": {
+        "Value": 48
+      }
+    },
+    {
+      "name": "spacing/16",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-16)"
+      },
+      "description": "",
+      "values": {
+        "Value": 64
+      }
+    },
+    {
+      "name": "spacing/20",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-20)"
+      },
+      "description": "",
+      "values": {
+        "Value": 80
+      }
+    },
+    {
+      "name": "spacing/24",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-24)"
+      },
+      "description": "",
+      "values": {
+        "Value": 96
+      }
+    },
+    {
+      "name": "spacing/px",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-px)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1
+      }
+    },
+    {
+      "name": "spacing/0-5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-0-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "name": "spacing/1-5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-1-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 6
+      }
+    },
+    {
+      "name": "spacing/3-5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-3-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 14
+      }
+    },
+    {
+      "name": "spacing/full",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--spacing-full)"
+      },
+      "description": "",
+      "values": {
+        "Value": 9999
+      }
+    },
+    {
+      "name": "radius/none",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-none)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "name": "radius/xs",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-xs)"
+      },
+      "description": "",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "name": "radius/sm",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-sm)"
+      },
+      "description": "",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "name": "radius/md",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-md)"
+      },
+      "description": "",
+      "values": {
+        "Value": 6
+      }
+    },
+    {
+      "name": "radius/lg",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-lg)"
+      },
+      "description": "",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "name": "radius/xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "name": "radius/2xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-2xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "name": "radius/3xl",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-3xl)"
+      },
+      "description": "",
+      "values": {
+        "Value": 24
+      }
+    },
+    {
+      "name": "radius/full",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--radius-full)"
+      },
+      "description": "",
+      "values": {
+        "Value": 9999
+      }
+    },
+    {
+      "name": "duration/0",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-0)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "name": "duration/105",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-105)"
+      },
+      "description": "",
+      "values": {
+        "Value": 105
+      }
+    },
+    {
+      "name": "duration/150",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-150)"
+      },
+      "description": "",
+      "values": {
+        "Value": 150
+      }
+    },
+    {
+      "name": "duration/210",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-210)"
+      },
+      "description": "",
+      "values": {
+        "Value": 210
+      }
+    },
+    {
+      "name": "duration/300",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": 300
+      }
+    },
+    {
+      "name": "duration/420",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-420)"
+      },
+      "description": "",
+      "values": {
+        "Value": 420
+      }
+    },
+    {
+      "name": "duration/600",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--duration-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": 600
+      }
+    },
+    {
+      "name": "easing/enter",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--easing-enter)"
+      },
+      "description": "",
+      "values": {
+        "Value": "0.32, 0.72, 0, 1"
+      }
+    },
+    {
+      "name": "easing/exit",
+      "collection": "01 Core",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--easing-exit)"
+      },
+      "description": "",
+      "values": {
+        "Value": "0.4, 0, 1, 1"
+      }
+    },
+    {
+      "name": "stroke/1",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--stroke-1)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1
+      }
+    },
+    {
+      "name": "stroke/2",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--stroke-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "name": "stroke/1-5",
+      "collection": "01 Core",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--stroke-1-5)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1.5
+      }
+    },
+    {
+      "name": "color/surface/canvas",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-surface-canvas)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/surface/raised",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-surface-raised)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/900"
+        },
+        "Atlas Light": {
+          "alias": "color/green/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/900"
+        }
+      }
+    },
+    {
+      "name": "color/surface/inset",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-surface-inset)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/800"
+        }
+      }
+    },
+    {
+      "name": "color/surface/card",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-surface-card)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/900"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/900"
+        }
+      }
+    },
+    {
+      "name": "color/surface/inverse",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-surface-inverse)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/text/primary",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-primary)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/50"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/text/display",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-display)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/800"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/text/secondary",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-secondary)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/300"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/300"
+        }
+      }
+    },
+    {
+      "name": "color/text/on-inverse",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-on-inverse)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/text/disabled",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-disabled)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/400"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/600"
+        },
+        "Atlas Light": {
+          "alias": "color/green/400"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/600"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/400"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/600"
+        }
+      }
+    },
+    {
+      "name": "color/text/on-inverse-secondary",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-on-inverse-secondary)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/400"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/600"
+        },
+        "Atlas Light": {
+          "alias": "color/green/400"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/700"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/400"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/600"
+        }
+      }
+    },
+    {
+      "name": "color/border/divider",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-border-divider)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/800"
+        }
+      }
+    },
+    {
+      "name": "color/border/control",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-border-control)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Light": {
+          "alias": "color/green/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/border/strong",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-border-strong)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/border/on-inverse",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-border-on-inverse)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/800"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/200"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/800"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/200"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/bg",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-bg)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/bg-hover",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-bg-hover)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/800"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/200"
+        },
+        "Atlas Light": {
+          "alias": "color/green/800"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/200"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/800"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/200"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/bg-pressed",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-bg-pressed)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/bg-disabled",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-bg-disabled)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/800"
+        }
+      }
+    },
+    {
+      "name": "color/action/primary/text-disabled",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-primary-text-disabled)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Light": {
+          "alias": "color/green/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/selected/bg",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-selected-bg)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/selected/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-selected-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/focus/ring",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-focus-ring)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/focus/ring-on-inverse",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-focus-ring-on-inverse)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/map/ground",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-ground)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/900"
+        },
+        "Atlas Light": {
+          "alias": "color/green/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/900"
+        }
+      }
+    },
+    {
+      "name": "color/map/grid",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-grid)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/800"
+        }
+      }
+    },
+    {
+      "name": "color/map/water",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-water)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/blue/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/blue/900"
+        },
+        "Atlas Light": {
+          "alias": "color/blue/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/blue/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/blue/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/blue/900"
+        }
+      }
+    },
+    {
+      "name": "color/map/park",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-park)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/800"
+        }
+      }
+    },
+    {
+      "name": "color/map/marker",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-marker)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/map/marker-ring",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-marker-ring)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/skeleton",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-skeleton)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/200"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Light": {
+          "alias": "color/green/200"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/800"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/800"
+        }
+      }
+    },
+    {
+      "name": "color/emphasis",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-emphasis)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/400"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/50"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/400"
+        }
+      }
+    },
+    {
+      "name": "color/dot/open",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-dot-open)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/400"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-green/550"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/400"
+        }
+      }
+    },
+    {
+      "name": "color/dot/attribute",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-dot-attribute)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/50"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/status/positive/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-positive-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/300"
+        },
+        "Atlas Light": {
+          "alias": "color/green/900"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/50"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/300"
+        }
+      }
+    },
+    {
+      "name": "color/status/positive/mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-positive-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/400"
+        },
+        "Atlas Light": {
+          "alias": "color/green/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/400"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/400"
+        }
+      }
+    },
+    {
+      "name": "color/status/positive/on-mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-positive-on-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/status/positive/surface",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-positive-surface)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/900"
+        },
+        "Atlas Light": {
+          "alias": "color/green/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/900"
+        }
+      }
+    },
+    {
+      "name": "color/status/negative/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-negative-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/red/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/red/400"
+        },
+        "Atlas Light": {
+          "alias": "color/red/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/red/400"
+        },
+        "Brand OS Light": {
+          "alias": "color/red/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/red/400"
+        }
+      }
+    },
+    {
+      "name": "color/status/negative/mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-negative-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/red/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/red/300"
+        },
+        "Atlas Light": {
+          "alias": "color/red/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/red/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/red/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/red/300"
+        }
+      }
+    },
+    {
+      "name": "color/status/negative/on-mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-negative-on-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/status/negative/surface",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-negative-surface)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/red/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/red/900"
+        },
+        "Atlas Light": {
+          "alias": "color/red/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/red/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/red/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/red/900"
+        }
+      }
+    },
+    {
+      "name": "color/status/caution/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-caution-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/ochre/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/ochre/300"
+        },
+        "Atlas Light": {
+          "alias": "color/ochre/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/ochre/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/ochre/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/ochre/300"
+        }
+      }
+    },
+    {
+      "name": "color/status/caution/mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-caution-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/ochre/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/ochre/400"
+        },
+        "Atlas Light": {
+          "alias": "color/ochre/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/ochre/400"
+        },
+        "Brand OS Light": {
+          "alias": "color/ochre/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/ochre/400"
+        }
+      }
+    },
+    {
+      "name": "color/status/caution/on-mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-caution-on-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/status/caution/surface",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-caution-surface)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/ochre/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/ochre/900"
+        },
+        "Atlas Light": {
+          "alias": "color/ochre/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/ochre/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/ochre/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/ochre/900"
+        }
+      }
+    },
+    {
+      "name": "color/status/info/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-info-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/blue/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/blue/300"
+        },
+        "Atlas Light": {
+          "alias": "color/blue/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/blue/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/blue/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/blue/300"
+        }
+      }
+    },
+    {
+      "name": "color/status/info/mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-info-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/blue/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/blue/400"
+        },
+        "Atlas Light": {
+          "alias": "color/blue/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/blue/400"
+        },
+        "Brand OS Light": {
+          "alias": "color/blue/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/blue/400"
+        }
+      }
+    },
+    {
+      "name": "color/status/info/on-mark",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-info-on-mark)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/status/info/surface",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-status-info-surface)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/blue/100"
+        },
+        "Atmo Dark": {
+          "alias": "color/blue/900"
+        },
+        "Atlas Light": {
+          "alias": "color/blue/100"
+        },
+        "Atlas Dark": {
+          "alias": "color/blue/900"
+        },
+        "Brand OS Light": {
+          "alias": "color/blue/100"
+        },
+        "Brand OS Dark": {
+          "alias": "color/blue/900"
+        }
+      }
+    },
+    {
+      "name": "color/shadow-tint",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-shadow-tint)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/shadow/deep-ink"
+        },
+        "Atlas Light": {
+          "alias": "color/green/950"
+        },
+        "Atlas Dark": {
+          "alias": "color/shadow/deep-ink"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/shadow/deep-ink"
+        }
+      }
+    },
+    {
+      "name": "color/glass",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-glass)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.85
+        },
+        "Atmo Dark": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.8
+        },
+        "Atlas Light": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.85
+        },
+        "Atlas Dark": {
+          "r": 0.1216,
+          "g": 0.149,
+          "b": 0.102,
+          "a": 0.8
+        },
+        "Brand OS Light": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.85
+        },
+        "Brand OS Dark": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.8
+        }
+      }
+    },
+    {
+      "name": "color/scrim",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-scrim)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.4
+        },
+        "Atmo Dark": {
+          "r": 0.0275,
+          "g": 0.0196,
+          "b": 0.0157,
+          "a": 0.6
+        },
+        "Atlas Light": {
+          "r": 0.1216,
+          "g": 0.149,
+          "b": 0.102,
+          "a": 0.4
+        },
+        "Atlas Dark": {
+          "r": 0.0275,
+          "g": 0.0196,
+          "b": 0.0157,
+          "a": 0.6
+        },
+        "Brand OS Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.4
+        },
+        "Brand OS Dark": {
+          "r": 0.0275,
+          "g": 0.0196,
+          "b": 0.0157,
+          "a": 0.6
+        }
+      }
+    },
+    {
+      "name": "font/family/sans",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-family-sans)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "font/sans"
+        },
+        "Atmo Dark": {
+          "alias": "font/sans"
+        },
+        "Atlas Light": {
+          "alias": "font/sans"
+        },
+        "Atlas Dark": {
+          "alias": "font/sans"
+        },
+        "Brand OS Light": {
+          "alias": "font/sans"
+        },
+        "Brand OS Dark": {
+          "alias": "font/sans"
+        }
+      }
+    },
+    {
+      "name": "font/feature-settings/text",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--font-feature-settings-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "text/feature-settings/text"
+        },
+        "Atmo Dark": {
+          "alias": "text/feature-settings/text"
+        },
+        "Atlas Light": {
+          "alias": "text/feature-settings/text"
+        },
+        "Atlas Dark": {
+          "alias": "text/feature-settings/text"
+        },
+        "Brand OS Light": {
+          "alias": "text/feature-settings/text"
+        },
+        "Brand OS Dark": {
+          "alias": "text/feature-settings/text"
+        }
+      }
+    },
+    {
+      "name": "font/feature-settings/numeric",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--font-feature-settings-numeric)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "text/feature-settings/numeric"
+        },
+        "Atmo Dark": {
+          "alias": "text/feature-settings/numeric"
+        },
+        "Atlas Light": {
+          "alias": "text/feature-settings/numeric"
+        },
+        "Atlas Dark": {
+          "alias": "text/feature-settings/numeric"
+        },
+        "Brand OS Light": {
+          "alias": "text/feature-settings/numeric"
+        },
+        "Brand OS Dark": {
+          "alias": "text/feature-settings/numeric"
+        }
+      }
+    },
+    {
+      "name": "font/weight/regular",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-regular)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "font-weight/regular"
+        },
+        "Atmo Dark": {
+          "alias": "font-weight/regular"
+        },
+        "Atlas Light": {
+          "alias": "font-weight/regular"
+        },
+        "Atlas Dark": {
+          "alias": "font-weight/regular"
+        },
+        "Brand OS Light": {
+          "alias": "font-weight/regular"
+        },
+        "Brand OS Dark": {
+          "alias": "font-weight/regular"
+        }
+      }
+    },
+    {
+      "name": "font/weight/medium",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--font-weight-medium)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "font-weight/medium"
+        },
+        "Atmo Dark": {
+          "alias": "font-weight/medium"
+        },
+        "Atlas Light": {
+          "alias": "font-weight/medium"
+        },
+        "Atlas Dark": {
+          "alias": "font-weight/medium"
+        },
+        "Brand OS Light": {
+          "alias": "font-weight/medium"
+        },
+        "Brand OS Dark": {
+          "alias": "font-weight/medium"
+        }
+      }
+    },
+    {
+      "name": "motion/feedback/duration",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-feedback-duration)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/150"
+        },
+        "Atmo Dark": {
+          "alias": "duration/150"
+        },
+        "Atlas Light": {
+          "alias": "duration/150"
+        },
+        "Atlas Dark": {
+          "alias": "duration/150"
+        },
+        "Brand OS Light": {
+          "alias": "duration/150"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/150"
+        }
+      }
+    },
+    {
+      "name": "motion/feedback/duration-exit",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-feedback-duration-exit)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/105"
+        },
+        "Atmo Dark": {
+          "alias": "duration/105"
+        },
+        "Atlas Light": {
+          "alias": "duration/105"
+        },
+        "Atlas Dark": {
+          "alias": "duration/105"
+        },
+        "Brand OS Light": {
+          "alias": "duration/105"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/105"
+        }
+      }
+    },
+    {
+      "name": "motion/component/duration",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-component-duration)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/300"
+        },
+        "Atmo Dark": {
+          "alias": "duration/300"
+        },
+        "Atlas Light": {
+          "alias": "duration/300"
+        },
+        "Atlas Dark": {
+          "alias": "duration/300"
+        },
+        "Brand OS Light": {
+          "alias": "duration/300"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/300"
+        }
+      }
+    },
+    {
+      "name": "motion/component/duration-exit",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-component-duration-exit)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/210"
+        },
+        "Atmo Dark": {
+          "alias": "duration/210"
+        },
+        "Atlas Light": {
+          "alias": "duration/210"
+        },
+        "Atlas Dark": {
+          "alias": "duration/210"
+        },
+        "Brand OS Light": {
+          "alias": "duration/210"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/210"
+        }
+      }
+    },
+    {
+      "name": "motion/layout/duration",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-layout-duration)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/600"
+        },
+        "Atmo Dark": {
+          "alias": "duration/600"
+        },
+        "Atlas Light": {
+          "alias": "duration/600"
+        },
+        "Atlas Dark": {
+          "alias": "duration/600"
+        },
+        "Brand OS Light": {
+          "alias": "duration/600"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/600"
+        }
+      }
+    },
+    {
+      "name": "motion/layout/duration-exit",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-layout-duration-exit)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "duration/420"
+        },
+        "Atmo Dark": {
+          "alias": "duration/420"
+        },
+        "Atlas Light": {
+          "alias": "duration/420"
+        },
+        "Atlas Dark": {
+          "alias": "duration/420"
+        },
+        "Brand OS Light": {
+          "alias": "duration/420"
+        },
+        "Brand OS Dark": {
+          "alias": "duration/420"
+        }
+      }
+    },
+    {
+      "name": "motion/easing/enter",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-easing-enter)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "easing/enter"
+        },
+        "Atmo Dark": {
+          "alias": "easing/enter"
+        },
+        "Atlas Light": {
+          "alias": "easing/enter"
+        },
+        "Atlas Dark": {
+          "alias": "easing/enter"
+        },
+        "Brand OS Light": {
+          "alias": "easing/enter"
+        },
+        "Brand OS Dark": {
+          "alias": "easing/enter"
+        }
+      }
+    },
+    {
+      "name": "motion/easing/exit",
+      "collection": "02 Intent",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--motion-easing-exit)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "easing/exit"
+        },
+        "Atmo Dark": {
+          "alias": "easing/exit"
+        },
+        "Atlas Light": {
+          "alias": "easing/exit"
+        },
+        "Atlas Dark": {
+          "alias": "easing/exit"
+        },
+        "Brand OS Light": {
+          "alias": "easing/exit"
+        },
+        "Brand OS Dark": {
+          "alias": "easing/exit"
+        }
+      }
+    },
+    {
+      "name": "border/width/hairline",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--border-width-hairline)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "stroke/1"
+        },
+        "Atmo Dark": {
+          "alias": "stroke/1"
+        },
+        "Atlas Light": {
+          "alias": "stroke/1"
+        },
+        "Atlas Dark": {
+          "alias": "stroke/1"
+        },
+        "Brand OS Light": {
+          "alias": "stroke/1"
+        },
+        "Brand OS Dark": {
+          "alias": "stroke/1"
+        }
+      }
+    },
+    {
+      "name": "focus/width",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--focus-width)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "stroke/2"
+        },
+        "Atmo Dark": {
+          "alias": "stroke/2"
+        },
+        "Atlas Light": {
+          "alias": "stroke/2"
+        },
+        "Atlas Dark": {
+          "alias": "stroke/2"
+        },
+        "Brand OS Light": {
+          "alias": "stroke/2"
+        },
+        "Brand OS Dark": {
+          "alias": "stroke/2"
+        }
+      }
+    },
+    {
+      "name": "focus/offset",
+      "collection": "02 Intent",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--focus-offset)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "stroke/2"
+        },
+        "Atmo Dark": {
+          "alias": "stroke/2"
+        },
+        "Atlas Light": {
+          "alias": "stroke/2"
+        },
+        "Atlas Dark": {
+          "alias": "stroke/2"
+        },
+        "Brand OS Light": {
+          "alias": "stroke/2"
+        },
+        "Brand OS Dark": {
+          "alias": "stroke/2"
+        }
+      }
+    },
+    {
+      "name": "menu-button/label/font-weight",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--menu-button-label-font-weight)"
+      },
+      "description": "",
+      "values": {
+        "Value": 650
+      }
+    },
+    {
+      "name": "menu-button/icon/width",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--menu-button-icon-width)"
+      },
+      "description": "",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "name": "menu-button/icon/line",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--menu-button-icon-line)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "stroke/1-5"
+        }
+      }
+    },
+    {
+      "name": "menu-button/icon/gap",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--menu-button-icon-gap)"
+      },
+      "description": "",
+      "values": {
+        "Value": 3
+      }
+    },
+    {
+      "name": "section/radius",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--section-radius)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "radius/2xl"
+        }
+      }
+    },
+    {
+      "name": "section/inset/narrow",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--section-inset-narrow)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "spacing/2"
+        }
+      }
+    },
+    {
+      "name": "section/inset/medium",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--section-inset-medium)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "spacing/3"
+        }
+      }
+    },
+    {
+      "name": "section/inset/wide",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--section-inset-wide)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "spacing/4"
+        }
+      }
+    },
+    {
+      "name": "layout/breakpoint/medium",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--layout-breakpoint-medium)"
+      },
+      "description": "",
+      "values": {
+        "Value": 720
+      }
+    },
+    {
+      "name": "layout/breakpoint/wide",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--layout-breakpoint-wide)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1200
+      }
+    },
+    {
+      "name": "footer/shipping-variant",
+      "collection": "03 Patterns",
+      "type": "STRING",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--footer-shipping-variant)"
+      },
+      "description": "",
+      "values": {
+        "Value": "card"
+      }
+    },
+    {
+      "name": "footer/card/margin/narrow",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-margin-narrow)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "section/inset/narrow"
+        }
+      }
+    },
+    {
+      "name": "footer/card/margin/medium",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-margin-medium)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "section/inset/medium"
+        }
+      }
+    },
+    {
+      "name": "footer/card/margin/wide",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-margin-wide)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "section/inset/wide"
+        }
+      }
+    },
+    {
+      "name": "footer/card/radius",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-radius)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "alias": "radius/2xl"
+        }
+      }
+    },
+    {
+      "name": "footer/card/aspect-ratio/narrow",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-aspect-ratio-narrow)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0.8
+      }
+    },
+    {
+      "name": "footer/card/aspect-ratio/wide",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--footer-card-aspect-ratio-wide)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1.5
+      }
+    },
+    {
+      "name": "dot/size",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--dot-size)"
+      },
+      "description": "",
+      "values": {
+        "Value": 6
+      }
+    },
+    {
+      "name": "status-disc/size",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--status-disc-size)"
+      },
+      "description": "",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "name": "glass/blur",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--glass-blur)"
+      },
+      "description": "",
+      "values": {
+        "Value": 24
+      }
+    },
+    {
+      "name": "control/pressed-scale",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--control-pressed-scale)"
+      },
+      "description": "",
+      "values": {
+        "Value": 0.97
+      }
+    }
+  ],
+  "effectStyles": [
+    {
+      "name": "elevation/floating",
+      "layers": [
+        {
+          "color": {
+            "r": 0.1451,
+            "g": 0.1294,
+            "b": 0.1176,
+            "a": 0.06
+          },
+          "offsetX": 0,
+          "offsetY": 1,
+          "blur": 2,
+          "spread": 0
+        },
+        {
+          "color": {
+            "r": 0.1451,
+            "g": 0.1294,
+            "b": 0.1176,
+            "a": 0.1
+          },
+          "offsetX": 0,
+          "offsetY": 6,
+          "blur": 16,
+          "spread": 0
+        }
+      ]
+    },
+    {
+      "name": "elevation/overlay",
+      "layers": [
+        {
+          "color": {
+            "r": 0.1451,
+            "g": 0.1294,
+            "b": 0.1176,
+            "a": 0.06
+          },
+          "offsetX": 0,
+          "offsetY": 2,
+          "blur": 6,
+          "spread": 0
+        },
+        {
+          "color": {
+            "r": 0.1451,
+            "g": 0.1294,
+            "b": 0.1176,
+            "a": 0.16
+          },
+          "offsetX": 0,
+          "offsetY": 16,
+          "blur": 48,
+          "spread": 0
+        }
+      ]
+    }
+  ]
+}

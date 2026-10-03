@@ -1,0 +1,24 @@
+{
+  "name": "@atmo-studio/design-system",
+  "version": "0.1.0",
+  "description": "Atmo Studio's design tokens: W3C DTCG source, CSS per brand and theme, DESIGN.md.",
+  "license": "MIT",
+  "type": "module",
+  "files": ["tokens", "dist", "DESIGN.md", "DESIGN.dark.md", "TRADEMARKS.md"],
+  "exports": {
+    "./css/*": "./dist/css/*",
+    "./tokens/*": "./tokens/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "lint:design": "node scripts/lint-design.mjs",
+    "parity": "node scripts/parity.mjs",
+    "test": "npm run build && npm run check && npm run lint:design"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": {
+    "@google/design.md": "0.4.0"
+  }
+}

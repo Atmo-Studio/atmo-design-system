@@ -1,0 +1,647 @@
+{
+  "$description": "Atlas light: overrides on Atmo light. Atlas is a theme extending Atmo core, green-led.",
+  "$extensions": {
+    "studio.atmo": {
+      "typeRoles": [
+        "label",
+        "body-s",
+        "body-m",
+        "body-l",
+        "body-xl",
+        "subheading-s"
+      ],
+      "typeRolesRule": "Atlas crops the type range to six roles and never rescales them (decided 2026-09-28)"
+    }
+  },
+  "intent": {
+    "color": {
+      "surface": {
+        "raised": {
+          "$type": "color",
+          "$value": "{core.color.green.100}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-raised"
+              }
+            }
+          }
+        },
+        "inset": {
+          "$type": "color",
+          "$value": "{core.color.green.200}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-inset"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-inverse"
+              }
+            }
+          }
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-primary"
+              }
+            }
+          }
+        },
+        "display": {
+          "$type": "color",
+          "$value": "{core.color.green.800}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-display"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{core.color.green.700}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-secondary"
+              }
+            }
+          }
+        },
+        "on-inverse": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-on-inverse"
+              }
+            }
+          }
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{core.color.green.400}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "proposal §4 sets disabled text at 400 on light; dark takes the mirror step, 600. Exempt from contrast floors (WCAG 1.4.3 incidental text)",
+                "from": [
+                  "Atmo token architecture, decision record, §4"
+                ]
+              }
+            }
+          }
+        },
+        "on-inverse-secondary": {
+          "$type": "color",
+          "$value": "{core.color.green.400}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "the step closest to the inverse ground that still clears 4.5:1; reproduces the specimen's n400 on the n950 footer in Atmo Light",
+                "from": [
+                  "Atmo specimen, round 4 (2026-10-02): .colophon .caps (n400 on n950)"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "border": {
+        "divider": {
+          "$type": "color",
+          "$value": "{core.color.green.200}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-divider"
+              }
+            }
+          }
+        },
+        "control": {
+          "$type": "color",
+          "$value": "{core.color.green.500}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-control"
+              }
+            }
+          }
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-strong"
+              }
+            }
+          }
+        },
+        "on-inverse": {
+          "$type": "color",
+          "$value": "{core.color.green.700}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "two steps in from the inverse ground, as the specimen's n800 hairline on the n950 footer",
+                "from": [
+                  "Atmo specimen, round 4 (2026-10-02): .colophon .cols border-top (n800 on n950)"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "action": {
+        "primary": {
+          "bg": {
+            "$type": "color",
+            "$value": "{core.color.green.700}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "extracted",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-bg"
+                }
+              }
+            }
+          },
+          "bg-hover": {
+            "$type": "color",
+            "$value": "{core.color.green.800}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "extracted",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-bg-hover"
+                }
+              }
+            }
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{core.color.green.50}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "extracted",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-text"
+                }
+              }
+            }
+          },
+          "bg-pressed": {
+            "$type": "color",
+            "$value": "{core.color.green.700}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "extracted",
+                  "source": "Atmo specimen, round 4 (2026-10-02): .menu-btn:active / .btn:active",
+                  "note": "pressed changes scale (0.97 at the feedback duration), not fill, so the pressed fill is the resting fill"
+                }
+              }
+            }
+          },
+          "bg-disabled": {
+            "$type": "color",
+            "$value": "{core.color.green.200}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "derived",
+                  "rule": "the inset step: a recessed fill that no longer reads as the ink action. Exempt from contrast floors (WCAG 1.4.11 inactive components). Needs eyes"
+                }
+              }
+            }
+          },
+          "text-disabled": {
+            "$type": "color",
+            "$value": "{core.color.green.500}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "derived",
+                  "rule": "the control-border step on the disabled fill; legible, visibly inactive. Exempt (inactive component). Needs eyes"
+                }
+              }
+            }
+          }
+        }
+      },
+      "selected": {
+        "bg": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.select-bg"
+              }
+            }
+          }
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.select-text"
+              }
+            }
+          }
+        }
+      },
+      "mark": {
+        "$type": "color",
+        "$value": "{core.color.green.900}",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.mark"
+            }
+          }
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.focus"
+              }
+            }
+          }
+        },
+        "ring-on-inverse": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "the focus ring on the inverse surface (the footer) takes the inverse of focus.ring; otherwise it is the ground's own color and disappears"
+              }
+            }
+          }
+        }
+      },
+      "map": {
+        "ground": {
+          "$type": "color",
+          "$value": "{core.color.green.100}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.map-ground"
+              }
+            }
+          }
+        },
+        "grid": {
+          "$type": "color",
+          "$value": "{core.color.green.200}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.map-grid"
+              }
+            }
+          }
+        },
+        "marker": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.marker"
+              }
+            }
+          }
+        },
+        "marker-ring": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.marker-ring"
+              }
+            }
+          }
+        }
+      },
+      "skeleton": {
+        "$type": "color",
+        "$value": "{core.color.green.200}",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.skeleton",
+              "confirmed": "Confirmed round 2: back cards are skeletons"
+            }
+          }
+        }
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{core.color.green.900}",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Atlas emphasis is neutral: the text color. Round 4 withdrew the bright-green emphasis dot",
+              "confirmed": "Confirmed round 2: Atlas emphasis is neutral (white or black) or a contrasting green; red and blue are reserved for system state colors"
+            }
+          }
+        }
+      },
+      "dot": {
+        "open": {
+          "$type": "color",
+          "$value": "{core.color.signal-green.550}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "\"Open\" takes the bright green dot: #448648 on light, #8ed28f on dark",
+                "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn"
+              }
+            }
+          }
+        },
+        "attribute": {
+          "$type": "color",
+          "$value": "{core.color.green.900}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "informational attribute dots (\"Quiet before 10\") are neutral and match the label text",
+                "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn"
+              }
+            }
+          }
+        }
+      },
+      "status": {
+        "positive": {
+          "text": {
+            "$type": "color",
+            "$value": "{core.color.green.900}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "extracted",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.pos-text",
+                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
+                }
+              }
+            }
+          }
+        }
+      },
+      "shadow-tint": {
+        "$type": "color",
+        "$value": "{core.color.green.950}",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "the brand's own ink tints its shadows on light grounds (Atlas: green-950, the specimen's rgb 30 38 27 snapped to the ramp); dark grounds take the deep warm ink, because ink on an ink canvas casts nothing",
+              "from": [
+                "Atmo specimen, round 4 (2026-10-02): --shadow-rgb",
+                "Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.shadow-rgb"
+              ]
+            }
+          }
+        }
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "oklch",
+          "components": [
+            0.2579,
+            0.0252,
+            134
+          ],
+          "alpha": 0.4,
+          "hex": "#1f261a"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "proposal §4 names one scrim value. green.950 at 0.4: never behind text, only behind a modal sheet. Not in any specimen, so it needs eyes",
+              "from": [
+                "Atmo token architecture, decision record, §4"
+              ]
+            },
+            "composite_of": "{core.color.green.950}"
+          }
+        }
+      }
+    },
+    "elevation": {
+      "floating": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2579,
+                0.0252,
+                134
+              ],
+              "alpha": 0.06,
+              "hex": "#1f261a"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2579,
+                0.0252,
+                134
+              ],
+              "alpha": 0.1,
+              "hex": "#1f261a"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 6,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 16,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "core.shadow.floating geometry and alphas, tinted with green.950",
+              "from": [
+                "core.shadow.floating",
+                "color.shadow-tint"
+              ]
+            },
+            "css": "0px 1px 2px rgb(31 38 26 / 0.06), 0px 6px 16px rgb(31 38 26 / 0.1)"
+          }
+        }
+      },
+      "overlay": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2579,
+                0.0252,
+                134
+              ],
+              "alpha": 0.06,
+              "hex": "#1f261a"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 6,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2579,
+                0.0252,
+                134
+              ],
+              "alpha": 0.16,
+              "hex": "#1f261a"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 16,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 48,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "core.shadow.overlay geometry and alphas, tinted with green.950",
+              "from": [
+                "core.shadow.overlay",
+                "color.shadow-tint"
+              ]
+            },
+            "css": "0px 2px 6px rgb(31 38 26 / 0.06), 0px 16px 48px rgb(31 38 26 / 0.16)"
+          }
+        }
+      }
+    }
+  }
+}

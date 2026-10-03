@@ -1,0 +1,3949 @@
+{
+  "$description": "Atmo Core: raw values in one mode. Only Intent references these.",
+  "$extensions": {
+    "studio.atmo": {
+      "working_space": "OKLCH (Ottosson 2020), sRGB gamut. Colorfulness in CAM16 (average surround). Ramps: 11 steps, 50-950, one shared lightness curve",
+      "delta_e_tolerance": {
+        "rule": "ΔE00 <= 2 for every Core color reproduced in another medium or notation (commercial matching tolerance); ΔE00 <= 1 for the identity colors: neutral.50 #faf6f2, neutral.950 #25211e, green.700, blue.700 (Storm Blue)",
+        "source": "Brand OS expertise, color-spaces"
+      }
+    }
+  },
+  "core": {
+    "color": {
+      "neutral": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9751,
+              0.0068,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#faf6f2"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "pinned anchor: neutral-50 is the brand white",
+                "confirmed": "Confirmed round 3: black is warm ink #25211e and white is #faf6f2",
+                "source": "Atmo specimen, round 4 (2026-10-02)"
+              }
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9317,
+              0.0075,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#ece8e3"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8732,
+              0.0085,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#d9d4cf"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7872,
+              0.0095,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#beb9b3"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6843,
+              0.0105,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#9e9893"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5985,
+              0.011,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#847f79"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5187,
+              0.0108,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#6d6762"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4443,
+              0.0102,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#58534e"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.375,
+              0.0095,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#45403c"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3092,
+              0.0088,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#332f2b"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH lightness curve between the pinned white and warm ink; cream hue 67.7 held; chroma at the warm-grey level the studio already uses (C .0075-.011)",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.neutral"
+              }
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.2511,
+              0.0083,
+              59.3
+            ],
+            "alpha": 1.0,
+            "hex": "#25211e"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "pinned anchor: neutral-950 is the brand black",
+                "confirmed": "Confirmed round 3: black is warm ink #25211e and white is #faf6f2",
+                "source": "Atmo specimen, round 4 (2026-10-02)"
+              }
+            }
+          }
+        }
+      },
+      "green": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.015,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#edf4e9"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (5.5); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[50]"
+              },
+              "cam16_M": 5.72,
+              "chroma_pct_of_max": 17
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9319,
+              0.0251,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#e2ecdc"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (8.0); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[100]"
+              },
+              "cam16_M": 7.56,
+              "chroma_pct_of_max": 16
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8731,
+              0.0407,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#cadcc1"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (12.0); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[200]"
+              },
+              "cam16_M": 12.02,
+              "chroma_pct_of_max": 16
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7894,
+              0.056,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#acc39e"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (15.7); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[300]"
+              },
+              "cam16_M": 15.86,
+              "chroma_pct_of_max": 25
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6885,
+              0.0624,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#8ba47d"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.41); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[400]"
+              },
+              "cam16_M": 17.41,
+              "chroma_pct_of_max": 32
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6044,
+              0.0651,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#728a62"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.99); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[500]"
+              },
+              "cam16_M": 18.14,
+              "chroma_pct_of_max": 38
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5256,
+              0.0565,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#5d7250"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (16.41); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[600]"
+              },
+              "cam16_M": 16.42,
+              "chroma_pct_of_max": 37
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4543,
+              0.0452,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#4c5c42"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[700]"
+              },
+              "cam16_M": 13.41,
+              "chroma_pct_of_max": 35
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3828,
+              0.0369,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#3b4833"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (11.55); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[800]"
+              },
+              "cam16_M": 11.58,
+              "chroma_pct_of_max": 34
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.319,
+              0.0323,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#2c3625"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[900]"
+              },
+              "cam16_M": 9.89,
+              "chroma_pct_of_max": 35
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.2579,
+              0.0252,
+              134
+            ],
+            "alpha": 1.0,
+            "hex": "#1f261a"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (7.82); Confirmed round 2: green is H134; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.green[950]"
+              },
+              "cam16_M": 7.58,
+              "chroma_pct_of_max": 34
+            }
+          }
+        }
+      },
+      "blue": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.0097,
+              248
+            ],
+            "alpha": 1.0,
+            "hex": "#ecf2f8"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (5.5); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[50]"
+              },
+              "cam16_M": 5.62,
+              "chroma_pct_of_max": 46
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9317,
+              0.0178,
+              248
+            ],
+            "alpha": 1.0,
+            "hex": "#e0eaf4"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (8.0); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[100]"
+              },
+              "cam16_M": 7.85,
+              "chroma_pct_of_max": 52
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8732,
+              0.0314,
+              248
+            ],
+            "alpha": 1.0,
+            "hex": "#c6d8ea"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (12.0); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[200]"
+              },
+              "cam16_M": 12.18,
+              "chroma_pct_of_max": 48
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7872,
+              0.0448,
+              252
+            ],
+            "alpha": 1.0,
+            "hex": "#a6bcd6"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (15.7); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[300]"
+              },
+              "cam16_M": 15.63,
+              "chroma_pct_of_max": 40
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6843,
+              0.0512,
+              256
+            ],
+            "alpha": 1.0,
+            "hex": "#859bb9"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.41); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[400]"
+              },
+              "cam16_M": 17.26,
+              "chroma_pct_of_max": 30
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5985,
+              0.0537,
+              262
+            ],
+            "alpha": 1.0,
+            "hex": "#6e80a1"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.99); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[500]"
+              },
+              "cam16_M": 18.0,
+              "chroma_pct_of_max": 25
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5187,
+              0.0531,
+              266
+            ],
+            "alpha": 1.0,
+            "hex": "#5a6888"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (16.41); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[600]"
+              },
+              "cam16_M": 17.46,
+              "chroma_pct_of_max": 20
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4443,
+              0.0483,
+              267.8
+            ],
+            "alpha": 1.0,
+            "hex": "#48536f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "pinned anchor: Storm Blue #48536f",
+                "confirmed": "Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness",
+                "source": "Atmo specimen, round 4 (2026-10-02): anchors.blue"
+              },
+              "chroma_pct_of_max": 16
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.375,
+              0.0365,
+              267.6
+            ],
+            "alpha": 1.0,
+            "hex": "#384155"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (11.55); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[800]"
+              },
+              "cam16_M": 12.6,
+              "chroma_pct_of_max": 15
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3092,
+              0.0278,
+              267.6
+            ],
+            "alpha": 1.0,
+            "hex": "#2a303f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[900]"
+              },
+              "cam16_M": 10.13,
+              "chroma_pct_of_max": 13
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.252,
+              0.0211,
+              267.6
+            ],
+            "alpha": 1.0,
+            "hex": "#1e222c"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (7.82); Confirmed 2026-09-30: the steel blue is the blue ramp's base step; its position follows its lightness; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.blue[950]"
+              },
+              "cam16_M": 7.48,
+              "chroma_pct_of_max": 13
+            }
+          }
+        }
+      },
+      "clay": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.0175,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#fceee8"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (5.5); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[50]"
+              },
+              "cam16_M": 3.16,
+              "chroma_pct_of_max": 80
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9337,
+              0.0297,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#fce3da"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (8.0); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[100]"
+              },
+              "cam16_M": 6.25,
+              "chroma_pct_of_max": 84
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8765,
+              0.0481,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#f3cdbe"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (12.0); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[200]"
+              },
+              "cam16_M": 10.35,
+              "chroma_pct_of_max": 70
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.794,
+              0.0643,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#e1af9c"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (15.7); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[300]"
+              },
+              "cam16_M": 14.56,
+              "chroma_pct_of_max": 52
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6935,
+              0.0742,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#c58e78"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.41); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[400]"
+              },
+              "cam16_M": 17.4,
+              "chroma_pct_of_max": 36
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6087,
+              0.0748,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#a9745f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.99); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[500]"
+              },
+              "cam16_M": 17.91,
+              "chroma_pct_of_max": 41
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5288,
+              0.0663,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#8d5f4d"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (16.41); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[600]"
+              },
+              "cam16_M": 16.45,
+              "chroma_pct_of_max": 42
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4561,
+              0.0528,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#714d40"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[700]"
+              },
+              "cam16_M": 13.48,
+              "chroma_pct_of_max": 38
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3856,
+              0.0445,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#593c31"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (11.55); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[800]"
+              },
+              "cam16_M": 11.63,
+              "chroma_pct_of_max": 38
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3193,
+              0.0374,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#432c23"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[900]"
+              },
+              "cam16_M": 9.95,
+              "chroma_pct_of_max": 39
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.26,
+              0.0297,
+              42
+            ],
+            "alpha": 1.0,
+            "hex": "#311f19"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (7.82); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[950]"
+              },
+              "cam16_M": 8.25,
+              "chroma_pct_of_max": 38
+            }
+          }
+        }
+      },
+      "ochre": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.0239,
+              92
+            ],
+            "alpha": 1.0,
+            "hex": "#f7f1e0"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (5.5); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[50]"
+              },
+              "cam16_M": 5.27,
+              "chroma_pct_of_max": 41
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.932,
+              0.0367,
+              92
+            ],
+            "alpha": 1.0,
+            "hex": "#f1e8cd"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (8.0); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[100]"
+              },
+              "cam16_M": 8.23,
+              "chroma_pct_of_max": 39
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8741,
+              0.0543,
+              92
+            ],
+            "alpha": 1.0,
+            "hex": "#e2d5ad"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (12.0); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[200]"
+              },
+              "cam16_M": 12.2,
+              "chroma_pct_of_max": 31
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7989,
+              0.0798,
+              92
+            ],
+            "alpha": 1.0,
+            "hex": "#d0bc82"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (15.7); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[300]"
+              },
+              "cam16_M": 17.92,
+              "chroma_pct_of_max": 49,
+              "usage": "status marks and text only; never a fill at this step (caution chroma exception)"
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7071,
+              0.1088,
+              91
+            ],
+            "alpha": 1.0,
+            "hex": "#ba9e4a"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.41); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[400]"
+              },
+              "cam16_M": 26.17,
+              "chroma_pct_of_max": 75,
+              "usage": "status marks and text only; never a fill at this step (caution chroma exception)"
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6145,
+              0.112,
+              89
+            ],
+            "alpha": 1.0,
+            "hex": "#a08025"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.99); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[500]"
+              },
+              "cam16_M": 28.62,
+              "chroma_pct_of_max": 89,
+              "usage": "status marks and text only; never a fill at this step (caution chroma exception)"
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5407,
+              0.0961,
+              87
+            ],
+            "alpha": 1.0,
+            "hex": "#876b21"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (16.41); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[600]"
+              },
+              "cam16_M": 24.9,
+              "chroma_pct_of_max": 87,
+              "usage": "status marks and text only; never a fill at this step (caution chroma exception)"
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4606,
+              0.0696,
+              82
+            ],
+            "alpha": 1.0,
+            "hex": "#6c5427"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[700]"
+              },
+              "cam16_M": 17.55,
+              "chroma_pct_of_max": 73,
+              "usage": "status marks and text only; never a fill at this step (caution chroma exception)"
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3812,
+              0.046,
+              72
+            ],
+            "alpha": 1.0,
+            "hex": "#523f26"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (11.55); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[800]"
+              },
+              "cam16_M": 11.6,
+              "chroma_pct_of_max": 56
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.3166,
+              0.0391,
+              69
+            ],
+            "alpha": 1.0,
+            "hex": "#3f2e1b"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[900]"
+              },
+              "cam16_M": 10.08,
+              "chroma_pct_of_max": 57
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.2583,
+              0.0301,
+              67
+            ],
+            "alpha": 1.0,
+            "hex": "#2e2113"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (7.82); Confirmed round 2: ochre goes brighter, toward mustard; round 3: caution may exceed the palette's chroma, status-only, never a fill; every deviation is in the round-4 tuning table",
+                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
+                "source": "Atmo specimen, round 4 (2026-10-02): ramps.ochre[950]"
+              },
+              "cam16_M": 8.09,
+              "chroma_pct_of_max": 53
+            }
+          }
+        }
+      },
+      "red": {
+        "50": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.0156,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#fceeeb"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L .958, off the canvas like every accent 50 (round 4); chroma solved for clay-50's CAM16 colorfulness (M 3.16)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 2.93,
+              "chroma_pct_of_max": 75,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9335,
+              0.0282,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#fce2de"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.9317) plus the half H-K correction against the blue (+0.0018); chroma solved for clay-100's CAM16 colorfulness (M 6.25)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 6.35,
+              "chroma_pct_of_max": 84,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8769,
+              0.046,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#f4ccc5"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.8732) plus the half H-K correction against the blue (+0.0037); chroma solved for clay-200's CAM16 colorfulness (M 10.35)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 10.53,
+              "chroma_pct_of_max": 70,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.7938,
+              0.0616,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#e1aea5"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.7872) plus the half H-K correction against the blue (+0.0066); chroma solved for clay-300's CAM16 colorfulness (M 14.56)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 14.37,
+              "chroma_pct_of_max": 52,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.6973,
+              0.072,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#c78d84"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.6843) plus the half H-K correction against the blue (+0.0090); chroma solved for clay-400's CAM16 colorfulness (M 17.40); L 0.6933 -> 0.6973: red-400 is the negative title on dark grounds as well as the dark disc, so it clears 4.5:1 on n900 and green-900 (Atlas dark card) with a 0.05 margin",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 17.62,
+              "chroma_pct_of_max": 37,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.608,
+              0.0719,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#aa726a"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.5985) plus the half H-K correction against the blue (+0.0095); chroma solved for clay-500's CAM16 colorfulness (M 17.91)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 18.2,
+              "chroma_pct_of_max": 29,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.5256,
+              0.0636,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#8c5c55"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.5187) plus the half H-K correction against the blue (+0.0109); chroma solved for clay-600's CAM16 colorfulness (M 16.45); L 0.5296 -> 0.5256: the negative title clears 4.5:1 on n100 (raised), not only on canvas and card",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 16.6,
+              "chroma_pct_of_max": 30,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.4554,
+              0.053,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#714c46"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.4443) plus the half H-K correction against the blue (+0.0111); chroma solved for clay-700's CAM16 colorfulness (M 13.48)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 13.45,
+              "chroma_pct_of_max": 28,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.385,
+              0.0429,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#593b36"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.3750) plus the half H-K correction against the blue (+0.0100); chroma solved for clay-800's CAM16 colorfulness (M 11.63)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 11.64,
+              "chroma_pct_of_max": 27,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.319,
+              0.0365,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#432b28"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.3092) plus the half H-K correction against the blue (+0.0098); chroma solved for clay-900's CAM16 colorfulness (M 9.95)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 10.01,
+              "chroma_pct_of_max": 28,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.259,
+              0.029,
+              29.0
+            ],
+            "alpha": 1.0,
+            "hex": "#301e1c"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "new in round 5: L on the shared curve (0.2520) plus the half H-K correction against the blue (+0.0070); chroma solved for clay-950's CAM16 colorfulness (M 8.25)",
+                "from": [
+                  "clay ramp (round 4)",
+                  "shared L curve",
+                  "sRGB red primary hue"
+                ]
+              },
+              "cam16_M": 8.07,
+              "chroma_pct_of_max": 27,
+              "usage": "negative status only; not a brand accent"
+            }
+          }
+        }
+      },
+      "signal-green": {
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.8,
+              0.115,
+              145
+            ],
+            "alpha": 1.0,
+            "hex": "#8ed28f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "approved hex for Atlas's \"Open\" dot; computed in round 4 as oklch(0.80 0.115 145); off the shared band by design",
+                "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn",
+                "source": "Atmo specimen, round 4 (2026-10-02): atlas_theme.emphasis_values"
+              },
+              "usage": "Atlas only: the \"Open\" attribute dot (550 on light grounds, 300 on dark)"
+            }
+          }
+        },
+        "550": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.56,
+              0.115,
+              145
+            ],
+            "alpha": 1.0,
+            "hex": "#448648"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "approved hex for Atlas's \"Open\" dot; computed in round 4 as oklch(0.56 0.115 145); off the shared band by design",
+                "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn",
+                "source": "Atmo specimen, round 4 (2026-10-02): atlas_theme.emphasis_values"
+              },
+              "usage": "Atlas only: the \"Open\" attribute dot (550 on light grounds, 300 on dark)"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "deep-ink": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.12,
+              0.008,
+              67.7
+            ],
+            "alpha": 1.0,
+            "hex": "#070504"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "warm ink's hue and chroma (H67.7, C.008) at L .12, so dark-theme shadows and scrims stay warm-tinted and still read darker than the n950 canvas; within ΔE 0.43 of the specimen's black shadows once composited",
+                "from": [
+                  "color.neutral.950",
+                  "Atmo specimen, round 4 (2026-10-02): (dark shadow-rgb 0 0 0)"
+                ]
+              },
+              "usage": "dark-theme shadow and scrim tint only"
+            }
+          }
+        }
+      }
+    },
+    "font": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Satoshi",
+          "Satoshi Variable",
+          "system-ui",
+          "sans-serif"
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "one family, named once, so the Aeonik migration is a single edit (§3)",
+              "confirmed": "Confirmed 2026-09-28: Satoshi Variable is the family until the Aeonik licence arrives; 2026-09-30: all three brands resolve to Satoshi",
+              "source": "Atmo specimen, round 4 (2026-10-02): --font"
+            },
+            "licence": "no font files ship in the repo; each product loads Satoshi itself"
+          },
+          "studio.atmo.figma": {
+            "value": "Satoshi Variable"
+          }
+        }
+      }
+    },
+    "font-weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400,
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --w-regular"
+            }
+          },
+          "studio.atmo.figma": {
+            "type": "STRING",
+            "value": "regular",
+            "scopes": [
+              "FONT_STYLE"
+            ]
+          }
+        }
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500,
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --w-medium"
+            }
+          },
+          "studio.atmo.figma": {
+            "type": "STRING",
+            "value": "medium",
+            "scopes": [
+              "FONT_STYLE"
+            ]
+          }
+        }
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600,
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: font-weight/semibold"
+            }
+          },
+          "studio.atmo.figma": {
+            "type": "STRING",
+            "value": "semibold",
+            "scopes": [
+              "FONT_STYLE"
+            ]
+          }
+        }
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700,
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: font-weight/bold"
+            }
+          },
+          "studio.atmo.figma": {
+            "type": "STRING",
+            "value": "bold",
+            "scopes": [
+              "FONT_STYLE"
+            ]
+          }
+        }
+      }
+    },
+    "text": {
+      "font-size": {
+        "2xs": {
+          "$type": "dimension",
+          "$value": {
+            "value": 9,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": {
+            "value": 11,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": {
+            "value": 13,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "base": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": {
+            "value": 19,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 23,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "2xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 28,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "3xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 33,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "4xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 40,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "5xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 48,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "6xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 57,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "7xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 69,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "8xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 83,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "9xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 99,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "10xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 119,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        },
+        "11xl": {
+          "$type": "dimension",
+          "$value": {
+            "value": 143,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §1 and §3",
+                "note": "kept as it exists; 9 stays in Core with no role (the decks' 9px role is dropped, §4)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "FONT_SIZE"
+              ]
+            }
+          }
+        }
+      },
+      "line-height": {
+        "leading-1": {
+          "$type": "dimension",
+          "$value": {
+            "value": 4,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-1"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-2": {
+          "$type": "dimension",
+          "$value": {
+            "value": 8,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-2"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-3": {
+          "$type": "dimension",
+          "$value": {
+            "value": 12,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-4": {
+          "$type": "dimension",
+          "$value": {
+            "value": 16,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-5": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-6": {
+          "$type": "dimension",
+          "$value": {
+            "value": 24,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-7": {
+          "$type": "dimension",
+          "$value": {
+            "value": 28,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-8": {
+          "$type": "dimension",
+          "$value": {
+            "value": 32,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-8"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-9": {
+          "$type": "dimension",
+          "$value": {
+            "value": 36,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-10": {
+          "$type": "dimension",
+          "$value": {
+            "value": 40,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-11": {
+          "$type": "dimension",
+          "$value": {
+            "value": 44,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-11"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-12": {
+          "$type": "dimension",
+          "$value": {
+            "value": 48,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-13": {
+          "$type": "dimension",
+          "$value": {
+            "value": 52,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-13"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-14": {
+          "$type": "dimension",
+          "$value": {
+            "value": 56,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-15": {
+          "$type": "dimension",
+          "$value": {
+            "value": 60,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-15"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-16": {
+          "$type": "dimension",
+          "$value": {
+            "value": 64,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-17": {
+          "$type": "dimension",
+          "$value": {
+            "value": 68,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-17"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-18": {
+          "$type": "dimension",
+          "$value": {
+            "value": 72,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-18"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-19": {
+          "$type": "dimension",
+          "$value": {
+            "value": 76,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-20": {
+          "$type": "dimension",
+          "$value": {
+            "value": 80,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo Design System, Figma library: text/line-height/leading-20"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-21": {
+          "$type": "dimension",
+          "$value": {
+            "value": 84,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-25": {
+          "$type": "dimension",
+          "$value": {
+            "value": 100,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-30": {
+          "$type": "dimension",
+          "$value": {
+            "value": 120,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        },
+        "leading-36": {
+          "$type": "dimension",
+          "$value": {
+            "value": 144,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "leading = ceil(size x band ratio / 4) x 4 on the 4px baseline; stored as the result in px",
+                "confirmed": "decided in the token build, 2026-10-02: leading on the 4px grid per proposal §3",
+                "source": "Atmo token architecture, decision record: §3"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ]
+            }
+          }
+        }
+      },
+      "tracking": {
+        "plus-6": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.06,
+            "unit": "em"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "caps tracking",
+                "confirmed": "Confirmed round 3: caps tracking is +0.06em",
+                "source": "Atmo specimen, round 4 (2026-10-02): type.label-caps"
+              }
+            },
+            "studio.atmo.figma": {
+              "value": 6.0,
+              "scopes": [
+                "LETTER_SPACING"
+              ]
+            }
+          }
+        },
+        "plus-2": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.02,
+            "unit": "em"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §3: four tracking values in em (+0.02, 0, -0.01, -0.02)"
+              }
+            },
+            "studio.atmo.figma": {
+              "value": 2.0,
+              "scopes": [
+                "LETTER_SPACING"
+              ]
+            }
+          }
+        },
+        "0": {
+          "$type": "dimension",
+          "$value": {
+            "value": 0.0,
+            "unit": "em"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §3: four tracking values in em (+0.02, 0, -0.01, -0.02)"
+              }
+            },
+            "studio.atmo.figma": {
+              "value": 0.0,
+              "scopes": [
+                "LETTER_SPACING"
+              ]
+            }
+          }
+        },
+        "minus-1": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.01,
+            "unit": "em"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §3: four tracking values in em (+0.02, 0, -0.01, -0.02)"
+              }
+            },
+            "studio.atmo.figma": {
+              "value": -1.0,
+              "scopes": [
+                "LETTER_SPACING"
+              ]
+            }
+          }
+        },
+        "minus-2": {
+          "$type": "dimension",
+          "$value": {
+            "value": -0.02,
+            "unit": "em"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo token architecture, decision record: §3: four tracking values in em (+0.02, 0, -0.01, -0.02)"
+              }
+            },
+            "studio.atmo.figma": {
+              "value": -2.0,
+              "scopes": [
+                "LETTER_SPACING"
+              ]
+            }
+          }
+        }
+      },
+      "feature-settings": {
+        "text": {
+          "$type": "string",
+          "$value": "\"ss02\" 1, \"ss03\" 1, \"kern\" 1",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "alternate g (ss02), alternate t (ss03), kern on; ss01, ss04, salt off",
+                "confirmed": "Confirmed round 2: Satoshi text sets ss02, ss03 and kern on; ss01, ss04 and salt stay off",
+                "source": "Atmo specimen, round 4 (2026-10-02): --font-features"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": []
+            }
+          }
+        },
+        "numeric": {
+          "$type": "string",
+          "$value": "\"ss02\" 1, \"ss03\" 1, \"kern\" 1, \"tnum\" 1",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): --font-features-numeric",
+                "note": "the text set plus tabular figures, for tables and measurements"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": []
+            }
+          }
+        }
+      }
+    },
+    "spacing": {
+      "0": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/0"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "px": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/px"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "0-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/0-5"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "1": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/1"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "1-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 6,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/1-5"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/2"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/3"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "3-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/3-5"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/4"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/5"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/6"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "7": {
+        "$type": "dimension",
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/7"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "9": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/9"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/10"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "11": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/11"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/12"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": {
+          "value": 64,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/16"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": {
+          "value": 80,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/20"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": {
+          "value": 96,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/24"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": {
+          "value": 9999,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo Design System, Figma library: spacing/full"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "GAP"
+            ]
+          }
+        }
+      }
+    },
+    "radius": {
+      "none": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "Tailwind's chart starts at none; square edges (a section where it meets the top bar or the page bottom) need a zero to apply",
+              "from": [
+                "radius chart"
+              ]
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 6,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": {
+          "value": 9999,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Tailwind-style size chart; components apply a size",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      }
+    },
+    "shadow": {
+      "floating": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2511,
+                0.0083,
+                59.3
+              ],
+              "alpha": 0.06,
+              "hex": "#25211e"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2511,
+                0.0083,
+                59.3
+              ],
+              "alpha": 0.1,
+              "hex": "#25211e"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 6,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 16,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --shadow-floating",
+              "note": "warm-ink tint (rgb 37 33 30); a surface takes a shadow or a border, never both (Confirmed round 2)"
+            },
+            "css": "0px 1px 2px rgb(37 33 30 / 0.06), 0px 6px 16px rgb(37 33 30 / 0.1)"
+          }
+        }
+      },
+      "overlay": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2511,
+                0.0083,
+                59.3
+              ],
+              "alpha": 0.06,
+              "hex": "#25211e"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 6,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "oklch",
+              "components": [
+                0.2511,
+                0.0083,
+                59.3
+              ],
+              "alpha": 0.16,
+              "hex": "#25211e"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 16,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 48,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --shadow-overlay",
+              "note": "warm-ink tint (rgb 37 33 30); a surface takes a shadow or a border, never both (Confirmed round 2)"
+            },
+            "css": "0px 2px 6px rgb(37 33 30 / 0.06), 0px 16px 48px rgb(37 33 30 / 0.16)"
+          }
+        }
+      }
+    },
+    "duration": {
+      "0": {
+        "$type": "duration",
+        "$value": {
+          "value": 0,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "reduced motion: every duration goes to zero"
+            }
+          }
+        }
+      },
+      "105": {
+        "$type": "duration",
+        "$value": {
+          "value": 105,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "exit runs at 70% of its enter duration (150ms x 0.7)",
+              "from": [
+                "Atmo specimen, round 4 (2026-10-02): motion.easing.exit"
+              ]
+            }
+          }
+        }
+      },
+      "150": {
+        "$type": "duration",
+        "$value": {
+          "value": 150,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Settled profile: feedback 150, component 300, layout 600",
+              "confirmed": "Confirmed round 3: motion is Settled, as the starting point",
+              "source": "Atmo specimen, round 4 (2026-10-02): motion"
+            }
+          }
+        }
+      },
+      "210": {
+        "$type": "duration",
+        "$value": {
+          "value": 210,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "exit runs at 70% of its enter duration (300ms x 0.7)",
+              "from": [
+                "Atmo specimen, round 4 (2026-10-02): motion.easing.exit"
+              ]
+            }
+          }
+        }
+      },
+      "300": {
+        "$type": "duration",
+        "$value": {
+          "value": 300,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Settled profile: feedback 150, component 300, layout 600",
+              "confirmed": "Confirmed round 3: motion is Settled, as the starting point",
+              "source": "Atmo specimen, round 4 (2026-10-02): motion"
+            }
+          }
+        }
+      },
+      "420": {
+        "$type": "duration",
+        "$value": {
+          "value": 420,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "derived",
+              "rule": "exit runs at 70% of its enter duration (600ms x 0.7)",
+              "from": [
+                "Atmo specimen, round 4 (2026-10-02): motion.easing.exit"
+              ]
+            }
+          }
+        }
+      },
+      "600": {
+        "$type": "duration",
+        "$value": {
+          "value": 600,
+          "unit": "ms"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Settled profile: feedback 150, component 300, layout 600",
+              "confirmed": "Confirmed round 3: motion is Settled, as the starting point",
+              "source": "Atmo specimen, round 4 (2026-10-02): motion"
+            }
+          }
+        }
+      }
+    },
+    "easing": {
+      "enter": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.32,
+          0.72,
+          0,
+          1
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Settled profile enter easing",
+              "confirmed": "Confirmed round 3: motion is Settled, as the starting point",
+              "source": "Atmo specimen, round 4 (2026-10-02): motion.easing.enter"
+            }
+          }
+        }
+      },
+      "exit": {
+        "$type": "cubicBezier",
+        "$value": [
+          0.4,
+          0,
+          1,
+          1
+        ],
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "Settled profile exit easing, run at 70% of the enter duration",
+              "confirmed": "Confirmed round 3: motion is Settled, as the starting point",
+              "source": "Atmo specimen, round 4 (2026-10-02): motion.easing.exit"
+            }
+          }
+        }
+      }
+    },
+    "stroke": {
+      "1": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --hairline"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ]
+          }
+        }
+      },
+      "1-5": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.5,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): menu icon rows (.mi --mi-lw 1.5px)"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ]
+          }
+        }
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): focus outline 2px, offset 2px"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

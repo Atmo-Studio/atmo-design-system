@@ -1,0 +1,538 @@
+{
+  "$description": "Pairs the build measures in every mode. contrast: WCAG 2.2 ratio against floor (4.5 text, 3 marks and component boundaries). distinct: OKLab ΔE×100 under normal, deutan, protan and tritan (Machado 2009, severity 1.0); 6 is three just-noticeable differences, 9 for the green/brown and blue/purple confusion axes. A distinct pair with a carrier is reported, not enforced: something other than color tells the two apart. A pair with no carrier fails the build below its margin.",
+  "atlasTypeRoles": [
+    "label",
+    "body-s",
+    "body-m",
+    "body-l",
+    "body-xl",
+    "subheading-s"
+  ],
+  "contrast": [
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.display",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.text",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.mark",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.negative.text",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.negative.mark",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.caution.text",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.caution.mark",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.info.text",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.info.mark",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.border.control",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.focus.ring",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.open",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.attribute",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.mark",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.emphasis",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.display",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.text",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.mark",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.negative.text",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.negative.mark",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.caution.text",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.caution.mark",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.info.text",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.info.mark",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.border.control",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.focus.ring",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.open",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.attribute",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.mark",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.emphasis",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.display",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.text",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.mark",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.negative.text",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.negative.mark",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.caution.text",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.caution.mark",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.status.info.text",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.info.mark",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.border.control",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.focus.ring",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.open",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.dot.attribute",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.mark",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.emphasis",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.surface.inset",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.on-inverse",
+      "bg": "intent.color.surface.inverse",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.text.on-inverse-secondary",
+      "bg": "intent.color.surface.inverse",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.focus.ring-on-inverse",
+      "bg": "intent.color.surface.inverse",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.action.primary.text",
+      "bg": "intent.color.action.primary.bg",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.action.primary.text",
+      "bg": "intent.color.action.primary.bg-hover",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.action.primary.text",
+      "bg": "intent.color.action.primary.bg-pressed",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.focus.ring",
+      "bg": "intent.color.action.primary.bg",
+      "floor": 1,
+      "note": "report only: the ring sits outside the control, on the surface; the pair is listed so its value is visible"
+    },
+    {
+      "fg": "intent.color.selected.text",
+      "bg": "intent.color.selected.bg",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.positive.on-mark",
+      "bg": "intent.color.status.positive.mark",
+      "floor": 3,
+      "note": "the glyph inside the disc"
+    },
+    {
+      "fg": "intent.color.status.positive.text",
+      "bg": "intent.color.status.positive.surface",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.negative.on-mark",
+      "bg": "intent.color.status.negative.mark",
+      "floor": 3,
+      "note": "the glyph inside the disc"
+    },
+    {
+      "fg": "intent.color.status.negative.text",
+      "bg": "intent.color.status.negative.surface",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.caution.on-mark",
+      "bg": "intent.color.status.caution.mark",
+      "floor": 3,
+      "note": "the glyph inside the disc"
+    },
+    {
+      "fg": "intent.color.status.caution.text",
+      "bg": "intent.color.status.caution.surface",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.status.info.on-mark",
+      "bg": "intent.color.status.info.mark",
+      "floor": 3,
+      "note": "the glyph inside the disc"
+    },
+    {
+      "fg": "intent.color.status.info.text",
+      "bg": "intent.color.status.info.surface",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.map.marker",
+      "bg": "intent.color.map.ground",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.map.marker-ring",
+      "bg": "intent.color.map.marker",
+      "floor": 3
+    }
+  ],
+  "distinct": [
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.status.negative.mark",
+      "min": 9,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.status.positive.text",
+      "b": "intent.color.status.negative.text",
+      "min": 9,
+      "carrier": "the title's words and the disc beside it",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.status.caution.mark",
+      "min": 9,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.status.positive.text",
+      "b": "intent.color.status.caution.text",
+      "min": 9,
+      "carrier": "the title's words and the disc beside it",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.status.info.mark",
+      "min": 6,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
+    },
+    {
+      "a": "intent.color.status.positive.text",
+      "b": "intent.color.status.info.text",
+      "min": 6,
+      "carrier": "the title's words and the disc beside it"
+    },
+    {
+      "a": "intent.color.status.negative.mark",
+      "b": "intent.color.status.caution.mark",
+      "min": 6,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
+    },
+    {
+      "a": "intent.color.status.negative.text",
+      "b": "intent.color.status.caution.text",
+      "min": 6,
+      "carrier": "the title's words and the disc beside it"
+    },
+    {
+      "a": "intent.color.status.negative.mark",
+      "b": "intent.color.status.info.mark",
+      "min": 9,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
+      "axis": "blue/purple"
+    },
+    {
+      "a": "intent.color.status.negative.text",
+      "b": "intent.color.status.info.text",
+      "min": 9,
+      "carrier": "the title's words and the disc beside it",
+      "axis": "blue/purple"
+    },
+    {
+      "a": "intent.color.status.caution.mark",
+      "b": "intent.color.status.info.mark",
+      "min": 6,
+      "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
+    },
+    {
+      "a": "intent.color.status.caution.text",
+      "b": "intent.color.status.info.text",
+      "min": 6,
+      "carrier": "the title's words and the disc beside it"
+    },
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.surface.canvas",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.surface.raised",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.positive.mark",
+      "b": "intent.color.surface.card",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.negative.mark",
+      "b": "intent.color.surface.canvas",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.negative.mark",
+      "b": "intent.color.surface.raised",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.negative.mark",
+      "b": "intent.color.surface.card",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.caution.mark",
+      "b": "intent.color.surface.canvas",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.caution.mark",
+      "b": "intent.color.surface.raised",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.caution.mark",
+      "b": "intent.color.surface.card",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.info.mark",
+      "b": "intent.color.surface.canvas",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.info.mark",
+      "b": "intent.color.surface.raised",
+      "min": 6
+    },
+    {
+      "a": "intent.color.status.info.mark",
+      "b": "intent.color.surface.card",
+      "min": 6
+    },
+    {
+      "a": "intent.color.dot.open",
+      "b": "intent.color.dot.attribute",
+      "min": 9,
+      "rule": "ratio-2-or-dE-9"
+    },
+    {
+      "a": "intent.color.emphasis",
+      "b": "intent.color.mark",
+      "min": 6,
+      "carrier": "emphasis is a highlighter beside a label, never the only signal"
+    },
+    {
+      "a": "intent.color.map.water",
+      "b": "intent.color.map.park",
+      "min": 6,
+      "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
+    },
+    {
+      "a": "intent.color.map.water",
+      "b": "intent.color.map.ground",
+      "min": 6,
+      "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
+    },
+    {
+      "a": "intent.color.map.park",
+      "b": "intent.color.map.ground",
+      "min": 6,
+      "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "$description": "Atmo Patterns: only values no Intent role can hold. Single mode.",
+  "patterns": {
+    "menu-button": {
+      "label": {
+        "font-weight": {
+          "$type": "fontWeight",
+          "$value": 650,
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "one weight, about 650: Satoshi's stem at 13px and weight 650 is 1.49px against the 1.5px line (weight 655 matches exactly; the 0.01px difference is below one device pixel)",
+                "confirmed": "Confirmed round 4: menu button option (a), label weight raised to match the line stroke (about 650, one Patterns token), lines stretched wider",
+                "source": "Atmo specimen, round 4 (2026-10-02): type.stem_units_satoshi, menu_icon.options[a]"
+              },
+              "role": "{intent.type.body-s} for size, leading and tracking; this token overrides its weight only"
+            },
+            "studio.atmo.figma": {
+              "scopes": []
+            }
+          }
+        }
+      },
+      "icon": {
+        "width": {
+          "$type": "dimension",
+          "$value": {
+            "value": 20,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "derived",
+                "rule": "lines stretched from 14px to 20px: the line length moves from about 0.4 to about 0.55 of the \"Menu\" label's width at 13/650, so the icon reads as a partner to the word, not a tag on it. On the 4px grid. Needs eyes at 1x",
+                "from": [
+                  "Atmo specimen, round 4 (2026-10-02): .mi width 14px"
+                ]
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "WIDTH_HEIGHT"
+              ]
+            }
+          }
+        },
+        "line": {
+          "$type": "dimension",
+          "$value": "{core.stroke.1-5}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): .mi i height 1.5px",
+                "note": "held: the label weight rose to meet it (option a)"
+              }
+            }
+          }
+        },
+        "gap": {
+          "$type": "dimension",
+          "$value": {
+            "value": 3,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): .mi i+i margin-top 3px",
+                "note": "two rows, 6px tall overall, optically centred on the label's x-height (round 2)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "GAP"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "section": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{core.radius.2xl}",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "section containers take 16 (2xl); a corner rounds where it meets the canvas and is square at an edge",
+              "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+            }
+          }
+        }
+      },
+      "inset": {
+        "narrow": {
+          "$type": "dimension",
+          "$value": "{core.spacing.2}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "margin 8 below 720px",
+                "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+              },
+              "maxWidth": "{patterns.layout.breakpoint.medium} - 1px"
+            }
+          }
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "{core.spacing.3}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "margin 12 from 720px",
+                "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+              },
+              "minWidth": "{patterns.layout.breakpoint.medium}"
+            }
+          }
+        },
+        "wide": {
+          "$type": "dimension",
+          "$value": "{core.spacing.4}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "margin 16 from 1200px",
+                "confirmed": "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+              },
+              "minWidth": "{patterns.layout.breakpoint.wide}"
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "breakpoint": {
+        "medium": {
+          "$type": "dimension",
+          "$value": {
+            "value": 720,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): @media (min-width:720px)",
+                "note": "set from content in the specimen, not a device preset"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": []
+            }
+          }
+        },
+        "wide": {
+          "$type": "dimension",
+          "$value": {
+            "value": 1200,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "extracted",
+                "source": "Atmo specimen, round 4 (2026-10-02): @media (min-width:1200px)"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": []
+            }
+          }
+        }
+      }
+    },
+    "footer": {
+      "shipping-variant": {
+        "$type": "string",
+        "$value": "card",
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-02",
+              "rule": "the contained card ships first; the flush colophon is the second pattern and reuses section.radius and section.inset",
+              "confirmed": "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": []
+          }
+        }
+      },
+      "card": {
+        "margin": {
+          "narrow": {
+            "$type": "dimension",
+            "$value": "{patterns.section.inset.narrow}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "derived",
+                  "rule": "even margins on all four sides, equal to the section inset at each width so the card's edges align with the sections above it (round 4's option B used 8 at every width, before margins became 16 / 12 / 8)",
+                  "from": [
+                    "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first",
+                    "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+                  ]
+                }
+              }
+            }
+          },
+          "medium": {
+            "$type": "dimension",
+            "$value": "{patterns.section.inset.medium}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "derived",
+                  "rule": "even margins on all four sides, equal to the section inset at each width so the card's edges align with the sections above it (round 4's option B used 8 at every width, before margins became 16 / 12 / 8)",
+                  "from": [
+                    "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first",
+                    "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+                  ]
+                }
+              }
+            }
+          },
+          "wide": {
+            "$type": "dimension",
+            "$value": "{patterns.section.inset.wide}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "derived",
+                  "rule": "even margins on all four sides, equal to the section inset at each width so the card's edges align with the sections above it (round 4's option B used 8 at every width, before margins became 16 / 12 / 8)",
+                  "from": [
+                    "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first",
+                    "Confirmed round 4: Tailwind-style radius chart in Core (xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3xl 24, full); components apply a size; section containers take 16 (2xl); margins 16 / 12 / 8"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{core.radius.2xl}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-02",
+                "rule": "all four corners at the section radius",
+                "confirmed": "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first"
+              }
+            }
+          }
+        },
+        "aspect-ratio": {
+          "narrow": {
+            "$type": "number",
+            "$value": 0.8,
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-02",
+                  "rule": "portrait 4:5 below 720px (width / height)",
+                  "confirmed": "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first",
+                  "source": "Atmo specimen, round 4 (2026-10-02): .mp.w375 .mp-foot.card"
+                }
+              },
+              "studio.atmo.figma": {
+                "scopes": []
+              }
+            }
+          },
+          "wide": {
+            "$type": "number",
+            "$value": 1.5,
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-02",
+                  "rule": "3:2 from 720px (width / height). The specimen showed 375 and 1440 only; 720-1199 needs eyes",
+                  "confirmed": "Confirmed round 4: two footer patterns; the contained card (even margins, portrait to 3:2) ships first",
+                  "source": "Atmo specimen, round 4 (2026-10-02): .mp-foot.card"
+                }
+              },
+              "studio.atmo.figma": {
+                "scopes": []
+              }
+            }
+          }
+        },
+        "$description": "The card paints {intent.color.surface.inverse} with {intent.color.text.on-inverse}; no pattern token re-points an Intent role (proposal §2)."
+      }
+    },
+    "dot": {
+      "size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 6,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): usage.dot_sizes.--dot",
+              "note": "attribute dots beside a label; status never uses a bare dot"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ]
+          }
+        }
+      }
+    },
+    "status-disc": {
+      "size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): .s-disc 20px (toasts and banners)"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ]
+          }
+        }
+      }
+    },
+    "glass": {
+      "blur": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --glass-blur",
+              "note": "chrome only"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "EFFECT_FLOAT"
+            ]
+          }
+        }
+      }
+    },
+    "control": {
+      "pressed-scale": {
+        "$type": "number",
+        "$value": 0.97,
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): .menu-btn:active scale(.97)",
+              "note": "runs at intent.motion.feedback; reduced motion removes it with the duration"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": []
+          }
+        }
+      }
+    }
+  }
+}
