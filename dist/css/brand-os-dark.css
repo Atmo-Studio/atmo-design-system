@@ -71,8 +71,13 @@
   --color-shadow-deep-ink: #070504;
   --color-signal-red-300: #ff9b90;
   --color-signal-red-350: #ff7c70;
+  --color-signal-red-420: #e06e63;
+  --color-signal-red-550: #d23430;
   --color-signal-red-600: #c31b1f;
+  --color-signal-red-650: #b70212;
   --color-signal-red-700: #a3010f;
+  --color-ember-420: #b58983;
+  --color-ember-550: #ad5d55;
   --font-sans: Satoshi, "Satoshi Variable", system-ui, sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -243,8 +248,13 @@
     --color-shadow-deep-ink: oklch(12% 0.008 67.7);
     --color-signal-red-300: oklch(79% 0.121 27);
     --color-signal-red-350: oklch(73.5% 0.162 27);
+    --color-signal-red-420: oklch(67% 0.145 27);
+    --color-signal-red-550: oklch(57% 0.195 27);
     --color-signal-red-600: oklch(52.5% 0.2 27);
+    --color-signal-red-650: oklch(49% 0.199 27);
     --color-signal-red-700: oklch(45% 0.183 27);
+    --color-ember-420: oklch(67% 0.055 27);
+    --color-ember-550: oklch(57% 0.105 27);
   }
 }
 :root {
@@ -319,6 +329,10 @@
   --color-score-text: var(--color-neutral-950);
   --color-data-filled: var(--color-neutral-200);
   --color-data-empty: var(--color-neutral-500);
+  --color-data-sequential-1: var(--color-neutral-500);
+  --color-data-sequential-2: var(--color-ember-420);
+  --color-data-sequential-3: var(--color-signal-red-420);
+  --color-data-sequential-4: var(--color-signal-red-350);
   --color-overlay-hover: oklch(97.51% 0.0068 67.7 / 0.06);
   --color-overlay-pressed: oklch(97.51% 0.0068 67.7 / 0.1);
   --font-family-sans: var(--font-sans);

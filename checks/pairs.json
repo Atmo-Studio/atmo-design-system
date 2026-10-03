@@ -407,7 +407,15 @@
     {
       "fg": "intent.color.text.tertiary",
       "bg": "intent.color.surface.raised",
-      "floor": 4.5
+      "floor": 4.5,
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "atlas-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ],
+      "note": "Known, not enforced in Atlas Light: green.600 on raised measures 4.33; Closed text never sits on a raised surface"
     },
     {
       "fg": "intent.color.dot.closed",
@@ -625,6 +633,66 @@
       "bg": "intent.color.overlay.pressed",
       "floor": 3,
       "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.data.sequential.1",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.1",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.1",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.2",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.2",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.2",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.3",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.3",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.3",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.4",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.4",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.sequential.4",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
     }
   ],
   "distinct": [
@@ -863,6 +931,58 @@
       "b": "intent.color.map.pin.park",
       "min": 9,
       "carrier": "icon"
+    },
+    {
+      "a": "intent.color.data.sequential.1",
+      "b": "intent.color.data.sequential.2",
+      "min": 6,
+      "carrier": "bar height"
+    },
+    {
+      "a": "intent.color.data.sequential.2",
+      "b": "intent.color.data.sequential.3",
+      "min": 6,
+      "carrier": "bar height"
+    },
+    {
+      "a": "intent.color.data.sequential.3",
+      "b": "intent.color.data.sequential.4",
+      "min": 6,
+      "carrier": "bar height"
+    },
+    {
+      "a": "intent.color.text.secondary",
+      "b": "intent.color.text.tertiary",
+      "min": 6
+    },
+    {
+      "a": "intent.color.text.secondary",
+      "b": "intent.color.text.primary",
+      "min": 6
+    },
+    {
+      "a": "intent.color.data.sequential.1",
+      "b": "intent.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word"
+    },
+    {
+      "a": "intent.color.data.sequential.2",
+      "b": "intent.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word"
+    },
+    {
+      "a": "intent.color.data.sequential.3",
+      "b": "intent.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word"
+    },
+    {
+      "a": "intent.color.data.sequential.4",
+      "b": "intent.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word"
     }
   ]
 }

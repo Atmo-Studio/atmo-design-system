@@ -158,14 +158,14 @@
         },
         "tertiary": {
           "$type": "color",
-          "$value": "{core.color.neutral.300}",
+          "$value": "{core.color.green.400}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
                 "date": "2026-10-03",
-                "rule": "Closed and other set-aside text: neutral, lighter than text.secondary, 4.5:1 on canvas, card and raised; neutral.400 measured 4.43:1 on Atlas Dark's card, so one step lighter",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
+                "rule": "fixes the dark collapse: green.300 secondary against neutral.300 tertiary measured 1.03:1; green.400 sits ΔE 10 from secondary",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): tertiary moves onto the green ramp"
               }
             }
           }
@@ -489,14 +489,14 @@
         },
         "closed": {
           "$type": "color",
-          "$value": "{core.color.neutral.400}",
+          "$value": "{core.color.green.400}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
                 "date": "2026-10-03",
-                "rule": "Closed's hollow ring: neutral, ΔE 9 or more from dot.open under deutan and protan",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
+                "rule": "Closed's ring on dark; ΔE 11 or more from dot.open under deutan and protan",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): Closed keeps its hollow ring, now on the green ramp"
               }
             }
           }

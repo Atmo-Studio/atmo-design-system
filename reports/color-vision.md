@@ -48,6 +48,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.550 | 10.3 | 5.0 | 7.8 | 13.1 | 6 | below margin (deutan); carried by bar height |
+| data.sequential.2 vs data.sequential.3 | ember.550 / signal-red.550 | 9.0 | 5.0 | 6.2 | 10.0 | 6 | below margin (deutan); carried by bar height |
+| data.sequential.3 vs data.sequential.4 | signal-red.550 / signal-red.650 | 8.0 | 7.8 | 9.0 | 6.7 | 6 | clears |
+| text.secondary vs text.tertiary | neutral.700 / neutral.600 | 7.2 | 7.1 | 7.2 | 7.2 | 6 | clears |
+| text.secondary vs text.primary | neutral.700 / neutral.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
+| data.sequential.1 vs dot.open | neutral.500 / green.500 | 6.0 | 3.4 | 4.7 | 3.5 | 9 | below margin (normal, deutan, protan, tritan); carried by bar against dot, and the word |
+| data.sequential.2 vs dot.open | ember.550 / green.500 | 14.3 | 3.0 | 9.1 | 16.5 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.3 vs dot.open | signal-red.550 / green.500 | 22.5 | 6.3 | 14.3 | 25.9 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | signal-red.650 / green.500 | 25.3 | 11.5 | 23.4 | 24.9 | 9 | clears |
 
 ## atmo-dark
 
@@ -93,6 +102,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.420 | 8.6 | 7.8 | 5.1 | 9.7 | 6 | below margin (protan); carried by bar height |
+| data.sequential.2 vs data.sequential.3 | ember.420 / signal-red.420 | 8.9 | 4.8 | 5.2 | 11.4 | 6 | below margin (deutan, protan); carried by bar height |
+| data.sequential.3 vs data.sequential.4 | signal-red.420 / signal-red.350 | 6.8 | 6.8 | 5.8 | 3.3 | 6 | below margin (protan, tritan); carried by bar height |
+| text.secondary vs text.tertiary | neutral.300 / neutral.400 | 10.5 | 10.6 | 10.6 | 10.5 | 6 | clears |
+| text.secondary vs text.primary | neutral.300 / neutral.50 | 18.7 | 18.7 | 18.7 | 18.7 | 6 | clears |
+| data.sequential.1 vs dot.open | neutral.500 / green.400 | 10.7 | 9.6 | 10.9 | 9.7 | 9 | clears |
+| data.sequential.2 vs dot.open | ember.420 / green.400 | 9.6 | 2.0 | 6.0 | 10.0 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.3 vs dot.open | signal-red.420 / green.400 | 17.4 | 3.7 | 9.6 | 21.3 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | signal-red.350 / green.400 | 19.6 | 7.3 | 3.9 | 21.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 
 ## atlas-light
 
@@ -110,16 +128,16 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | status.negative.text vs status.info.text | signal-red.600 / blue.700 | 24.1 | 18.4 | 11.9 | 28.1 | 9 (blue/purple) | clears |
 | status.caution.mark vs status.info.mark | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 6 | clears |
 | status.caution.text vs status.info.text | ochre.700 / blue.700 | 11.9 | 12.2 | 11.6 | 9.1 | 6 | clears |
-| status.positive.mark vs surface.canvas | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
+| status.positive.mark vs surface.canvas | green.500 / green.50 | 35.8 | 35.6 | 35.1 | 35.5 | 6 | clears |
 | status.positive.mark vs surface.raised | green.500 / green.100 | 33.0 | 32.9 | 32.4 | 32.6 | 6 | clears |
 | status.positive.mark vs surface.card | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
-| status.negative.mark vs surface.canvas | signal-red.700 / neutral.50 | 55.4 | 51.8 | 62.8 | 52.7 | 6 | clears |
+| status.negative.mark vs surface.canvas | signal-red.700 / green.50 | 54.2 | 50.2 | 61.6 | 51.7 | 6 | clears |
 | status.negative.mark vs surface.raised | signal-red.700 / green.100 | 51.7 | 47.5 | 58.9 | 49.1 | 6 | clears |
 | status.negative.mark vs surface.card | signal-red.700 / neutral.50 | 55.4 | 51.8 | 62.8 | 52.7 | 6 | clears |
-| status.caution.mark vs surface.canvas | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
+| status.caution.mark vs surface.canvas | ochre.500 / green.50 | 35.9 | 35.2 | 38.1 | 35.1 | 6 | clears |
 | status.caution.mark vs surface.raised | ochre.500 / green.100 | 33.1 | 32.5 | 35.4 | 32.3 | 6 | clears |
 | status.caution.mark vs surface.card | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
-| status.info.mark vs surface.canvas | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
+| status.info.mark vs surface.canvas | blue.500 / green.50 | 36.7 | 37.4 | 35.9 | 36.6 | 6 | clears |
 | status.info.mark vs surface.raised | blue.500 / green.100 | 34.1 | 34.8 | 33.4 | 33.7 | 6 | clears |
 | status.info.mark vs surface.card | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
 | dot.open vs dot.attribute | signal-green.550 / green.900 | 25.6 | 24.6 | 26.5 | 24.9 | 9 | clears |
@@ -127,8 +145,8 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.water vs map.park | blue.100 / green.200 | 7.8 | 7.2 | 7.4 | 5.7 | 6 | below margin (tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.water vs map.ground | blue.100 / green.100 | 3.5 | 3.3 | 3.5 | 1.1 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.park vs map.ground | green.200 / green.100 | 6.0 | 5.9 | 5.5 | 5.6 | 6 | below margin (deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| dot.open vs dot.closed | signal-green.550 / neutral.700 | 16.2 | 12.8 | 15.8 | 14.2 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | neutral.700 / green.900 | 13.1 | 12.6 | 12.0 | 12.9 | 6 | clears |
+| dot.open vs dot.closed | signal-green.550 / green.700 | 12.8 | 11.2 | 13.1 | 12.0 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | green.700 / green.900 | 13.6 | 13.6 | 13.5 | 13.5 | 6 | clears |
 | data.filled vs data.empty | neutral.800 / neutral.500 | 22.4 | 22.4 | 22.4 | 22.4 | 9 | clears |
 | action.destructive.bg-hover vs action.primary.bg | signal-red.600 / green.700 | 22.8 | 11.3 | 5.4 | 26.1 | 9 (green/brown) | below margin (protan); carried by outline at rest, and the label |
 | score.bg vs data.filled | green.700 / neutral.800 | 9.0 | 8.3 | 9.2 | 8.3 | 6 | clears |
@@ -138,6 +156,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.550 | 10.3 | 5.0 | 7.8 | 13.1 | 6 | below margin (deutan); carried by bar height |
+| data.sequential.2 vs data.sequential.3 | ember.550 / signal-red.550 | 9.0 | 5.0 | 6.2 | 10.0 | 6 | below margin (deutan); carried by bar height |
+| data.sequential.3 vs data.sequential.4 | signal-red.550 / signal-red.650 | 8.0 | 7.8 | 9.0 | 6.7 | 6 | clears |
+| text.secondary vs text.tertiary | green.700 / green.600 | 7.3 | 7.2 | 7.5 | 7.1 | 6 | clears |
+| text.secondary vs text.primary | green.700 / green.900 | 13.6 | 13.6 | 13.5 | 13.5 | 6 | clears |
+| data.sequential.1 vs dot.open | neutral.500 / signal-green.550 | 11.9 | 6.1 | 7.0 | 9.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.2 vs dot.open | ember.550 / signal-green.550 | 19.0 | 1.5 | 7.6 | 21.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.3 vs dot.open | signal-red.550 / signal-green.550 | 27.0 | 4.9 | 11.6 | 30.9 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | signal-red.650 / signal-green.550 | 28.2 | 7.1 | 20.6 | 28.7 | 9 | below margin (deutan); carried by bar against dot, and the word |
 
 ## atlas-dark
 
@@ -172,8 +199,8 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.water vs map.park | blue.900 / green.800 | 9.6 | 9.7 | 9.6 | 7.5 | 6 | clears |
 | map.water vs map.ground | blue.900 / green.900 | 5.7 | 5.4 | 5.6 | 1.7 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.park vs map.ground | green.800 / green.900 | 6.6 | 6.6 | 6.6 | 6.4 | 6 | clears |
-| dot.open vs dot.closed | signal-green.300 / neutral.400 | 16.5 | 13.0 | 16.2 | 14.4 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | neutral.400 / green.50 | 27.6 | 27.7 | 28.1 | 27.5 | 6 | clears |
+| dot.open vs dot.closed | signal-green.300 / green.400 | 12.5 | 11.3 | 13.1 | 12.1 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | green.400 / green.50 | 27.4 | 27.1 | 26.5 | 27.0 | 6 | clears |
 | data.filled vs data.empty | neutral.200 / neutral.500 | 27.3 | 27.3 | 27.4 | 27.3 | 9 | clears |
 | action.destructive.bg-hover vs action.primary.bg | signal-red.350 / green.300 | 19.4 | 6.5 | 13.8 | 22.4 | 9 (green/brown) | below margin (deutan); carried by outline at rest, and the label |
 | score.bg vs data.filled | green.300 / neutral.200 | 9.9 | 8.7 | 8.3 | 8.9 | 6 | clears |
@@ -183,3 +210,12 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.420 | 8.6 | 7.8 | 5.1 | 9.7 | 6 | below margin (protan); carried by bar height |
+| data.sequential.2 vs data.sequential.3 | ember.420 / signal-red.420 | 8.9 | 4.8 | 5.2 | 11.4 | 6 | below margin (deutan, protan); carried by bar height |
+| data.sequential.3 vs data.sequential.4 | signal-red.420 / signal-red.350 | 6.8 | 6.8 | 5.8 | 3.3 | 6 | below margin (protan, tritan); carried by bar height |
+| text.secondary vs text.tertiary | green.300 / green.400 | 10.1 | 10.1 | 9.9 | 10.1 | 6 | clears |
+| text.secondary vs text.primary | green.300 / green.50 | 17.4 | 17.1 | 16.7 | 16.9 | 6 | clears |
+| data.sequential.1 vs dot.open | neutral.500 / signal-green.300 | 23.2 | 20.9 | 23.9 | 21.7 | 9 | clears |
+| data.sequential.2 vs dot.open | ember.420 / signal-green.300 | 19.8 | 13.1 | 18.8 | 19.4 | 9 | clears |
+| data.sequential.3 vs dot.open | signal-red.420 / signal-green.300 | 25.9 | 12.3 | 22.5 | 28.8 | 9 | clears |
+| data.sequential.4 vs dot.open | signal-red.350 / signal-green.300 | 24.8 | 6.1 | 16.8 | 27.5 | 9 | below margin (deutan); carried by bar against dot, and the word |

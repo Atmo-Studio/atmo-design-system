@@ -51,6 +51,20 @@
               }
             }
           }
+        },
+        "canvas": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Atlas Light's ground is mint, so the theme reads monochromatic green rather than white with green accents",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the light theme's background uses green.50; cards stay warm white (variant B)"
+              }
+            }
+          }
         }
       },
       "text": {
@@ -128,6 +142,20 @@
                 "from": [
                   "Atmo specimen, round 4 (2026-10-02): .colophon .caps (n400 on n950)"
                 ]
+              }
+            }
+          }
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{core.color.green.600}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "set-aside text such as Closed, on the green ramp so text stays monochromatic; 4.5:1 on canvas and card (4.33 on raised, where Closed never sits)",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): secondary text stays a subtle green on the existing ramp; tertiary follows"
               }
             }
           }
@@ -445,6 +473,20 @@
                 "date": "2026-10-02",
                 "rule": "informational attribute dots (\"Quiet before 10\") are neutral and match the label text",
                 "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn"
+              }
+            }
+          }
+        },
+        "closed": {
+          "$type": "color",
+          "$value": "{core.color.green.700}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Closed's ring, one step darker than its label; ΔE 11 or more from dot.open under deutan and protan",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): Closed keeps its hollow ring, now on the green ramp"
               }
             }
           }

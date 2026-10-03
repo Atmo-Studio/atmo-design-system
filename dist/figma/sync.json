@@ -1301,6 +1301,42 @@
       }
     },
     {
+      "name": "color/signal-red/420",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-420)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8784,
+          "g": 0.4314,
+          "b": 0.3882,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-red/550",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-550)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.8235,
+          "g": 0.2039,
+          "b": 0.1882,
+          "a": 1
+        }
+      }
+    },
+    {
       "name": "color/signal-red/600",
       "collection": "01 Core",
       "type": "COLOR",
@@ -1319,6 +1355,24 @@
       }
     },
     {
+      "name": "color/signal-red/650",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-650)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7176,
+          "g": 0.0078,
+          "b": 0.0706,
+          "a": 1
+        }
+      }
+    },
+    {
       "name": "color/signal-red/700",
       "collection": "01 Core",
       "type": "COLOR",
@@ -1332,6 +1386,42 @@
           "r": 0.6392,
           "g": 0.0039,
           "b": 0.0588,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ember/420",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ember-420)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7098,
+          "g": 0.5373,
+          "b": 0.5137,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/ember/550",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ember-550)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6784,
+          "g": 0.3647,
+          "b": 0.3333,
           "a": 1
         }
       }
@@ -2744,7 +2834,7 @@
           "alias": "color/neutral/950"
         },
         "Atlas Light": {
-          "alias": "color/neutral/50"
+          "alias": "color/green/50"
         },
         "Atlas Dark": {
           "alias": "color/green/950"
@@ -3100,10 +3190,10 @@
           "alias": "color/neutral/400"
         },
         "Atlas Light": {
-          "alias": "color/neutral/600"
+          "alias": "color/green/600"
         },
         "Atlas Dark": {
-          "alias": "color/neutral/300"
+          "alias": "color/green/400"
         },
         "Brand OS Light": {
           "alias": "color/neutral/600"
@@ -4279,10 +4369,10 @@
           "alias": "color/neutral/500"
         },
         "Atlas Light": {
-          "alias": "color/neutral/700"
+          "alias": "color/green/700"
         },
         "Atlas Dark": {
-          "alias": "color/neutral/400"
+          "alias": "color/green/400"
         },
         "Brand OS Light": {
           "alias": "color/neutral/700"
@@ -5079,6 +5169,138 @@
         },
         "Brand OS Dark": {
           "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/data/sequential/1",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-sequential-1)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/data/sequential/2",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-sequential-2)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/ember/550"
+        },
+        "Atmo Dark": {
+          "alias": "color/ember/420"
+        },
+        "Atlas Light": {
+          "alias": "color/ember/550"
+        },
+        "Atlas Dark": {
+          "alias": "color/ember/420"
+        },
+        "Brand OS Light": {
+          "alias": "color/ember/550"
+        },
+        "Brand OS Dark": {
+          "alias": "color/ember/420"
+        }
+      }
+    },
+    {
+      "name": "color/data/sequential/3",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-sequential-3)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/550"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/420"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/550"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/420"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/550"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/420"
+        }
+      }
+    },
+    {
+      "name": "color/data/sequential/4",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-sequential-4)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/650"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/650"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/650"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/350"
         }
       }
     },

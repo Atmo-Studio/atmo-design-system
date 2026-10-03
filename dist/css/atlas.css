@@ -71,8 +71,13 @@
   --color-shadow-deep-ink: #070504;
   --color-signal-red-300: #ff9b90;
   --color-signal-red-350: #ff7c70;
+  --color-signal-red-420: #e06e63;
+  --color-signal-red-550: #d23430;
   --color-signal-red-600: #c31b1f;
+  --color-signal-red-650: #b70212;
   --color-signal-red-700: #a3010f;
+  --color-ember-420: #b58983;
+  --color-ember-550: #ad5d55;
   --font-sans: Satoshi, "Satoshi Variable", system-ui, sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -243,13 +248,18 @@
     --color-shadow-deep-ink: oklch(12% 0.008 67.7);
     --color-signal-red-300: oklch(79% 0.121 27);
     --color-signal-red-350: oklch(73.5% 0.162 27);
+    --color-signal-red-420: oklch(67% 0.145 27);
+    --color-signal-red-550: oklch(57% 0.195 27);
     --color-signal-red-600: oklch(52.5% 0.2 27);
+    --color-signal-red-650: oklch(49% 0.199 27);
     --color-signal-red-700: oklch(45% 0.183 27);
+    --color-ember-420: oklch(67% 0.055 27);
+    --color-ember-550: oklch(57% 0.105 27);
   }
 }
 :root,
 [data-theme="light"] {
-  --color-surface-canvas: var(--color-neutral-50);
+  --color-surface-canvas: var(--color-green-50);
   --color-surface-raised: var(--color-green-100);
   --color-surface-inset: var(--color-green-200);
   --color-surface-card: var(--color-neutral-50);
@@ -260,7 +270,7 @@
   --color-text-on-inverse: var(--color-green-50);
   --color-text-disabled: var(--color-green-400);
   --color-text-on-inverse-secondary: var(--color-green-400);
-  --color-text-tertiary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-green-600);
   --color-border-divider: var(--color-green-200);
   --color-border-control: var(--color-green-500);
   --color-border-strong: var(--color-green-900);
@@ -296,7 +306,7 @@
   --color-emphasis: var(--color-green-900);
   --color-dot-open: var(--color-signal-green-550);
   --color-dot-attribute: var(--color-green-900);
-  --color-dot-closed: var(--color-neutral-700);
+  --color-dot-closed: var(--color-green-700);
   --color-status-positive-text: var(--color-green-900);
   --color-status-positive-mark: var(--color-green-500);
   --color-status-positive-on-mark: var(--color-neutral-50);
@@ -320,6 +330,10 @@
   --color-score-text: var(--color-green-50);
   --color-data-filled: var(--color-neutral-800);
   --color-data-empty: var(--color-neutral-500);
+  --color-data-sequential-1: var(--color-neutral-500);
+  --color-data-sequential-2: var(--color-ember-550);
+  --color-data-sequential-3: var(--color-signal-red-550);
+  --color-data-sequential-4: var(--color-signal-red-650);
   --color-overlay-hover: oklch(25.79% 0.0252 134 / 0.05);
   --color-overlay-pressed: oklch(25.79% 0.0252 134 / 0.1);
   --font-family-sans: var(--font-sans);
@@ -431,7 +445,7 @@
   --color-text-on-inverse: var(--color-green-950);
   --color-text-disabled: var(--color-green-600);
   --color-text-on-inverse-secondary: var(--color-green-700);
-  --color-text-tertiary: var(--color-neutral-300);
+  --color-text-tertiary: var(--color-green-400);
   --color-border-divider: var(--color-green-800);
   --color-border-control: var(--color-green-500);
   --color-border-strong: var(--color-green-100);
@@ -467,7 +481,7 @@
   --color-emphasis: var(--color-green-50);
   --color-dot-open: var(--color-signal-green-300);
   --color-dot-attribute: var(--color-green-50);
-  --color-dot-closed: var(--color-neutral-400);
+  --color-dot-closed: var(--color-green-400);
   --color-status-positive-text: var(--color-green-50);
   --color-status-positive-mark: var(--color-green-400);
   --color-status-positive-on-mark: var(--color-neutral-950);
@@ -491,6 +505,10 @@
   --color-score-text: var(--color-green-950);
   --color-data-filled: var(--color-neutral-200);
   --color-data-empty: var(--color-neutral-500);
+  --color-data-sequential-1: var(--color-neutral-500);
+  --color-data-sequential-2: var(--color-ember-420);
+  --color-data-sequential-3: var(--color-signal-red-420);
+  --color-data-sequential-4: var(--color-signal-red-350);
   --color-overlay-hover: oklch(95.8% 0.015 134 / 0.06);
   --color-overlay-pressed: oklch(95.8% 0.015 134 / 0.1);
   --font-family-sans: var(--font-sans);
@@ -602,7 +620,7 @@
     --color-text-on-inverse: var(--color-green-950);
     --color-text-disabled: var(--color-green-600);
     --color-text-on-inverse-secondary: var(--color-green-700);
-    --color-text-tertiary: var(--color-neutral-300);
+    --color-text-tertiary: var(--color-green-400);
     --color-border-divider: var(--color-green-800);
     --color-border-control: var(--color-green-500);
     --color-border-strong: var(--color-green-100);
@@ -638,7 +656,7 @@
     --color-emphasis: var(--color-green-50);
     --color-dot-open: var(--color-signal-green-300);
     --color-dot-attribute: var(--color-green-50);
-    --color-dot-closed: var(--color-neutral-400);
+    --color-dot-closed: var(--color-green-400);
     --color-status-positive-text: var(--color-green-50);
     --color-status-positive-mark: var(--color-green-400);
     --color-status-positive-on-mark: var(--color-neutral-950);
@@ -662,6 +680,10 @@
     --color-score-text: var(--color-green-950);
     --color-data-filled: var(--color-neutral-200);
     --color-data-empty: var(--color-neutral-500);
+    --color-data-sequential-1: var(--color-neutral-500);
+    --color-data-sequential-2: var(--color-ember-420);
+    --color-data-sequential-3: var(--color-signal-red-420);
+    --color-data-sequential-4: var(--color-signal-red-350);
     --color-overlay-hover: oklch(95.8% 0.015 134 / 0.06);
     --color-overlay-pressed: oklch(95.8% 0.015 134 / 0.1);
     --font-family-sans: var(--font-sans);

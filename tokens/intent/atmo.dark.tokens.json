@@ -1012,6 +1012,64 @@
               }
             }
           }
+        },
+        "sequential": {
+          "1": {
+            "$type": "color",
+            "$value": "{core.color.neutral.500}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "busyness step 1 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                }
+              }
+            }
+          },
+          "2": {
+            "$type": "color",
+            "$value": "{core.color.ember.420}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "busyness step 2 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                }
+              }
+            }
+          },
+          "3": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.420}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                }
+              }
+            }
+          },
+          "4": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.350}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                }
+              }
+            }
+          }
         }
       },
       "overlay": {
