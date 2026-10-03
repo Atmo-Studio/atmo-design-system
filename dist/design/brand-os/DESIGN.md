@@ -292,7 +292,7 @@ Every color sits on one of six 11-step ramps (neutral, green, clay, blue, ochre 
 - **Status:** positive is green, negative is red, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On light grounds the discs sit at 500, negative at 600, so positive and negative differ in lightness as well as hue. Ochre is for caution only, and may run past the palette's chroma as a status-only exception.
 - **Dots:** "Open" takes `#728a62`. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
 
-Every text pair clears 4.5:1 and every mark 3:1; the build measures each one, and simulates the system under deuteranopia, protanopia and tritanopia. The full tables are in [reports/](reports/).
+Every text pair clears 4.5:1 and every mark 3:1, disabled controls excepted as WCAG allows. The build measures each pair and simulates the system under deuteranopia, protanopia and tritanopia. The full tables are in [reports/](reports/).
 
 ## Typography
 
