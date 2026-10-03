@@ -403,6 +403,12 @@
   --status-disc-size: 20px;
   --glass-blur: 24px;
   --control-pressed-scale: 0.97;
+  --crowd-mark-width: 4px;
+  --crowd-mark-radius: 1px;
+  --crowd-mark-height-1: 3px;
+  --crowd-mark-height-2: 5px;
+  --crowd-mark-height-3: 7px;
+  --crowd-mark-height-4: 9px;
 }
 @supports (color: oklch(0% 0 0)) {
   :root,
@@ -568,6 +574,12 @@
   --status-disc-size: 20px;
   --glass-blur: 24px;
   --control-pressed-scale: 0.97;
+  --crowd-mark-width: 4px;
+  --crowd-mark-radius: 1px;
+  --crowd-mark-height-1: 3px;
+  --crowd-mark-height-2: 5px;
+  --crowd-mark-height-3: 7px;
+  --crowd-mark-height-4: 9px;
 }
 @supports (color: oklch(0% 0 0)) {
   [data-theme="dark"] {
@@ -733,6 +745,12 @@
     --status-disc-size: 20px;
     --glass-blur: 24px;
     --control-pressed-scale: 0.97;
+    --crowd-mark-width: 4px;
+    --crowd-mark-radius: 1px;
+    --crowd-mark-height-1: 3px;
+    --crowd-mark-height-2: 5px;
+    --crowd-mark-height-3: 7px;
+    --crowd-mark-height-4: 9px;
   }
   @supports (color: oklch(0% 0 0)) {
     :root:not([data-theme="light"]) {

@@ -396,6 +396,142 @@
           }
         }
       }
+    },
+    "crowd-mark": {
+      "width": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-03",
+              "rule": "a miniature of the busyness chart's bar; 3px read as a full stop at level 1, so 4",
+              "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ]
+          }
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        },
+        "$extensions": {
+          "studio.atmo": {
+            "provenance": {
+              "kind": "decided",
+              "date": "2026-10-03",
+              "rule": "top corners only, like the chart bars",
+              "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+            }
+          },
+          "studio.atmo.figma": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ]
+          }
+        }
+      },
+      "height": {
+        "1": {
+          "$type": "dimension",
+          "$value": {
+            "value": 3,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "level 1: the foot sits on the text baseline; level 4 overshoots the 8px cap height by 1px, optically right",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "WIDTH_HEIGHT"
+              ]
+            }
+          }
+        },
+        "2": {
+          "$type": "dimension",
+          "$value": {
+            "value": 5,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "level 2: the foot sits on the text baseline; level 4 overshoots the 8px cap height by 1px, optically right",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "WIDTH_HEIGHT"
+              ]
+            }
+          }
+        },
+        "3": {
+          "$type": "dimension",
+          "$value": {
+            "value": 7,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "level 3: the foot sits on the text baseline; level 4 overshoots the 8px cap height by 1px, optically right",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "WIDTH_HEIGHT"
+              ]
+            }
+          }
+        },
+        "4": {
+          "$type": "dimension",
+          "$value": {
+            "value": 9,
+            "unit": "px"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "level 4: the foot sits on the text baseline; level 4 overshoots the 8px cap height by 1px, optically right",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 3): crowd level in lists uses the bar length and colour the busyness chart gives that level"
+              }
+            },
+            "studio.atmo.figma": {
+              "scopes": [
+                "WIDTH_HEIGHT"
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }

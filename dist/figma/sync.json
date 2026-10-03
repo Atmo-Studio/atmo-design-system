@@ -5992,6 +5992,96 @@
       "values": {
         "Value": 0.97
       }
+    },
+    {
+      "name": "crowd-mark/width",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-width)"
+      },
+      "description": "",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "name": "crowd-mark/radius",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-radius)"
+      },
+      "description": "",
+      "values": {
+        "Value": 1
+      }
+    },
+    {
+      "name": "crowd-mark/height/1",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-height-1)"
+      },
+      "description": "",
+      "values": {
+        "Value": 3
+      }
+    },
+    {
+      "name": "crowd-mark/height/2",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-height-2)"
+      },
+      "description": "",
+      "values": {
+        "Value": 5
+      }
+    },
+    {
+      "name": "crowd-mark/height/3",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-height-3)"
+      },
+      "description": "",
+      "values": {
+        "Value": 7
+      }
+    },
+    {
+      "name": "crowd-mark/height/4",
+      "collection": "03 Patterns",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--crowd-mark-height-4)"
+      },
+      "description": "",
+      "values": {
+        "Value": 9
+      }
     }
   ],
   "effectStyles": [
