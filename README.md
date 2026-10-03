@@ -89,9 +89,14 @@ changes and the tokens do not.
 ## Figma
 
 `dist/figma/sync.json` maps the tokens onto the library's three collections, `01 Core`,
-`02 Intent` with one mode per brand × theme, and `03 Patterns`, plus the elevation effect
-styles. The sync runs through the Figma Plugin API, and `npm run parity` compares a dump of the
-library against this file and lists every difference.
+`02 Intent` with one mode per brand × theme, and `03 Patterns`, plus the two elevation effect
+styles. The sync writes them through the Figma Plugin API, because the Variables REST API needs an
+Enterprise plan.
+
+Parity is checked inside the library. `npm run build` writes `dist/figma/parity-check.js`, a
+read-only script holding a checksum of every collection; run in Figma, it returns which collections
+match and the full contents of any that do not. `npm run parity -- <result.json>` turns that result
+into [reports/figma-parity.md](reports/figma-parity.md), listing every difference.
 
 ## License
 

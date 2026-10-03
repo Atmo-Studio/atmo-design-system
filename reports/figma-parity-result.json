@@ -1,0 +1,6 @@
+{"capturedAt":"2026-10-03T04:00:40.265Z","collections":{"01 Core":{"match":true,"count":163,"digest":"e8cd9c7c82c61","modes":"Value"},"02 Intent":{"match":true,"count":71,"digest":"92093b32e7ad","modes":"Atmo Light;Atmo Dark;Atlas Light;Atlas Dark;Brand OS Light;Brand OS Dark"},"03 Patterns":{"match":true,"count":21,"digest":"d174a9dac91b7","modes":"Value"}},"effectStyles":{"match":true,"count":2,"digest":"93b58606787f3"},
+"notInScope":[
+"**Text styles.** The 16 type roles (six in Atlas) have no Figma text styles yet. Figma's cloud plugin runtime cannot load Satoshi Variable, so styles set in it cannot be created or edited from here. The 48 existing `text-*` styles were left as they are. This waits on Satoshi being added as a shared organization font, or on a sync run from the Figma desktop app.",
+"**Shadows outside Atmo Light.** Figma effect styles have no modes, so `elevation/floating` and `elevation/overlay` carry Atmo Light's values. Dark and Atlas shadows live in code; `color/shadow-tint` holds their tint per mode.",
+"**Older bindings in the library.** The Decent Design System and lilac library bindings, the dangling references to the deleted `Typography` collection and the \"113 px\" label on text-10xl were not touched, because they sit on existing pages."
+]}
