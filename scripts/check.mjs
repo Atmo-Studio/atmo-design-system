@@ -11,7 +11,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { ROOT, loadModes, flatten, get, resolveValue, publicPath, aliasOf } from './lib/tokens.mjs';
-import { contrast, deltaE, simulate, toHex, VISION } from './lib/color.mjs';
+import { contrast, deltaE, hexToRgb, rgbToHex, simulate, toHex, VISION } from './lib/color.mjs';
 
 const { modes } = loadModes();
 const pairs = JSON.parse(readFileSync(resolve(ROOT, 'checks/pairs.json'), 'utf8'));
@@ -71,13 +71,24 @@ const stepAt = (tree, path) => {
 const short = (p) => publicPath(p).replace('color.', '');
 const modesFor = (p) => p.modes ?? Object.keys(modes);
 
+// An alpha role (an overlay) is measured where it lands: composited onto the pair's `over` surface.
+const groundAt = (tree, path, over) => {
+  if (!over) return hexAt(tree, path);
+  const t = get(tree, path);
+  if (!t || !('$value' in t)) throw new Error(`no token ${path}`);
+  const v = resolveValue(tree, t.$value);
+  const alpha = typeof v === 'object' && v.alpha !== undefined ? v.alpha : 1;
+  const [top, base] = [hexToRgb(toHex(v)), hexToRgb(hexAt(tree, over))];
+  return rgbToHex(top.map((c, i) => c * alpha + base[i] * (1 - alpha)));
+};
+
 // 4
 const contrastRows = [];
 for (const p of pairs.contrast) {
   for (const mode of modesFor(p)) {
     const { tree } = modes[mode];
     try {
-      const ratio = contrast(hexAt(tree, p.fg), hexAt(tree, p.bg));
+      const ratio = contrast(hexAt(tree, p.fg), groundAt(tree, p.bg, p.over));
       checks++;
       const ok = ratio + 1e-9 >= p.floor;
       contrastRows.push({ mode, ...p, ratio, ok, fgStep: stepAt(tree, p.fg), bgStep: stepAt(tree, p.bg) });

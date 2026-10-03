@@ -1265,6 +1265,78 @@
       }
     },
     {
+      "name": "color/signal-red/300",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-300)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 1,
+          "g": 0.6078,
+          "b": 0.5647,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-red/350",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-350)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 1,
+          "g": 0.4863,
+          "b": 0.4392,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-red/600",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-600)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.7647,
+          "g": 0.1059,
+          "b": 0.1216,
+          "a": 1
+        }
+      }
+    },
+    {
+      "name": "color/signal-red/700",
+      "collection": "01 Core",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-signal-red-700)"
+      },
+      "description": "",
+      "values": {
+        "Value": {
+          "r": 0.6392,
+          "g": 0.0039,
+          "b": 0.0588,
+          "a": 1
+        }
+      }
+    },
+    {
       "name": "font/sans",
       "collection": "01 Core",
       "type": "STRING",
@@ -3010,6 +3082,38 @@
       }
     },
     {
+      "name": "color/text/tertiary",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-text-tertiary)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/400"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/400"
+        }
+      }
+    },
+    {
       "name": "color/border/divider",
       "collection": "02 Intent",
       "type": "COLOR",
@@ -3330,6 +3434,171 @@
         },
         "Brand OS Dark": {
           "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/action/destructive/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-destructive-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/350"
+        }
+      }
+    },
+    {
+      "name": "color/action/destructive/border",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-destructive-border)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/350"
+        }
+      }
+    },
+    {
+      "name": "color/action/destructive/bg-hover",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-destructive-bg-hover)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/350"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/600"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/350"
+        }
+      }
+    },
+    {
+      "name": "color/action/destructive/bg-pressed",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-destructive-bg-pressed)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/signal-red/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/signal-red/300"
+        },
+        "Atlas Light": {
+          "alias": "color/signal-red/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/signal-red/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/signal-red/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/signal-red/300"
+        }
+      }
+    },
+    {
+      "name": "color/action/destructive/text-hover",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-action-destructive-text-hover)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
         }
       }
     },
@@ -3694,6 +3963,171 @@
       }
     },
     {
+      "name": "color/map/pin/cafe",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-pin-cafe)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/ochre/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/ochre/500"
+        },
+        "Atlas Light": {
+          "alias": "color/ochre/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/ochre/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/ochre/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/ochre/500"
+        }
+      }
+    },
+    {
+      "name": "color/map/pin/library",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-pin-library)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/blue/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/blue/500"
+        },
+        "Atlas Light": {
+          "alias": "color/blue/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/blue/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/blue/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/blue/500"
+        }
+      }
+    },
+    {
+      "name": "color/map/pin/coworking",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-pin-coworking)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/950"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/map/pin/park",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-pin-park)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/700"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/700"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/700"
+        }
+      }
+    },
+    {
+      "name": "color/map/pin/icon",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-map-pin-icon)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/50"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/50"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
       "name": "color/skeleton",
       "collection": "02 Intent",
       "type": "COLOR",
@@ -3822,6 +4256,39 @@
         },
         "Brand OS Dark": {
           "alias": "color/neutral/50"
+        }
+      }
+    },
+    {
+      "name": "color/dot/closed",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL",
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-dot-closed)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/400"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/500"
         }
       }
     },
@@ -3969,22 +4436,22 @@
       "description": "",
       "values": {
         "Atmo Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/600"
         },
         "Atmo Dark": {
-          "alias": "color/red/400"
+          "alias": "color/signal-red/350"
         },
         "Atlas Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/600"
         },
         "Atlas Dark": {
-          "alias": "color/red/400"
+          "alias": "color/signal-red/350"
         },
         "Brand OS Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/600"
         },
         "Brand OS Dark": {
-          "alias": "color/red/400"
+          "alias": "color/signal-red/350"
         }
       }
     },
@@ -4002,19 +4469,19 @@
       "description": "",
       "values": {
         "Atmo Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/700"
         },
         "Atmo Dark": {
           "alias": "color/red/300"
         },
         "Atlas Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/700"
         },
         "Atlas Dark": {
           "alias": "color/red/300"
         },
         "Brand OS Light": {
-          "alias": "color/red/600"
+          "alias": "color/signal-red/700"
         },
         "Brand OS Dark": {
           "alias": "color/red/300"
@@ -4480,6 +4947,240 @@
           "g": 0.0196,
           "b": 0.0157,
           "a": 0.6
+        }
+      }
+    },
+    {
+      "name": "color/score/bg",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-score-bg)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/green/700"
+        },
+        "Atmo Dark": {
+          "alias": "color/green/300"
+        },
+        "Atlas Light": {
+          "alias": "color/green/700"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/300"
+        },
+        "Brand OS Light": {
+          "alias": "color/green/700"
+        },
+        "Brand OS Dark": {
+          "alias": "color/green/300"
+        }
+      }
+    },
+    {
+      "name": "color/score/text",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-score-text)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/50"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/950"
+        },
+        "Atlas Light": {
+          "alias": "color/green/50"
+        },
+        "Atlas Dark": {
+          "alias": "color/green/950"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/50"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/950"
+        }
+      }
+    },
+    {
+      "name": "color/data/filled",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-filled)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/800"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/200"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/800"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/200"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/800"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/200"
+        }
+      }
+    },
+    {
+      "name": "color/data/empty",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-data-empty)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atmo Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Light": {
+          "alias": "color/neutral/500"
+        },
+        "Atlas Dark": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Light": {
+          "alias": "color/neutral/500"
+        },
+        "Brand OS Dark": {
+          "alias": "color/neutral/500"
+        }
+      }
+    },
+    {
+      "name": "color/overlay/hover",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-overlay-hover)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.05
+        },
+        "Atmo Dark": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.06
+        },
+        "Atlas Light": {
+          "r": 0.1216,
+          "g": 0.149,
+          "b": 0.102,
+          "a": 0.05
+        },
+        "Atlas Dark": {
+          "r": 0.9294,
+          "g": 0.9569,
+          "b": 0.9137,
+          "a": 0.06
+        },
+        "Brand OS Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.05
+        },
+        "Brand OS Dark": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.06
+        }
+      }
+    },
+    {
+      "name": "color/overlay/pressed",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-overlay-pressed)"
+      },
+      "description": "",
+      "values": {
+        "Atmo Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.1
+        },
+        "Atmo Dark": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.1
+        },
+        "Atlas Light": {
+          "r": 0.1216,
+          "g": 0.149,
+          "b": 0.102,
+          "a": 0.1
+        },
+        "Atlas Dark": {
+          "r": 0.9294,
+          "g": 0.9569,
+          "b": 0.9137,
+          "a": 0.1
+        },
+        "Brand OS Light": {
+          "r": 0.1451,
+          "g": 0.1294,
+          "b": 0.1176,
+          "a": 0.1
+        },
+        "Brand OS Dark": {
+          "r": 0.9804,
+          "g": 0.9647,
+          "b": 0.949,
+          "a": 0.1
         }
       }
     },

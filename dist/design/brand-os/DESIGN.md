@@ -38,8 +38,8 @@ colors:
   positive-mark: "#728a62" # decided 2026-10-02: state disc at the 500 step on light grounds, every state
   on-positive-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
   positive-surface: "#e2ecdc" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
-  negative: "#8c5c55" # decided 2026-10-02: negative title on light grounds: red-600, the lightest step that clears 4.5:1 on canvas, card and raised
-  negative-mark: "#8c5c55" # decided 2026-10-02: negative disc at 600, one step past the other states, inside "600 or lighter"
+  negative: "#c31b1f" # decided 2026-10-03: negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface
+  negative-mark: "#a3010f" # decided 2026-10-03: negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan /...
   on-negative-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
   negative-surface: "#fce2de" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
   caution: "#6c5427" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.cau-text

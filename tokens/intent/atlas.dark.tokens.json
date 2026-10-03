@@ -155,6 +155,20 @@
               }
             }
           }
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{core.color.neutral.300}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Closed and other set-aside text: neutral, lighter than text.secondary, 4.5:1 on canvas, card and raised; neutral.400 measured 4.43:1 on Atlas Dark's card, so one step lighter",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
+              }
+            }
+          }
         }
       },
       "border": {
@@ -399,6 +413,22 @@
               }
             }
           }
+        },
+        "pin": {
+          "icon": {
+            "$type": "color",
+            "$value": "{core.color.green.50}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "pin icon in the inverse colour, 3:1 on every pin",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          }
         }
       },
       "skeleton": {
@@ -456,6 +486,20 @@
               }
             }
           }
+        },
+        "closed": {
+          "$type": "color",
+          "$value": "{core.color.neutral.400}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Closed's hollow ring: neutral, ΔE 9 or more from dot.open under deutan and protan",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
+              }
+            }
+          }
         }
       },
       "status": {
@@ -496,6 +540,72 @@
               "note": "green.950 at 0.8; chrome only. Atlas Dark snaps the specimen's rgb 30 38 27 to green-950 (31 38 26)"
             },
             "composite_of": "{core.color.green.950}"
+          }
+        }
+      },
+      "score": {
+        "text": {
+          "$type": "color",
+          "$value": "{core.color.green.950}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "label on the score chip, 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): keep the coloured score chip as a subtle branding moment"
+              }
+            }
+          }
+        }
+      },
+      "overlay": {
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.015,
+              134
+            ],
+            "alpha": 0.06,
+            "hex": "#edf4e9"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "hover on rows, menu items and icon-only buttons: green.50 at 0.06 over the element's own ground; text on the composite 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.green.50}"
+            }
+          }
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.958,
+              0.015,
+              134
+            ],
+            "alpha": 0.1,
+            "hex": "#edf4e9"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "pressed on rows, menu items and icon-only buttons: green.50 at 0.10",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.green.50}"
+            }
           }
         }
       }

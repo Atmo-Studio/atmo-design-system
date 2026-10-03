@@ -363,6 +363,268 @@
       "fg": "intent.color.map.marker-ring",
       "bg": "intent.color.map.marker",
       "floor": 3
+    },
+    {
+      "fg": "intent.color.text.tertiary",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.dot.closed",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.filled",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.empty",
+      "bg": "intent.color.surface.canvas",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.tertiary",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.dot.closed",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.filled",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.empty",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.tertiary",
+      "bg": "intent.color.surface.raised",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.dot.closed",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.filled",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.data.empty",
+      "bg": "intent.color.surface.raised",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.action.destructive.text",
+      "bg": "intent.color.surface.canvas",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.action.destructive.text",
+      "bg": "intent.color.surface.card",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.action.destructive.border",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.action.destructive.bg-hover",
+      "bg": "intent.color.surface.card",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.action.destructive.text-hover",
+      "bg": "intent.color.action.destructive.bg-hover",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.score.text",
+      "bg": "intent.color.score.bg",
+      "floor": 4.5
+    },
+    {
+      "fg": "intent.color.map.pin.cafe",
+      "bg": "intent.color.map.ground",
+      "floor": 3,
+      "modes": [
+        "atmo-light",
+        "atlas-light",
+        "brand-os-light"
+      ],
+      "note": "the map renders in its light theme in both themes until a dark basemap exists"
+    },
+    {
+      "fg": "intent.color.map.pin.icon",
+      "bg": "intent.color.map.pin.cafe",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.map.pin.library",
+      "bg": "intent.color.map.ground",
+      "floor": 3,
+      "modes": [
+        "atmo-light",
+        "atlas-light",
+        "brand-os-light"
+      ],
+      "note": "the map renders in its light theme in both themes until a dark basemap exists"
+    },
+    {
+      "fg": "intent.color.map.pin.icon",
+      "bg": "intent.color.map.pin.library",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.map.pin.coworking",
+      "bg": "intent.color.map.ground",
+      "floor": 3,
+      "modes": [
+        "atmo-light",
+        "atlas-light",
+        "brand-os-light"
+      ],
+      "note": "the map renders in its light theme in both themes until a dark basemap exists"
+    },
+    {
+      "fg": "intent.color.map.pin.icon",
+      "bg": "intent.color.map.pin.coworking",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.map.pin.park",
+      "bg": "intent.color.map.ground",
+      "floor": 3,
+      "modes": [
+        "atmo-light",
+        "atlas-light",
+        "brand-os-light"
+      ],
+      "note": "the map renders in its light theme in both themes until a dark basemap exists"
+    },
+    {
+      "fg": "intent.color.map.pin.icon",
+      "bg": "intent.color.map.pin.park",
+      "floor": 3
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.hover",
+      "floor": 3,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 3,
+      "over": "intent.color.surface.canvas"
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.hover",
+      "floor": 3,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 3,
+      "over": "intent.color.surface.card"
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.text.primary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.hover",
+      "floor": 4.5,
+      "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.text.secondary",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 4.5,
+      "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.hover",
+      "floor": 3,
+      "over": "intent.color.surface.raised"
+    },
+    {
+      "fg": "intent.color.border.strong",
+      "bg": "intent.color.overlay.pressed",
+      "floor": 3,
+      "over": "intent.color.surface.raised"
     }
   ],
   "distinct": [
@@ -533,6 +795,74 @@
       "b": "intent.color.map.ground",
       "min": 6,
       "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
+    },
+    {
+      "a": "intent.color.dot.open",
+      "b": "intent.color.dot.closed",
+      "min": 9,
+      "rule": "ratio-2-or-dE-9",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.dot.closed",
+      "b": "intent.color.dot.attribute",
+      "min": 6,
+      "carrier": "ring vs filled, and the word"
+    },
+    {
+      "a": "intent.color.data.filled",
+      "b": "intent.color.data.empty",
+      "min": 9,
+      "carrier": "filled vs ring"
+    },
+    {
+      "a": "intent.color.action.destructive.bg-hover",
+      "b": "intent.color.action.primary.bg",
+      "min": 9,
+      "carrier": "outline at rest, and the label",
+      "axis": "green/brown"
+    },
+    {
+      "a": "intent.color.score.bg",
+      "b": "intent.color.data.filled",
+      "min": 6,
+      "carrier": "chip shape"
+    },
+    {
+      "a": "intent.color.map.pin.cafe",
+      "b": "intent.color.map.pin.library",
+      "min": 9,
+      "carrier": "icon"
+    },
+    {
+      "a": "intent.color.map.pin.cafe",
+      "b": "intent.color.map.pin.coworking",
+      "min": 9,
+      "carrier": "icon"
+    },
+    {
+      "a": "intent.color.map.pin.cafe",
+      "b": "intent.color.map.pin.park",
+      "min": 9,
+      "carrier": "icon"
+    },
+    {
+      "a": "intent.color.map.pin.library",
+      "b": "intent.color.map.pin.coworking",
+      "min": 9,
+      "carrier": "icon"
+    },
+    {
+      "a": "intent.color.map.pin.library",
+      "b": "intent.color.map.pin.park",
+      "min": 9,
+      "carrier": "icon"
+    },
+    {
+      "a": "intent.color.map.pin.coworking",
+      "b": "intent.color.map.pin.park",
+      "min": 9,
+      "carrier": "icon"
     }
   ]
 }

@@ -69,6 +69,10 @@
   --color-signal-green-300: #8ed28f;
   --color-signal-green-550: #448648;
   --color-shadow-deep-ink: #070504;
+  --color-signal-red-300: #ff9b90;
+  --color-signal-red-350: #ff7c70;
+  --color-signal-red-600: #c31b1f;
+  --color-signal-red-700: #a3010f;
   --font-sans: Satoshi, "Satoshi Variable", system-ui, sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -237,6 +241,10 @@
     --color-signal-green-300: oklch(80% 0.115 145);
     --color-signal-green-550: oklch(56% 0.115 145);
     --color-shadow-deep-ink: oklch(12% 0.008 67.7);
+    --color-signal-red-300: oklch(79% 0.121 27);
+    --color-signal-red-350: oklch(73.5% 0.162 27);
+    --color-signal-red-600: oklch(52.5% 0.2 27);
+    --color-signal-red-700: oklch(45% 0.183 27);
   }
 }
 :root {
@@ -251,6 +259,7 @@
   --color-text-on-inverse: var(--color-neutral-950);
   --color-text-disabled: var(--color-neutral-600);
   --color-text-on-inverse-secondary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-neutral-400);
   --color-border-divider: var(--color-neutral-800);
   --color-border-control: var(--color-neutral-500);
   --color-border-strong: var(--color-neutral-50);
@@ -261,6 +270,11 @@
   --color-action-primary-bg-pressed: var(--color-neutral-50);
   --color-action-primary-bg-disabled: var(--color-neutral-800);
   --color-action-primary-text-disabled: var(--color-neutral-500);
+  --color-action-destructive-text: var(--color-signal-red-350);
+  --color-action-destructive-border: var(--color-signal-red-350);
+  --color-action-destructive-bg-hover: var(--color-signal-red-350);
+  --color-action-destructive-bg-pressed: var(--color-signal-red-300);
+  --color-action-destructive-text-hover: var(--color-neutral-950);
   --color-selected-bg: var(--color-neutral-50);
   --color-selected-text: var(--color-neutral-950);
   --color-mark: var(--color-neutral-50);
@@ -272,15 +286,21 @@
   --color-map-park: var(--color-green-800);
   --color-map-marker: var(--color-neutral-50);
   --color-map-marker-ring: var(--color-neutral-950);
+  --color-map-pin-cafe: var(--color-ochre-500);
+  --color-map-pin-library: var(--color-blue-500);
+  --color-map-pin-coworking: var(--color-neutral-950);
+  --color-map-pin-park: var(--color-green-700);
+  --color-map-pin-icon: var(--color-neutral-50);
   --color-skeleton: var(--color-neutral-800);
   --color-emphasis: var(--color-green-400);
   --color-dot-open: var(--color-green-400);
   --color-dot-attribute: var(--color-neutral-50);
+  --color-dot-closed: var(--color-neutral-500);
   --color-status-positive-text: var(--color-green-300);
   --color-status-positive-mark: var(--color-green-400);
   --color-status-positive-on-mark: var(--color-neutral-950);
   --color-status-positive-surface: var(--color-green-900);
-  --color-status-negative-text: var(--color-red-400);
+  --color-status-negative-text: var(--color-signal-red-350);
   --color-status-negative-mark: var(--color-red-300);
   --color-status-negative-on-mark: var(--color-neutral-950);
   --color-status-negative-surface: var(--color-red-900);
@@ -295,6 +315,12 @@
   --color-shadow-tint: var(--color-shadow-deep-ink);
   --color-glass: oklch(25.11% 0.0083 59.3 / 0.8);
   --color-scrim: oklch(12% 0.008 67.7 / 0.6);
+  --color-score-bg: var(--color-green-300);
+  --color-score-text: var(--color-neutral-950);
+  --color-data-filled: var(--color-neutral-200);
+  --color-data-empty: var(--color-neutral-500);
+  --color-overlay-hover: oklch(97.51% 0.0068 67.7 / 0.06);
+  --color-overlay-pressed: oklch(97.51% 0.0068 67.7 / 0.1);
   --font-family-sans: var(--font-sans);
   --font-feature-settings-text: var(--text-feature-settings-text);
   --font-feature-settings-numeric: var(--text-feature-settings-numeric);
@@ -452,6 +478,8 @@
   :root {
     --color-glass: oklch(25.11% 0.0083 59.3 / 0.8);
     --color-scrim: oklch(12% 0.008 67.7 / 0.6);
+    --color-overlay-hover: oklch(97.51% 0.0068 67.7 / 0.06);
+    --color-overlay-pressed: oklch(97.51% 0.0068 67.7 / 0.1);
   }
 }
 @media (prefers-reduced-motion: reduce) {

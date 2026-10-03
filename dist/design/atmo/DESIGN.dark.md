@@ -38,7 +38,7 @@ colors:
   positive-mark: "#8ba47d" # decided 2026-10-02: dark grounds mirror the light rule: the disc takes 400, the first step lighter than the ground that clears...
   on-positive-mark: "#25211e" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.disc-glyph
   positive-surface: "#2c3625" # derived: the dark mirror of the 100 surface
-  negative: "#c78d84" # decided 2026-10-02: negative title on dark grounds: red-400, the step closest to the ground that clears 4.5:1 on every dark...
+  negative: "#ff7c70" # decided 2026-10-03: negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface
   negative-mark: "#e1aea5" # decided 2026-10-02: negative disc at 300, one step past the other states, inside "600 or lighter"
   on-negative-mark: "#25211e" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.disc-glyph
   negative-surface: "#432b28" # derived: the dark mirror of the 100 surface

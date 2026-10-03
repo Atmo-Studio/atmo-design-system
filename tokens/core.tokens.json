@@ -1833,6 +1833,104 @@
             }
           }
         }
+      },
+      "signal-red": {
+        "300": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.79,
+              0.121,
+              27
+            ],
+            "alpha": 1.0,
+            "hex": "#ff9b90"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "oklch(0.79 0.121 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
+              },
+              "usage": "status and destructive only, never a brand accent: dark: busiest crowd step"
+            }
+          }
+        },
+        "350": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.735,
+              0.162,
+              27
+            ],
+            "alpha": 1.0,
+            "hex": "#ff7c70"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "oklch(0.735 0.162 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
+              },
+              "usage": "status and destructive only, never a brand accent: dark: destructive action, negative status text"
+            }
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.525,
+              0.2,
+              27
+            ],
+            "alpha": 1.0,
+            "hex": "#c31b1f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "oklch(0.525 0.2 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
+              },
+              "usage": "status and destructive only, never a brand accent: light: destructive action, negative status text"
+            }
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.45,
+              0.183,
+              27
+            ],
+            "alpha": 1.0,
+            "hex": "#a3010f"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "oklch(0.45 0.183 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
+              },
+              "usage": "status and destructive only, never a brand accent: light: negative mark, destructive pressed, busiest crowd step"
+            }
+          }
+        }
       }
     },
     "font": {

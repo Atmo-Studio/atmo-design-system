@@ -375,6 +375,22 @@
               }
             }
           }
+        },
+        "pin": {
+          "icon": {
+            "$type": "color",
+            "$value": "{core.color.green.50}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "pin icon in the inverse colour, 3:1 on every pin",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          }
         }
       },
       "skeleton": {
@@ -489,6 +505,72 @@
               ]
             },
             "composite_of": "{core.color.green.950}"
+          }
+        }
+      },
+      "score": {
+        "text": {
+          "$type": "color",
+          "$value": "{core.color.green.50}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "label on the score chip, 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): keep the coloured score chip as a subtle branding moment"
+              }
+            }
+          }
+        }
+      },
+      "overlay": {
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.2579,
+              0.0252,
+              134
+            ],
+            "alpha": 0.05,
+            "hex": "#1f261a"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "hover on rows, menu items and icon-only buttons: green.950 at 0.05 over the element's own ground; text on the composite 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.green.950}"
+            }
+          }
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.2579,
+              0.0252,
+              134
+            ],
+            "alpha": 0.1,
+            "hex": "#1f261a"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "pressed on rows, menu items and icon-only buttons: green.950 at 0.10",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.green.950}"
+            }
           }
         }
       }

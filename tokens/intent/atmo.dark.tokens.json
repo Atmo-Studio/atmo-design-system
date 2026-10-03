@@ -154,6 +154,20 @@
               }
             }
           }
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{core.color.neutral.400}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Closed and other set-aside text: neutral, lighter than text.secondary, 4.5:1 on canvas, card and raised",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
+              }
+            }
+          }
         }
       },
       "border": {
@@ -281,6 +295,78 @@
                 "provenance": {
                   "kind": "derived",
                   "rule": "the control-border step on the disabled fill; legible, visibly inactive. Exempt (inactive component). Needs eyes"
+                }
+              }
+            }
+          }
+        },
+        "destructive": {
+          "text": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.350}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "destructive label and outline at rest, 4.5:1 on card and canvas",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                }
+              }
+            }
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.350}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "destructive outline at rest, same as its label",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                }
+              }
+            }
+          },
+          "bg-hover": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.350}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "destructive hover fills solid; unmistakable against rest in both themes",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                }
+              }
+            }
+          },
+          "bg-pressed": {
+            "$type": "color",
+            "$value": "{core.color.signal-red.300}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "destructive pressed",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                }
+              }
+            }
+          },
+          "text-hover": {
+            "$type": "color",
+            "$value": "{core.color.neutral.950}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "label on the solid destructive fill, 4.5:1",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
                 }
               }
             }
@@ -427,6 +513,78 @@
               }
             }
           }
+        },
+        "pin": {
+          "cafe": {
+            "$type": "color",
+            "$value": "{core.color.ochre.500}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "cafe pin; one ramp per category, ΔE 9 or more apart under deutan and protan, icon carries category; the map stays light in both themes",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          },
+          "library": {
+            "$type": "color",
+            "$value": "{core.color.blue.500}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "library pin; one ramp per category, ΔE 9 or more apart under deutan and protan, icon carries category; the map stays light in both themes",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          },
+          "coworking": {
+            "$type": "color",
+            "$value": "{core.color.neutral.950}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "coworking pin; one ramp per category, ΔE 9 or more apart under deutan and protan, icon carries category; the map stays light in both themes",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          },
+          "park": {
+            "$type": "color",
+            "$value": "{core.color.green.700}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "park pin; one ramp per category, ΔE 9 or more apart under deutan and protan, icon carries category; the map stays light in both themes",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          },
+          "icon": {
+            "$type": "color",
+            "$value": "{core.color.neutral.50}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-03",
+                  "rule": "pin icon in the inverse colour, 3:1 on every pin",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): pins vary across the full palette per category, with Phosphor icons in the inverse colour"
+                }
+              }
+            }
+          }
         }
       },
       "skeleton": {
@@ -482,6 +640,20 @@
                 "date": "2026-10-02",
                 "rule": "informational attribute dots (\"Quiet before 10\") are neutral and match the label text",
                 "confirmed": "Confirmed round 4: Atlas dots, \"Open\" uses the bright green dot; informational attributes use a neutral dot that matches the text; the bright-green emphasis dot is withdrawn"
+              }
+            }
+          }
+        },
+        "closed": {
+          "$type": "color",
+          "$value": "{core.color.neutral.500}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "Closed's hollow ring: neutral, ΔE 9 or more from dot.open under deutan and protan",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Closed keeps a hollow ring; its ring and word are neutral grey, lighter than body text, never red or brown"
               }
             }
           }
@@ -548,14 +720,14 @@
         "negative": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.red.400}",
+            "$value": "{core.color.signal-red.350}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-02",
-                  "rule": "negative title on dark grounds: red-400, the step closest to the ground that clears 4.5:1 on every dark canvas, card and raised surface. It mirrors light's red-600 (one step nearer the ground than the other states' titles), and the lightness gap it opens against positive's green-300 is what separates the two titles under deutan and protan",
-                  "confirmed": "Confirmed round 4: error is redder, not browner; negative takes clay's redder step (600 or lighter, per surface); its hue may lean redder than clay if the optical check needs it"
+                  "date": "2026-10-03",
+                  "rule": "negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red"
                 }
               }
             }
@@ -779,6 +951,116 @@
               ]
             },
             "composite_of": "{core.color.shadow.deep-ink}"
+          }
+        }
+      },
+      "score": {
+        "bg": {
+          "$type": "color",
+          "$value": "{core.color.green.300}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "score chip: the action green, kept as a branding moment",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): keep the coloured score chip as a subtle branding moment"
+              }
+            }
+          }
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{core.color.neutral.950}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "label on the score chip, 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): keep the coloured score chip as a subtle branding moment"
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "filled": {
+          "$type": "color",
+          "$value": "{core.color.neutral.200}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "filled rating dot, neutral, 3:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): per-category rating dots are neutral, to contrast with the coloured score chip"
+              }
+            }
+          }
+        },
+        "empty": {
+          "$type": "color",
+          "$value": "{core.color.neutral.500}",
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "empty rating dot, drawn as a ring, 3:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): per-category rating dots are neutral, to contrast with the coloured score chip"
+              }
+            }
+          }
+        }
+      },
+      "overlay": {
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9751,
+              0.0068,
+              67.7
+            ],
+            "alpha": 0.06,
+            "hex": "#faf6f2"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "hover on rows, menu items and icon-only buttons: neutral.50 at 0.06 over the element's own ground; text on the composite 4.5:1",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.neutral.50}"
+            }
+          }
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "oklch",
+            "components": [
+              0.9751,
+              0.0068,
+              67.7
+            ],
+            "alpha": 0.1,
+            "hex": "#faf6f2"
+          },
+          "$extensions": {
+            "studio.atmo": {
+              "provenance": {
+                "kind": "decided",
+                "date": "2026-10-03",
+                "rule": "pressed on rows, menu items and icon-only buttons: neutral.50 at 0.10",
+                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
+              },
+              "composite_of": "{core.color.neutral.50}"
+            }
           }
         }
       }
