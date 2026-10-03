@@ -33,7 +33,8 @@ for (const [mode, { tree, origin }] of Object.entries(modes)) {
   roleSets[mode] = rows.filter((r) => origin[r.path]?.startsWith('intent/')).map((r) => r.path).sort();
   const seen = new Map();
   for (const r of rows) {
-    const pub = publicPath(r.path);
+    // Compared as CSS names: font.weight and font-weight both become --font-weight-*.
+    const pub = publicPath(r.path).replaceAll('.', '-');
     if (seen.has(pub)) fail(`[${mode}] ${r.path} and ${seen.get(pub)} both publish as ${pub}`);
     seen.set(pub, r.path);
     const file = origin[r.path] ?? '';

@@ -1171,32 +1171,6 @@
             }
           }
         }
-      },
-      "weight": {
-        "regular": {
-          "$type": "fontWeight",
-          "$value": "{core.font-weight.regular}",
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): --w-regular (body)"
-              }
-            }
-          }
-        },
-        "medium": {
-          "$type": "fontWeight",
-          "$value": "{core.font-weight.medium}",
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "extracted",
-                "source": "Atmo token architecture, decision record: §1: large type in Medium)"
-              }
-            }
-          }
-        }
       }
     },
     "type": {
@@ -1205,7 +1179,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.11xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-36}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1228,7 +1202,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.10xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-30}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1251,7 +1225,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.9xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-25}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1274,7 +1248,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.8xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-21}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1297,7 +1271,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.7xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-19}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1320,7 +1294,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.6xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-16}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1343,7 +1317,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.5xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-14}",
           "letterSpacing": "{core.text.tracking.minus-2}"
         },
@@ -1366,7 +1340,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.4xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-12}",
           "letterSpacing": "{core.text.tracking.minus-1}"
         },
@@ -1389,7 +1363,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.3xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-10}",
           "letterSpacing": "{core.text.tracking.minus-1}"
         },
@@ -1412,7 +1386,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.2xl}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-9}",
           "letterSpacing": "{core.text.tracking.minus-1}"
         },
@@ -1435,7 +1409,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.xl}",
-          "fontWeight": "{intent.font.weight.regular}",
+          "fontWeight": "{core.font-weight.regular}",
           "lineHeight": "{core.text.line-height.leading-9}",
           "letterSpacing": "{core.text.tracking.minus-1}"
         },
@@ -1458,7 +1432,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.lg}",
-          "fontWeight": "{intent.font.weight.regular}",
+          "fontWeight": "{core.font-weight.regular}",
           "lineHeight": "{core.text.line-height.leading-7}",
           "letterSpacing": "{core.text.tracking.0}"
         },
@@ -1481,7 +1455,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.base}",
-          "fontWeight": "{intent.font.weight.regular}",
+          "fontWeight": "{core.font-weight.regular}",
           "lineHeight": "{core.text.line-height.leading-6}",
           "letterSpacing": "{core.text.tracking.0}"
         },
@@ -1504,7 +1478,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.sm}",
-          "fontWeight": "{intent.font.weight.regular}",
+          "fontWeight": "{core.font-weight.regular}",
           "lineHeight": "{core.text.line-height.leading-5}",
           "letterSpacing": "{core.text.tracking.0}"
         },
@@ -1527,7 +1501,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.xs}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-4}",
           "letterSpacing": "{core.text.tracking.plus-2}"
         },
@@ -1551,7 +1525,7 @@
         "$value": {
           "fontFamily": "{intent.font.family.sans}",
           "fontSize": "{core.text.font-size.xs}",
-          "fontWeight": "{intent.font.weight.medium}",
+          "fontWeight": "{core.font-weight.medium}",
           "lineHeight": "{core.text.line-height.leading-4}",
           "letterSpacing": "{core.text.tracking.plus-6}"
         },

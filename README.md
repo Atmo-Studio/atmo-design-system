@@ -58,6 +58,9 @@ the derivation. DESIGN.md repeats it as a comment on each token line.
 points at a px leading token on the 4px baseline grid, and the unitless ratio sits in
 `$extensions`. Font feature settings are a `string`.
 
+**Type sizes and leading ship in rem.** The source keeps px, which Figma reads, and the CSS build
+divides by 16, so text and its leading follow the visitor's browser text size.
+
 ## Build and check
 
 ```bash

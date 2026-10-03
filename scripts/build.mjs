@@ -18,6 +18,12 @@ export const cssName = (path) => `--${publicPath(path).replaceAll('.', '-')}`;
 
 const dim = (v) => (typeof v === 'object' && 'unit' in v ? `${v.value}${v.unit}` : `${v}`);
 
+// Type sizes and leading ship in rem, so text follows the visitor's browser setting and its leading
+// grows with it. The source keeps px, which Figma reads; 16px is 1rem.
+const REM_PATHS = /^core\.text\.(font-size|line-height)\./;
+const rem = (v) =>
+  typeof v === 'object' && v.unit === 'px' ? `${+(v.value / 16).toFixed(4)}rem` : dim(v);
+
 // One CSS value per token type. Aliases become var() so the chain stays visible in the browser.
 function cssValue(token, type, tree) {
   const a = aliasOf(token);
@@ -67,9 +73,9 @@ function typographyLines(path, token, tree) {
   const n = cssName(path);
   const lines = [
     [`${n}-font-family`, ref('fontFamily') ?? cssValue({ $value: r.fontFamily }, 'fontFamily').value],
-    [`${n}-font-size`, ref('fontSize') ?? dim(r.fontSize)],
+    [`${n}-font-size`, ref('fontSize') ?? rem(r.fontSize)],
     [`${n}-font-weight`, ref('fontWeight') ?? `${r.fontWeight}`],
-    [`${n}-line-height`, ref('lineHeight') ?? dim(r.lineHeight)],
+    [`${n}-line-height`, ref('lineHeight') ?? rem(r.lineHeight)],
     [`${n}-letter-spacing`, ref('letterSpacing') ?? dim(r.letterSpacing)],
   ];
   const ext = token.$extensions?.['studio.atmo'] ?? {};
@@ -94,7 +100,7 @@ function declarations(tree, filter) {
       for (const [k, v] of typographyLines(path, token, tree)) base.push(`  ${k}: ${v};`);
       continue;
     }
-    const c = cssValue(token, type, tree);
+    const c = REM_PATHS.test(path) && !aliasOf(token) ? { value: rem(token.$value) } : cssValue(token, type, tree);
     base.push(`  ${cssName(path)}: ${c.value};`);
     if (c.modern) modern.push(`    ${cssName(path)}: ${c.modern};`);
   }
