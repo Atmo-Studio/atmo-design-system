@@ -8,7 +8,7 @@ colors:
   tertiary: "#48536f" # decided 2026-10-02: pinned anchor: Storm Blue #48536f
   neutral: "#faf6f2" # decided 2026-10-02: pinned anchor: neutral-50 is the brand white
   ink: "#25211e" # decided 2026-10-02: pinned anchor: neutral-950 is the brand black
-  surface: "#edf4e9" # decided 2026-10-03: Atlas Light's ground is mint, so the theme reads monochromatic green rather than white with green accents
+  surface: "#faf6f2" # decided 2026-10-03: Atlas Light's ground is the brand white, with green kept as the accent: raised, inset and dividers stay...
   surface-raised: "#e2ecdc" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-raised
   surface-inset: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-inset
   surface-card: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-card

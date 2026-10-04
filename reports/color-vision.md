@@ -128,16 +128,16 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | status.negative.text vs status.info.text | signal-red.600 / blue.700 | 24.1 | 18.4 | 11.9 | 28.1 | 9 (blue/purple) | clears |
 | status.caution.mark vs status.info.mark | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 6 | clears |
 | status.caution.text vs status.info.text | ochre.700 / blue.700 | 11.9 | 12.2 | 11.6 | 9.1 | 6 | clears |
-| status.positive.mark vs surface.canvas | green.500 / green.50 | 35.8 | 35.6 | 35.1 | 35.5 | 6 | clears |
+| status.positive.mark vs surface.canvas | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
 | status.positive.mark vs surface.raised | green.500 / green.100 | 33.0 | 32.9 | 32.4 | 32.6 | 6 | clears |
 | status.positive.mark vs surface.card | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
-| status.negative.mark vs surface.canvas | signal-red.700 / green.50 | 54.2 | 50.2 | 61.6 | 51.7 | 6 | clears |
+| status.negative.mark vs surface.canvas | signal-red.700 / neutral.50 | 55.4 | 51.8 | 62.8 | 52.7 | 6 | clears |
 | status.negative.mark vs surface.raised | signal-red.700 / green.100 | 51.7 | 47.5 | 58.9 | 49.1 | 6 | clears |
 | status.negative.mark vs surface.card | signal-red.700 / neutral.50 | 55.4 | 51.8 | 62.8 | 52.7 | 6 | clears |
-| status.caution.mark vs surface.canvas | ochre.500 / green.50 | 35.9 | 35.2 | 38.1 | 35.1 | 6 | clears |
+| status.caution.mark vs surface.canvas | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
 | status.caution.mark vs surface.raised | ochre.500 / green.100 | 33.1 | 32.5 | 35.4 | 32.3 | 6 | clears |
 | status.caution.mark vs surface.card | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
-| status.info.mark vs surface.canvas | blue.500 / green.50 | 36.7 | 37.4 | 35.9 | 36.6 | 6 | clears |
+| status.info.mark vs surface.canvas | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
 | status.info.mark vs surface.raised | blue.500 / green.100 | 34.1 | 34.8 | 33.4 | 33.7 | 6 | clears |
 | status.info.mark vs surface.card | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
 | dot.open vs dot.attribute | signal-green.550 / green.900 | 25.6 | 24.6 | 26.5 | 24.9 | 9 | clears |

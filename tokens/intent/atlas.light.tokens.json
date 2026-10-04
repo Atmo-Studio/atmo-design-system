@@ -54,14 +54,14 @@
         },
         "canvas": {
           "$type": "color",
-          "$value": "{core.color.green.50}",
+          "$value": "{core.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
                 "date": "2026-10-03",
-                "rule": "Atlas Light's ground is mint, so the theme reads monochromatic green rather than white with green accents",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the light theme's background uses green.50; cards stay warm white (variant B)"
+                "rule": "Atlas Light's ground is the brand white, with green kept as the accent: raised, inset and dividers stay green, so selection and fields read as green on white",
+                "confirmed": "Confirmed 2026-10-03 (Atlas G2, after seeing the chat card on brand white beside the mint list card): the light theme's background is neutral.50, replacing the green.50 ground confirmed earlier the same day"
               }
             }
           }

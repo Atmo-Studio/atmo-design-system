@@ -259,7 +259,7 @@
 }
 :root,
 [data-theme="light"] {
-  --color-surface-canvas: var(--color-green-50);
+  --color-surface-canvas: var(--color-neutral-50);
   --color-surface-raised: var(--color-green-100);
   --color-surface-inset: var(--color-green-200);
   --color-surface-card: var(--color-neutral-50);
