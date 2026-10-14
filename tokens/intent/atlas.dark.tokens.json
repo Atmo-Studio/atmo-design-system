@@ -10,7 +10,8 @@
         "body-xl",
         "subheading-s"
       ],
-      "typeRolesRule": "Atlas crops the type range to six roles and never rescales them (decided 2026-09-28)"
+      "typeRolesRule": "Atlas crops the type range to six roles and never rescales them (decided 2026-09-28)",
+      "labelWeightRule": "Label sets 11px metadata (tags, counts, hours, timestamps) at Regular, core.font-weight.regular. The role's Medium is for emphasis only, such as status words like Open (D4, decided 2026-10-03)"
     }
   },
   "intent": {
