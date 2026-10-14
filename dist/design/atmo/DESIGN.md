@@ -282,14 +282,14 @@ The brand narrative this section is meant to carry is not written yet. Its sourc
 
 ## Colors
 
-Every color sits on one of six 11-step ramps (neutral, green, clay, blue, ochre and red), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
+Every color sits on one of five 11-step ramps (neutral, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
 
 - **Primary (`#4c5c42`):** forest green, hue 134. The lead accent.
-- **Secondary (`#84402f`):** fired clay, the warm supporting accent.
+- **Secondary (`#84402f`):** fired clay, the warm supporting accent and the one brand red, which carries errors too.
 - **Tertiary (`#48536f`):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
 - **Neutral (`#faf6f2`) and ink (`#25211e`):** the brand white and the warm black. Never pure white or pure black.
 - **Action (`#25211e`):** ink is the primary action.
-- **Status:** positive is green, negative is red, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On light grounds the discs sit at 500, negative at 600, so positive and negative differ in lightness as well as hue. Ochre is for caution only, and may run past the palette's chroma as a status-only exception.
+- **Status:** positive is green, negative is clay, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On light grounds the discs sit at 500, negative at 700, so positive and negative differ in lightness as well as hue. Ochre is for caution only, and may run past the palette's chroma as a status-only exception.
 - **Dots:** "Open" takes `#728a62`. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
 
 Every text pair clears 4.5:1 and every mark 3:1, disabled controls excepted as WCAG allows. The build measures each pair and simulates the system under deuteranopia, protanopia and tritanopia. The full tables are in [reports/](reports/).
