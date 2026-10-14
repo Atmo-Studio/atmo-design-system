@@ -125,15 +125,15 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.1 | surface.canvas | neutral.500 on neutral.50 | 3.69 | 3 | passes |
 | data.sequential.1 | surface.card | neutral.500 on neutral.50 | 3.69 | 3 | passes |
 | data.sequential.1 | surface.raised | neutral.500 on neutral.100 | 3.25 | 3 | passes |
-| data.sequential.2 | surface.canvas | ember.550 on neutral.50 | 4.37 | 3 | passes |
-| data.sequential.2 | surface.card | ember.550 on neutral.50 | 4.37 | 3 | passes |
-| data.sequential.2 | surface.raised | ember.550 on neutral.100 | 3.85 | 3 | passes |
-| data.sequential.3 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
-| data.sequential.3 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
-| data.sequential.3 | surface.raised | clay.500 on neutral.100 | 3.31 | 3 | passes |
-| data.sequential.4 | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
-| data.sequential.4 | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
-| data.sequential.4 | surface.raised | clay.700 on neutral.100 | 6.25 | 3 | passes |
+| data.sequential.2 | surface.canvas | clay.800 on neutral.50 | 9.51 | 3 | passes |
+| data.sequential.2 | surface.card | clay.800 on neutral.50 | 9.51 | 3 | passes |
+| data.sequential.2 | surface.raised | clay.800 on neutral.100 | 8.39 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| data.sequential.3 | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.600 on neutral.100 | 4.57 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.4 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.500 on neutral.100 | 3.31 | 3 | passes |
 
 ## atmo-dark
 
@@ -252,15 +252,15 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.1 | surface.canvas | neutral.500 on neutral.950 | 4.03 | 3 | passes |
 | data.sequential.1 | surface.card | neutral.500 on neutral.900 | 3.35 | 3 | passes |
 | data.sequential.1 | surface.raised | neutral.500 on neutral.900 | 3.35 | 3 | passes |
-| data.sequential.2 | surface.canvas | ember.420 on neutral.950 | 5.23 | 3 | passes |
-| data.sequential.2 | surface.card | ember.420 on neutral.900 | 4.34 | 3 | passes |
-| data.sequential.2 | surface.raised | ember.420 on neutral.900 | 4.34 | 3 | passes |
+| data.sequential.2 | surface.canvas | clay.300 on neutral.950 | 8.07 | 3 | passes |
+| data.sequential.2 | surface.card | clay.300 on neutral.900 | 6.70 | 3 | passes |
+| data.sequential.2 | surface.raised | clay.300 on neutral.900 | 6.70 | 3 | passes |
 | data.sequential.3 | surface.canvas | clay.400 on neutral.950 | 5.80 | 3 | passes |
 | data.sequential.3 | surface.card | clay.400 on neutral.900 | 4.82 | 3 | passes |
 | data.sequential.3 | surface.raised | clay.400 on neutral.900 | 4.82 | 3 | passes |
-| data.sequential.4 | surface.canvas | clay.300 on neutral.950 | 8.07 | 3 | passes |
-| data.sequential.4 | surface.card | clay.300 on neutral.900 | 6.70 | 3 | passes |
-| data.sequential.4 | surface.raised | clay.300 on neutral.900 | 6.70 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.500 on neutral.950 | 3.96 | 3 | passes |
+| data.sequential.4 | surface.card | clay.500 on neutral.900 | 3.29 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.500 on neutral.900 | 3.29 | 3 | passes |
 
 ## atlas-light
 
@@ -382,15 +382,15 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.1 | surface.canvas | neutral.500 on neutral.50 | 3.69 | 3 | passes |
 | data.sequential.1 | surface.card | neutral.500 on neutral.50 | 3.69 | 3 | passes |
 | data.sequential.1 | surface.raised | neutral.500 on green.100 | 3.26 | 3 | passes |
-| data.sequential.2 | surface.canvas | ember.550 on neutral.50 | 4.37 | 3 | passes |
-| data.sequential.2 | surface.card | ember.550 on neutral.50 | 4.37 | 3 | passes |
-| data.sequential.2 | surface.raised | ember.550 on green.100 | 3.86 | 3 | passes |
-| data.sequential.3 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
-| data.sequential.3 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
-| data.sequential.3 | surface.raised | clay.500 on green.100 | 3.32 | 3 | passes |
-| data.sequential.4 | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
-| data.sequential.4 | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
-| data.sequential.4 | surface.raised | clay.700 on green.100 | 6.27 | 3 | passes |
+| data.sequential.2 | surface.canvas | clay.800 on neutral.50 | 9.51 | 3 | passes |
+| data.sequential.2 | surface.card | clay.800 on neutral.50 | 9.51 | 3 | passes |
+| data.sequential.2 | surface.raised | clay.800 on green.100 | 8.41 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| data.sequential.3 | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.600 on green.100 | 4.58 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.4 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.500 on green.100 | 3.32 | 3 | passes |
 
 ## atlas-dark
 
@@ -509,15 +509,15 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.1 | surface.canvas | neutral.500 on green.950 | 3.92 | 3 | passes |
 | data.sequential.1 | surface.card | neutral.500 on green.900 | 3.19 | 3 | passes |
 | data.sequential.1 | surface.raised | neutral.500 on green.900 | 3.19 | 3 | passes |
-| data.sequential.2 | surface.canvas | ember.420 on green.950 | 5.09 | 3 | passes |
-| data.sequential.2 | surface.card | ember.420 on green.900 | 4.14 | 3 | passes |
-| data.sequential.2 | surface.raised | ember.420 on green.900 | 4.14 | 3 | passes |
+| data.sequential.2 | surface.canvas | clay.300 on green.950 | 7.85 | 3 | passes |
+| data.sequential.2 | surface.card | clay.300 on green.900 | 6.38 | 3 | passes |
+| data.sequential.2 | surface.raised | clay.300 on green.900 | 6.38 | 3 | passes |
 | data.sequential.3 | surface.canvas | clay.400 on green.950 | 5.65 | 3 | passes |
 | data.sequential.3 | surface.card | clay.400 on green.900 | 4.59 | 3 | passes |
 | data.sequential.3 | surface.raised | clay.400 on green.900 | 4.59 | 3 | passes |
-| data.sequential.4 | surface.canvas | clay.300 on green.950 | 7.85 | 3 | passes |
-| data.sequential.4 | surface.card | clay.300 on green.900 | 6.38 | 3 | passes |
-| data.sequential.4 | surface.raised | clay.300 on green.900 | 6.38 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.500 on green.950 | 3.85 | 3 | passes |
+| data.sequential.4 | surface.card | clay.500 on green.900 | 3.13 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.500 on green.900 | 3.13 | 3 | passes |
 
 ## brand-os-light
 

@@ -1512,56 +1512,6 @@
             }
           }
         }
-      },
-      "ember": {
-        "420": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.67,
-              0.055,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#b58983"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.67 0.055 27): crowd step 2 on dark",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the crowd scale runs smooth from neutral to red, brighter and cleaner in light, more saturated in dark, with a clear value change from step 1"
-              },
-              "usage": "Atlas busyness scale only"
-            }
-          }
-        },
-        "550": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.57,
-              0.105,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#ad5d55"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.57 0.105 27): crowd step 2 on light; graded-chroma red between neutral and signal red; named on the shared lightness curve",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the crowd scale runs smooth from neutral to red, brighter and cleaner in light, more saturated in dark, with a clear value change from step 1"
-              },
-              "usage": "Atlas busyness scale only"
-            }
-          }
-        }
       }
     },
     "font": {

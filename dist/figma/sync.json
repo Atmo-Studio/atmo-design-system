@@ -1067,42 +1067,6 @@
       }
     },
     {
-      "name": "color/ember/420",
-      "collection": "01 Core",
-      "type": "COLOR",
-      "scopes": [],
-      "codeSyntax": {
-        "WEB": "var(--color-ember-420)"
-      },
-      "description": "",
-      "values": {
-        "Value": {
-          "r": 0.7098,
-          "g": 0.5373,
-          "b": 0.5137,
-          "a": 1
-        }
-      }
-    },
-    {
-      "name": "color/ember/550",
-      "collection": "01 Core",
-      "type": "COLOR",
-      "scopes": [],
-      "codeSyntax": {
-        "WEB": "var(--color-ember-550)"
-      },
-      "description": "",
-      "values": {
-        "Value": {
-          "r": 0.6784,
-          "g": 0.3647,
-          "b": 0.3333,
-          "a": 1
-        }
-      }
-    },
-    {
       "name": "font/sans",
       "collection": "01 Core",
       "type": "STRING",
@@ -4895,22 +4859,22 @@
       "description": "",
       "values": {
         "Atmo Light": {
-          "alias": "color/ember/550"
+          "alias": "color/clay/800"
         },
         "Atmo Dark": {
-          "alias": "color/ember/420"
+          "alias": "color/clay/300"
         },
         "Atlas Light": {
-          "alias": "color/ember/550"
+          "alias": "color/clay/800"
         },
         "Atlas Dark": {
-          "alias": "color/ember/420"
+          "alias": "color/clay/300"
         },
         "Brand OS Light": {
-          "alias": "color/ember/550"
+          "alias": "color/clay/800"
         },
         "Brand OS Dark": {
-          "alias": "color/ember/420"
+          "alias": "color/clay/300"
         }
       }
     },
@@ -4928,19 +4892,19 @@
       "description": "",
       "values": {
         "Atmo Light": {
-          "alias": "color/clay/500"
+          "alias": "color/clay/600"
         },
         "Atmo Dark": {
           "alias": "color/clay/400"
         },
         "Atlas Light": {
-          "alias": "color/clay/500"
+          "alias": "color/clay/600"
         },
         "Atlas Dark": {
           "alias": "color/clay/400"
         },
         "Brand OS Light": {
-          "alias": "color/clay/500"
+          "alias": "color/clay/600"
         },
         "Brand OS Dark": {
           "alias": "color/clay/400"
@@ -4961,22 +4925,22 @@
       "description": "",
       "values": {
         "Atmo Light": {
-          "alias": "color/clay/700"
+          "alias": "color/clay/500"
         },
         "Atmo Dark": {
-          "alias": "color/clay/300"
+          "alias": "color/clay/500"
         },
         "Atlas Light": {
-          "alias": "color/clay/700"
+          "alias": "color/clay/500"
         },
         "Atlas Dark": {
-          "alias": "color/clay/300"
+          "alias": "color/clay/500"
         },
         "Brand OS Light": {
-          "alias": "color/clay/700"
+          "alias": "color/clay/500"
         },
         "Brand OS Dark": {
-          "alias": "color/clay/300"
+          "alias": "color/clay/500"
         }
       }
     },

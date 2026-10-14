@@ -1034,19 +1034,33 @@
           },
           "2": {
             "$type": "color",
-            "$value": "{core.color.ember.550}",
+            "$value": "{core.color.clay.800}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "busyness step 2 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                  "date": "2026-10-14",
+                  "rule": "busyness step 2 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. Busyness on clay, 2026-10-14: was ember.550; level 2 takes clay.800",
+                  "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
                 }
               }
             }
           },
           "3": {
+            "$type": "color",
+            "$value": "{core.color.clay.600}",
+            "$extensions": {
+              "studio.atmo": {
+                "provenance": {
+                  "kind": "decided",
+                  "date": "2026-10-14",
+                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.550; clay.500 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.500; level 3 takes clay.600",
+                  "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
+                }
+              }
+            }
+          },
+          "4": {
             "$type": "color",
             "$value": "{core.color.clay.500}",
             "$extensions": {
@@ -1054,22 +1068,8 @@
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.550; clay.500 takes the role now that red and signal red are retired",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
-                }
-              }
-            }
-          },
-          "4": {
-            "$type": "color",
-            "$value": "{core.color.clay.700}",
-            "$extensions": {
-              "studio.atmo": {
-                "provenance": {
-                  "kind": "decided",
-                  "date": "2026-10-14",
-                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.650; clay.700 takes the role now that red and signal red are retired",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
+                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.650; clay.700 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.700; level 4 takes clay.500",
+                  "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
                 }
               }
             }

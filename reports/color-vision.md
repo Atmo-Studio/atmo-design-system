@@ -48,15 +48,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.550 | 10.3 | 5.0 | 7.8 | 13.1 | 6 | below margin (deutan); carried by bar height |
-| data.sequential.2 vs data.sequential.3 | ember.550 / clay.500 | 5.2 | 5.4 | 3.9 | 5.2 | 6 | below margin (normal, deutan, protan, tritan); carried by bar height |
-| data.sequential.3 vs data.sequential.4 | clay.500 / clay.700 | 15.9 | 16.0 | 13.7 | 16.3 | 6 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
+| data.sequential.2 vs data.sequential.3 | clay.800 / clay.600 | 15.2 | 15.2 | 12.8 | 15.7 | 6 | clears |
+| data.sequential.3 vs data.sequential.4 | clay.600 / clay.500 | 8.0 | 8.1 | 7.3 | 8.0 | 6 | clears |
 | text.secondary vs text.tertiary | neutral.700 / neutral.600 | 7.2 | 7.1 | 7.2 | 7.2 | 6 | clears |
 | text.secondary vs text.primary | neutral.700 / neutral.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
 | data.sequential.1 vs dot.open | neutral.500 / green.500 | 6.0 | 3.4 | 4.7 | 3.5 | 9 | below margin (normal, deutan, protan, tritan); carried by bar against dot, and the word |
-| data.sequential.2 vs dot.open | ember.550 / green.500 | 14.3 | 3.0 | 9.1 | 16.5 | 9 | below margin (deutan); carried by bar against dot, and the word |
-| data.sequential.3 vs dot.open | clay.500 / green.500 | 15.8 | 4.7 | 6.6 | 19.6 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.700 / green.500 | 19.4 | 14.5 | 20.1 | 20.8 | 9 | clears |
+| data.sequential.2 vs dot.open | clay.800 / green.500 | 24.7 | 21.6 | 26.5 | 25.3 | 9 | clears |
+| data.sequential.3 vs dot.open | clay.600 / green.500 | 16.3 | 7.4 | 13.8 | 19.2 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | clay.500 / green.500 | 15.8 | 4.7 | 6.6 | 19.6 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 
 ## atmo-dark
 
@@ -102,15 +102,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.420 | 8.6 | 7.8 | 5.1 | 9.7 | 6 | below margin (protan); carried by bar height |
-| data.sequential.2 vs data.sequential.3 | ember.420 / clay.400 | 9.2 | 7.5 | 4.7 | 11.1 | 6 | below margin (protan); carried by bar height |
-| data.sequential.3 vs data.sequential.4 | clay.400 / clay.300 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
+| data.sequential.2 vs data.sequential.3 | clay.300 / clay.400 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
+| data.sequential.3 vs data.sequential.4 | clay.400 / clay.500 | 9.8 | 9.8 | 9.8 | 9.9 | 6 | clears |
 | text.secondary vs text.tertiary | neutral.300 / neutral.400 | 10.5 | 10.6 | 10.6 | 10.5 | 6 | clears |
 | text.secondary vs text.primary | neutral.300 / neutral.50 | 18.7 | 18.7 | 18.7 | 18.7 | 6 | clears |
 | data.sequential.1 vs dot.open | neutral.500 / green.400 | 10.7 | 9.6 | 10.9 | 9.7 | 9 | clears |
-| data.sequential.2 vs dot.open | ember.420 / green.400 | 9.6 | 2.0 | 6.0 | 10.0 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.2 vs dot.open | clay.300 / green.400 | 17.1 | 11.6 | 4.9 | 17.9 | 9 | below margin (protan); carried by bar against dot, and the word |
 | data.sequential.3 vs dot.open | clay.400 / green.400 | 16.1 | 5.6 | 5.5 | 20.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.300 / green.400 | 17.1 | 11.6 | 4.9 | 17.9 | 9 | below margin (protan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | clay.500 / green.400 | 17.7 | 8.5 | 15.2 | 21.1 | 9 | below margin (deutan); carried by bar against dot, and the word |
 
 ## atlas-light
 
@@ -156,15 +156,15 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.550 | 10.3 | 5.0 | 7.8 | 13.1 | 6 | below margin (deutan); carried by bar height |
-| data.sequential.2 vs data.sequential.3 | ember.550 / clay.500 | 5.2 | 5.4 | 3.9 | 5.2 | 6 | below margin (normal, deutan, protan, tritan); carried by bar height |
-| data.sequential.3 vs data.sequential.4 | clay.500 / clay.700 | 15.9 | 16.0 | 13.7 | 16.3 | 6 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
+| data.sequential.2 vs data.sequential.3 | clay.800 / clay.600 | 15.2 | 15.2 | 12.8 | 15.7 | 6 | clears |
+| data.sequential.3 vs data.sequential.4 | clay.600 / clay.500 | 8.0 | 8.1 | 7.3 | 8.0 | 6 | clears |
 | text.secondary vs text.tertiary | green.700 / green.600 | 7.3 | 7.2 | 7.5 | 7.1 | 6 | clears |
 | text.secondary vs text.primary | green.700 / green.900 | 13.6 | 13.6 | 13.5 | 13.5 | 6 | clears |
 | data.sequential.1 vs dot.open | neutral.500 / signal-green.550 | 11.9 | 6.1 | 7.0 | 9.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.2 vs dot.open | ember.550 / signal-green.550 | 19.0 | 1.5 | 7.6 | 21.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.3 vs dot.open | clay.500 / signal-green.550 | 21.1 | 6.3 | 4.0 | 25.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.700 / signal-green.550 | 20.4 | 10.1 | 17.6 | 22.2 | 9 | clears |
+| data.sequential.2 vs dot.open | clay.800 / signal-green.550 | 24.1 | 17.4 | 24.1 | 24.9 | 9 | clears |
+| data.sequential.3 vs dot.open | clay.600 / signal-green.550 | 19.6 | 3.0 | 11.3 | 23.0 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | clay.500 / signal-green.550 | 21.1 | 6.3 | 4.0 | 25.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 
 ## atlas-dark
 
@@ -210,12 +210,12 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
 | map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / ember.420 | 8.6 | 7.8 | 5.1 | 9.7 | 6 | below margin (protan); carried by bar height |
-| data.sequential.2 vs data.sequential.3 | ember.420 / clay.400 | 9.2 | 7.5 | 4.7 | 11.1 | 6 | below margin (protan); carried by bar height |
-| data.sequential.3 vs data.sequential.4 | clay.400 / clay.300 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
+| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
+| data.sequential.2 vs data.sequential.3 | clay.300 / clay.400 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
+| data.sequential.3 vs data.sequential.4 | clay.400 / clay.500 | 9.8 | 9.8 | 9.8 | 9.9 | 6 | clears |
 | text.secondary vs text.tertiary | green.300 / green.400 | 10.1 | 10.1 | 9.9 | 10.1 | 6 | clears |
 | text.secondary vs text.primary | green.300 / green.50 | 17.4 | 17.1 | 16.7 | 16.9 | 6 | clears |
 | data.sequential.1 vs dot.open | neutral.500 / signal-green.300 | 23.2 | 20.9 | 23.9 | 21.7 | 9 | clears |
-| data.sequential.2 vs dot.open | ember.420 / signal-green.300 | 19.8 | 13.1 | 18.8 | 19.4 | 9 | clears |
+| data.sequential.2 vs dot.open | clay.300 / signal-green.300 | 18.5 | 1.1 | 8.3 | 20.1 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 | data.sequential.3 vs dot.open | clay.400 / signal-green.300 | 22.8 | 8.9 | 18.1 | 26.4 | 9 | below margin (deutan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.300 / signal-green.300 | 18.5 | 1.1 | 8.3 | 20.1 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.open | clay.500 / signal-green.300 | 28.1 | 18.4 | 27.9 | 30.8 | 9 | clears |
