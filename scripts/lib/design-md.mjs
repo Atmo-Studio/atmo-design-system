@@ -219,7 +219,7 @@ Every color sits on one of five 11-step ramps (neutral, green, clay, blue and oc
 - **Tertiary (${h('core.color.blue.700')}):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
 - **Neutral (${h('core.color.neutral.50')}) and ink (${h('core.color.neutral.950')}):** the brand white and the warm black. Never pure white or pure black.
 - **Action (${h('intent.color.action.primary.bg')}):** ${action} is the primary action.
-- **Status:** positive is green, negative is clay, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On ${dark ? 'dark grounds the discs sit at 400, negative at 200' : 'light grounds the discs sit at 500, negative at 700'}, so positive and negative differ in lightness as well as hue. Ochre is for caution only, and may run past the palette's chroma as a status-only exception.
+- **Status:** positive is green, negative is clay, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On ${dark ? 'dark grounds the discs sit at 400, negative at 200' : 'light grounds the discs sit at 500, negative at 700'}, so positive and negative differ in lightness as well as hue. Among the status colors, ochre is caution, and its disc may run past the palette's chroma. Map categories each take their own hue from the palette, so a pin can be ochre or blue without meaning a state.
 - **Dots:** "Open" takes ${h('intent.color.dot.open')}. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
 
 Every text pair clears 4.5:1 and every mark 3:1, disabled controls excepted as WCAG allows. The build measures each pair and simulates the system under deuteranopia, protanopia and tritanopia. The full tables are in [reports/](reports/).
@@ -253,7 +253,7 @@ Radius follows one size chart: none 0, xs 2, sm 4, md 6, lg 8, xl 12, 2xl 16, 3x
 
 - Do use ${action} for the primary action.
 - Do give every status a disc and a glyph. Don't show one as a bare dot.
-- Don't use ochre for anything but caution.${atlas ? "\n- Don't use clay or blue for emphasis in Atlas: both belong to system states." : ''}
+- Do give each map category its own palette hue, and keep status colors to the status roles.${atlas ? "\n- Don't use clay or blue for emphasis in Atlas: both belong to system states." : ''}
 - Don't use pure white (#ffffff) or pure black for a surface.
 - Don't give a surface both a shadow and a border.
 - Don't use glass outside chrome.
