@@ -13,8 +13,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.canvas | neutral.950 on neutral.50 | 14.85 | 4.5 | passes |
 | status.positive.text | surface.canvas | green.700 on neutral.50 | 6.70 | 4.5 | passes |
 | status.positive.mark | surface.canvas | green.500 on neutral.50 | 3.53 | 3 | passes |
-| status.negative.text | surface.canvas | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| status.negative.mark | surface.canvas | signal-red.700 on neutral.50 | 7.60 | 3 | passes |
+| status.negative.text | surface.canvas | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| status.negative.mark | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
 | status.caution.text | surface.canvas | ochre.700 on neutral.50 | 6.65 | 4.5 | passes |
 | status.caution.mark | surface.canvas | ochre.500 on neutral.50 | 3.48 | 3 | passes |
 | status.info.text | surface.canvas | blue.700 on neutral.50 | 7.12 | 4.5 | passes |
@@ -30,8 +30,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.raised | neutral.950 on neutral.100 | 13.09 | 4.5 | passes |
 | status.positive.text | surface.raised | green.700 on neutral.100 | 5.90 | 4.5 | passes |
 | status.positive.mark | surface.raised | green.500 on neutral.100 | 3.12 | 3 | passes |
-| status.negative.text | surface.raised | signal-red.600 on neutral.100 | 4.92 | 4.5 | passes |
-| status.negative.mark | surface.raised | signal-red.700 on neutral.100 | 6.70 | 3 | passes |
+| status.negative.text | surface.raised | clay.600 on neutral.100 | 4.57 | 4.5 | passes |
+| status.negative.mark | surface.raised | clay.700 on neutral.100 | 6.25 | 3 | passes |
 | status.caution.text | surface.raised | ochre.700 on neutral.100 | 5.87 | 4.5 | passes |
 | status.caution.mark | surface.raised | ochre.500 on neutral.100 | 3.07 | 3 | passes |
 | status.info.text | surface.raised | blue.700 on neutral.100 | 6.28 | 4.5 | passes |
@@ -47,8 +47,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.card | neutral.950 on neutral.50 | 14.85 | 4.5 | passes |
 | status.positive.text | surface.card | green.700 on neutral.50 | 6.70 | 4.5 | passes |
 | status.positive.mark | surface.card | green.500 on neutral.50 | 3.53 | 3 | passes |
-| status.negative.text | surface.card | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| status.negative.mark | surface.card | signal-red.700 on neutral.50 | 7.60 | 3 | passes |
+| status.negative.text | surface.card | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| status.negative.mark | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
 | status.caution.text | surface.card | ochre.700 on neutral.50 | 6.65 | 4.5 | passes |
 | status.caution.mark | surface.card | ochre.500 on neutral.50 | 3.48 | 3 | passes |
 | status.info.text | surface.card | blue.700 on neutral.50 | 7.12 | 4.5 | passes |
@@ -70,8 +70,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | selected.text | selected.bg | neutral.50 on neutral.950 | 14.85 | 4.5 | passes |
 | status.positive.on-mark | status.positive.mark | neutral.50 on green.500 | 3.53 | 3 | the glyph inside the disc |
 | status.positive.text | status.positive.surface | green.700 on green.100 | 5.92 | 4.5 | passes |
-| status.negative.on-mark | status.negative.mark | neutral.50 on signal-red.700 | 7.60 | 3 | the glyph inside the disc |
-| status.negative.text | status.negative.surface | signal-red.600 on red.100 | 4.88 | 4.5 | passes |
+| status.negative.on-mark | status.negative.mark | neutral.50 on clay.700 | 7.09 | 3 | the glyph inside the disc |
+| status.negative.text | status.negative.surface | clay.600 on clay.100 | 4.53 | 4.5 | passes |
 | status.caution.on-mark | status.caution.mark | neutral.50 on ochre.500 | 3.48 | 3 | the glyph inside the disc |
 | status.caution.text | status.caution.surface | ochre.700 on ochre.100 | 5.85 | 4.5 | passes |
 | status.info.on-mark | status.info.mark | neutral.50 on blue.500 | 3.71 | 3 | the glyph inside the disc |
@@ -90,11 +90,11 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | dot.closed | surface.raised | neutral.700 on neutral.100 | 6.23 | 3 | passes |
 | data.filled | surface.raised | neutral.800 on neutral.100 | 8.39 | 3 | passes |
 | data.empty | surface.raised | neutral.500 on neutral.100 | 3.25 | 3 | passes |
-| action.destructive.text | surface.canvas | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| action.destructive.text | surface.card | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| action.destructive.border | surface.card | signal-red.600 on neutral.50 | 5.58 | 3 | passes |
-| action.destructive.bg-hover | surface.card | signal-red.600 on neutral.50 | 5.58 | 3 | passes |
-| action.destructive.text-hover | action.destructive.bg-hover | neutral.50 on signal-red.600 | 5.58 | 4.5 | passes |
+| action.destructive.text | surface.canvas | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| action.destructive.text | surface.card | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| action.destructive.border | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| action.destructive.bg-hover | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| action.destructive.text-hover | action.destructive.bg-hover | neutral.50 on clay.600 | 5.18 | 4.5 | passes |
 | score.text | score.bg | neutral.50 on green.700 | 6.70 | 4.5 | passes |
 | map.pin.cafe | map.ground | ochre.500 on neutral.100 | 3.07 | 3 | the map renders in its light theme in both themes until a dark basemap exists |
 | map.pin.icon | map.pin.cafe | neutral.50 on ochre.500 | 3.48 | 3 | passes |
@@ -128,12 +128,12 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.2 | surface.canvas | ember.550 on neutral.50 | 4.37 | 3 | passes |
 | data.sequential.2 | surface.card | ember.550 on neutral.50 | 4.37 | 3 | passes |
 | data.sequential.2 | surface.raised | ember.550 on neutral.100 | 3.85 | 3 | passes |
-| data.sequential.3 | surface.canvas | signal-red.550 on neutral.50 | 4.57 | 3 | passes |
-| data.sequential.3 | surface.card | signal-red.550 on neutral.50 | 4.57 | 3 | passes |
-| data.sequential.3 | surface.raised | signal-red.550 on neutral.100 | 4.03 | 3 | passes |
-| data.sequential.4 | surface.canvas | signal-red.650 on neutral.50 | 6.44 | 3 | passes |
-| data.sequential.4 | surface.card | signal-red.650 on neutral.50 | 6.44 | 3 | passes |
-| data.sequential.4 | surface.raised | signal-red.650 on neutral.100 | 5.68 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.3 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.500 on neutral.100 | 3.31 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
+| data.sequential.4 | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.700 on neutral.100 | 6.25 | 3 | passes |
 
 ## atmo-dark
 
@@ -144,8 +144,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.canvas | neutral.50 on neutral.950 | 14.85 | 4.5 | passes |
 | status.positive.text | surface.canvas | green.300 on neutral.950 | 8.41 | 4.5 | passes |
 | status.positive.mark | surface.canvas | green.400 on neutral.950 | 5.86 | 3 | passes |
-| status.negative.text | surface.canvas | signal-red.350 on neutral.950 | 6.36 | 4.5 | passes |
-| status.negative.mark | surface.canvas | red.300 on neutral.950 | 8.21 | 3 | passes |
+| status.negative.text | surface.canvas | clay.400 on neutral.950 | 5.80 | 4.5 | passes |
+| status.negative.mark | surface.canvas | clay.200 on neutral.950 | 10.81 | 3 | passes |
 | status.caution.text | surface.canvas | ochre.300 on neutral.950 | 8.52 | 4.5 | passes |
 | status.caution.mark | surface.canvas | ochre.400 on neutral.950 | 6.14 | 3 | passes |
 | status.info.text | surface.canvas | blue.300 on neutral.950 | 8.20 | 4.5 | passes |
@@ -161,8 +161,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.raised | neutral.50 on neutral.900 | 12.34 | 4.5 | passes |
 | status.positive.text | surface.raised | green.300 on neutral.900 | 6.99 | 4.5 | passes |
 | status.positive.mark | surface.raised | green.400 on neutral.900 | 4.87 | 3 | passes |
-| status.negative.text | surface.raised | signal-red.350 on neutral.900 | 5.29 | 4.5 | passes |
-| status.negative.mark | surface.raised | red.300 on neutral.900 | 6.83 | 3 | passes |
+| status.negative.text | surface.raised | clay.400 on neutral.900 | 4.82 | 4.5 | passes |
+| status.negative.mark | surface.raised | clay.200 on neutral.900 | 8.99 | 3 | passes |
 | status.caution.text | surface.raised | ochre.300 on neutral.900 | 7.08 | 4.5 | passes |
 | status.caution.mark | surface.raised | ochre.400 on neutral.900 | 5.11 | 3 | passes |
 | status.info.text | surface.raised | blue.300 on neutral.900 | 6.82 | 4.5 | passes |
@@ -178,8 +178,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.card | neutral.50 on neutral.900 | 12.34 | 4.5 | passes |
 | status.positive.text | surface.card | green.300 on neutral.900 | 6.99 | 4.5 | passes |
 | status.positive.mark | surface.card | green.400 on neutral.900 | 4.87 | 3 | passes |
-| status.negative.text | surface.card | signal-red.350 on neutral.900 | 5.29 | 4.5 | passes |
-| status.negative.mark | surface.card | red.300 on neutral.900 | 6.83 | 3 | passes |
+| status.negative.text | surface.card | clay.400 on neutral.900 | 4.82 | 4.5 | passes |
+| status.negative.mark | surface.card | clay.200 on neutral.900 | 8.99 | 3 | passes |
 | status.caution.text | surface.card | ochre.300 on neutral.900 | 7.08 | 4.5 | passes |
 | status.caution.mark | surface.card | ochre.400 on neutral.900 | 5.11 | 3 | passes |
 | status.info.text | surface.card | blue.300 on neutral.900 | 6.82 | 4.5 | passes |
@@ -201,8 +201,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | selected.text | selected.bg | neutral.950 on neutral.50 | 14.85 | 4.5 | passes |
 | status.positive.on-mark | status.positive.mark | neutral.950 on green.400 | 5.86 | 3 | the glyph inside the disc |
 | status.positive.text | status.positive.surface | green.300 on green.900 | 6.65 | 4.5 | passes |
-| status.negative.on-mark | status.negative.mark | neutral.950 on red.300 | 8.21 | 3 | the glyph inside the disc |
-| status.negative.text | status.negative.surface | signal-red.350 on red.900 | 5.18 | 4.5 | passes |
+| status.negative.on-mark | status.negative.mark | neutral.950 on clay.200 | 10.81 | 3 | the glyph inside the disc |
+| status.negative.text | status.negative.surface | clay.400 on clay.900 | 4.72 | 4.5 | passes |
 | status.caution.on-mark | status.caution.mark | neutral.950 on ochre.400 | 6.14 | 3 | the glyph inside the disc |
 | status.caution.text | status.caution.surface | ochre.300 on ochre.900 | 6.92 | 4.5 | passes |
 | status.info.on-mark | status.info.mark | neutral.950 on blue.400 | 5.62 | 3 | the glyph inside the disc |
@@ -221,11 +221,11 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | dot.closed | surface.raised | neutral.500 on neutral.900 | 3.35 | 3 | passes |
 | data.filled | surface.raised | neutral.200 on neutral.900 | 9.02 | 3 | passes |
 | data.empty | surface.raised | neutral.500 on neutral.900 | 3.35 | 3 | passes |
-| action.destructive.text | surface.canvas | signal-red.350 on neutral.950 | 6.36 | 4.5 | passes |
-| action.destructive.text | surface.card | signal-red.350 on neutral.900 | 5.29 | 4.5 | passes |
-| action.destructive.border | surface.card | signal-red.350 on neutral.900 | 5.29 | 3 | passes |
-| action.destructive.bg-hover | surface.card | signal-red.350 on neutral.900 | 5.29 | 3 | passes |
-| action.destructive.text-hover | action.destructive.bg-hover | neutral.950 on signal-red.350 | 6.36 | 4.5 | passes |
+| action.destructive.text | surface.canvas | clay.400 on neutral.950 | 5.80 | 4.5 | passes |
+| action.destructive.text | surface.card | clay.400 on neutral.900 | 4.82 | 4.5 | passes |
+| action.destructive.border | surface.card | clay.400 on neutral.900 | 4.82 | 3 | passes |
+| action.destructive.bg-hover | surface.card | clay.400 on neutral.900 | 4.82 | 3 | passes |
+| action.destructive.text-hover | action.destructive.bg-hover | neutral.950 on clay.400 | 5.80 | 4.5 | passes |
 | score.text | score.bg | neutral.950 on green.300 | 8.41 | 4.5 | passes |
 | map.pin.icon | map.pin.cafe | neutral.50 on ochre.500 | 3.48 | 3 | passes |
 | map.pin.icon | map.pin.library | neutral.50 on blue.500 | 3.71 | 3 | passes |
@@ -255,12 +255,12 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.2 | surface.canvas | ember.420 on neutral.950 | 5.23 | 3 | passes |
 | data.sequential.2 | surface.card | ember.420 on neutral.900 | 4.34 | 3 | passes |
 | data.sequential.2 | surface.raised | ember.420 on neutral.900 | 4.34 | 3 | passes |
-| data.sequential.3 | surface.canvas | signal-red.420 on neutral.950 | 5.00 | 3 | passes |
-| data.sequential.3 | surface.card | signal-red.420 on neutral.900 | 4.16 | 3 | passes |
-| data.sequential.3 | surface.raised | signal-red.420 on neutral.900 | 4.16 | 3 | passes |
-| data.sequential.4 | surface.canvas | signal-red.350 on neutral.950 | 6.36 | 3 | passes |
-| data.sequential.4 | surface.card | signal-red.350 on neutral.900 | 5.29 | 3 | passes |
-| data.sequential.4 | surface.raised | signal-red.350 on neutral.900 | 5.29 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.400 on neutral.950 | 5.80 | 3 | passes |
+| data.sequential.3 | surface.card | clay.400 on neutral.900 | 4.82 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.400 on neutral.900 | 4.82 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.300 on neutral.950 | 8.07 | 3 | passes |
+| data.sequential.4 | surface.card | clay.300 on neutral.900 | 6.70 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.300 on neutral.900 | 6.70 | 3 | passes |
 
 ## atlas-light
 
@@ -271,8 +271,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.canvas | green.800 on neutral.50 | 9.04 | 4.5 | passes |
 | status.positive.text | surface.canvas | green.900 on neutral.50 | 11.75 | 4.5 | passes |
 | status.positive.mark | surface.canvas | green.500 on neutral.50 | 3.53 | 3 | passes |
-| status.negative.text | surface.canvas | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| status.negative.mark | surface.canvas | signal-red.700 on neutral.50 | 7.60 | 3 | passes |
+| status.negative.text | surface.canvas | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| status.negative.mark | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
 | status.caution.text | surface.canvas | ochre.700 on neutral.50 | 6.65 | 4.5 | passes |
 | status.caution.mark | surface.canvas | ochre.500 on neutral.50 | 3.48 | 3 | passes |
 | status.info.text | surface.canvas | blue.700 on neutral.50 | 7.12 | 4.5 | passes |
@@ -288,8 +288,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.raised | green.800 on green.100 | 7.99 | 4.5 | passes |
 | status.positive.text | surface.raised | green.900 on green.100 | 10.39 | 4.5 | passes |
 | status.positive.mark | surface.raised | green.500 on green.100 | 3.12 | 3 | passes |
-| status.negative.text | surface.raised | signal-red.600 on green.100 | 4.94 | 4.5 | passes |
-| status.negative.mark | surface.raised | signal-red.700 on green.100 | 6.72 | 3 | passes |
+| status.negative.text | surface.raised | clay.600 on green.100 | 4.58 | 4.5 | passes |
+| status.negative.mark | surface.raised | clay.700 on green.100 | 6.27 | 3 | passes |
 | status.caution.text | surface.raised | ochre.700 on green.100 | 5.88 | 4.5 | passes |
 | status.caution.mark | surface.raised | ochre.500 on green.100 | 3.08 | 3 | passes |
 | status.info.text | surface.raised | blue.700 on green.100 | 6.30 | 4.5 | passes |
@@ -305,8 +305,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.card | green.800 on neutral.50 | 9.04 | 4.5 | passes |
 | status.positive.text | surface.card | green.900 on neutral.50 | 11.75 | 4.5 | passes |
 | status.positive.mark | surface.card | green.500 on neutral.50 | 3.53 | 3 | passes |
-| status.negative.text | surface.card | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| status.negative.mark | surface.card | signal-red.700 on neutral.50 | 7.60 | 3 | passes |
+| status.negative.text | surface.card | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| status.negative.mark | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
 | status.caution.text | surface.card | ochre.700 on neutral.50 | 6.65 | 4.5 | passes |
 | status.caution.mark | surface.card | ochre.500 on neutral.50 | 3.48 | 3 | passes |
 | status.info.text | surface.card | blue.700 on neutral.50 | 7.12 | 4.5 | passes |
@@ -328,8 +328,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | selected.text | selected.bg | green.50 on green.900 | 11.27 | 4.5 | passes |
 | status.positive.on-mark | status.positive.mark | neutral.50 on green.500 | 3.53 | 3 | the glyph inside the disc |
 | status.positive.text | status.positive.surface | green.900 on green.100 | 10.39 | 4.5 | passes |
-| status.negative.on-mark | status.negative.mark | neutral.50 on signal-red.700 | 7.60 | 3 | the glyph inside the disc |
-| status.negative.text | status.negative.surface | signal-red.600 on red.100 | 4.88 | 4.5 | passes |
+| status.negative.on-mark | status.negative.mark | neutral.50 on clay.700 | 7.09 | 3 | the glyph inside the disc |
+| status.negative.text | status.negative.surface | clay.600 on clay.100 | 4.53 | 4.5 | passes |
 | status.caution.on-mark | status.caution.mark | neutral.50 on ochre.500 | 3.48 | 3 | the glyph inside the disc |
 | status.caution.text | status.caution.surface | ochre.700 on ochre.100 | 5.85 | 4.5 | passes |
 | status.info.on-mark | status.info.mark | neutral.50 on blue.500 | 3.71 | 3 | the glyph inside the disc |
@@ -347,11 +347,11 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | dot.closed | surface.raised | green.700 on green.100 | 5.92 | 3 | passes |
 | data.filled | surface.raised | neutral.800 on green.100 | 8.42 | 3 | passes |
 | data.empty | surface.raised | neutral.500 on green.100 | 3.26 | 3 | passes |
-| action.destructive.text | surface.canvas | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| action.destructive.text | surface.card | signal-red.600 on neutral.50 | 5.58 | 4.5 | passes |
-| action.destructive.border | surface.card | signal-red.600 on neutral.50 | 5.58 | 3 | passes |
-| action.destructive.bg-hover | surface.card | signal-red.600 on neutral.50 | 5.58 | 3 | passes |
-| action.destructive.text-hover | action.destructive.bg-hover | neutral.50 on signal-red.600 | 5.58 | 4.5 | passes |
+| action.destructive.text | surface.canvas | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| action.destructive.text | surface.card | clay.600 on neutral.50 | 5.18 | 4.5 | passes |
+| action.destructive.border | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| action.destructive.bg-hover | surface.card | clay.600 on neutral.50 | 5.18 | 3 | passes |
+| action.destructive.text-hover | action.destructive.bg-hover | neutral.50 on clay.600 | 5.18 | 4.5 | passes |
 | score.text | score.bg | green.50 on green.700 | 6.42 | 4.5 | passes |
 | map.pin.cafe | map.ground | ochre.500 on green.100 | 3.08 | 3 | the map renders in its light theme in both themes until a dark basemap exists |
 | map.pin.icon | map.pin.cafe | green.50 on ochre.500 | 3.34 | 3 | passes |
@@ -385,12 +385,12 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.2 | surface.canvas | ember.550 on neutral.50 | 4.37 | 3 | passes |
 | data.sequential.2 | surface.card | ember.550 on neutral.50 | 4.37 | 3 | passes |
 | data.sequential.2 | surface.raised | ember.550 on green.100 | 3.86 | 3 | passes |
-| data.sequential.3 | surface.canvas | signal-red.550 on neutral.50 | 4.57 | 3 | passes |
-| data.sequential.3 | surface.card | signal-red.550 on neutral.50 | 4.57 | 3 | passes |
-| data.sequential.3 | surface.raised | signal-red.550 on green.100 | 4.04 | 3 | passes |
-| data.sequential.4 | surface.canvas | signal-red.650 on neutral.50 | 6.44 | 3 | passes |
-| data.sequential.4 | surface.card | signal-red.650 on neutral.50 | 6.44 | 3 | passes |
-| data.sequential.4 | surface.raised | signal-red.650 on green.100 | 5.70 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.3 | surface.card | clay.500 on neutral.50 | 3.75 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.500 on green.100 | 3.32 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.700 on neutral.50 | 7.09 | 3 | passes |
+| data.sequential.4 | surface.card | clay.700 on neutral.50 | 7.09 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.700 on green.100 | 6.27 | 3 | passes |
 
 ## atlas-dark
 
@@ -401,8 +401,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.canvas | green.100 on green.950 | 12.79 | 4.5 | passes |
 | status.positive.text | surface.canvas | green.50 on green.950 | 13.86 | 4.5 | passes |
 | status.positive.mark | surface.canvas | green.400 on green.950 | 5.70 | 3 | passes |
-| status.negative.text | surface.canvas | signal-red.350 on green.950 | 6.20 | 4.5 | passes |
-| status.negative.mark | surface.canvas | red.300 on green.950 | 8.00 | 3 | passes |
+| status.negative.text | surface.canvas | clay.400 on green.950 | 5.65 | 4.5 | passes |
+| status.negative.mark | surface.canvas | clay.200 on green.950 | 10.53 | 3 | passes |
 | status.caution.text | surface.canvas | ochre.300 on green.950 | 8.29 | 4.5 | passes |
 | status.caution.mark | surface.canvas | ochre.400 on green.950 | 5.98 | 3 | passes |
 | status.info.text | surface.canvas | blue.300 on green.950 | 7.99 | 4.5 | passes |
@@ -418,8 +418,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.raised | green.100 on green.900 | 10.39 | 4.5 | passes |
 | status.positive.text | surface.raised | green.50 on green.900 | 11.27 | 4.5 | passes |
 | status.positive.mark | surface.raised | green.400 on green.900 | 4.64 | 3 | passes |
-| status.negative.text | surface.raised | signal-red.350 on green.900 | 5.04 | 4.5 | passes |
-| status.negative.mark | surface.raised | red.300 on green.900 | 6.50 | 3 | passes |
+| status.negative.text | surface.raised | clay.400 on green.900 | 4.59 | 4.5 | passes |
+| status.negative.mark | surface.raised | clay.200 on green.900 | 8.56 | 3 | passes |
 | status.caution.text | surface.raised | ochre.300 on green.900 | 6.74 | 4.5 | passes |
 | status.caution.mark | surface.raised | ochre.400 on green.900 | 4.86 | 3 | passes |
 | status.info.text | surface.raised | blue.300 on green.900 | 6.49 | 4.5 | passes |
@@ -435,8 +435,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | text.display | surface.card | green.100 on green.900 | 10.39 | 4.5 | passes |
 | status.positive.text | surface.card | green.50 on green.900 | 11.27 | 4.5 | passes |
 | status.positive.mark | surface.card | green.400 on green.900 | 4.64 | 3 | passes |
-| status.negative.text | surface.card | signal-red.350 on green.900 | 5.04 | 4.5 | passes |
-| status.negative.mark | surface.card | red.300 on green.900 | 6.50 | 3 | passes |
+| status.negative.text | surface.card | clay.400 on green.900 | 4.59 | 4.5 | passes |
+| status.negative.mark | surface.card | clay.200 on green.900 | 8.56 | 3 | passes |
 | status.caution.text | surface.card | ochre.300 on green.900 | 6.74 | 4.5 | passes |
 | status.caution.mark | surface.card | ochre.400 on green.900 | 4.86 | 3 | passes |
 | status.info.text | surface.card | blue.300 on green.900 | 6.49 | 4.5 | passes |
@@ -458,8 +458,8 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | selected.text | selected.bg | green.950 on green.100 | 12.79 | 4.5 | passes |
 | status.positive.on-mark | status.positive.mark | neutral.950 on green.400 | 5.86 | 3 | the glyph inside the disc |
 | status.positive.text | status.positive.surface | green.50 on green.900 | 11.27 | 4.5 | passes |
-| status.negative.on-mark | status.negative.mark | neutral.950 on red.300 | 8.21 | 3 | the glyph inside the disc |
-| status.negative.text | status.negative.surface | signal-red.350 on red.900 | 5.18 | 4.5 | passes |
+| status.negative.on-mark | status.negative.mark | neutral.950 on clay.200 | 10.81 | 3 | the glyph inside the disc |
+| status.negative.text | status.negative.surface | clay.400 on clay.900 | 4.72 | 4.5 | passes |
 | status.caution.on-mark | status.caution.mark | neutral.950 on ochre.400 | 6.14 | 3 | the glyph inside the disc |
 | status.caution.text | status.caution.surface | ochre.300 on ochre.900 | 6.92 | 4.5 | passes |
 | status.info.on-mark | status.info.mark | neutral.950 on blue.400 | 5.62 | 3 | the glyph inside the disc |
@@ -478,11 +478,11 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | dot.closed | surface.raised | green.400 on green.900 | 4.64 | 3 | passes |
 | data.filled | surface.raised | neutral.200 on green.900 | 8.59 | 3 | passes |
 | data.empty | surface.raised | neutral.500 on green.900 | 3.19 | 3 | passes |
-| action.destructive.text | surface.canvas | signal-red.350 on green.950 | 6.20 | 4.5 | passes |
-| action.destructive.text | surface.card | signal-red.350 on green.900 | 5.04 | 4.5 | passes |
-| action.destructive.border | surface.card | signal-red.350 on green.900 | 5.04 | 3 | passes |
-| action.destructive.bg-hover | surface.card | signal-red.350 on green.900 | 5.04 | 3 | passes |
-| action.destructive.text-hover | action.destructive.bg-hover | neutral.950 on signal-red.350 | 6.36 | 4.5 | passes |
+| action.destructive.text | surface.canvas | clay.400 on green.950 | 5.65 | 4.5 | passes |
+| action.destructive.text | surface.card | clay.400 on green.900 | 4.59 | 4.5 | passes |
+| action.destructive.border | surface.card | clay.400 on green.900 | 4.59 | 3 | passes |
+| action.destructive.bg-hover | surface.card | clay.400 on green.900 | 4.59 | 3 | passes |
+| action.destructive.text-hover | action.destructive.bg-hover | neutral.950 on clay.400 | 5.80 | 4.5 | passes |
 | score.text | score.bg | green.950 on green.300 | 8.19 | 4.5 | passes |
 | map.pin.icon | map.pin.cafe | green.50 on ochre.500 | 3.34 | 3 | passes |
 | map.pin.icon | map.pin.library | green.50 on blue.500 | 3.55 | 3 | passes |
@@ -512,12 +512,12 @@ WCAG 2.2 contrast for every pair in `checks/pairs.json`, in every mode. Floors: 
 | data.sequential.2 | surface.canvas | ember.420 on green.950 | 5.09 | 3 | passes |
 | data.sequential.2 | surface.card | ember.420 on green.900 | 4.14 | 3 | passes |
 | data.sequential.2 | surface.raised | ember.420 on green.900 | 4.14 | 3 | passes |
-| data.sequential.3 | surface.canvas | signal-red.420 on green.950 | 4.87 | 3 | passes |
-| data.sequential.3 | surface.card | signal-red.420 on green.900 | 3.96 | 3 | passes |
-| data.sequential.3 | surface.raised | signal-red.420 on green.900 | 3.96 | 3 | passes |
-| data.sequential.4 | surface.canvas | signal-red.350 on green.950 | 6.20 | 3 | passes |
-| data.sequential.4 | surface.card | signal-red.350 on green.900 | 5.04 | 3 | passes |
-| data.sequential.4 | surface.raised | signal-red.350 on green.900 | 5.04 | 3 | passes |
+| data.sequential.3 | surface.canvas | clay.400 on green.950 | 5.65 | 3 | passes |
+| data.sequential.3 | surface.card | clay.400 on green.900 | 4.59 | 3 | passes |
+| data.sequential.3 | surface.raised | clay.400 on green.900 | 4.59 | 3 | passes |
+| data.sequential.4 | surface.canvas | clay.300 on green.950 | 7.85 | 3 | passes |
+| data.sequential.4 | surface.card | clay.300 on green.900 | 6.38 | 3 | passes |
+| data.sequential.4 | surface.raised | clay.300 on green.900 | 6.38 | 3 | passes |
 
 ## brand-os-light
 

@@ -4,7 +4,7 @@ name: "Atlas"
 description: "Atlas's light theme, generated from the atmo-design-system DTCG tokens. Values are the atlas-light mode; DESIGN.dark.md holds the other theme."
 colors:
   primary: "#4c5c42" # decided 2026-10-02: shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); Confirmed round 2:...
-  secondary: "#714d40" # decided 2026-10-02: shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); clay H42...
+  secondary: "#84402f" # decided 2026-10-14: one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L...
   tertiary: "#48536f" # decided 2026-10-02: pinned anchor: Storm Blue #48536f
   neutral: "#faf6f2" # decided 2026-10-02: pinned anchor: neutral-50 is the brand white
   ink: "#25211e" # decided 2026-10-02: pinned anchor: neutral-950 is the brand black
@@ -38,10 +38,10 @@ colors:
   positive-mark: "#728a62" # decided 2026-10-02: state disc at the 500 step on light grounds, every state
   on-positive-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
   positive-surface: "#e2ecdc" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
-  negative: "#c31b1f" # decided 2026-10-03: negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface
-  negative-mark: "#a3010f" # decided 2026-10-03: negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan /...
+  negative: "#a64e38" # decided 2026-10-14: negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface. One brand...
+  negative-mark: "#84402f" # decided 2026-10-14: negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan /...
   on-negative-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
-  negative-surface: "#fce2de" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
+  negative-surface: "#fde2db" # decided 2026-10-14: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
   caution: "#6c5427" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.cau-text
   caution-mark: "#a08025" # decided 2026-10-02: state disc at the 500 step on light grounds, every state
   on-caution-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.cau-glyph
@@ -215,7 +215,7 @@ The brand narrative this section is meant to carry is not written yet. Its sourc
 Every color sits on one of six 11-step ramps (neutral, green, clay, blue, ochre and red), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
 
 - **Primary (`#4c5c42`):** forest green, hue 134. The lead accent and, in Atlas, the action color.
-- **Secondary (`#714d40`):** fired clay, the warm supporting accent.
+- **Secondary (`#84402f`):** fired clay, the warm supporting accent.
 - **Tertiary (`#48536f`):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
 - **Neutral (`#faf6f2`) and ink (`#25211e`):** the brand white and the warm black. Never pure white or pure black.
 - **Action (`#4c5c42`):** green is the primary action.

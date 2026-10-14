@@ -304,56 +304,56 @@
         "destructive": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.signal-red.600}",
+            "$value": "{core.color.clay.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "destructive label and outline at rest, 4.5:1 on card and canvas",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                  "date": "2026-10-14",
+                  "rule": "destructive label and outline at rest, 4.5:1 on card and canvas. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "border": {
             "$type": "color",
-            "$value": "{core.color.signal-red.600}",
+            "$value": "{core.color.clay.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "destructive outline at rest, same as its label",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                  "date": "2026-10-14",
+                  "rule": "destructive outline at rest, same as its label. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{core.color.signal-red.600}",
+            "$value": "{core.color.clay.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "destructive hover fills solid; unmistakable against rest in both themes",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                  "date": "2026-10-14",
+                  "rule": "destructive hover fills solid; unmistakable against rest in both themes. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "bg-pressed": {
             "$type": "color",
-            "$value": "{core.color.signal-red.700}",
+            "$value": "{core.color.clay.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "destructive pressed",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons"
+                  "date": "2026-10-14",
+                  "rule": "destructive pressed. One brand red, 2026-10-14: was signal-red.700; clay.700 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
@@ -721,28 +721,28 @@
         "negative": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.signal-red.600}",
+            "$value": "{core.color.clay.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red"
+                  "date": "2026-10-14",
+                  "rule": "negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "mark": {
             "$type": "color",
-            "$value": "{core.color.signal-red.700}",
+            "$value": "{core.color.clay.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan / protan)",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red"
+                  "date": "2026-10-14",
+                  "rule": "negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan / protan). One brand red, 2026-10-14: was signal-red.700; clay.700 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
@@ -761,16 +761,18 @@
           },
           "surface": {
             "$type": "color",
-            "$value": "{core.color.red.100}",
+            "$value": "{core.color.clay.100}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
-                  "kind": "derived",
-                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles)",
+                  "kind": "decided",
+                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles). One brand red, 2026-10-14: was red.100; clay.100 takes the role now that red and signal red are retired",
                   "from": [
                     "Atmo token architecture, decision record, §4",
                     "Atmo specimen, round 4 (2026-10-02): status.tinted_option_a"
-                  ]
+                  ],
+                  "date": "2026-10-14",
+                  "confirmed": "Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
@@ -1046,28 +1048,28 @@
           },
           "3": {
             "$type": "color",
-            "$value": "{core.color.signal-red.550}",
+            "$value": "{core.color.clay.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                  "date": "2026-10-14",
+                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.550; clay.500 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "4": {
             "$type": "color",
-            "$value": "{core.color.signal-red.650}",
+            "$value": "{core.color.clay.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "date": "2026-10-03",
-                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6",
-                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light"
+                  "date": "2026-10-14",
+                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.650; clay.700 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): grey, rose, bright red, crimson on light. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }

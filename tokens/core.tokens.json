@@ -859,23 +859,23 @@
             "colorSpace": "oklch",
             "components": [
               0.958,
-              0.0175,
-              42
+              0.0193,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#fceee8"
+            "hex": "#feede8"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (5.5); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[50]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 1.2x round 4 clay (CAM16 M 3.79), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 3.16,
-              "chroma_pct_of_max": 80
+              "cam16_M": 3.83,
+              "chroma_pct_of_max": 91
             }
           }
         },
@@ -884,24 +884,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.9337,
-              0.0297,
-              42
+              0.933,
+              0.0318,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#fce3da"
+            "hex": "#fde2db"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (8.0); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[100]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 1.2x round 4 clay (CAM16 M 7.50), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 6.25,
-              "chroma_pct_of_max": 84
+              "cam16_M": 6.66,
+              "chroma_pct_of_max": 92
             }
           }
         },
@@ -910,24 +910,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.8765,
-              0.0481,
-              42
+              0.8766,
+              0.0555,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#f3cdbe"
+            "hex": "#f9cabe"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (12.0); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[200]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 1.2x round 4 clay (CAM16 M 12.42), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 10.35,
-              "chroma_pct_of_max": 70
+              "cam16_M": 12.6,
+              "chroma_pct_of_max": 83
             }
           }
         },
@@ -936,24 +936,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.794,
-              0.0643,
-              42
+              0.7939,
+              0.111,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#e1af9c"
+            "hex": "#faa28b"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (15.7); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[300]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 29.12), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 14.56,
-              "chroma_pct_of_max": 52
+              "cam16_M": 26.21,
+              "chroma_pct_of_max": 92
             }
           }
         },
@@ -962,24 +962,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.6935,
-              0.0742,
-              42
+              0.7055,
+              0.1384,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#c58e78"
+            "hex": "#e97e63"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.41); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[400]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 34.81), capped at 92% of the sRGB gamut; L raised until the dark error title clears 4.5:1 on n900, n950, green-900 and green-950",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 17.4,
-              "chroma_pct_of_max": 36
+              "cam16_M": 34.81,
+              "chroma_pct_of_max": 73
             }
           }
         },
@@ -988,24 +988,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.6087,
-              0.0748,
-              42
+              0.6086,
+              0.1359,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#a9745f"
+            "hex": "#c66147"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (17.99); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[500]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 35.81), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 17.91,
-              "chroma_pct_of_max": 41
+              "cam16_M": 35.59,
+              "chroma_pct_of_max": 64
             }
           }
         },
@@ -1014,24 +1014,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.5288,
-              0.0663,
-              42
+              0.5289,
+              0.1216,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#8d5f4d"
+            "hex": "#a64e38"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (16.41); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[600]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 32.91), capped at 92% of the sRGB gamut; L lowered until the error title clears 4.5:1 on n100",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 16.45,
-              "chroma_pct_of_max": 42
+              "cam16_M": 32.9,
+              "chroma_pct_of_max": 66
             }
           }
         },
@@ -1040,24 +1040,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.4561,
-              0.0528,
-              42
+              0.456,
+              0.0982,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#714d40"
+            "hex": "#84402f"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[700]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 26.95), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 13.48,
-              "chroma_pct_of_max": 38
+              "cam16_M": 26.76,
+              "chroma_pct_of_max": 61
             }
           }
         },
@@ -1066,24 +1066,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.3856,
-              0.0445,
-              42
+              0.3852,
+              0.0826,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#593c31"
+            "hex": "#683124"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (11.55); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[800]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 23.25), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 11.63,
-              "chroma_pct_of_max": 38
+              "cam16_M": 23.04,
+              "chroma_pct_of_max": 61
             }
           }
         },
@@ -1092,24 +1092,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.3193,
-              0.0374,
-              42
+              0.3202,
+              0.0699,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#432c23"
+            "hex": "#512419"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[900]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 19.91), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 9.95,
-              "chroma_pct_of_max": 39
+              "cam16_M": 20.23,
+              "chroma_pct_of_max": 62
             }
           }
         },
@@ -1118,24 +1118,24 @@
           "$value": {
             "colorSpace": "oklch",
             "components": [
-              0.26,
-              0.0297,
-              42
+              0.2593,
+              0.0563,
+              35.0
             ],
             "alpha": 1.0,
-            "hex": "#311f19"
+            "hex": "#3b1810"
           },
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
-                "date": "2026-10-02",
-                "rule": "shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (7.82); clay H42 (secondary accent, ATMO-7 land-and-ocean framing); every deviation is in the round-4 tuning table",
-                "confirmed": "Confirmed 2026-10-02, round 4 answers: final for the token build, no further specimen round",
-                "source": "Atmo specimen, round 4 (2026-10-02): ramps.clay[950]"
+                "date": "2026-10-14",
+                "rule": "one brand red: clay and red are one ramp, the terracotta and the error colour. Hue 35; shared OKLCH L curve with the half H-K correction; colourfulness 2.0x round 4 clay (CAM16 M 16.50), capped at 92% of the sRGB gamut",
+                "confirmed": "Confirmed 2026-10-14: clay and red become one ramp; hue 35 chosen from 29, 35 and 42; colourfulness between round 1 A and B; no usage limits yet",
+                "source": "workbench/atmo-design-system/red-ramp/make2.py, apply.py"
               },
-              "cam16_M": 8.25,
-              "chroma_pct_of_max": 38
+              "cam16_M": 16.95,
+              "chroma_pct_of_max": 62
             }
           }
         }
@@ -1433,327 +1433,6 @@
           }
         }
       },
-      "red": {
-        "50": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.958,
-              0.0156,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#fceeeb"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L .958, off the canvas like every accent 50 (round 4); chroma solved for clay-50's CAM16 colorfulness (M 3.16)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 2.93,
-              "chroma_pct_of_max": 75,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "100": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.9335,
-              0.0282,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#fce2de"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.9317) plus the half H-K correction against the blue (+0.0018); chroma solved for clay-100's CAM16 colorfulness (M 6.25)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 6.35,
-              "chroma_pct_of_max": 84,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "200": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.8769,
-              0.046,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#f4ccc5"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.8732) plus the half H-K correction against the blue (+0.0037); chroma solved for clay-200's CAM16 colorfulness (M 10.35)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 10.53,
-              "chroma_pct_of_max": 70,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "300": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.7938,
-              0.0616,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#e1aea5"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.7872) plus the half H-K correction against the blue (+0.0066); chroma solved for clay-300's CAM16 colorfulness (M 14.56)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 14.37,
-              "chroma_pct_of_max": 52,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "400": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.6973,
-              0.072,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#c78d84"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.6843) plus the half H-K correction against the blue (+0.0090); chroma solved for clay-400's CAM16 colorfulness (M 17.40); L 0.6933 -> 0.6973: red-400 is the negative title on dark grounds as well as the dark disc, so it clears 4.5:1 on n900 and green-900 (Atlas dark card) with a 0.05 margin",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 17.62,
-              "chroma_pct_of_max": 37,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "500": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.608,
-              0.0719,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#aa726a"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.5985) plus the half H-K correction against the blue (+0.0095); chroma solved for clay-500's CAM16 colorfulness (M 17.91)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 18.2,
-              "chroma_pct_of_max": 29,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "600": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.5256,
-              0.0636,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#8c5c55"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.5187) plus the half H-K correction against the blue (+0.0109); chroma solved for clay-600's CAM16 colorfulness (M 16.45); L 0.5296 -> 0.5256: the negative title clears 4.5:1 on n100 (raised), not only on canvas and card",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 16.6,
-              "chroma_pct_of_max": 30,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "700": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.4554,
-              0.053,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#714c46"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.4443) plus the half H-K correction against the blue (+0.0111); chroma solved for clay-700's CAM16 colorfulness (M 13.48)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 13.45,
-              "chroma_pct_of_max": 28,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "800": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.385,
-              0.0429,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#593b36"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.3750) plus the half H-K correction against the blue (+0.0100); chroma solved for clay-800's CAM16 colorfulness (M 11.63)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 11.64,
-              "chroma_pct_of_max": 27,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "900": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.319,
-              0.0365,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#432b28"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.3092) plus the half H-K correction against the blue (+0.0098); chroma solved for clay-900's CAM16 colorfulness (M 9.95)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 10.01,
-              "chroma_pct_of_max": 28,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        },
-        "950": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.259,
-              0.029,
-              29.0
-            ],
-            "alpha": 1.0,
-            "hex": "#301e1c"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "derived",
-                "rule": "new in round 5: L on the shared curve (0.2520) plus the half H-K correction against the blue (+0.0070); chroma solved for clay-950's CAM16 colorfulness (M 8.25)",
-                "from": [
-                  "clay ramp (round 4)",
-                  "shared L curve",
-                  "sRGB red primary hue"
-                ]
-              },
-              "cam16_M": 8.07,
-              "chroma_pct_of_max": 27,
-              "usage": "negative status only; not a brand accent"
-            }
-          }
-        }
-      },
       "signal-green": {
         "300": {
           "$type": "color",
@@ -1830,176 +1509,6 @@
                 ]
               },
               "usage": "dark-theme shadow and scrim tint only"
-            }
-          }
-        }
-      },
-      "signal-red": {
-        "300": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.79,
-              0.121,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#ff9b90"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.79 0.121 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
-              },
-              "usage": "status and destructive only, never a brand accent: dark: busiest crowd step"
-            }
-          }
-        },
-        "350": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.735,
-              0.162,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#ff7c70"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.735 0.162 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
-              },
-              "usage": "status and destructive only, never a brand accent: dark: destructive action, negative status text"
-            }
-          }
-        },
-        "420": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.67,
-              0.145,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#e06e63"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.67 0.145 27): crowd step 3 on dark",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the crowd scale runs smooth from neutral to red, brighter and cleaner in light, more saturated in dark, with a clear value change from step 1"
-              },
-              "usage": "status, destructive and the busyness scale only"
-            }
-          }
-        },
-        "550": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.57,
-              0.195,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#d23430"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.57 0.195 27): crowd step 3 on light",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the crowd scale runs smooth from neutral to red, brighter and cleaner in light, more saturated in dark, with a clear value change from step 1"
-              },
-              "usage": "status, destructive and the busyness scale only"
-            }
-          }
-        },
-        "600": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.525,
-              0.2,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#c31b1f"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.525 0.2 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
-              },
-              "usage": "status and destructive only, never a brand accent: light: destructive action, negative status text"
-            }
-          }
-        },
-        "650": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.49,
-              0.199,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#b70212"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.49 0.199 27): crowd step 4 on light, the deepest and most intense",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 4): the crowd scale runs smooth from neutral to red, brighter and cleaner in light, more saturated in dark, with a clear value change from step 1"
-              },
-              "usage": "status, destructive and the busyness scale only"
-            }
-          }
-        },
-        "700": {
-          "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.45,
-              0.183,
-              27
-            ],
-            "alpha": 1.0,
-            "hex": "#a3010f"
-          },
-          "$extensions": {
-            "studio.atmo": {
-              "provenance": {
-                "kind": "decided",
-                "date": "2026-10-03",
-                "rule": "oklch(0.45 0.183 27): a red that reads red, not brown, in product; off the shared chroma band by design, like signal-green; step named by the shared lightness curve",
-                "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): the Core red (H29) reads brown in a product context; Delete and errors need a much brighter red"
-              },
-              "usage": "status and destructive only, never a brand accent: light: negative mark, destructive pressed, busiest crowd step"
             }
           }
         }
