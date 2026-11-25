@@ -282,7 +282,7 @@ The brand narrative this section is meant to carry is not written yet. Its sourc
 
 ## Colors
 
-Every color sits on one of five 11-step ramps (neutral, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
+Every color sits on one of five 11-step Brand ramps (stone, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. Intent gives each ramp its meaning per sub-brand (neutral, accent, error, success, warning, info, base), and Patterns applies those meanings per theme, so the names below are the roles to use. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
 
 - **Primary (`#4c5c42`):** forest green, hue 134. The lead accent.
 - **Secondary (`#84402f`):** fired clay, the warm supporting accent and the one brand red, which carries errors too.

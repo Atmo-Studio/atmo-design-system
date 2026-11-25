@@ -1,8 +1,9 @@
 // The build's gate. Fails on any structural, contrast or color-vision defect, and writes the
 // full measurements to reports/ so every pair's margin is visible even when it passes.
 //   1. Every alias resolves, in every mode, with no cycles, and no two tokens publish one name.
-//   2. Every Intent mode defines the same roles.
-//   3. Intent and Patterns never hold a raw color; they alias Core (alpha composites excepted).
+//   2. Every Intent mode defines the same names.
+//   3. Intent and Patterns never hold a raw color (alpha composites excepted); Intent aliases
+//      only Brand, and a Patterns color aliases only Intent.
 //   4. Every contrast pair in checks/pairs.json clears its floor, in every mode.
 //   5. Every pair meant to be told apart by color alone keeps its OKLab ΔE margin under normal,
 //      deutan, protan and tritan vision (Machado 2009, severity 1.0). Pairs with another carrier
@@ -38,10 +39,16 @@ for (const [mode, { tree, origin }] of Object.entries(modes)) {
     if (seen.has(pub)) fail(`[${mode}] ${r.path} and ${seen.get(pub)} both publish as ${pub}`);
     seen.set(pub, r.path);
     const file = origin[r.path] ?? '';
-    const themed = !file.startsWith('core');
+    const themed = !file.startsWith('brand');
     const composite = r.token.$extensions?.['studio.atmo']?.composite_of;
     if (themed && r.type === 'color' && !r.alias && !composite)
-      fail(`[${mode}] ${r.path} holds a raw color; Intent and Patterns alias Core`);
+      fail(`[${mode}] ${r.path} holds a raw color; Intent and Patterns alias the layer below`);
+    // Each layer points only at the one below: Intent at Brand, a Patterns color at Intent.
+    if (file.startsWith('intent/') && r.alias && !r.alias.startsWith('brand.'))
+      fail(`[${mode}] ${r.path} points at ${r.alias}; Intent only points at Brand`);
+    const via = r.alias ?? composite?.slice(1, -1);
+    if (file.startsWith('patterns/') && r.type === 'color' && via && !/^(intent|patterns)\./.test(via))
+      fail(`[${mode}] ${r.path} points at ${via}; a Patterns color points at Intent`);
   }
 }
 
@@ -59,12 +66,12 @@ const hexAt = (tree, path) => {
   if (!t || !('$value' in t)) throw new Error(`no token ${path}`);
   return toHex(resolveValue(tree, t.$value));
 };
-// The Core step a role lands on, for the report.
+// The Brand step a role lands on, for the report.
 const stepAt = (tree, path) => {
   let t = get(tree, path);
   let a;
   while ((a = aliasOf(t))) {
-    if (a.startsWith('core.')) return publicPath(a).replace('color.', '');
+    if (a.startsWith('brand.')) return publicPath(a).replace('color.', '');
     t = get(tree, a);
   }
   return 'composite';

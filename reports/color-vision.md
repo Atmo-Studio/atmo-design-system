@@ -20,40 +20,40 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | status.negative.text vs status.info.text | clay.600 / blue.700 | 17.8 | 16.1 | 10.5 | 21.1 | 9 (blue/purple) | clears |
 | status.caution.mark vs status.info.mark | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 6 | clears |
 | status.caution.text vs status.info.text | ochre.700 / blue.700 | 11.9 | 12.2 | 11.6 | 9.1 | 6 | clears |
-| status.positive.mark vs surface.canvas | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
-| status.positive.mark vs surface.raised | green.500 / neutral.100 | 33.5 | 33.0 | 32.3 | 33.0 | 6 | clears |
-| status.positive.mark vs surface.card | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
-| status.negative.mark vs surface.canvas | clay.700 / neutral.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
-| status.negative.mark vs surface.raised | clay.700 / neutral.100 | 48.7 | 47.5 | 52.2 | 48.9 | 6 | clears |
-| status.negative.mark vs surface.card | clay.700 / neutral.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
-| status.caution.mark vs surface.canvas | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
-| status.caution.mark vs surface.raised | ochre.500 / neutral.100 | 33.5 | 32.8 | 35.4 | 32.3 | 6 | clears |
-| status.caution.mark vs surface.card | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
-| status.info.mark vs surface.canvas | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
-| status.info.mark vs surface.raised | blue.500 / neutral.100 | 34.1 | 34.8 | 32.8 | 34.2 | 6 | clears |
-| status.info.mark vs surface.card | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
-| dot.open vs dot.attribute | green.500 / neutral.950 | 35.8 | 35.6 | 36.7 | 35.6 | 9 | clears |
-| emphasis vs mark | green.500 / neutral.950 | 35.8 | 35.6 | 36.7 | 35.6 | 6 | clears |
+| status.positive.mark vs surface.canvas | green.500 / stone.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
+| status.positive.mark vs surface.raised | green.500 / stone.100 | 33.5 | 33.0 | 32.3 | 33.0 | 6 | clears |
+| status.positive.mark vs surface.card | green.500 / stone.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
+| status.negative.mark vs surface.canvas | clay.700 / stone.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
+| status.negative.mark vs surface.raised | clay.700 / stone.100 | 48.7 | 47.5 | 52.2 | 48.9 | 6 | clears |
+| status.negative.mark vs surface.card | clay.700 / stone.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
+| status.caution.mark vs surface.canvas | ochre.500 / stone.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
+| status.caution.mark vs surface.raised | ochre.500 / stone.100 | 33.5 | 32.8 | 35.4 | 32.3 | 6 | clears |
+| status.caution.mark vs surface.card | ochre.500 / stone.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
+| status.info.mark vs surface.canvas | blue.500 / stone.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
+| status.info.mark vs surface.raised | blue.500 / stone.100 | 34.1 | 34.8 | 32.8 | 34.2 | 6 | clears |
+| status.info.mark vs surface.card | blue.500 / stone.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
+| dot.open vs dot.attribute | green.500 / stone.950 | 35.8 | 35.6 | 36.7 | 35.6 | 9 | clears |
+| emphasis vs mark | green.500 / stone.950 | 35.8 | 35.6 | 36.7 | 35.6 | 6 | clears |
 | map.water vs map.park | blue.100 / green.200 | 7.8 | 7.2 | 7.4 | 5.7 | 6 | below margin (tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| map.water vs map.ground | blue.100 / neutral.100 | 2.5 | 2.5 | 2.3 | 2.6 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| map.park vs map.ground | green.200 / neutral.100 | 7.0 | 6.2 | 5.7 | 6.4 | 6 | below margin (protan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| dot.open vs dot.closed | green.500 / neutral.700 | 17.0 | 16.3 | 17.5 | 16.3 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | neutral.700 / neutral.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
-| data.filled vs data.empty | neutral.800 / neutral.500 | 22.4 | 22.4 | 22.4 | 22.4 | 9 | clears |
-| action.destructive.bg-hover vs action.primary.bg | clay.600 / neutral.950 | 30.2 | 29.7 | 23.2 | 32.1 | 9 (green/brown) | clears |
-| score.bg vs data.filled | green.700 / neutral.800 | 9.0 | 8.3 | 9.2 | 8.3 | 6 | clears |
+| map.water vs map.ground | blue.100 / stone.100 | 2.5 | 2.5 | 2.3 | 2.6 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
+| map.park vs map.ground | green.200 / stone.100 | 7.0 | 6.2 | 5.7 | 6.4 | 6 | below margin (protan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
+| dot.open vs dot.closed | green.500 / stone.700 | 17.0 | 16.3 | 17.5 | 16.3 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | stone.700 / stone.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
+| data.filled vs data.empty | stone.800 / stone.500 | 22.4 | 22.4 | 22.4 | 22.4 | 9 | clears |
+| action.destructive.bg-hover vs action.primary.bg | clay.600 / stone.950 | 30.2 | 29.7 | 23.2 | 32.1 | 9 (green/brown) | clears |
+| score.bg vs data.filled | green.700 / stone.800 | 9.0 | 8.3 | 9.2 | 8.3 | 6 | clears |
 | map.pin.cafe vs map.pin.library | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 9 | clears |
-| map.pin.cafe vs map.pin.coworking | ochre.500 / neutral.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
+| map.pin.cafe vs map.pin.coworking | ochre.500 / stone.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
 | map.pin.cafe vs map.pin.park | ochre.500 / green.700 | 18.2 | 18.6 | 15.7 | 18.7 | 9 | clears |
-| map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
+| map.pin.library vs map.pin.coworking | blue.500 / stone.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
-| map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
+| map.pin.coworking vs map.pin.park | stone.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | stone.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
 | data.sequential.2 vs data.sequential.3 | clay.800 / clay.600 | 15.2 | 15.2 | 12.8 | 15.7 | 6 | clears |
 | data.sequential.3 vs data.sequential.4 | clay.600 / clay.500 | 8.0 | 8.1 | 7.3 | 8.0 | 6 | clears |
-| text.secondary vs text.tertiary | neutral.700 / neutral.600 | 7.2 | 7.1 | 7.2 | 7.2 | 6 | clears |
-| text.secondary vs text.primary | neutral.700 / neutral.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
-| data.sequential.1 vs dot.open | neutral.500 / green.500 | 6.0 | 3.4 | 4.7 | 3.5 | 9 | below margin (normal, deutan, protan, tritan); carried by bar against dot, and the word |
+| text.secondary vs text.tertiary | stone.700 / stone.600 | 7.2 | 7.1 | 7.2 | 7.2 | 6 | clears |
+| text.secondary vs text.primary | stone.700 / stone.950 | 19.4 | 19.4 | 19.5 | 19.6 | 6 | clears |
+| data.sequential.1 vs dot.open | stone.500 / green.500 | 6.0 | 3.4 | 4.7 | 3.5 | 9 | below margin (normal, deutan, protan, tritan); carried by bar against dot, and the word |
 | data.sequential.2 vs dot.open | clay.800 / green.500 | 24.7 | 21.6 | 26.5 | 25.3 | 9 | clears |
 | data.sequential.3 vs dot.open | clay.600 / green.500 | 16.3 | 7.4 | 13.8 | 19.2 | 9 | below margin (deutan); carried by bar against dot, and the word |
 | data.sequential.4 vs dot.open | clay.500 / green.500 | 15.8 | 4.7 | 6.6 | 19.6 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
@@ -74,40 +74,40 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | status.negative.text vs status.info.text | clay.400 / blue.300 | 19.3 | 14.8 | 18.4 | 23.2 | 9 (blue/purple) | clears |
 | status.caution.mark vs status.info.mark | ochre.400 / blue.400 | 16.0 | 16.3 | 15.8 | 11.7 | 6 | clears |
 | status.caution.text vs status.info.text | ochre.300 / blue.300 | 12.2 | 12.4 | 12.0 | 9.3 | 6 | clears |
-| status.positive.mark vs surface.canvas | green.400 / neutral.950 | 44.2 | 44.1 | 45.2 | 44.1 | 6 | clears |
-| status.positive.mark vs surface.raised | green.400 / neutral.900 | 38.5 | 38.4 | 39.5 | 38.3 | 6 | clears |
-| status.positive.mark vs surface.card | green.400 / neutral.900 | 38.5 | 38.4 | 39.5 | 38.3 | 6 | clears |
-| status.negative.mark vs surface.canvas | clay.200 / neutral.950 | 62.8 | 63.0 | 60.6 | 62.6 | 6 | clears |
-| status.negative.mark vs surface.raised | clay.200 / neutral.900 | 57.1 | 57.3 | 54.9 | 56.8 | 6 | clears |
-| status.negative.mark vs surface.card | clay.200 / neutral.900 | 57.1 | 57.3 | 54.9 | 56.8 | 6 | clears |
-| status.caution.mark vs surface.canvas | ochre.400 / neutral.950 | 46.8 | 47.4 | 45.6 | 46.5 | 6 | clears |
-| status.caution.mark vs surface.raised | ochre.400 / neutral.900 | 41.2 | 41.8 | 40.0 | 40.7 | 6 | clears |
-| status.caution.mark vs surface.card | ochre.400 / neutral.900 | 41.2 | 41.8 | 40.0 | 40.7 | 6 | clears |
-| status.info.mark vs surface.canvas | blue.400 / neutral.950 | 43.6 | 43.1 | 45.0 | 43.3 | 6 | clears |
-| status.info.mark vs surface.raised | blue.400 / neutral.900 | 38.0 | 37.5 | 39.3 | 37.5 | 6 | clears |
-| status.info.mark vs surface.card | blue.400 / neutral.900 | 38.0 | 37.5 | 39.3 | 37.5 | 6 | clears |
-| dot.open vs dot.attribute | green.400 / neutral.50 | 29.2 | 28.7 | 27.9 | 28.8 | 9 | clears |
-| emphasis vs mark | green.400 / neutral.50 | 29.2 | 28.7 | 27.9 | 28.8 | 6 | clears |
+| status.positive.mark vs surface.canvas | green.400 / stone.950 | 44.2 | 44.1 | 45.2 | 44.1 | 6 | clears |
+| status.positive.mark vs surface.raised | green.400 / stone.900 | 38.5 | 38.4 | 39.5 | 38.3 | 6 | clears |
+| status.positive.mark vs surface.card | green.400 / stone.900 | 38.5 | 38.4 | 39.5 | 38.3 | 6 | clears |
+| status.negative.mark vs surface.canvas | clay.200 / stone.950 | 62.8 | 63.0 | 60.6 | 62.6 | 6 | clears |
+| status.negative.mark vs surface.raised | clay.200 / stone.900 | 57.1 | 57.3 | 54.9 | 56.8 | 6 | clears |
+| status.negative.mark vs surface.card | clay.200 / stone.900 | 57.1 | 57.3 | 54.9 | 56.8 | 6 | clears |
+| status.caution.mark vs surface.canvas | ochre.400 / stone.950 | 46.8 | 47.4 | 45.6 | 46.5 | 6 | clears |
+| status.caution.mark vs surface.raised | ochre.400 / stone.900 | 41.2 | 41.8 | 40.0 | 40.7 | 6 | clears |
+| status.caution.mark vs surface.card | ochre.400 / stone.900 | 41.2 | 41.8 | 40.0 | 40.7 | 6 | clears |
+| status.info.mark vs surface.canvas | blue.400 / stone.950 | 43.6 | 43.1 | 45.0 | 43.3 | 6 | clears |
+| status.info.mark vs surface.raised | blue.400 / stone.900 | 38.0 | 37.5 | 39.3 | 37.5 | 6 | clears |
+| status.info.mark vs surface.card | blue.400 / stone.900 | 38.0 | 37.5 | 39.3 | 37.5 | 6 | clears |
+| dot.open vs dot.attribute | green.400 / stone.50 | 29.2 | 28.7 | 27.9 | 28.8 | 9 | clears |
+| emphasis vs mark | green.400 / stone.50 | 29.2 | 28.7 | 27.9 | 28.8 | 6 | clears |
 | map.water vs map.park | blue.900 / green.800 | 9.6 | 9.7 | 9.6 | 7.5 | 6 | clears |
-| map.water vs map.ground | blue.900 / neutral.900 | 3.7 | 3.9 | 3.7 | 3.0 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| map.park vs map.ground | green.800 / neutral.900 | 8.4 | 7.9 | 8.8 | 7.8 | 6 | clears |
-| dot.open vs dot.closed | green.400 / neutral.500 | 10.7 | 9.6 | 10.9 | 9.7 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | neutral.500 / neutral.50 | 37.6 | 37.6 | 37.6 | 37.6 | 6 | clears |
-| data.filled vs data.empty | neutral.200 / neutral.500 | 27.3 | 27.3 | 27.4 | 27.3 | 9 | clears |
-| action.destructive.bg-hover vs action.primary.bg | clay.400 / neutral.50 | 29.9 | 27.0 | 33.3 | 31.3 | 9 (green/brown) | clears |
-| score.bg vs data.filled | green.300 / neutral.200 | 9.9 | 8.7 | 8.3 | 8.9 | 6 | clears |
+| map.water vs map.ground | blue.900 / stone.900 | 3.7 | 3.9 | 3.7 | 3.0 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
+| map.park vs map.ground | green.800 / stone.900 | 8.4 | 7.9 | 8.8 | 7.8 | 6 | clears |
+| dot.open vs dot.closed | green.400 / stone.500 | 10.7 | 9.6 | 10.9 | 9.7 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | stone.500 / stone.50 | 37.6 | 37.6 | 37.6 | 37.6 | 6 | clears |
+| data.filled vs data.empty | stone.200 / stone.500 | 27.3 | 27.3 | 27.4 | 27.3 | 9 | clears |
+| action.destructive.bg-hover vs action.primary.bg | clay.400 / stone.50 | 29.9 | 27.0 | 33.3 | 31.3 | 9 (green/brown) | clears |
+| score.bg vs data.filled | green.300 / stone.200 | 9.9 | 8.7 | 8.3 | 8.9 | 6 | clears |
 | map.pin.cafe vs map.pin.library | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 9 | clears |
-| map.pin.cafe vs map.pin.coworking | ochre.500 / neutral.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
+| map.pin.cafe vs map.pin.coworking | ochre.500 / stone.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
 | map.pin.cafe vs map.pin.park | ochre.500 / green.700 | 18.2 | 18.6 | 15.7 | 18.7 | 9 | clears |
-| map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
+| map.pin.library vs map.pin.coworking | blue.500 / stone.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
-| map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
+| map.pin.coworking vs map.pin.park | stone.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | stone.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
 | data.sequential.2 vs data.sequential.3 | clay.300 / clay.400 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
 | data.sequential.3 vs data.sequential.4 | clay.400 / clay.500 | 9.8 | 9.8 | 9.8 | 9.9 | 6 | clears |
-| text.secondary vs text.tertiary | neutral.300 / neutral.400 | 10.5 | 10.6 | 10.6 | 10.5 | 6 | clears |
-| text.secondary vs text.primary | neutral.300 / neutral.50 | 18.7 | 18.7 | 18.7 | 18.7 | 6 | clears |
-| data.sequential.1 vs dot.open | neutral.500 / green.400 | 10.7 | 9.6 | 10.9 | 9.7 | 9 | clears |
+| text.secondary vs text.tertiary | stone.300 / stone.400 | 10.5 | 10.6 | 10.6 | 10.5 | 6 | clears |
+| text.secondary vs text.primary | stone.300 / stone.50 | 18.7 | 18.7 | 18.7 | 18.7 | 6 | clears |
+| data.sequential.1 vs dot.open | stone.500 / green.400 | 10.7 | 9.6 | 10.9 | 9.7 | 9 | clears |
 | data.sequential.2 vs dot.open | clay.300 / green.400 | 17.1 | 11.6 | 4.9 | 17.9 | 9 | below margin (protan); carried by bar against dot, and the word |
 | data.sequential.3 vs dot.open | clay.400 / green.400 | 16.1 | 5.6 | 5.5 | 20.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 | data.sequential.4 vs dot.open | clay.500 / green.400 | 17.7 | 8.5 | 15.2 | 21.1 | 9 | below margin (deutan); carried by bar against dot, and the word |
@@ -117,65 +117,65 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | Pair | Steps | Normal | Deutan | Protan | Tritan | Margin | Result |
 |---|---|---|---|---|---|---|---|
 | status.positive.mark vs status.negative.mark | green.500 / clay.700 | 19.4 | 14.5 | 20.1 | 20.8 | 9 (green/brown) | clears |
-| status.positive.text vs status.negative.text | green.900 / clay.600 | 24.9 | 22.7 | 15.2 | 27.4 | 9 (green/brown) | clears |
+| status.positive.text vs status.negative.text | green.700 / clay.600 | 15.6 | 9.6 | 2.4 | 19.2 | 9 (green/brown) | below margin (protan); carried by the title's words and the disc beside it |
 | status.positive.mark vs status.caution.mark | green.500 / ochre.500 | 8.1 | 7.1 | 6.6 | 9.7 | 9 (green/brown) | below margin (normal, deutan, protan); carried by glyph shape (check, cross, triangle, i) and the title's words |
-| status.positive.text vs status.caution.text | green.900 / ochre.700 | 15.3 | 15.3 | 12.7 | 15.9 | 9 (green/brown) | clears |
+| status.positive.text vs status.caution.text | green.700 / ochre.700 | 5.6 | 4.0 | 3.5 | 7.3 | 9 (green/brown) | below margin (normal, deutan, protan, tritan); carried by the title's words and the disc beside it |
 | status.positive.mark vs status.info.mark | green.500 / blue.500 | 10.8 | 10.1 | 10.6 | 2.9 | 6 | below margin (tritan); carried by glyph shape (check, cross, triangle, i) and the title's words |
-| status.positive.text vs status.info.text | green.900 / blue.700 | 14.7 | 13.9 | 14.7 | 12.7 | 6 | clears |
+| status.positive.text vs status.info.text | green.700 / blue.700 | 8.7 | 8.2 | 8.4 | 2.4 | 6 | below margin (tritan); carried by the title's words and the disc beside it |
 | status.negative.mark vs status.caution.mark | clay.700 / ochre.500 | 18.5 | 16.8 | 19.7 | 16.7 | 6 | clears |
 | status.negative.text vs status.caution.text | clay.600 / ochre.700 | 11.3 | 7.5 | 3.2 | 12.4 | 6 | below margin (protan); carried by the title's words and the disc beside it |
 | status.negative.mark vs status.info.mark | clay.700 / blue.500 | 20.1 | 17.6 | 22.1 | 21.7 | 9 (blue/purple) | clears |
 | status.negative.text vs status.info.text | clay.600 / blue.700 | 17.8 | 16.1 | 10.5 | 21.1 | 9 (blue/purple) | clears |
 | status.caution.mark vs status.info.mark | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 6 | clears |
 | status.caution.text vs status.info.text | ochre.700 / blue.700 | 11.9 | 12.2 | 11.6 | 9.1 | 6 | clears |
-| status.positive.mark vs surface.canvas | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
+| status.positive.mark vs surface.canvas | green.500 / stone.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
 | status.positive.mark vs surface.raised | green.500 / green.100 | 33.0 | 32.9 | 32.4 | 32.6 | 6 | clears |
-| status.positive.mark vs surface.card | green.500 / neutral.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
-| status.negative.mark vs surface.canvas | clay.700 / neutral.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
+| status.positive.mark vs surface.card | green.500 / stone.50 | 37.7 | 37.2 | 36.4 | 37.2 | 6 | clears |
+| status.negative.mark vs surface.canvas | clay.700 / stone.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
 | status.negative.mark vs surface.raised | clay.700 / green.100 | 48.7 | 47.3 | 52.4 | 49.0 | 6 | clears |
-| status.negative.mark vs surface.card | clay.700 / neutral.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
-| status.caution.mark vs surface.canvas | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
+| status.negative.mark vs surface.card | clay.700 / stone.50 | 52.8 | 51.6 | 56.4 | 53.0 | 6 | clears |
+| status.caution.mark vs surface.canvas | ochre.500 / stone.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
 | status.caution.mark vs surface.raised | ochre.500 / green.100 | 33.1 | 32.5 | 35.4 | 32.3 | 6 | clears |
-| status.caution.mark vs surface.card | ochre.500 / neutral.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
-| status.info.mark vs surface.canvas | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
+| status.caution.mark vs surface.card | ochre.500 / stone.50 | 37.6 | 36.8 | 39.5 | 36.4 | 6 | clears |
+| status.info.mark vs surface.canvas | blue.500 / stone.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
 | status.info.mark vs surface.raised | blue.500 / green.100 | 34.1 | 34.8 | 33.4 | 33.7 | 6 | clears |
-| status.info.mark vs surface.card | blue.500 / neutral.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
-| dot.open vs dot.attribute | signal-green.550 / green.900 | 25.6 | 24.6 | 26.5 | 24.9 | 9 | clears |
-| emphasis vs mark | green.900 / green.900 | 0.0 | 0.0 | 0.0 | 0.0 | 6 | below margin (normal, deutan, protan, tritan); carried by emphasis is a highlighter beside a label, never the only signal |
+| status.info.mark vs surface.card | blue.500 / stone.50 | 38.2 | 38.8 | 36.9 | 38.4 | 6 | clears |
+| dot.live vs dot.attribute | signal-green.550 / green.950 | 31.7 | 30.7 | 32.9 | 30.9 | 9 | clears |
+| emphasis vs mark | green.500 / green.950 | 34.8 | 34.7 | 35.3 | 34.8 | 6 | clears |
 | map.water vs map.park | blue.100 / green.200 | 7.8 | 7.2 | 7.4 | 5.7 | 6 | below margin (tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.water vs map.ground | blue.100 / green.100 | 3.5 | 3.3 | 3.5 | 1.1 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.park vs map.ground | green.200 / green.100 | 6.0 | 5.9 | 5.5 | 5.6 | 6 | below margin (deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
-| dot.open vs dot.closed | signal-green.550 / green.700 | 12.8 | 11.2 | 13.1 | 12.0 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | green.700 / green.900 | 13.6 | 13.6 | 13.5 | 13.5 | 6 | clears |
-| data.filled vs data.empty | neutral.800 / neutral.500 | 22.4 | 22.4 | 22.4 | 22.4 | 9 | clears |
-| action.destructive.bg-hover vs action.primary.bg | clay.600 / green.700 | 15.6 | 9.6 | 2.4 | 19.2 | 9 (green/brown) | below margin (protan); carried by outline at rest, and the label |
-| score.bg vs data.filled | green.700 / neutral.800 | 9.0 | 8.3 | 9.2 | 8.3 | 6 | clears |
+| dot.live vs dot.closed | signal-green.550 / green.700 | 12.8 | 11.2 | 13.1 | 12.0 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | green.700 / green.950 | 19.7 | 19.7 | 20.0 | 19.6 | 6 | clears |
+| data.filled vs data.empty | stone.800 / stone.500 | 22.4 | 22.4 | 22.4 | 22.4 | 9 | clears |
+| action.destructive.bg-hover vs action.primary.bg | clay.600 / green.950 | 30.1 | 28.7 | 21.7 | 32.3 | 9 (green/brown) | clears |
+| score.bg vs data.filled | green.700 / stone.800 | 9.0 | 8.3 | 9.2 | 8.3 | 6 | clears |
 | map.pin.cafe vs map.pin.library | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 9 | clears |
-| map.pin.cafe vs map.pin.coworking | ochre.500 / neutral.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
+| map.pin.cafe vs map.pin.coworking | ochre.500 / stone.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
 | map.pin.cafe vs map.pin.park | ochre.500 / green.700 | 18.2 | 18.6 | 15.7 | 18.7 | 9 | clears |
-| map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
+| map.pin.library vs map.pin.coworking | blue.500 / stone.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
-| map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
+| map.pin.coworking vs map.pin.park | stone.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | stone.500 / clay.800 | 22.8 | 21.4 | 25.1 | 23.4 | 6 | clears |
 | data.sequential.2 vs data.sequential.3 | clay.800 / clay.600 | 15.2 | 15.2 | 12.8 | 15.7 | 6 | clears |
 | data.sequential.3 vs data.sequential.4 | clay.600 / clay.500 | 8.0 | 8.1 | 7.3 | 8.0 | 6 | clears |
 | text.secondary vs text.tertiary | green.700 / green.600 | 7.3 | 7.2 | 7.5 | 7.1 | 6 | clears |
-| text.secondary vs text.primary | green.700 / green.900 | 13.6 | 13.6 | 13.5 | 13.5 | 6 | clears |
-| data.sequential.1 vs dot.open | neutral.500 / signal-green.550 | 11.9 | 6.1 | 7.0 | 9.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.2 vs dot.open | clay.800 / signal-green.550 | 24.1 | 17.4 | 24.1 | 24.9 | 9 | clears |
-| data.sequential.3 vs dot.open | clay.600 / signal-green.550 | 19.6 | 3.0 | 11.3 | 23.0 | 9 | below margin (deutan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.500 / signal-green.550 | 21.1 | 6.3 | 4.0 | 25.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| text.secondary vs text.primary | green.700 / green.950 | 19.7 | 19.7 | 20.0 | 19.6 | 6 | clears |
+| data.sequential.1 vs dot.live | stone.500 / signal-green.550 | 11.9 | 6.1 | 7.0 | 9.3 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.2 vs dot.live | clay.800 / signal-green.550 | 24.1 | 17.4 | 24.1 | 24.9 | 9 | clears |
+| data.sequential.3 vs dot.live | clay.600 / signal-green.550 | 19.6 | 3.0 | 11.3 | 23.0 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.live | clay.500 / signal-green.550 | 21.1 | 6.3 | 4.0 | 25.2 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
 
 ## atlas-dark
 
 | Pair | Steps | Normal | Deutan | Protan | Tritan | Margin | Result |
 |---|---|---|---|---|---|---|---|
 | status.positive.mark vs status.negative.mark | green.400 / clay.200 | 20.9 | 19.0 | 15.8 | 20.7 | 9 (green/brown) | clears |
-| status.positive.text vs status.negative.text | green.50 / clay.400 | 28.9 | 25.4 | 32.0 | 30.7 | 9 (green/brown) | clears |
+| status.positive.text vs status.negative.text | green.300 / clay.400 | 17.8 | 9.0 | 15.3 | 21.4 | 9 (green/brown) | below margin (deutan); carried by the title's words and the disc beside it |
 | status.positive.mark vs status.caution.mark | green.400 / ochre.400 | 7.9 | 7.1 | 6.3 | 9.2 | 9 (green/brown) | below margin (normal, deutan, protan); carried by glyph shape (check, cross, triangle, i) and the title's words |
-| status.positive.text vs status.caution.text | green.50 / ochre.300 | 17.4 | 17.0 | 18.6 | 16.7 | 9 (green/brown) | clears |
+| status.positive.text vs status.caution.text | green.300 / ochre.300 | 5.4 | 4.4 | 3.6 | 7.0 | 9 (green/brown) | below margin (normal, deutan, protan, tritan); carried by the title's words and the disc beside it |
 | status.positive.mark vs status.info.mark | green.400 / blue.400 | 9.9 | 9.3 | 9.6 | 2.9 | 6 | below margin (tritan); carried by glyph shape (check, cross, triangle, i) and the title's words |
-| status.positive.text vs status.info.text | green.50 / blue.300 | 18.0 | 18.5 | 17.2 | 17.8 | 6 | clears |
+| status.positive.text vs status.info.text | green.300 / blue.300 | 8.8 | 8.1 | 8.5 | 2.5 | 6 | below margin (tritan); carried by the title's words and the disc beside it |
 | status.negative.mark vs status.caution.mark | clay.200 / ochre.400 | 19.2 | 18.1 | 18.5 | 16.3 | 6 | clears |
 | status.negative.text vs status.caution.text | clay.400 / ochre.300 | 14.7 | 8.6 | 14.2 | 15.7 | 6 | clears |
 | status.negative.mark vs status.info.mark | clay.200 / blue.400 | 21.8 | 22.0 | 17.4 | 22.6 | 9 (blue/purple) | clears |
@@ -194,28 +194,28 @@ OKLab ΔE×100 between every pair the system means to be told apart, simulated u
 | status.info.mark vs surface.canvas | blue.400 / green.950 | 43.1 | 42.4 | 43.9 | 42.3 | 6 | clears |
 | status.info.mark vs surface.raised | blue.400 / green.900 | 37.2 | 36.6 | 37.7 | 36.2 | 6 | clears |
 | status.info.mark vs surface.card | blue.400 / green.900 | 37.2 | 36.6 | 37.7 | 36.2 | 6 | clears |
-| dot.open vs dot.attribute | signal-green.300 / green.50 | 18.7 | 16.5 | 15.0 | 17.2 | 9 | clears |
-| emphasis vs mark | green.50 / green.500 | 35.8 | 35.6 | 35.1 | 35.5 | 6 | clears |
+| dot.live vs dot.attribute | signal-green.300 / green.50 | 18.7 | 16.5 | 15.0 | 17.2 | 9 | clears |
+| emphasis vs mark | green.400 / green.50 | 27.4 | 27.1 | 26.5 | 27.0 | 6 | clears |
 | map.water vs map.park | blue.900 / green.800 | 9.6 | 9.7 | 9.6 | 7.5 | 6 | clears |
 | map.water vs map.ground | blue.900 / green.900 | 5.7 | 5.4 | 5.6 | 1.7 | 6 | below margin (normal, deutan, protan, tritan); carried by the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2) |
 | map.park vs map.ground | green.800 / green.900 | 6.6 | 6.6 | 6.6 | 6.4 | 6 | clears |
-| dot.open vs dot.closed | signal-green.300 / green.400 | 12.5 | 11.3 | 13.1 | 12.1 | 9 (green/brown) | clears |
-| dot.closed vs dot.attribute | green.400 / green.50 | 27.4 | 27.1 | 26.5 | 27.0 | 6 | clears |
-| data.filled vs data.empty | neutral.200 / neutral.500 | 27.3 | 27.3 | 27.4 | 27.3 | 9 | clears |
-| action.destructive.bg-hover vs action.primary.bg | clay.400 / green.300 | 17.8 | 9.0 | 15.3 | 21.4 | 9 (green/brown) | below margin (deutan); carried by outline at rest, and the label |
-| score.bg vs data.filled | green.300 / neutral.200 | 9.9 | 8.7 | 8.3 | 8.9 | 6 | clears |
+| dot.live vs dot.closed | signal-green.300 / green.500 | 20.5 | 19.8 | 21.5 | 20.2 | 9 (green/brown) | clears |
+| dot.closed vs dot.attribute | green.500 / green.50 | 35.8 | 35.6 | 35.1 | 35.5 | 6 | clears |
+| data.filled vs data.empty | stone.200 / stone.500 | 27.3 | 27.3 | 27.4 | 27.3 | 9 | clears |
+| action.destructive.bg-hover vs action.primary.bg | clay.400 / green.50 | 28.9 | 25.4 | 32.0 | 30.7 | 9 (green/brown) | clears |
+| score.bg vs data.filled | green.300 / stone.200 | 9.9 | 8.7 | 8.3 | 8.9 | 6 | clears |
 | map.pin.cafe vs map.pin.library | ochre.500 / blue.500 | 16.7 | 17.1 | 17.0 | 12.1 | 9 | clears |
-| map.pin.cafe vs map.pin.coworking | ochre.500 / neutral.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
+| map.pin.cafe vs map.pin.coworking | ochre.500 / stone.950 | 37.8 | 38.6 | 36.4 | 37.3 | 9 | clears |
 | map.pin.cafe vs map.pin.park | ochre.500 / green.700 | 18.2 | 18.6 | 15.7 | 18.7 | 9 | clears |
-| map.pin.library vs map.pin.coworking | blue.500 / neutral.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
+| map.pin.library vs map.pin.coworking | blue.500 / stone.950 | 35.2 | 34.7 | 36.5 | 34.9 | 9 | clears |
 | map.pin.library vs map.pin.park | blue.500 / green.700 | 17.0 | 16.2 | 17.4 | 14.5 | 9 | clears |
-| map.pin.coworking vs map.pin.park | neutral.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
-| data.sequential.1 vs data.sequential.2 | neutral.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
+| map.pin.coworking vs map.pin.park | stone.950 / green.700 | 20.7 | 20.6 | 21.4 | 20.5 | 9 | clears |
+| data.sequential.1 vs data.sequential.2 | stone.500 / clay.300 | 22.0 | 21.2 | 15.6 | 21.8 | 6 | clears |
 | data.sequential.2 vs data.sequential.3 | clay.300 / clay.400 | 9.2 | 8.6 | 10.3 | 8.6 | 6 | clears |
 | data.sequential.3 vs data.sequential.4 | clay.400 / clay.500 | 9.8 | 9.8 | 9.8 | 9.9 | 6 | clears |
 | text.secondary vs text.tertiary | green.300 / green.400 | 10.1 | 10.1 | 9.9 | 10.1 | 6 | clears |
 | text.secondary vs text.primary | green.300 / green.50 | 17.4 | 17.1 | 16.7 | 16.9 | 6 | clears |
-| data.sequential.1 vs dot.open | neutral.500 / signal-green.300 | 23.2 | 20.9 | 23.9 | 21.7 | 9 | clears |
-| data.sequential.2 vs dot.open | clay.300 / signal-green.300 | 18.5 | 1.1 | 8.3 | 20.1 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
-| data.sequential.3 vs dot.open | clay.400 / signal-green.300 | 22.8 | 8.9 | 18.1 | 26.4 | 9 | below margin (deutan); carried by bar against dot, and the word |
-| data.sequential.4 vs dot.open | clay.500 / signal-green.300 | 28.1 | 18.4 | 27.9 | 30.8 | 9 | clears |
+| data.sequential.1 vs dot.live | stone.500 / signal-green.300 | 23.2 | 20.9 | 23.9 | 21.7 | 9 | clears |
+| data.sequential.2 vs dot.live | clay.300 / signal-green.300 | 18.5 | 1.1 | 8.3 | 20.1 | 9 | below margin (deutan, protan); carried by bar against dot, and the word |
+| data.sequential.3 vs dot.live | clay.400 / signal-green.300 | 22.8 | 8.9 | 18.1 | 26.4 | 9 | below margin (deutan); carried by bar against dot, and the word |
+| data.sequential.4 vs dot.live | clay.500 / signal-green.300 | 28.1 | 18.4 | 27.9 | 30.8 | 9 | clears |

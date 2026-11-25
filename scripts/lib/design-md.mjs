@@ -14,47 +14,56 @@ const BRAND = {
   'brand-os': { name: 'Brand OS', title: 'Brand OS' },
 };
 
-// Front-matter color names → Intent or Core paths. Order is the order they print in.
+// Front-matter color names → Patterns or Brand paths. Order is the order they print in.
 const COLORS = [
-  ['primary', 'core.color.green.700', 'The lead accent: forest green'],
-  ['secondary', 'core.color.clay.700', 'Supporting accent: fired clay'],
-  ['tertiary', 'core.color.blue.700', 'Supporting accent: Storm Blue'],
-  ['neutral', 'core.color.neutral.50', 'Brand white'],
-  ['ink', 'core.color.neutral.950', 'Brand black, warm ink'],
-  ['surface', 'intent.color.surface.canvas'],
-  ['surface-raised', 'intent.color.surface.raised'],
-  ['surface-inset', 'intent.color.surface.inset'],
-  ['surface-card', 'intent.color.surface.card'],
-  ['surface-inverse', 'intent.color.surface.inverse'],
-  ['on-surface', 'intent.color.text.primary'],
-  ['on-surface-secondary', 'intent.color.text.secondary'],
-  ['on-surface-display', 'intent.color.text.display'],
-  ['on-surface-disabled', 'intent.color.text.disabled'],
-  ['on-inverse', 'intent.color.text.on-inverse'],
-  ['on-inverse-secondary', 'intent.color.text.on-inverse-secondary'],
-  ['border-divider', 'intent.color.border.divider'],
-  ['border-control', 'intent.color.border.control'],
-  ['border-strong', 'intent.color.border.strong'],
-  ['action', 'intent.color.action.primary.bg'],
-  ['action-hover', 'intent.color.action.primary.bg-hover'],
-  ['action-pressed', 'intent.color.action.primary.bg-pressed'],
-  ['on-action', 'intent.color.action.primary.text'],
-  ['action-disabled', 'intent.color.action.primary.bg-disabled'],
-  ['on-action-disabled', 'intent.color.action.primary.text-disabled'],
-  ['selected', 'intent.color.selected.bg'],
-  ['on-selected', 'intent.color.selected.text'],
-  ['focus-ring', 'intent.color.focus.ring'],
-  ['emphasis', 'intent.color.emphasis'],
-  ['dot-open', 'intent.color.dot.open'],
-  ['dot-attribute', 'intent.color.dot.attribute'],
+  ['primary', 'brand.color.green.700', 'The lead accent: forest green'],
+  ['secondary', 'brand.color.clay.700', 'Supporting accent: fired clay'],
+  ['tertiary', 'brand.color.blue.700', 'Supporting accent: Storm Blue'],
+  ['neutral', 'brand.color.stone.50', 'Brand white'],
+  ['ink', 'brand.color.stone.950', 'Brand black, warm ink'],
+  ['surface', 'patterns.color.surface.canvas'],
+  ['surface-raised', 'patterns.color.surface.raised'],
+  ['surface-inset', 'patterns.color.surface.inset'],
+  ['surface-card', 'patterns.color.surface.card'],
+  ['surface-inverse', 'patterns.color.surface.inverse'],
+  ['on-surface', 'patterns.color.text.primary'],
+  ['on-surface-secondary', 'patterns.color.text.secondary'],
+  ['on-surface-display', 'patterns.color.text.display'],
+  ['on-surface-disabled', 'patterns.color.text.disabled'],
+  ['on-inverse', 'patterns.color.text.on-inverse'],
+  ['on-inverse-secondary', 'patterns.color.text.on-inverse-secondary'],
+  ['border-divider', 'patterns.color.border.divider'],
+  ['border-control', 'patterns.color.border.control'],
+  ['border-strong', 'patterns.color.border.strong'],
+  ['action', 'patterns.color.action.primary.bg'],
+  ['action-hover', 'patterns.color.action.primary.bg-hover'],
+  ['action-pressed', 'patterns.color.action.primary.bg-pressed'],
+  ['on-action', 'patterns.color.action.primary.text'],
+  ['action-disabled', 'patterns.color.action.primary.bg-disabled'],
+  ['on-action-disabled', 'patterns.color.action.primary.text-disabled'],
+  ['selected', 'patterns.color.selected.bg'],
+  ['on-selected', 'patterns.color.selected.text'],
+  ['focus-ring', 'patterns.color.focus.ring'],
+  ['emphasis', 'patterns.color.emphasis'],
+  ['dot-open', 'patterns.color.dot.open'],
+  ['dot-attribute', 'patterns.color.dot.attribute'],
   ...['positive', 'negative', 'caution', 'info'].flatMap((s) => [
-    [`${s}`, `intent.color.status.${s}.text`],
-    [`${s}-mark`, `intent.color.status.${s}.mark`],
-    [`on-${s}-mark`, `intent.color.status.${s}.on-mark`],
-    [`${s}-surface`, `intent.color.status.${s}.surface`],
+    [`${s}`, `patterns.color.status.${s}.text`],
+    [`${s}-mark`, `patterns.color.status.${s}.mark`],
+    [`on-${s}-mark`, `patterns.color.status.${s}.on-mark`],
+    [`${s}-surface`, `patterns.color.status.${s}.surface`],
   ]),
-  ['skeleton', 'intent.color.skeleton'],
+  ['skeleton', 'patterns.color.skeleton'],
 ];
+// Where a sub-brand applies a role through its accent variant, its DESIGN.md names that variant.
+const ACCENT_ROLES = {
+  atlas: {
+    'patterns.color.action.primary.bg': 'patterns.color.action.accent.bg',
+    'patterns.color.selected.bg': 'patterns.color.selected.bg-accent',
+    'patterns.color.focus.ring': 'patterns.color.focus.ring-accent',
+    'patterns.color.dot.open': 'patterns.color.dot.live',
+  },
+};
 const ERROR_ALIAS = 'negative';
 
 const TYPE = [
@@ -72,7 +81,7 @@ function provenance(token) {
 }
 
 // The token whose provenance explains a role: the role's own when it was decided for this mode,
-// else the Core value it lands on.
+// else the Brand value it lands on.
 function explain(tree, path) {
   let t = get(tree, path);
   while (t && typeof t.$value === 'string' && t.$value.startsWith('{')) {
@@ -96,14 +105,15 @@ function frontMatter(brand, theme, { tree }) {
     )}`,
   );
   L.push('colors:');
-  for (const [name, path] of COLORS) {
+  for (const [name, base] of COLORS) {
+    const path = ACCENT_ROLES[brand]?.[base] ?? base;
     const t = get(tree, path);
     L.push(`  ${name}: ${q(toHex(resolveValue(tree, t.$value)))}${provenance(explain(tree, path))}`);
   }
   L.push(`  error: "{colors.${ERROR_ALIAS}}"`);
   L.push('typography:');
   for (const role of roles) {
-    const t = get(tree, `intent.type.${role}`);
+    const t = get(tree, `patterns.type.${role}`);
     const v = resolveValue(tree, t.$value);
     const ext = t.$extensions['studio.atmo'];
     const feat = resolveValue(tree, ext.fontFeatureSettings ?? '');
@@ -114,10 +124,10 @@ function frontMatter(brand, theme, { tree }) {
     if (feat) L.push(`    fontFeature: ${q(feat)}`);
   }
   L.push('rounded:');
-  for (const [k, t] of Object.entries(get(tree, 'core.radius')).filter(([k]) => !k.startsWith('$')))
+  for (const [k, t] of Object.entries(get(tree, 'brand.radius')).filter(([k]) => !k.startsWith('$')))
     L.push(`  ${k}: ${px(t.$value)}${provenance(t)}`);
   L.push('spacing:');
-  for (const [k, t] of Object.entries(get(tree, 'core.spacing')).filter(([k]) => !k.startsWith('$') && k !== 'full'))
+  for (const [k, t] of Object.entries(get(tree, 'brand.spacing')).filter(([k]) => !k.startsWith('$') && k !== 'full'))
     L.push(`  ${q(k)}: ${px(t.$value)}${provenance(t)}`);
   for (const [k, label] of [['narrow', 'below 720px'], ['medium', '720 to 1199px'], ['wide', '1200px and up']]) {
     const t = get(tree, `patterns.section.inset.${k}`);
@@ -204,7 +214,7 @@ Generated from [tokens/](tokens/) by \`npm run build\`. Do not edit this file: c
 
 ${
   atlas
-    ? 'Atlas is a theme extending Atmo core. It is green-led: its surfaces, text and action all come from the green ramp, over the same brand white as Atmo. Red and blue are reserved for system states.'
+    ? 'Atlas is a sub-brand of Atmo: the same Brand primitives and the same Patterns roles, with its Intent mapping neutral to the green ramp. It is green-led: its surfaces, text and action all come from the green ramp, over the same brand white as Atmo. Red and blue are reserved for system states.'
     : `${b.title} works in warm neutrals with forest green as the lead accent, fired clay and Storm Blue in support. Hierarchy comes from tone at one weight, ink against a lighter ink, more than from color.`
 }
 
@@ -212,15 +222,15 @@ The brand narrative this section is meant to carry is not written yet. Its sourc
 
 ## Colors
 
-Every color sits on one of five 11-step ramps (neutral, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
+Every color sits on one of five 11-step Brand ramps (stone, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. Intent gives each ramp its meaning per sub-brand (neutral, accent, error, success, warning, info, base), and Patterns applies those meanings per theme, so the names below are the roles to use. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
 
-- **Primary (${h('core.color.green.700')}):** forest green, hue 134. The lead accent${atlas ? ' and, in Atlas, the action color' : ''}.
-- **Secondary (${h('core.color.clay.700')}):** fired clay, the warm supporting accent and the one brand red, which carries errors too.
-- **Tertiary (${h('core.color.blue.700')}):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
-- **Neutral (${h('core.color.neutral.50')}) and ink (${h('core.color.neutral.950')}):** the brand white and the warm black. Never pure white or pure black.
-- **Action (${h('intent.color.action.primary.bg')}):** ${action} is the primary action.
+- **Primary (${h('brand.color.green.700')}):** forest green, hue 134. The lead accent${atlas ? ' and, in Atlas, the action color' : ''}.
+- **Secondary (${h('brand.color.clay.700')}):** fired clay, the warm supporting accent and the one brand red, which carries errors too.
+- **Tertiary (${h('brand.color.blue.700')}):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
+- **Neutral (${h('brand.color.stone.50')}) and ink (${h('brand.color.stone.950')}):** the brand white and the warm black. Never pure white or pure black.
+- **Action (${h(atlas ? 'patterns.color.action.accent.bg' : 'patterns.color.action.primary.bg')}):** ${action} is the primary action${atlas ? ', through the accent action role' : ''}.
 - **Status:** positive is green, negative is clay, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On ${dark ? 'dark grounds the discs sit at 400, negative at 200' : 'light grounds the discs sit at 500, negative at 700'}, so positive and negative differ in lightness as well as hue. Among the status colors, ochre is caution, and its disc may run past the palette's chroma. Map categories each take their own hue from the palette, so a pin can be ochre or blue without meaning a state.
-- **Dots:** "Open" takes ${h('intent.color.dot.open')}. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
+- **Dots:** "Open" takes ${h(atlas ? 'patterns.color.dot.live' : 'patterns.color.dot.open')}. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
 
 Every text pair clears 4.5:1 and every mark 3:1, disabled controls excepted as WCAG allows. The build measures each pair and simulates the system under deuteranopia, protanopia and tritanopia. The full tables are in [reports/](reports/).
 

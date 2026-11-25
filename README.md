@@ -28,26 +28,48 @@ Each brand ships one file with both themes, plus a standalone file per theme.
 }
 ```
 
-Products use the Intent names (`--color-surface-*`, `--color-text-*`, `--type-*`, `--motion-*`).
-Core steps such as `--color-green-500` exist so that Intent can point at them.
+Products use the Patterns names (`--color-surface-*`, `--color-text-*`, `--type-*`, `--motion-*`).
+Brand steps such as `--color-green-500` and Intent ramps such as `--color-accent-500` exist so that
+the layer above can point at them.
 
 No font files ship here. Load Satoshi Variable yourself, under its license; see
 [TRADEMARKS.md](TRADEMARKS.md).
 
 ## How the tokens are organized
 
-| Tier | File | Modes | Holds |
+Brand, meaning, application: three layers, each pointing only at the one below and each
+switching one thing.
+
+| Layer | File | Modes | Holds |
 |---|---|---|---|
-| Core | `tokens/core.tokens.json` | one | Raw values: six color ramps and two signal greens, the type scale, spacing, radius, stroke, shadow, motion |
-| Intent | `tokens/intent/*.tokens.json` | six, brand × theme | Roles: surfaces, text, borders, action, status, focus, type roles, elevation, motion |
-| Patterns | `tokens/patterns.tokens.json` | one | Only what no role can hold: the menu button, section and footer geometry, dot and disc sizes |
+| Brand | `tokens/brand.tokens.json` | one | Raw values: five color ramps (stone, green, clay, blue, ochre), two signal greens and deep ink, the type scale, spacing, radius, stroke, shadow, motion |
+| Intent | `tokens/intent/<sub-brand>.tokens.json` | one per sub-brand: atmo, atlas, brand-os | What each ramp means, stop for stop: `neutral`, `accent`, `error`, `success`, `warning`, `info`, `base`, plus `live` (the open-now green) and `ink` (deep ink for shadows) |
+| Patterns | `tokens/patterns/<theme>.tokens.json`, `tokens/patterns/components.tokens.json` | one per theme: light, dark | Roles: surfaces, text, borders, action, status, focus, type roles, elevation, motion; and the component geometry no role can hold |
 
-[tokens/atmo.resolver.json](tokens/atmo.resolver.json) follows the DTCG 2025.10 resolver module.
-Atmo's Intent files define every role. Atlas and Brand OS files hold only their overrides and
-layer on Atmo in the same theme. Brand OS overrides nothing today.
+[tokens/atmo.resolver.json](tokens/atmo.resolver.json) follows the DTCG 2025.10 resolver module,
+with a `brand` and a `theme` modifier. The build writes every sub-brand in every theme.
 
-Files keep a `core.`, `intent.` or `patterns.` prefix so the tiers never collide. Published names
-drop it: `core.color.green.500` is `--color-green-500` in CSS and `color/green/500` in Figma.
+**A sub-brand changes only Intent.** Every sub-brand has the same Intent names and the same
+Patterns roles. Atmo and Brand OS map `neutral` to stone; Atlas maps it to green, so its grounds,
+text and borders come from the green ramp. `base` is stone in every sub-brand: the brand white and
+warm ink a role keeps even in Atlas (the light page and card, the ink on status discs).
+
+**Accent variants.** Where a product applies a role in its accent instead of its ink, Patterns
+carries a variant on Intent's `accent`: `--color-action-accent-bg`, `--color-selected-bg-accent`,
+`--color-focus-ring-accent`, `--color-map-marker-accent`, `--color-mark-accent`, and
+`--color-dot-live` for the open-now dot. Atlas uses them.
+
+**Tints and shadows.** A veil, overlay, glass or shadow is an Intent step at an opacity: the source
+aliases the step and keeps the opacity in `$extensions["studio.atmo"].alpha` (`layerAlpha` for a
+shadow), and the build writes the composite out.
+
+Files keep a `brand.`, `intent.` or `patterns.` prefix so the layers never collide. Published names
+drop it: `brand.color.green.500` is `--color-green-500` in CSS and `color/green/500` in Figma. No
+Brand ramp shares a name with an Intent ramp, which is why the warm gray is `stone`.
+
+Before 2026-11-24 the system had Core, Intent (the roles, brand × theme) and Patterns (geometry),
+and Atlas held its own overrides. Those files, with the provenance of each Atlas decision, are in
+the history before the `three-layers` change.
 
 **Provenance.** Every token carries `$extensions["studio.atmo"].provenance`: `decided`, with the
 date and the rule that produced it; `extracted`, with where it was read from; or `derived`, with
@@ -71,7 +93,8 @@ npm test
 `npm test` builds everything, then fails on any of these:
 
 - an alias that does not resolve, or two tokens publishing under one name
-- an Intent mode missing a role another mode has, or Intent or Patterns holding a raw color
+- an Intent mode missing a name another mode has, Intent or Patterns holding a raw color, Intent
+  pointing anywhere but Brand, or a Patterns color pointing anywhere but Intent
 - a pair in [checks/pairs.json](checks/pairs.json) under its WCAG floor: 4.5:1 for text, 3:1 for
   marks and component boundaries
 - a pair told apart by color alone that falls under its distance margin when simulated under
@@ -91,9 +114,9 @@ changes and the tokens do not.
 
 ## Figma
 
-`dist/figma/sync.json` maps the tokens onto the library's three collections, `01 Core`,
-`02 Intent` with one mode per brand × theme, and `03 Patterns`, plus the two elevation effect
-styles. The sync writes them through the Figma Plugin API, because the Variables REST API needs an
+`dist/figma/sync.json` maps the tokens onto the library's three collections, `01 Brand`,
+`02 Intent` with one mode per sub-brand, and `03 Patterns` with one mode per theme, plus the two
+elevation effect styles. A frame picks its sub-brand in Intent and its theme in Patterns. The sync writes them through the Figma Plugin API, because the Variables REST API needs an
 Enterprise plan.
 
 Parity is checked inside the library. `npm run build` writes `dist/figma/parity-check.js`, a

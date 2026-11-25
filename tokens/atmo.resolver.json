@@ -2,68 +2,57 @@
   "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
   "version": "2025.10",
   "name": "Atmo design system",
-  "description": "Core and Patterns in one mode; Intent in six, brand x theme. Atlas and Brand OS layer their overrides on Atmo in the same theme.",
+  "description": "Brand in one mode; Intent per sub-brand (atmo, atlas, brand-os); Patterns per theme (light, dark), with component geometry in every theme.",
   "sets": {
-    "core": {
+    "brand": {
       "sources": [
         {
-          "$ref": "core.tokens.json"
+          "$ref": "brand.tokens.json"
         }
       ]
     },
-    "patterns": {
+    "components": {
       "sources": [
         {
-          "$ref": "patterns.tokens.json"
+          "$ref": "patterns/components.tokens.json"
         }
       ]
     }
   },
   "modifiers": {
-    "mode": {
-      "description": "Brand x theme",
-      "default": "atmo-light",
+    "brand": {
+      "description": "Sub-brand",
+      "default": "atmo",
       "contexts": {
-        "atmo-light": [
+        "atmo": [
           {
-            "$ref": "intent/atmo.light.tokens.json"
+            "$ref": "intent/atmo.tokens.json"
           }
         ],
-        "atmo-dark": [
+        "atlas": [
           {
-            "$ref": "intent/atmo.dark.tokens.json"
+            "$ref": "intent/atlas.tokens.json"
           }
         ],
-        "atlas-light": [
+        "brand-os": [
           {
-            "$ref": "intent/atmo.light.tokens.json"
-          },
+            "$ref": "intent/brand-os.tokens.json"
+          }
+        ]
+      }
+    },
+    "theme": {
+      "description": "Theme",
+      "default": "light",
+      "contexts": {
+        "light": [
           {
-            "$ref": "intent/atlas.light.tokens.json"
+            "$ref": "patterns/light.tokens.json"
           }
         ],
-        "atlas-dark": [
+        "dark": [
           {
-            "$ref": "intent/atmo.dark.tokens.json"
-          },
-          {
-            "$ref": "intent/atlas.dark.tokens.json"
-          }
-        ],
-        "brand-os-light": [
-          {
-            "$ref": "intent/atmo.light.tokens.json"
-          },
-          {
-            "$ref": "intent/brand-os.light.tokens.json"
-          }
-        ],
-        "brand-os-dark": [
-          {
-            "$ref": "intent/atmo.dark.tokens.json"
-          },
-          {
-            "$ref": "intent/brand-os.dark.tokens.json"
+            "$ref": "patterns/dark.tokens.json"
           }
         ]
       }
@@ -71,13 +60,16 @@
   },
   "resolutionOrder": [
     {
-      "$ref": "#/sets/core"
+      "$ref": "#/sets/brand"
     },
     {
-      "$ref": "#/modifiers/mode"
+      "$ref": "#/modifiers/brand"
     },
     {
-      "$ref": "#/sets/patterns"
+      "$ref": "#/modifiers/theme"
+    },
+    {
+      "$ref": "#/sets/components"
     }
   ]
 }

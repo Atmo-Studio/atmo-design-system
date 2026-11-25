@@ -1,0 +1,275 @@
+{
+  "$description": "Intent for brand-os: what each Brand ramp means. Same names in every sub-brand; only what they point at differs.",
+  "intent": {
+    "color": {
+      "$type": "color",
+      "neutral": {
+        "50": {
+          "$value": "{brand.color.stone.50}"
+        },
+        "100": {
+          "$value": "{brand.color.stone.100}"
+        },
+        "200": {
+          "$value": "{brand.color.stone.200}"
+        },
+        "300": {
+          "$value": "{brand.color.stone.300}"
+        },
+        "400": {
+          "$value": "{brand.color.stone.400}"
+        },
+        "500": {
+          "$value": "{brand.color.stone.500}"
+        },
+        "600": {
+          "$value": "{brand.color.stone.600}"
+        },
+        "700": {
+          "$value": "{brand.color.stone.700}"
+        },
+        "800": {
+          "$value": "{brand.color.stone.800}"
+        },
+        "900": {
+          "$value": "{brand.color.stone.900}"
+        },
+        "950": {
+          "$value": "{brand.color.stone.950}"
+        },
+        "$description": "Grounds, text and borders. Atmo and Brand OS: stone. Atlas: green"
+      },
+      "accent": {
+        "50": {
+          "$value": "{brand.color.green.50}"
+        },
+        "100": {
+          "$value": "{brand.color.green.100}"
+        },
+        "200": {
+          "$value": "{brand.color.green.200}"
+        },
+        "300": {
+          "$value": "{brand.color.green.300}"
+        },
+        "400": {
+          "$value": "{brand.color.green.400}"
+        },
+        "500": {
+          "$value": "{brand.color.green.500}"
+        },
+        "600": {
+          "$value": "{brand.color.green.600}"
+        },
+        "700": {
+          "$value": "{brand.color.green.700}"
+        },
+        "800": {
+          "$value": "{brand.color.green.800}"
+        },
+        "900": {
+          "$value": "{brand.color.green.900}"
+        },
+        "950": {
+          "$value": "{brand.color.green.950}"
+        },
+        "$description": "The lead accent and the interactive accent: green in every sub-brand"
+      },
+      "error": {
+        "50": {
+          "$value": "{brand.color.clay.50}"
+        },
+        "100": {
+          "$value": "{brand.color.clay.100}"
+        },
+        "200": {
+          "$value": "{brand.color.clay.200}"
+        },
+        "300": {
+          "$value": "{brand.color.clay.300}"
+        },
+        "400": {
+          "$value": "{brand.color.clay.400}"
+        },
+        "500": {
+          "$value": "{brand.color.clay.500}"
+        },
+        "600": {
+          "$value": "{brand.color.clay.600}"
+        },
+        "700": {
+          "$value": "{brand.color.clay.700}"
+        },
+        "800": {
+          "$value": "{brand.color.clay.800}"
+        },
+        "900": {
+          "$value": "{brand.color.clay.900}"
+        },
+        "950": {
+          "$value": "{brand.color.clay.950}"
+        },
+        "$description": "Errors and destructive actions: clay, the one brand red"
+      },
+      "success": {
+        "50": {
+          "$value": "{brand.color.green.50}"
+        },
+        "100": {
+          "$value": "{brand.color.green.100}"
+        },
+        "200": {
+          "$value": "{brand.color.green.200}"
+        },
+        "300": {
+          "$value": "{brand.color.green.300}"
+        },
+        "400": {
+          "$value": "{brand.color.green.400}"
+        },
+        "500": {
+          "$value": "{brand.color.green.500}"
+        },
+        "600": {
+          "$value": "{brand.color.green.600}"
+        },
+        "700": {
+          "$value": "{brand.color.green.700}"
+        },
+        "800": {
+          "$value": "{brand.color.green.800}"
+        },
+        "900": {
+          "$value": "{brand.color.green.900}"
+        },
+        "950": {
+          "$value": "{brand.color.green.950}"
+        },
+        "$description": "Positive status, open places and parks: green"
+      },
+      "warning": {
+        "50": {
+          "$value": "{brand.color.ochre.50}"
+        },
+        "100": {
+          "$value": "{brand.color.ochre.100}"
+        },
+        "200": {
+          "$value": "{brand.color.ochre.200}"
+        },
+        "300": {
+          "$value": "{brand.color.ochre.300}"
+        },
+        "400": {
+          "$value": "{brand.color.ochre.400}"
+        },
+        "500": {
+          "$value": "{brand.color.ochre.500}"
+        },
+        "600": {
+          "$value": "{brand.color.ochre.600}"
+        },
+        "700": {
+          "$value": "{brand.color.ochre.700}"
+        },
+        "800": {
+          "$value": "{brand.color.ochre.800}"
+        },
+        "900": {
+          "$value": "{brand.color.ochre.900}"
+        },
+        "950": {
+          "$value": "{brand.color.ochre.950}"
+        },
+        "$description": "Caution status and cafes: ochre"
+      },
+      "info": {
+        "50": {
+          "$value": "{brand.color.blue.50}"
+        },
+        "100": {
+          "$value": "{brand.color.blue.100}"
+        },
+        "200": {
+          "$value": "{brand.color.blue.200}"
+        },
+        "300": {
+          "$value": "{brand.color.blue.300}"
+        },
+        "400": {
+          "$value": "{brand.color.blue.400}"
+        },
+        "500": {
+          "$value": "{brand.color.blue.500}"
+        },
+        "600": {
+          "$value": "{brand.color.blue.600}"
+        },
+        "700": {
+          "$value": "{brand.color.blue.700}"
+        },
+        "800": {
+          "$value": "{brand.color.blue.800}"
+        },
+        "900": {
+          "$value": "{brand.color.blue.900}"
+        },
+        "950": {
+          "$value": "{brand.color.blue.950}"
+        },
+        "$description": "Informational status, water and libraries: blue"
+      },
+      "base": {
+        "50": {
+          "$value": "{brand.color.stone.50}"
+        },
+        "100": {
+          "$value": "{brand.color.stone.100}"
+        },
+        "200": {
+          "$value": "{brand.color.stone.200}"
+        },
+        "300": {
+          "$value": "{brand.color.stone.300}"
+        },
+        "400": {
+          "$value": "{brand.color.stone.400}"
+        },
+        "500": {
+          "$value": "{brand.color.stone.500}"
+        },
+        "600": {
+          "$value": "{brand.color.stone.600}"
+        },
+        "700": {
+          "$value": "{brand.color.stone.700}"
+        },
+        "800": {
+          "$value": "{brand.color.stone.800}"
+        },
+        "900": {
+          "$value": "{brand.color.stone.900}"
+        },
+        "950": {
+          "$value": "{brand.color.stone.950}"
+        },
+        "$description": "The page ground in light: stone in every sub-brand, so Atlas keeps the brand white under its green"
+      },
+      "live": {
+        "300": {
+          "$value": "{brand.color.signal-green.300}"
+        },
+        "550": {
+          "$value": "{brand.color.signal-green.550}"
+        },
+        "$description": "The open-now signal: signal green"
+      },
+      "ink": {
+        "$description": "Deep ink for shadows and scrims on dark grounds",
+        "deep": {
+          "$value": "{brand.color.shadow.deep-ink}"
+        }
+      }
+    }
+  }
+}

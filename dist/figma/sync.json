@@ -1,34 +1,32 @@
 {
   "collections": {
-    "01 Core": {
+    "01 Brand": {
       "modes": [
         "Value"
       ]
     },
     "02 Intent": {
       "modes": [
-        "Atmo Light",
-        "Atmo Dark",
-        "Atlas Light",
-        "Atlas Dark",
-        "Brand OS Light",
-        "Brand OS Dark"
+        "Atmo",
+        "Atlas",
+        "Brand OS"
       ]
     },
     "03 Patterns": {
       "modes": [
-        "Value"
+        "Light",
+        "Dark"
       ]
     }
   },
   "variables": [
     {
-      "name": "color/neutral/50",
-      "collection": "01 Core",
+      "name": "color/stone/50",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-50)"
+        "WEB": "var(--color-stone-50)"
       },
       "description": "",
       "values": {
@@ -41,12 +39,12 @@
       }
     },
     {
-      "name": "color/neutral/100",
-      "collection": "01 Core",
+      "name": "color/stone/100",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-100)"
+        "WEB": "var(--color-stone-100)"
       },
       "description": "",
       "values": {
@@ -59,12 +57,12 @@
       }
     },
     {
-      "name": "color/neutral/200",
-      "collection": "01 Core",
+      "name": "color/stone/200",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-200)"
+        "WEB": "var(--color-stone-200)"
       },
       "description": "",
       "values": {
@@ -77,12 +75,12 @@
       }
     },
     {
-      "name": "color/neutral/300",
-      "collection": "01 Core",
+      "name": "color/stone/300",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-300)"
+        "WEB": "var(--color-stone-300)"
       },
       "description": "",
       "values": {
@@ -95,12 +93,12 @@
       }
     },
     {
-      "name": "color/neutral/400",
-      "collection": "01 Core",
+      "name": "color/stone/400",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-400)"
+        "WEB": "var(--color-stone-400)"
       },
       "description": "",
       "values": {
@@ -113,12 +111,12 @@
       }
     },
     {
-      "name": "color/neutral/500",
-      "collection": "01 Core",
+      "name": "color/stone/500",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-500)"
+        "WEB": "var(--color-stone-500)"
       },
       "description": "",
       "values": {
@@ -131,12 +129,12 @@
       }
     },
     {
-      "name": "color/neutral/600",
-      "collection": "01 Core",
+      "name": "color/stone/600",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-600)"
+        "WEB": "var(--color-stone-600)"
       },
       "description": "",
       "values": {
@@ -149,12 +147,12 @@
       }
     },
     {
-      "name": "color/neutral/700",
-      "collection": "01 Core",
+      "name": "color/stone/700",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-700)"
+        "WEB": "var(--color-stone-700)"
       },
       "description": "",
       "values": {
@@ -167,12 +165,12 @@
       }
     },
     {
-      "name": "color/neutral/800",
-      "collection": "01 Core",
+      "name": "color/stone/800",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-800)"
+        "WEB": "var(--color-stone-800)"
       },
       "description": "",
       "values": {
@@ -185,12 +183,12 @@
       }
     },
     {
-      "name": "color/neutral/900",
-      "collection": "01 Core",
+      "name": "color/stone/900",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-900)"
+        "WEB": "var(--color-stone-900)"
       },
       "description": "",
       "values": {
@@ -203,12 +201,12 @@
       }
     },
     {
-      "name": "color/neutral/950",
-      "collection": "01 Core",
+      "name": "color/stone/950",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
-        "WEB": "var(--color-neutral-950)"
+        "WEB": "var(--color-stone-950)"
       },
       "description": "",
       "values": {
@@ -222,7 +220,7 @@
     },
     {
       "name": "color/green/50",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -240,7 +238,7 @@
     },
     {
       "name": "color/green/100",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -258,7 +256,7 @@
     },
     {
       "name": "color/green/200",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -276,7 +274,7 @@
     },
     {
       "name": "color/green/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -294,7 +292,7 @@
     },
     {
       "name": "color/green/400",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -312,7 +310,7 @@
     },
     {
       "name": "color/green/500",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -330,7 +328,7 @@
     },
     {
       "name": "color/green/600",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -348,7 +346,7 @@
     },
     {
       "name": "color/green/700",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -366,7 +364,7 @@
     },
     {
       "name": "color/green/800",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -384,7 +382,7 @@
     },
     {
       "name": "color/green/900",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -402,7 +400,7 @@
     },
     {
       "name": "color/green/950",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -420,7 +418,7 @@
     },
     {
       "name": "color/blue/50",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -438,7 +436,7 @@
     },
     {
       "name": "color/blue/100",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -456,7 +454,7 @@
     },
     {
       "name": "color/blue/200",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -474,7 +472,7 @@
     },
     {
       "name": "color/blue/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -492,7 +490,7 @@
     },
     {
       "name": "color/blue/400",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -510,7 +508,7 @@
     },
     {
       "name": "color/blue/500",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -528,7 +526,7 @@
     },
     {
       "name": "color/blue/600",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -546,7 +544,7 @@
     },
     {
       "name": "color/blue/700",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -564,7 +562,7 @@
     },
     {
       "name": "color/blue/800",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -582,7 +580,7 @@
     },
     {
       "name": "color/blue/900",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -600,7 +598,7 @@
     },
     {
       "name": "color/blue/950",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -618,7 +616,7 @@
     },
     {
       "name": "color/clay/50",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -636,7 +634,7 @@
     },
     {
       "name": "color/clay/100",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -654,7 +652,7 @@
     },
     {
       "name": "color/clay/200",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -672,7 +670,7 @@
     },
     {
       "name": "color/clay/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -690,7 +688,7 @@
     },
     {
       "name": "color/clay/400",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -708,7 +706,7 @@
     },
     {
       "name": "color/clay/500",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -726,7 +724,7 @@
     },
     {
       "name": "color/clay/600",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -744,7 +742,7 @@
     },
     {
       "name": "color/clay/700",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -762,7 +760,7 @@
     },
     {
       "name": "color/clay/800",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -780,7 +778,7 @@
     },
     {
       "name": "color/clay/900",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -798,7 +796,7 @@
     },
     {
       "name": "color/clay/950",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -816,7 +814,7 @@
     },
     {
       "name": "color/ochre/50",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -834,7 +832,7 @@
     },
     {
       "name": "color/ochre/100",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -852,7 +850,7 @@
     },
     {
       "name": "color/ochre/200",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -870,7 +868,7 @@
     },
     {
       "name": "color/ochre/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -888,7 +886,7 @@
     },
     {
       "name": "color/ochre/400",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -906,7 +904,7 @@
     },
     {
       "name": "color/ochre/500",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -924,7 +922,7 @@
     },
     {
       "name": "color/ochre/600",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -942,7 +940,7 @@
     },
     {
       "name": "color/ochre/700",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -960,7 +958,7 @@
     },
     {
       "name": "color/ochre/800",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -978,7 +976,7 @@
     },
     {
       "name": "color/ochre/900",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -996,7 +994,7 @@
     },
     {
       "name": "color/ochre/950",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -1014,7 +1012,7 @@
     },
     {
       "name": "color/signal-green/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -1032,7 +1030,7 @@
     },
     {
       "name": "color/signal-green/550",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -1050,7 +1048,7 @@
     },
     {
       "name": "color/shadow/deep-ink",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "COLOR",
       "scopes": [],
       "codeSyntax": {
@@ -1068,7 +1066,7 @@
     },
     {
       "name": "font/sans",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [
         "FONT_FAMILY"
@@ -1083,7 +1081,7 @@
     },
     {
       "name": "font-weight/regular",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [
         "FONT_STYLE"
@@ -1098,7 +1096,7 @@
     },
     {
       "name": "font-weight/medium",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [
         "FONT_STYLE"
@@ -1113,7 +1111,7 @@
     },
     {
       "name": "font-weight/semibold",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [
         "FONT_STYLE"
@@ -1128,7 +1126,7 @@
     },
     {
       "name": "font-weight/bold",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [
         "FONT_STYLE"
@@ -1143,7 +1141,7 @@
     },
     {
       "name": "text/font-size/2xs",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1158,7 +1156,7 @@
     },
     {
       "name": "text/font-size/xs",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1173,7 +1171,7 @@
     },
     {
       "name": "text/font-size/sm",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1188,7 +1186,7 @@
     },
     {
       "name": "text/font-size/base",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1203,7 +1201,7 @@
     },
     {
       "name": "text/font-size/lg",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1218,7 +1216,7 @@
     },
     {
       "name": "text/font-size/xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1233,7 +1231,7 @@
     },
     {
       "name": "text/font-size/2xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1248,7 +1246,7 @@
     },
     {
       "name": "text/font-size/3xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1263,7 +1261,7 @@
     },
     {
       "name": "text/font-size/4xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1278,7 +1276,7 @@
     },
     {
       "name": "text/font-size/5xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1293,7 +1291,7 @@
     },
     {
       "name": "text/font-size/6xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1308,7 +1306,7 @@
     },
     {
       "name": "text/font-size/7xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1323,7 +1321,7 @@
     },
     {
       "name": "text/font-size/8xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1338,7 +1336,7 @@
     },
     {
       "name": "text/font-size/9xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1353,7 +1351,7 @@
     },
     {
       "name": "text/font-size/10xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1368,7 +1366,7 @@
     },
     {
       "name": "text/font-size/11xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "FONT_SIZE"
@@ -1383,7 +1381,7 @@
     },
     {
       "name": "text/line-height/leading-1",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1398,7 +1396,7 @@
     },
     {
       "name": "text/line-height/leading-2",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1413,7 +1411,7 @@
     },
     {
       "name": "text/line-height/leading-3",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1428,7 +1426,7 @@
     },
     {
       "name": "text/line-height/leading-4",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1443,7 +1441,7 @@
     },
     {
       "name": "text/line-height/leading-5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1458,7 +1456,7 @@
     },
     {
       "name": "text/line-height/leading-6",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1473,7 +1471,7 @@
     },
     {
       "name": "text/line-height/leading-7",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1488,7 +1486,7 @@
     },
     {
       "name": "text/line-height/leading-8",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1503,7 +1501,7 @@
     },
     {
       "name": "text/line-height/leading-9",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1518,7 +1516,7 @@
     },
     {
       "name": "text/line-height/leading-10",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1533,7 +1531,7 @@
     },
     {
       "name": "text/line-height/leading-11",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1548,7 +1546,7 @@
     },
     {
       "name": "text/line-height/leading-12",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1563,7 +1561,7 @@
     },
     {
       "name": "text/line-height/leading-13",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1578,7 +1576,7 @@
     },
     {
       "name": "text/line-height/leading-14",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1593,7 +1591,7 @@
     },
     {
       "name": "text/line-height/leading-15",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1608,7 +1606,7 @@
     },
     {
       "name": "text/line-height/leading-16",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1623,7 +1621,7 @@
     },
     {
       "name": "text/line-height/leading-17",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1638,7 +1636,7 @@
     },
     {
       "name": "text/line-height/leading-18",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1653,7 +1651,7 @@
     },
     {
       "name": "text/line-height/leading-19",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1668,7 +1666,7 @@
     },
     {
       "name": "text/line-height/leading-20",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1683,7 +1681,7 @@
     },
     {
       "name": "text/line-height/leading-21",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1698,7 +1696,7 @@
     },
     {
       "name": "text/line-height/leading-25",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1713,7 +1711,7 @@
     },
     {
       "name": "text/line-height/leading-30",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1728,7 +1726,7 @@
     },
     {
       "name": "text/line-height/leading-36",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LINE_HEIGHT"
@@ -1743,7 +1741,7 @@
     },
     {
       "name": "text/tracking/0",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LETTER_SPACING"
@@ -1758,7 +1756,7 @@
     },
     {
       "name": "text/tracking/plus-6",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LETTER_SPACING"
@@ -1773,7 +1771,7 @@
     },
     {
       "name": "text/tracking/plus-2",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LETTER_SPACING"
@@ -1788,7 +1786,7 @@
     },
     {
       "name": "text/tracking/minus-1",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LETTER_SPACING"
@@ -1803,7 +1801,7 @@
     },
     {
       "name": "text/tracking/minus-2",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "LETTER_SPACING"
@@ -1818,7 +1816,7 @@
     },
     {
       "name": "text/feature-settings/text",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -1831,7 +1829,7 @@
     },
     {
       "name": "text/feature-settings/numeric",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -1844,7 +1842,7 @@
     },
     {
       "name": "spacing/0",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1859,7 +1857,7 @@
     },
     {
       "name": "spacing/1",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1874,7 +1872,7 @@
     },
     {
       "name": "spacing/2",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1889,7 +1887,7 @@
     },
     {
       "name": "spacing/3",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1904,7 +1902,7 @@
     },
     {
       "name": "spacing/4",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1919,7 +1917,7 @@
     },
     {
       "name": "spacing/5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1934,7 +1932,7 @@
     },
     {
       "name": "spacing/6",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1949,7 +1947,7 @@
     },
     {
       "name": "spacing/7",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1964,7 +1962,7 @@
     },
     {
       "name": "spacing/8",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1979,7 +1977,7 @@
     },
     {
       "name": "spacing/9",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -1994,7 +1992,7 @@
     },
     {
       "name": "spacing/10",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2009,7 +2007,7 @@
     },
     {
       "name": "spacing/11",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2024,7 +2022,7 @@
     },
     {
       "name": "spacing/12",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2039,7 +2037,7 @@
     },
     {
       "name": "spacing/16",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2054,7 +2052,7 @@
     },
     {
       "name": "spacing/20",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2069,7 +2067,7 @@
     },
     {
       "name": "spacing/24",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2084,7 +2082,7 @@
     },
     {
       "name": "spacing/px",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2099,7 +2097,7 @@
     },
     {
       "name": "spacing/0-5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2114,7 +2112,7 @@
     },
     {
       "name": "spacing/1-5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2129,7 +2127,7 @@
     },
     {
       "name": "spacing/3-5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2144,7 +2142,7 @@
     },
     {
       "name": "spacing/full",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "GAP"
@@ -2159,7 +2157,7 @@
     },
     {
       "name": "radius/none",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2174,7 +2172,7 @@
     },
     {
       "name": "radius/xs",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2189,7 +2187,7 @@
     },
     {
       "name": "radius/sm",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2204,7 +2202,7 @@
     },
     {
       "name": "radius/md",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2219,7 +2217,7 @@
     },
     {
       "name": "radius/lg",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2234,7 +2232,7 @@
     },
     {
       "name": "radius/xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2249,7 +2247,7 @@
     },
     {
       "name": "radius/2xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2264,7 +2262,7 @@
     },
     {
       "name": "radius/3xl",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2279,7 +2277,7 @@
     },
     {
       "name": "radius/full",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "CORNER_RADIUS"
@@ -2294,7 +2292,7 @@
     },
     {
       "name": "duration/0",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2307,7 +2305,7 @@
     },
     {
       "name": "duration/105",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2320,7 +2318,7 @@
     },
     {
       "name": "duration/150",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2333,7 +2331,7 @@
     },
     {
       "name": "duration/210",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2346,7 +2344,7 @@
     },
     {
       "name": "duration/300",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2359,7 +2357,7 @@
     },
     {
       "name": "duration/420",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2372,7 +2370,7 @@
     },
     {
       "name": "duration/600",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -2385,7 +2383,7 @@
     },
     {
       "name": "easing/enter",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -2398,7 +2396,7 @@
     },
     {
       "name": "easing/exit",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -2411,7 +2409,7 @@
     },
     {
       "name": "stroke/1",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "STROKE_FLOAT"
@@ -2426,7 +2424,7 @@
     },
     {
       "name": "stroke/2",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "STROKE_FLOAT"
@@ -2441,7 +2439,7 @@
     },
     {
       "name": "stroke/1-5",
-      "collection": "01 Core",
+      "collection": "01 Brand",
       "type": "FLOAT",
       "scopes": [
         "STROKE_FLOAT"
@@ -2455,8 +2453,1688 @@
       }
     },
     {
-      "name": "color/surface/canvas",
+      "name": "color/neutral/50",
       "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/50"
+        },
+        "Atlas": {
+          "alias": "color/green/50"
+        },
+        "Brand OS": {
+          "alias": "color/stone/50"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/100"
+        },
+        "Atlas": {
+          "alias": "color/green/100"
+        },
+        "Brand OS": {
+          "alias": "color/stone/100"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/200"
+        },
+        "Atlas": {
+          "alias": "color/green/200"
+        },
+        "Brand OS": {
+          "alias": "color/stone/200"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/300"
+        },
+        "Atlas": {
+          "alias": "color/green/300"
+        },
+        "Brand OS": {
+          "alias": "color/stone/300"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/400"
+        },
+        "Atlas": {
+          "alias": "color/green/400"
+        },
+        "Brand OS": {
+          "alias": "color/stone/400"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/500"
+        },
+        "Atlas": {
+          "alias": "color/green/500"
+        },
+        "Brand OS": {
+          "alias": "color/stone/500"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/600"
+        },
+        "Atlas": {
+          "alias": "color/green/600"
+        },
+        "Brand OS": {
+          "alias": "color/stone/600"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/700"
+        },
+        "Atlas": {
+          "alias": "color/green/700"
+        },
+        "Brand OS": {
+          "alias": "color/stone/700"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/800"
+        },
+        "Atlas": {
+          "alias": "color/green/800"
+        },
+        "Brand OS": {
+          "alias": "color/stone/800"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/900"
+        },
+        "Atlas": {
+          "alias": "color/green/900"
+        },
+        "Brand OS": {
+          "alias": "color/stone/900"
+        }
+      }
+    },
+    {
+      "name": "color/neutral/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-neutral-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/950"
+        },
+        "Atlas": {
+          "alias": "color/green/950"
+        },
+        "Brand OS": {
+          "alias": "color/stone/950"
+        }
+      }
+    },
+    {
+      "name": "color/accent/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/50"
+        },
+        "Atlas": {
+          "alias": "color/green/50"
+        },
+        "Brand OS": {
+          "alias": "color/green/50"
+        }
+      }
+    },
+    {
+      "name": "color/accent/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/100"
+        },
+        "Atlas": {
+          "alias": "color/green/100"
+        },
+        "Brand OS": {
+          "alias": "color/green/100"
+        }
+      }
+    },
+    {
+      "name": "color/accent/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/200"
+        },
+        "Atlas": {
+          "alias": "color/green/200"
+        },
+        "Brand OS": {
+          "alias": "color/green/200"
+        }
+      }
+    },
+    {
+      "name": "color/accent/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/300"
+        },
+        "Atlas": {
+          "alias": "color/green/300"
+        },
+        "Brand OS": {
+          "alias": "color/green/300"
+        }
+      }
+    },
+    {
+      "name": "color/accent/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/400"
+        },
+        "Atlas": {
+          "alias": "color/green/400"
+        },
+        "Brand OS": {
+          "alias": "color/green/400"
+        }
+      }
+    },
+    {
+      "name": "color/accent/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/500"
+        },
+        "Atlas": {
+          "alias": "color/green/500"
+        },
+        "Brand OS": {
+          "alias": "color/green/500"
+        }
+      }
+    },
+    {
+      "name": "color/accent/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/600"
+        },
+        "Atlas": {
+          "alias": "color/green/600"
+        },
+        "Brand OS": {
+          "alias": "color/green/600"
+        }
+      }
+    },
+    {
+      "name": "color/accent/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/700"
+        },
+        "Atlas": {
+          "alias": "color/green/700"
+        },
+        "Brand OS": {
+          "alias": "color/green/700"
+        }
+      }
+    },
+    {
+      "name": "color/accent/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/800"
+        },
+        "Atlas": {
+          "alias": "color/green/800"
+        },
+        "Brand OS": {
+          "alias": "color/green/800"
+        }
+      }
+    },
+    {
+      "name": "color/accent/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/900"
+        },
+        "Atlas": {
+          "alias": "color/green/900"
+        },
+        "Brand OS": {
+          "alias": "color/green/900"
+        }
+      }
+    },
+    {
+      "name": "color/accent/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-accent-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/950"
+        },
+        "Atlas": {
+          "alias": "color/green/950"
+        },
+        "Brand OS": {
+          "alias": "color/green/950"
+        }
+      }
+    },
+    {
+      "name": "color/error/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/50"
+        },
+        "Atlas": {
+          "alias": "color/clay/50"
+        },
+        "Brand OS": {
+          "alias": "color/clay/50"
+        }
+      }
+    },
+    {
+      "name": "color/error/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/100"
+        },
+        "Atlas": {
+          "alias": "color/clay/100"
+        },
+        "Brand OS": {
+          "alias": "color/clay/100"
+        }
+      }
+    },
+    {
+      "name": "color/error/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/200"
+        },
+        "Atlas": {
+          "alias": "color/clay/200"
+        },
+        "Brand OS": {
+          "alias": "color/clay/200"
+        }
+      }
+    },
+    {
+      "name": "color/error/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/300"
+        },
+        "Atlas": {
+          "alias": "color/clay/300"
+        },
+        "Brand OS": {
+          "alias": "color/clay/300"
+        }
+      }
+    },
+    {
+      "name": "color/error/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/400"
+        },
+        "Atlas": {
+          "alias": "color/clay/400"
+        },
+        "Brand OS": {
+          "alias": "color/clay/400"
+        }
+      }
+    },
+    {
+      "name": "color/error/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/500"
+        },
+        "Atlas": {
+          "alias": "color/clay/500"
+        },
+        "Brand OS": {
+          "alias": "color/clay/500"
+        }
+      }
+    },
+    {
+      "name": "color/error/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/600"
+        },
+        "Atlas": {
+          "alias": "color/clay/600"
+        },
+        "Brand OS": {
+          "alias": "color/clay/600"
+        }
+      }
+    },
+    {
+      "name": "color/error/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/700"
+        },
+        "Atlas": {
+          "alias": "color/clay/700"
+        },
+        "Brand OS": {
+          "alias": "color/clay/700"
+        }
+      }
+    },
+    {
+      "name": "color/error/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/800"
+        },
+        "Atlas": {
+          "alias": "color/clay/800"
+        },
+        "Brand OS": {
+          "alias": "color/clay/800"
+        }
+      }
+    },
+    {
+      "name": "color/error/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/900"
+        },
+        "Atlas": {
+          "alias": "color/clay/900"
+        },
+        "Brand OS": {
+          "alias": "color/clay/900"
+        }
+      }
+    },
+    {
+      "name": "color/error/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-error-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/clay/950"
+        },
+        "Atlas": {
+          "alias": "color/clay/950"
+        },
+        "Brand OS": {
+          "alias": "color/clay/950"
+        }
+      }
+    },
+    {
+      "name": "color/success/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/50"
+        },
+        "Atlas": {
+          "alias": "color/green/50"
+        },
+        "Brand OS": {
+          "alias": "color/green/50"
+        }
+      }
+    },
+    {
+      "name": "color/success/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/100"
+        },
+        "Atlas": {
+          "alias": "color/green/100"
+        },
+        "Brand OS": {
+          "alias": "color/green/100"
+        }
+      }
+    },
+    {
+      "name": "color/success/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/200"
+        },
+        "Atlas": {
+          "alias": "color/green/200"
+        },
+        "Brand OS": {
+          "alias": "color/green/200"
+        }
+      }
+    },
+    {
+      "name": "color/success/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/300"
+        },
+        "Atlas": {
+          "alias": "color/green/300"
+        },
+        "Brand OS": {
+          "alias": "color/green/300"
+        }
+      }
+    },
+    {
+      "name": "color/success/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/400"
+        },
+        "Atlas": {
+          "alias": "color/green/400"
+        },
+        "Brand OS": {
+          "alias": "color/green/400"
+        }
+      }
+    },
+    {
+      "name": "color/success/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/500"
+        },
+        "Atlas": {
+          "alias": "color/green/500"
+        },
+        "Brand OS": {
+          "alias": "color/green/500"
+        }
+      }
+    },
+    {
+      "name": "color/success/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/600"
+        },
+        "Atlas": {
+          "alias": "color/green/600"
+        },
+        "Brand OS": {
+          "alias": "color/green/600"
+        }
+      }
+    },
+    {
+      "name": "color/success/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/700"
+        },
+        "Atlas": {
+          "alias": "color/green/700"
+        },
+        "Brand OS": {
+          "alias": "color/green/700"
+        }
+      }
+    },
+    {
+      "name": "color/success/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/800"
+        },
+        "Atlas": {
+          "alias": "color/green/800"
+        },
+        "Brand OS": {
+          "alias": "color/green/800"
+        }
+      }
+    },
+    {
+      "name": "color/success/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/900"
+        },
+        "Atlas": {
+          "alias": "color/green/900"
+        },
+        "Brand OS": {
+          "alias": "color/green/900"
+        }
+      }
+    },
+    {
+      "name": "color/success/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-success-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/green/950"
+        },
+        "Atlas": {
+          "alias": "color/green/950"
+        },
+        "Brand OS": {
+          "alias": "color/green/950"
+        }
+      }
+    },
+    {
+      "name": "color/warning/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/50"
+        },
+        "Atlas": {
+          "alias": "color/ochre/50"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/50"
+        }
+      }
+    },
+    {
+      "name": "color/warning/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/100"
+        },
+        "Atlas": {
+          "alias": "color/ochre/100"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/100"
+        }
+      }
+    },
+    {
+      "name": "color/warning/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/200"
+        },
+        "Atlas": {
+          "alias": "color/ochre/200"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/200"
+        }
+      }
+    },
+    {
+      "name": "color/warning/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/300"
+        },
+        "Atlas": {
+          "alias": "color/ochre/300"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/300"
+        }
+      }
+    },
+    {
+      "name": "color/warning/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/400"
+        },
+        "Atlas": {
+          "alias": "color/ochre/400"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/400"
+        }
+      }
+    },
+    {
+      "name": "color/warning/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/500"
+        },
+        "Atlas": {
+          "alias": "color/ochre/500"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/500"
+        }
+      }
+    },
+    {
+      "name": "color/warning/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/600"
+        },
+        "Atlas": {
+          "alias": "color/ochre/600"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/600"
+        }
+      }
+    },
+    {
+      "name": "color/warning/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/700"
+        },
+        "Atlas": {
+          "alias": "color/ochre/700"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/700"
+        }
+      }
+    },
+    {
+      "name": "color/warning/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/800"
+        },
+        "Atlas": {
+          "alias": "color/ochre/800"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/800"
+        }
+      }
+    },
+    {
+      "name": "color/warning/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/900"
+        },
+        "Atlas": {
+          "alias": "color/ochre/900"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/900"
+        }
+      }
+    },
+    {
+      "name": "color/warning/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-warning-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/ochre/950"
+        },
+        "Atlas": {
+          "alias": "color/ochre/950"
+        },
+        "Brand OS": {
+          "alias": "color/ochre/950"
+        }
+      }
+    },
+    {
+      "name": "color/info/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/50"
+        },
+        "Atlas": {
+          "alias": "color/blue/50"
+        },
+        "Brand OS": {
+          "alias": "color/blue/50"
+        }
+      }
+    },
+    {
+      "name": "color/info/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/100"
+        },
+        "Atlas": {
+          "alias": "color/blue/100"
+        },
+        "Brand OS": {
+          "alias": "color/blue/100"
+        }
+      }
+    },
+    {
+      "name": "color/info/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/200"
+        },
+        "Atlas": {
+          "alias": "color/blue/200"
+        },
+        "Brand OS": {
+          "alias": "color/blue/200"
+        }
+      }
+    },
+    {
+      "name": "color/info/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/300"
+        },
+        "Atlas": {
+          "alias": "color/blue/300"
+        },
+        "Brand OS": {
+          "alias": "color/blue/300"
+        }
+      }
+    },
+    {
+      "name": "color/info/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/400"
+        },
+        "Atlas": {
+          "alias": "color/blue/400"
+        },
+        "Brand OS": {
+          "alias": "color/blue/400"
+        }
+      }
+    },
+    {
+      "name": "color/info/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/500"
+        },
+        "Atlas": {
+          "alias": "color/blue/500"
+        },
+        "Brand OS": {
+          "alias": "color/blue/500"
+        }
+      }
+    },
+    {
+      "name": "color/info/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/600"
+        },
+        "Atlas": {
+          "alias": "color/blue/600"
+        },
+        "Brand OS": {
+          "alias": "color/blue/600"
+        }
+      }
+    },
+    {
+      "name": "color/info/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/700"
+        },
+        "Atlas": {
+          "alias": "color/blue/700"
+        },
+        "Brand OS": {
+          "alias": "color/blue/700"
+        }
+      }
+    },
+    {
+      "name": "color/info/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/800"
+        },
+        "Atlas": {
+          "alias": "color/blue/800"
+        },
+        "Brand OS": {
+          "alias": "color/blue/800"
+        }
+      }
+    },
+    {
+      "name": "color/info/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/900"
+        },
+        "Atlas": {
+          "alias": "color/blue/900"
+        },
+        "Brand OS": {
+          "alias": "color/blue/900"
+        }
+      }
+    },
+    {
+      "name": "color/info/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-info-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/blue/950"
+        },
+        "Atlas": {
+          "alias": "color/blue/950"
+        },
+        "Brand OS": {
+          "alias": "color/blue/950"
+        }
+      }
+    },
+    {
+      "name": "color/base/50",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-50)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/50"
+        },
+        "Atlas": {
+          "alias": "color/stone/50"
+        },
+        "Brand OS": {
+          "alias": "color/stone/50"
+        }
+      }
+    },
+    {
+      "name": "color/base/100",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-100)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/100"
+        },
+        "Atlas": {
+          "alias": "color/stone/100"
+        },
+        "Brand OS": {
+          "alias": "color/stone/100"
+        }
+      }
+    },
+    {
+      "name": "color/base/200",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-200)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/200"
+        },
+        "Atlas": {
+          "alias": "color/stone/200"
+        },
+        "Brand OS": {
+          "alias": "color/stone/200"
+        }
+      }
+    },
+    {
+      "name": "color/base/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/300"
+        },
+        "Atlas": {
+          "alias": "color/stone/300"
+        },
+        "Brand OS": {
+          "alias": "color/stone/300"
+        }
+      }
+    },
+    {
+      "name": "color/base/400",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-400)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/400"
+        },
+        "Atlas": {
+          "alias": "color/stone/400"
+        },
+        "Brand OS": {
+          "alias": "color/stone/400"
+        }
+      }
+    },
+    {
+      "name": "color/base/500",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-500)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/500"
+        },
+        "Atlas": {
+          "alias": "color/stone/500"
+        },
+        "Brand OS": {
+          "alias": "color/stone/500"
+        }
+      }
+    },
+    {
+      "name": "color/base/600",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-600)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/600"
+        },
+        "Atlas": {
+          "alias": "color/stone/600"
+        },
+        "Brand OS": {
+          "alias": "color/stone/600"
+        }
+      }
+    },
+    {
+      "name": "color/base/700",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-700)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/700"
+        },
+        "Atlas": {
+          "alias": "color/stone/700"
+        },
+        "Brand OS": {
+          "alias": "color/stone/700"
+        }
+      }
+    },
+    {
+      "name": "color/base/800",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-800)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/800"
+        },
+        "Atlas": {
+          "alias": "color/stone/800"
+        },
+        "Brand OS": {
+          "alias": "color/stone/800"
+        }
+      }
+    },
+    {
+      "name": "color/base/900",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-900)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/900"
+        },
+        "Atlas": {
+          "alias": "color/stone/900"
+        },
+        "Brand OS": {
+          "alias": "color/stone/900"
+        }
+      }
+    },
+    {
+      "name": "color/base/950",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-base-950)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/stone/950"
+        },
+        "Atlas": {
+          "alias": "color/stone/950"
+        },
+        "Brand OS": {
+          "alias": "color/stone/950"
+        }
+      }
+    },
+    {
+      "name": "color/live/300",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-live-300)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/signal-green/300"
+        },
+        "Atlas": {
+          "alias": "color/signal-green/300"
+        },
+        "Brand OS": {
+          "alias": "color/signal-green/300"
+        }
+      }
+    },
+    {
+      "name": "color/live/550",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-live-550)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/signal-green/550"
+        },
+        "Atlas": {
+          "alias": "color/signal-green/550"
+        },
+        "Brand OS": {
+          "alias": "color/signal-green/550"
+        }
+      }
+    },
+    {
+      "name": "color/ink/deep",
+      "collection": "02 Intent",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-ink-deep)"
+      },
+      "description": "",
+      "values": {
+        "Atmo": {
+          "alias": "color/shadow/deep-ink"
+        },
+        "Atlas": {
+          "alias": "color/shadow/deep-ink"
+        },
+        "Brand OS": {
+          "alias": "color/shadow/deep-ink"
+        }
+      }
+    },
+    {
+      "name": "color/surface/canvas",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2467,29 +4145,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
       "name": "color/surface/raised",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2500,29 +4166,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/100"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/900"
-        },
-        "Atlas Light": {
-          "alias": "color/green/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/100"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/900"
         }
       }
     },
     {
       "name": "color/surface/inset",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2533,29 +4187,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/200"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/800"
         }
       }
     },
     {
       "name": "color/surface/card",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2566,29 +4208,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/900"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/900"
         }
       }
     },
     {
       "name": "color/surface/inverse",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2599,29 +4229,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/text/primary",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2631,29 +4249,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/50"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/text/display",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2663,29 +4269,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/800"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/text/secondary",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2695,29 +4289,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/700"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/300"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/700"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/300"
         }
       }
     },
     {
       "name": "color/text/on-inverse",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2727,29 +4309,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
       "name": "color/text/disabled",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2759,29 +4329,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/400"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/600"
-        },
-        "Atlas Light": {
-          "alias": "color/green/400"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/600"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/400"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/600"
         }
       }
     },
     {
       "name": "color/text/on-inverse-secondary",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2791,29 +4349,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/400"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/600"
-        },
-        "Atlas Light": {
-          "alias": "color/green/400"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/700"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/400"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/600"
         }
       }
     },
     {
       "name": "color/text/tertiary",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -2823,29 +4369,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/600"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/400"
-        },
-        "Atlas Light": {
-          "alias": "color/green/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/600"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/400"
         }
       }
     },
     {
       "name": "color/border/divider",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -2855,29 +4389,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/200"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/800"
         }
       }
     },
     {
       "name": "color/border/control",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -2887,29 +4409,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/500"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Light": {
-          "alias": "color/green/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/500"
         }
       }
     },
     {
       "name": "color/border/strong",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -2919,29 +4429,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/border/on-inverse",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -2951,29 +4449,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/800"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/200"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/800"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/200"
         }
       }
     },
     {
       "name": "color/action/primary/bg",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -2984,29 +4470,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/action/primary/bg-hover",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3017,29 +4491,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/800"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/200"
-        },
-        "Atlas Light": {
-          "alias": "color/green/800"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/200"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/800"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/200"
         }
       }
     },
     {
       "name": "color/action/primary/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -3049,29 +4511,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
       "name": "color/action/primary/bg-pressed",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3082,29 +4532,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/action/primary/bg-disabled",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3115,29 +4553,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/200"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/800"
         }
       }
     },
     {
       "name": "color/action/primary/text-disabled",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -3147,29 +4573,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/500"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Light": {
-          "alias": "color/green/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/500"
         }
       }
     },
     {
       "name": "color/action/destructive/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3180,29 +4594,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/600"
+        "Light": {
+          "alias": "color/error/600"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/400"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/600"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/400"
+        "Dark": {
+          "alias": "color/error/400"
         }
       }
     },
     {
       "name": "color/action/destructive/border",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3213,29 +4615,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/600"
+        "Light": {
+          "alias": "color/error/600"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/400"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/600"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/400"
+        "Dark": {
+          "alias": "color/error/400"
         }
       }
     },
     {
       "name": "color/action/destructive/bg-hover",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3246,29 +4636,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/600"
+        "Light": {
+          "alias": "color/error/600"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/400"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/600"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/400"
+        "Dark": {
+          "alias": "color/error/400"
         }
       }
     },
     {
       "name": "color/action/destructive/bg-pressed",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3279,29 +4657,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/700"
+        "Light": {
+          "alias": "color/error/700"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/300"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/300"
+        "Dark": {
+          "alias": "color/error/300"
         }
       }
     },
     {
       "name": "color/action/destructive/text-hover",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3312,29 +4678,35 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
+        }
+      }
+    },
+    {
+      "name": "color/action/accent/bg",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-action-accent-bg)"
+      },
+      "description": "",
+      "values": {
+        "Light": {
+          "alias": "color/accent/700"
         },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/accent/300"
         }
       }
     },
     {
       "name": "color/selected/bg",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3345,29 +4717,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/selected/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -3377,29 +4737,35 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
+      "name": "color/selected/bg-accent",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-selected-bg-accent)"
+      },
+      "description": "A selected chip or row in the accent",
+      "values": {
+        "Light": {
+          "alias": "color/accent/900"
+        },
+        "Dark": {
+          "alias": "color/accent/100"
+        }
+      }
+    },
+    {
       "name": "color/mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3410,29 +4776,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/focus/ring",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -3442,29 +4796,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/focus/ring-on-inverse",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "STROKE_COLOR"
@@ -3474,29 +4816,35 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
+      "name": "color/focus/ring-accent",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-focus-ring-accent)"
+      },
+      "description": "The focus ring in the accent",
+      "values": {
+        "Light": {
+          "alias": "color/accent/900"
+        },
+        "Dark": {
+          "alias": "color/accent/100"
+        }
+      }
+    },
+    {
       "name": "color/map/ground",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3507,29 +4855,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/100"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/900"
-        },
-        "Atlas Light": {
-          "alias": "color/green/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/100"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/900"
         }
       }
     },
     {
       "name": "color/map/grid",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3540,29 +4876,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/200"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/800"
         }
       }
     },
     {
       "name": "color/map/water",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3573,29 +4897,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/blue/100"
+        "Light": {
+          "alias": "color/info/100"
         },
-        "Atmo Dark": {
-          "alias": "color/blue/900"
-        },
-        "Atlas Light": {
-          "alias": "color/blue/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/blue/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/blue/100"
-        },
-        "Brand OS Dark": {
-          "alias": "color/blue/900"
+        "Dark": {
+          "alias": "color/info/900"
         }
       }
     },
     {
       "name": "color/map/park",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3606,29 +4918,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/200"
+        "Light": {
+          "alias": "color/success/200"
         },
-        "Atmo Dark": {
-          "alias": "color/green/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/200"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/800"
+        "Dark": {
+          "alias": "color/success/800"
         }
       }
     },
     {
       "name": "color/map/marker",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3639,29 +4939,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/map/marker-ring",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3672,29 +4960,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
       "name": "color/map/pin/cafe",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3705,29 +4981,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/ochre/500"
+        "Light": {
+          "alias": "color/warning/500"
         },
-        "Atmo Dark": {
-          "alias": "color/ochre/500"
-        },
-        "Atlas Light": {
-          "alias": "color/ochre/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/ochre/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/ochre/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/ochre/500"
+        "Dark": {
+          "alias": "color/warning/500"
         }
       }
     },
     {
       "name": "color/map/pin/library",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3738,29 +5002,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/blue/500"
+        "Light": {
+          "alias": "color/info/500"
         },
-        "Atmo Dark": {
-          "alias": "color/blue/500"
-        },
-        "Atlas Light": {
-          "alias": "color/blue/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/blue/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/blue/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/blue/500"
+        "Dark": {
+          "alias": "color/info/500"
         }
       }
     },
     {
       "name": "color/map/pin/coworking",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3771,29 +5023,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/950"
+        "Light": {
+          "alias": "color/base/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
         }
       }
     },
     {
       "name": "color/map/pin/park",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3804,29 +5044,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/700"
+        "Light": {
+          "alias": "color/success/700"
         },
-        "Atmo Dark": {
-          "alias": "color/green/700"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/700"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/700"
+        "Dark": {
+          "alias": "color/success/700"
         }
       }
     },
     {
       "name": "color/map/pin/icon",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3837,29 +5065,35 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/50"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
+      "name": "color/map/marker-accent",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-map-marker-accent)"
+      },
+      "description": "The map marker in the accent",
+      "values": {
+        "Light": {
+          "alias": "color/accent/900"
+        },
+        "Dark": {
+          "alias": "color/accent/100"
+        }
+      }
+    },
+    {
       "name": "color/skeleton",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -3870,29 +5104,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/200"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Light": {
-          "alias": "color/green/200"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/800"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/800"
         }
       }
     },
     {
       "name": "color/emphasis",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3903,29 +5125,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/500"
+        "Light": {
+          "alias": "color/accent/500"
         },
-        "Atmo Dark": {
-          "alias": "color/green/400"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/50"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/400"
+        "Dark": {
+          "alias": "color/accent/400"
         }
       }
     },
     {
       "name": "color/dot/open",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3936,29 +5146,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/500"
+        "Light": {
+          "alias": "color/success/500"
         },
-        "Atmo Dark": {
-          "alias": "color/green/400"
-        },
-        "Atlas Light": {
-          "alias": "color/signal-green/550"
-        },
-        "Atlas Dark": {
-          "alias": "color/signal-green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/400"
+        "Dark": {
+          "alias": "color/success/400"
         }
       }
     },
     {
       "name": "color/dot/attribute",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -3969,29 +5167,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/50"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/50"
         }
       }
     },
     {
       "name": "color/dot/closed",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -4002,29 +5188,35 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/700"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/700"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/500"
         }
       }
     },
     {
+      "name": "color/dot/live",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-dot-live)"
+      },
+      "description": "The open-now dot in signal green",
+      "values": {
+        "Light": {
+          "alias": "color/live/550"
+        },
+        "Dark": {
+          "alias": "color/live/300"
+        }
+      }
+    },
+    {
       "name": "color/status/positive/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -4034,29 +5226,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/700"
+        "Light": {
+          "alias": "color/success/700"
         },
-        "Atmo Dark": {
-          "alias": "color/green/300"
-        },
-        "Atlas Light": {
-          "alias": "color/green/900"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/50"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/300"
+        "Dark": {
+          "alias": "color/success/300"
         }
       }
     },
     {
       "name": "color/status/positive/mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -4067,29 +5247,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/500"
+        "Light": {
+          "alias": "color/success/500"
         },
-        "Atmo Dark": {
-          "alias": "color/green/400"
-        },
-        "Atlas Light": {
-          "alias": "color/green/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/400"
+        "Dark": {
+          "alias": "color/success/400"
         }
       }
     },
     {
       "name": "color/status/positive/on-mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL",
@@ -4100,29 +5268,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
         }
       }
     },
     {
       "name": "color/status/positive/surface",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4133,29 +5289,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/100"
+        "Light": {
+          "alias": "color/success/100"
         },
-        "Atmo Dark": {
-          "alias": "color/green/900"
-        },
-        "Atlas Light": {
-          "alias": "color/green/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/100"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/900"
+        "Dark": {
+          "alias": "color/success/900"
         }
       }
     },
     {
       "name": "color/status/negative/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -4165,29 +5309,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/600"
+        "Light": {
+          "alias": "color/error/600"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/400"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/600"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/400"
+        "Dark": {
+          "alias": "color/error/400"
         }
       }
     },
     {
       "name": "color/status/negative/mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -4198,29 +5330,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/700"
+        "Light": {
+          "alias": "color/error/700"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/200"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/200"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/200"
+        "Dark": {
+          "alias": "color/error/200"
         }
       }
     },
     {
       "name": "color/status/negative/on-mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL",
@@ -4231,29 +5351,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
         }
       }
     },
     {
       "name": "color/status/negative/surface",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4264,29 +5372,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/100"
+        "Light": {
+          "alias": "color/error/100"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/900"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/100"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/900"
+        "Dark": {
+          "alias": "color/error/900"
         }
       }
     },
     {
       "name": "color/status/caution/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -4296,29 +5392,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/ochre/700"
+        "Light": {
+          "alias": "color/warning/700"
         },
-        "Atmo Dark": {
-          "alias": "color/ochre/300"
-        },
-        "Atlas Light": {
-          "alias": "color/ochre/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/ochre/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/ochre/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/ochre/300"
+        "Dark": {
+          "alias": "color/warning/300"
         }
       }
     },
     {
       "name": "color/status/caution/mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -4329,29 +5413,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/ochre/500"
+        "Light": {
+          "alias": "color/warning/500"
         },
-        "Atmo Dark": {
-          "alias": "color/ochre/400"
-        },
-        "Atlas Light": {
-          "alias": "color/ochre/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/ochre/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/ochre/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/ochre/400"
+        "Dark": {
+          "alias": "color/warning/400"
         }
       }
     },
     {
       "name": "color/status/caution/on-mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL",
@@ -4362,29 +5434,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
         }
       }
     },
     {
       "name": "color/status/caution/surface",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4395,29 +5455,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/ochre/100"
+        "Light": {
+          "alias": "color/warning/100"
         },
-        "Atmo Dark": {
-          "alias": "color/ochre/900"
-        },
-        "Atlas Light": {
-          "alias": "color/ochre/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/ochre/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/ochre/100"
-        },
-        "Brand OS Dark": {
-          "alias": "color/ochre/900"
+        "Dark": {
+          "alias": "color/warning/900"
         }
       }
     },
     {
       "name": "color/status/info/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL"
@@ -4427,29 +5475,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/blue/700"
+        "Light": {
+          "alias": "color/info/700"
         },
-        "Atmo Dark": {
-          "alias": "color/blue/300"
-        },
-        "Atlas Light": {
-          "alias": "color/blue/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/blue/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/blue/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/blue/300"
+        "Dark": {
+          "alias": "color/info/300"
         }
       }
     },
     {
       "name": "color/status/info/mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "SHAPE_FILL",
@@ -4460,29 +5496,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/blue/500"
+        "Light": {
+          "alias": "color/info/500"
         },
-        "Atmo Dark": {
-          "alias": "color/blue/400"
-        },
-        "Atlas Light": {
-          "alias": "color/blue/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/blue/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/blue/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/blue/400"
+        "Dark": {
+          "alias": "color/info/400"
         }
       }
     },
     {
       "name": "color/status/info/on-mark",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "TEXT_FILL",
@@ -4493,29 +5517,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/50"
+        "Light": {
+          "alias": "color/base/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/950"
+        "Dark": {
+          "alias": "color/base/950"
         }
       }
     },
     {
       "name": "color/status/info/surface",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4526,29 +5538,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/blue/100"
+        "Light": {
+          "alias": "color/info/100"
         },
-        "Atmo Dark": {
-          "alias": "color/blue/900"
-        },
-        "Atlas Light": {
-          "alias": "color/blue/100"
-        },
-        "Atlas Dark": {
-          "alias": "color/blue/900"
-        },
-        "Brand OS Light": {
-          "alias": "color/blue/100"
-        },
-        "Brand OS Dark": {
-          "alias": "color/blue/900"
+        "Dark": {
+          "alias": "color/info/900"
         }
       }
     },
     {
       "name": "color/shadow-tint",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "EFFECT_COLOR"
@@ -4558,29 +5558,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/950"
         },
-        "Atmo Dark": {
-          "alias": "color/shadow/deep-ink"
-        },
-        "Atlas Light": {
-          "alias": "color/green/950"
-        },
-        "Atlas Dark": {
-          "alias": "color/shadow/deep-ink"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/950"
-        },
-        "Brand OS Dark": {
-          "alias": "color/shadow/deep-ink"
+        "Dark": {
+          "alias": "color/ink/deep"
         }
       }
     },
     {
       "name": "color/glass",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4591,37 +5579,13 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "r": 0.9804,
           "g": 0.9647,
           "b": 0.949,
           "a": 0.85
         },
-        "Atmo Dark": {
-          "r": 0.1451,
-          "g": 0.1294,
-          "b": 0.1176,
-          "a": 0.8
-        },
-        "Atlas Light": {
-          "r": 0.9804,
-          "g": 0.9647,
-          "b": 0.949,
-          "a": 0.85
-        },
-        "Atlas Dark": {
-          "r": 0.1216,
-          "g": 0.149,
-          "b": 0.102,
-          "a": 0.8
-        },
-        "Brand OS Light": {
-          "r": 0.9804,
-          "g": 0.9647,
-          "b": 0.949,
-          "a": 0.85
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "r": 0.1451,
           "g": 0.1294,
           "b": 0.1176,
@@ -4631,7 +5595,7 @@
     },
     {
       "name": "color/scrim",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4642,37 +5606,13 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "r": 0.1451,
           "g": 0.1294,
           "b": 0.1176,
           "a": 0.4
         },
-        "Atmo Dark": {
-          "r": 0.0275,
-          "g": 0.0196,
-          "b": 0.0157,
-          "a": 0.6
-        },
-        "Atlas Light": {
-          "r": 0.1216,
-          "g": 0.149,
-          "b": 0.102,
-          "a": 0.4
-        },
-        "Atlas Dark": {
-          "r": 0.0275,
-          "g": 0.0196,
-          "b": 0.0157,
-          "a": 0.6
-        },
-        "Brand OS Light": {
-          "r": 0.1451,
-          "g": 0.1294,
-          "b": 0.1176,
-          "a": 0.4
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "r": 0.0275,
           "g": 0.0196,
           "b": 0.0157,
@@ -4682,7 +5622,7 @@
     },
     {
       "name": "color/score/bg",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4693,29 +5633,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/green/700"
+        "Light": {
+          "alias": "color/success/700"
         },
-        "Atmo Dark": {
-          "alias": "color/green/300"
-        },
-        "Atlas Light": {
-          "alias": "color/green/700"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/green/700"
-        },
-        "Brand OS Dark": {
-          "alias": "color/green/300"
+        "Dark": {
+          "alias": "color/success/300"
         }
       }
     },
     {
       "name": "color/score/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4726,29 +5654,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "color/neutral/50"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/950"
-        },
-        "Atlas Light": {
-          "alias": "color/green/50"
-        },
-        "Atlas Dark": {
-          "alias": "color/green/950"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/50"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "color/neutral/950"
         }
       }
     },
     {
       "name": "color/data/filled",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4759,29 +5675,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/800"
+        "Light": {
+          "alias": "color/base/800"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/200"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/800"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/200"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/800"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/200"
+        "Dark": {
+          "alias": "color/base/200"
         }
       }
     },
     {
       "name": "color/data/empty",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4792,29 +5696,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/500"
+        "Light": {
+          "alias": "color/base/500"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/500"
+        "Dark": {
+          "alias": "color/base/500"
         }
       }
     },
     {
       "name": "color/data/sequential/1",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4825,29 +5717,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/neutral/500"
+        "Light": {
+          "alias": "color/base/500"
         },
-        "Atmo Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Light": {
-          "alias": "color/neutral/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/neutral/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/neutral/500"
+        "Dark": {
+          "alias": "color/base/500"
         }
       }
     },
     {
       "name": "color/data/sequential/2",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4858,29 +5738,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/800"
+        "Light": {
+          "alias": "color/error/800"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/300"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/800"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/300"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/800"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/300"
+        "Dark": {
+          "alias": "color/error/300"
         }
       }
     },
     {
       "name": "color/data/sequential/3",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4891,29 +5759,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/600"
+        "Light": {
+          "alias": "color/error/600"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/400"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/600"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/400"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/600"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/400"
+        "Dark": {
+          "alias": "color/error/400"
         }
       }
     },
     {
       "name": "color/data/sequential/4",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4924,29 +5780,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
-          "alias": "color/clay/500"
+        "Light": {
+          "alias": "color/error/500"
         },
-        "Atmo Dark": {
-          "alias": "color/clay/500"
-        },
-        "Atlas Light": {
-          "alias": "color/clay/500"
-        },
-        "Atlas Dark": {
-          "alias": "color/clay/500"
-        },
-        "Brand OS Light": {
-          "alias": "color/clay/500"
-        },
-        "Brand OS Dark": {
-          "alias": "color/clay/500"
+        "Dark": {
+          "alias": "color/error/500"
         }
       }
     },
     {
       "name": "color/overlay/hover",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -4957,37 +5801,13 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "r": 0.1451,
           "g": 0.1294,
           "b": 0.1176,
           "a": 0.05
         },
-        "Atmo Dark": {
-          "r": 0.9804,
-          "g": 0.9647,
-          "b": 0.949,
-          "a": 0.06
-        },
-        "Atlas Light": {
-          "r": 0.1216,
-          "g": 0.149,
-          "b": 0.102,
-          "a": 0.05
-        },
-        "Atlas Dark": {
-          "r": 0.9294,
-          "g": 0.9569,
-          "b": 0.9137,
-          "a": 0.06
-        },
-        "Brand OS Light": {
-          "r": 0.1451,
-          "g": 0.1294,
-          "b": 0.1176,
-          "a": 0.05
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "r": 0.9804,
           "g": 0.9647,
           "b": 0.949,
@@ -4997,7 +5817,7 @@
     },
     {
       "name": "color/overlay/pressed",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "COLOR",
       "scopes": [
         "FRAME_FILL",
@@ -5008,37 +5828,13 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "r": 0.1451,
           "g": 0.1294,
           "b": 0.1176,
           "a": 0.1
         },
-        "Atmo Dark": {
-          "r": 0.9804,
-          "g": 0.9647,
-          "b": 0.949,
-          "a": 0.1
-        },
-        "Atlas Light": {
-          "r": 0.1216,
-          "g": 0.149,
-          "b": 0.102,
-          "a": 0.1
-        },
-        "Atlas Dark": {
-          "r": 0.9294,
-          "g": 0.9569,
-          "b": 0.9137,
-          "a": 0.1
-        },
-        "Brand OS Light": {
-          "r": 0.1451,
-          "g": 0.1294,
-          "b": 0.1176,
-          "a": 0.1
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "r": 0.9804,
           "g": 0.9647,
           "b": 0.949,
@@ -5047,8 +5843,26 @@
       }
     },
     {
+      "name": "color/mark-accent",
+      "collection": "03 Patterns",
+      "type": "COLOR",
+      "scopes": [],
+      "codeSyntax": {
+        "WEB": "var(--color-mark-accent)"
+      },
+      "description": "The mark in the accent",
+      "values": {
+        "Light": {
+          "alias": "color/accent/900"
+        },
+        "Dark": {
+          "alias": "color/accent/500"
+        }
+      }
+    },
+    {
       "name": "font/family/sans",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "STRING",
       "scopes": [
         "FONT_FAMILY"
@@ -5058,29 +5872,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "font/sans"
         },
-        "Atmo Dark": {
-          "alias": "font/sans"
-        },
-        "Atlas Light": {
-          "alias": "font/sans"
-        },
-        "Atlas Dark": {
-          "alias": "font/sans"
-        },
-        "Brand OS Light": {
-          "alias": "font/sans"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "font/sans"
         }
       }
     },
     {
       "name": "font/feature-settings/text",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -5088,29 +5890,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "text/feature-settings/text"
         },
-        "Atmo Dark": {
-          "alias": "text/feature-settings/text"
-        },
-        "Atlas Light": {
-          "alias": "text/feature-settings/text"
-        },
-        "Atlas Dark": {
-          "alias": "text/feature-settings/text"
-        },
-        "Brand OS Light": {
-          "alias": "text/feature-settings/text"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "text/feature-settings/text"
         }
       }
     },
     {
       "name": "font/feature-settings/numeric",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -5118,29 +5908,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "text/feature-settings/numeric"
         },
-        "Atmo Dark": {
-          "alias": "text/feature-settings/numeric"
-        },
-        "Atlas Light": {
-          "alias": "text/feature-settings/numeric"
-        },
-        "Atlas Dark": {
-          "alias": "text/feature-settings/numeric"
-        },
-        "Brand OS Light": {
-          "alias": "text/feature-settings/numeric"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "text/feature-settings/numeric"
         }
       }
     },
     {
       "name": "motion/feedback/duration",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5148,29 +5926,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/150"
         },
-        "Atmo Dark": {
-          "alias": "duration/150"
-        },
-        "Atlas Light": {
-          "alias": "duration/150"
-        },
-        "Atlas Dark": {
-          "alias": "duration/150"
-        },
-        "Brand OS Light": {
-          "alias": "duration/150"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/150"
         }
       }
     },
     {
       "name": "motion/feedback/duration-exit",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5178,29 +5944,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/105"
         },
-        "Atmo Dark": {
-          "alias": "duration/105"
-        },
-        "Atlas Light": {
-          "alias": "duration/105"
-        },
-        "Atlas Dark": {
-          "alias": "duration/105"
-        },
-        "Brand OS Light": {
-          "alias": "duration/105"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/105"
         }
       }
     },
     {
       "name": "motion/component/duration",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5208,29 +5962,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/300"
         },
-        "Atmo Dark": {
-          "alias": "duration/300"
-        },
-        "Atlas Light": {
-          "alias": "duration/300"
-        },
-        "Atlas Dark": {
-          "alias": "duration/300"
-        },
-        "Brand OS Light": {
-          "alias": "duration/300"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/300"
         }
       }
     },
     {
       "name": "motion/component/duration-exit",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5238,29 +5980,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/210"
         },
-        "Atmo Dark": {
-          "alias": "duration/210"
-        },
-        "Atlas Light": {
-          "alias": "duration/210"
-        },
-        "Atlas Dark": {
-          "alias": "duration/210"
-        },
-        "Brand OS Light": {
-          "alias": "duration/210"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/210"
         }
       }
     },
     {
       "name": "motion/layout/duration",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5268,29 +5998,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/600"
         },
-        "Atmo Dark": {
-          "alias": "duration/600"
-        },
-        "Atlas Light": {
-          "alias": "duration/600"
-        },
-        "Atlas Dark": {
-          "alias": "duration/600"
-        },
-        "Brand OS Light": {
-          "alias": "duration/600"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/600"
         }
       }
     },
     {
       "name": "motion/layout/duration-exit",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5298,29 +6016,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "duration/420"
         },
-        "Atmo Dark": {
-          "alias": "duration/420"
-        },
-        "Atlas Light": {
-          "alias": "duration/420"
-        },
-        "Atlas Dark": {
-          "alias": "duration/420"
-        },
-        "Brand OS Light": {
-          "alias": "duration/420"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "duration/420"
         }
       }
     },
     {
       "name": "motion/easing/enter",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -5328,29 +6034,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "easing/enter"
         },
-        "Atmo Dark": {
-          "alias": "easing/enter"
-        },
-        "Atlas Light": {
-          "alias": "easing/enter"
-        },
-        "Atlas Dark": {
-          "alias": "easing/enter"
-        },
-        "Brand OS Light": {
-          "alias": "easing/enter"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "easing/enter"
         }
       }
     },
     {
       "name": "motion/easing/exit",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "STRING",
       "scopes": [],
       "codeSyntax": {
@@ -5358,29 +6052,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "easing/exit"
         },
-        "Atmo Dark": {
-          "alias": "easing/exit"
-        },
-        "Atlas Light": {
-          "alias": "easing/exit"
-        },
-        "Atlas Dark": {
-          "alias": "easing/exit"
-        },
-        "Brand OS Light": {
-          "alias": "easing/exit"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "easing/exit"
         }
       }
     },
     {
       "name": "border/width/hairline",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [
         "STROKE_FLOAT"
@@ -5390,29 +6072,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "stroke/1"
         },
-        "Atmo Dark": {
-          "alias": "stroke/1"
-        },
-        "Atlas Light": {
-          "alias": "stroke/1"
-        },
-        "Atlas Dark": {
-          "alias": "stroke/1"
-        },
-        "Brand OS Light": {
-          "alias": "stroke/1"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "stroke/1"
         }
       }
     },
     {
       "name": "focus/width",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [
         "STROKE_FLOAT"
@@ -5422,29 +6092,17 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "stroke/2"
         },
-        "Atmo Dark": {
-          "alias": "stroke/2"
-        },
-        "Atlas Light": {
-          "alias": "stroke/2"
-        },
-        "Atlas Dark": {
-          "alias": "stroke/2"
-        },
-        "Brand OS Light": {
-          "alias": "stroke/2"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "stroke/2"
         }
       }
     },
     {
       "name": "focus/offset",
-      "collection": "02 Intent",
+      "collection": "03 Patterns",
       "type": "FLOAT",
       "scopes": [],
       "codeSyntax": {
@@ -5452,22 +6110,10 @@
       },
       "description": "",
       "values": {
-        "Atmo Light": {
+        "Light": {
           "alias": "stroke/2"
         },
-        "Atmo Dark": {
-          "alias": "stroke/2"
-        },
-        "Atlas Light": {
-          "alias": "stroke/2"
-        },
-        "Atlas Dark": {
-          "alias": "stroke/2"
-        },
-        "Brand OS Light": {
-          "alias": "stroke/2"
-        },
-        "Brand OS Dark": {
+        "Dark": {
           "alias": "stroke/2"
         }
       }
@@ -5482,7 +6128,8 @@
       },
       "description": "",
       "values": {
-        "Value": 650
+        "Light": 650,
+        "Dark": 650
       }
     },
     {
@@ -5497,7 +6144,8 @@
       },
       "description": "",
       "values": {
-        "Value": 20
+        "Light": 20,
+        "Dark": 20
       }
     },
     {
@@ -5512,7 +6160,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "stroke/1-5"
+        },
+        "Dark": {
           "alias": "stroke/1-5"
         }
       }
@@ -5529,7 +6180,8 @@
       },
       "description": "",
       "values": {
-        "Value": 3
+        "Light": 3,
+        "Dark": 3
       }
     },
     {
@@ -5544,7 +6196,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "radius/2xl"
+        },
+        "Dark": {
           "alias": "radius/2xl"
         }
       }
@@ -5561,7 +6216,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "spacing/2"
+        },
+        "Dark": {
           "alias": "spacing/2"
         }
       }
@@ -5578,7 +6236,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "spacing/3"
+        },
+        "Dark": {
           "alias": "spacing/3"
         }
       }
@@ -5595,7 +6256,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "spacing/4"
+        },
+        "Dark": {
           "alias": "spacing/4"
         }
       }
@@ -5610,7 +6274,8 @@
       },
       "description": "",
       "values": {
-        "Value": 720
+        "Light": 720,
+        "Dark": 720
       }
     },
     {
@@ -5623,7 +6288,8 @@
       },
       "description": "",
       "values": {
-        "Value": 1200
+        "Light": 1200,
+        "Dark": 1200
       }
     },
     {
@@ -5636,7 +6302,8 @@
       },
       "description": "",
       "values": {
-        "Value": "card"
+        "Light": "card",
+        "Dark": "card"
       }
     },
     {
@@ -5651,7 +6318,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "section/inset/narrow"
+        },
+        "Dark": {
           "alias": "section/inset/narrow"
         }
       }
@@ -5668,7 +6338,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "section/inset/medium"
+        },
+        "Dark": {
           "alias": "section/inset/medium"
         }
       }
@@ -5685,7 +6358,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "section/inset/wide"
+        },
+        "Dark": {
           "alias": "section/inset/wide"
         }
       }
@@ -5702,7 +6378,10 @@
       },
       "description": "",
       "values": {
-        "Value": {
+        "Light": {
+          "alias": "radius/2xl"
+        },
+        "Dark": {
           "alias": "radius/2xl"
         }
       }
@@ -5717,7 +6396,8 @@
       },
       "description": "",
       "values": {
-        "Value": 0.8
+        "Light": 0.8,
+        "Dark": 0.8
       }
     },
     {
@@ -5730,7 +6410,8 @@
       },
       "description": "",
       "values": {
-        "Value": 1.5
+        "Light": 1.5,
+        "Dark": 1.5
       }
     },
     {
@@ -5745,7 +6426,8 @@
       },
       "description": "",
       "values": {
-        "Value": 6
+        "Light": 6,
+        "Dark": 6
       }
     },
     {
@@ -5760,7 +6442,8 @@
       },
       "description": "",
       "values": {
-        "Value": 20
+        "Light": 20,
+        "Dark": 20
       }
     },
     {
@@ -5775,7 +6458,8 @@
       },
       "description": "",
       "values": {
-        "Value": 24
+        "Light": 24,
+        "Dark": 24
       }
     },
     {
@@ -5788,7 +6472,8 @@
       },
       "description": "",
       "values": {
-        "Value": 0.97
+        "Light": 0.97,
+        "Dark": 0.97
       }
     },
     {
@@ -5803,7 +6488,8 @@
       },
       "description": "",
       "values": {
-        "Value": 4
+        "Light": 4,
+        "Dark": 4
       }
     },
     {
@@ -5818,7 +6504,8 @@
       },
       "description": "",
       "values": {
-        "Value": 1
+        "Light": 1,
+        "Dark": 1
       }
     },
     {
@@ -5833,7 +6520,8 @@
       },
       "description": "",
       "values": {
-        "Value": 3
+        "Light": 3,
+        "Dark": 3
       }
     },
     {
@@ -5848,7 +6536,8 @@
       },
       "description": "",
       "values": {
-        "Value": 5
+        "Light": 5,
+        "Dark": 5
       }
     },
     {
@@ -5863,7 +6552,8 @@
       },
       "description": "",
       "values": {
-        "Value": 7
+        "Light": 7,
+        "Dark": 7
       }
     },
     {
@@ -5878,7 +6568,8 @@
       },
       "description": "",
       "values": {
-        "Value": 9
+        "Light": 9,
+        "Dark": 9
       }
     }
   ],

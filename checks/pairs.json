@@ -10,403 +10,430 @@
   ],
   "contrast": [
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.display",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.text.display",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.text",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.positive.text",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.mark",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.positive.mark",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.negative.text",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.negative.text",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.negative.mark",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.negative.mark",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.caution.text",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.caution.text",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.caution.mark",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.caution.mark",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.info.text",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.info.text",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.info.mark",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.status.info.mark",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.border.control",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.border.control",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.focus.ring",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.focus.ring",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.open",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.dot.open",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.attribute",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.dot.live",
+      "bg": "patterns.color.surface.canvas",
+      "floor": 3,
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "fg": "patterns.color.dot.attribute",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.mark",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.mark",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.emphasis",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.emphasis",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.display",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.text.display",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.text",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.positive.text",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.mark",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.positive.mark",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.negative.text",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.negative.text",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.negative.mark",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.negative.mark",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.caution.text",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.caution.text",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.caution.mark",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.caution.mark",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.info.text",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.info.text",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.info.mark",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.status.info.mark",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.border.control",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.border.control",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.focus.ring",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.focus.ring",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.open",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.dot.open",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.attribute",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.dot.live",
+      "bg": "patterns.color.surface.raised",
+      "floor": 3,
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "fg": "patterns.color.dot.attribute",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.mark",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.mark",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.emphasis",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.emphasis",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.display",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.text.display",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.text",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.positive.text",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.mark",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.positive.mark",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.negative.text",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.negative.text",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.negative.mark",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.negative.mark",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.caution.text",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.caution.text",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.caution.mark",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.caution.mark",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.status.info.text",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.info.text",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.info.mark",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.status.info.mark",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.border.control",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.border.control",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.focus.ring",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.focus.ring",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.open",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.dot.open",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.dot.attribute",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.dot.live",
+      "bg": "patterns.color.surface.card",
+      "floor": 3,
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "fg": "patterns.color.dot.attribute",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.mark",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.mark",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.emphasis",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.emphasis",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.surface.inset",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.surface.inset",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.on-inverse",
-      "bg": "intent.color.surface.inverse",
+      "fg": "patterns.color.text.on-inverse",
+      "bg": "patterns.color.surface.inverse",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.text.on-inverse-secondary",
-      "bg": "intent.color.surface.inverse",
+      "fg": "patterns.color.text.on-inverse-secondary",
+      "bg": "patterns.color.surface.inverse",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.focus.ring-on-inverse",
-      "bg": "intent.color.surface.inverse",
+      "fg": "patterns.color.focus.ring-on-inverse",
+      "bg": "patterns.color.surface.inverse",
       "floor": 3
     },
     {
-      "fg": "intent.color.action.primary.text",
-      "bg": "intent.color.action.primary.bg",
+      "fg": "patterns.color.action.primary.text",
+      "bg": "patterns.color.action.primary.bg",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.action.primary.text",
-      "bg": "intent.color.action.primary.bg-hover",
+      "fg": "patterns.color.action.primary.text",
+      "bg": "patterns.color.action.primary.bg-hover",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.action.primary.text",
-      "bg": "intent.color.action.primary.bg-pressed",
+      "fg": "patterns.color.action.primary.text",
+      "bg": "patterns.color.action.primary.bg-pressed",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.focus.ring",
-      "bg": "intent.color.action.primary.bg",
+      "fg": "patterns.color.focus.ring",
+      "bg": "patterns.color.action.primary.bg",
       "floor": 1,
       "note": "report only: the ring sits outside the control, on the surface; the pair is listed so its value is visible"
     },
     {
-      "fg": "intent.color.selected.text",
-      "bg": "intent.color.selected.bg",
+      "fg": "patterns.color.selected.text",
+      "bg": "patterns.color.selected.bg",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.positive.on-mark",
-      "bg": "intent.color.status.positive.mark",
+      "fg": "patterns.color.status.positive.on-mark",
+      "bg": "patterns.color.status.positive.mark",
       "floor": 3,
       "note": "the glyph inside the disc"
     },
     {
-      "fg": "intent.color.status.positive.text",
-      "bg": "intent.color.status.positive.surface",
+      "fg": "patterns.color.status.positive.text",
+      "bg": "patterns.color.status.positive.surface",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.negative.on-mark",
-      "bg": "intent.color.status.negative.mark",
+      "fg": "patterns.color.status.negative.on-mark",
+      "bg": "patterns.color.status.negative.mark",
       "floor": 3,
       "note": "the glyph inside the disc"
     },
     {
-      "fg": "intent.color.status.negative.text",
-      "bg": "intent.color.status.negative.surface",
+      "fg": "patterns.color.status.negative.text",
+      "bg": "patterns.color.status.negative.surface",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.caution.on-mark",
-      "bg": "intent.color.status.caution.mark",
+      "fg": "patterns.color.status.caution.on-mark",
+      "bg": "patterns.color.status.caution.mark",
       "floor": 3,
       "note": "the glyph inside the disc"
     },
     {
-      "fg": "intent.color.status.caution.text",
-      "bg": "intent.color.status.caution.surface",
+      "fg": "patterns.color.status.caution.text",
+      "bg": "patterns.color.status.caution.surface",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.status.info.on-mark",
-      "bg": "intent.color.status.info.mark",
+      "fg": "patterns.color.status.info.on-mark",
+      "bg": "patterns.color.status.info.mark",
       "floor": 3,
       "note": "the glyph inside the disc"
     },
     {
-      "fg": "intent.color.status.info.text",
-      "bg": "intent.color.status.info.surface",
+      "fg": "patterns.color.status.info.text",
+      "bg": "patterns.color.status.info.surface",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.map.marker",
-      "bg": "intent.color.map.ground",
+      "fg": "patterns.color.map.marker",
+      "bg": "patterns.color.map.ground",
       "floor": 3
     },
     {
-      "fg": "intent.color.map.marker-ring",
-      "bg": "intent.color.map.marker",
+      "fg": "patterns.color.map.marker-ring",
+      "bg": "patterns.color.map.marker",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.tertiary",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.text.tertiary",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.dot.closed",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.dot.closed",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.filled",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.filled",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.empty",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.empty",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.tertiary",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.text.tertiary",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.dot.closed",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.dot.closed",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.filled",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.filled",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.empty",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.empty",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.tertiary",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.text.tertiary",
+      "bg": "patterns.color.surface.raised",
       "floor": 4.5,
       "modes": [
         "atmo-light",
@@ -418,53 +445,53 @@
       "note": "Known, not enforced in Atlas Light: green.600 on raised measures 4.33; Closed text never sits on a raised surface"
     },
     {
-      "fg": "intent.color.dot.closed",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.dot.closed",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.filled",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.filled",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.empty",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.empty",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.action.destructive.text",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.action.destructive.text",
+      "bg": "patterns.color.surface.canvas",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.action.destructive.text",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.action.destructive.text",
+      "bg": "patterns.color.surface.card",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.action.destructive.border",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.action.destructive.border",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.action.destructive.bg-hover",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.action.destructive.bg-hover",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.action.destructive.text-hover",
-      "bg": "intent.color.action.destructive.bg-hover",
+      "fg": "patterns.color.action.destructive.text-hover",
+      "bg": "patterns.color.action.destructive.bg-hover",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.score.text",
-      "bg": "intent.color.score.bg",
+      "fg": "patterns.color.score.text",
+      "bg": "patterns.color.score.bg",
       "floor": 4.5
     },
     {
-      "fg": "intent.color.map.pin.cafe",
-      "bg": "intent.color.map.ground",
+      "fg": "patterns.color.map.pin.cafe",
+      "bg": "patterns.color.map.ground",
       "floor": 3,
       "modes": [
         "atmo-light",
@@ -474,13 +501,13 @@
       "note": "the map renders in its light theme in both themes until a dark basemap exists"
     },
     {
-      "fg": "intent.color.map.pin.icon",
-      "bg": "intent.color.map.pin.cafe",
+      "fg": "patterns.color.map.pin.icon",
+      "bg": "patterns.color.map.pin.cafe",
       "floor": 3
     },
     {
-      "fg": "intent.color.map.pin.library",
-      "bg": "intent.color.map.ground",
+      "fg": "patterns.color.map.pin.library",
+      "bg": "patterns.color.map.ground",
       "floor": 3,
       "modes": [
         "atmo-light",
@@ -490,13 +517,13 @@
       "note": "the map renders in its light theme in both themes until a dark basemap exists"
     },
     {
-      "fg": "intent.color.map.pin.icon",
-      "bg": "intent.color.map.pin.library",
+      "fg": "patterns.color.map.pin.icon",
+      "bg": "patterns.color.map.pin.library",
       "floor": 3
     },
     {
-      "fg": "intent.color.map.pin.coworking",
-      "bg": "intent.color.map.ground",
+      "fg": "patterns.color.map.pin.coworking",
+      "bg": "patterns.color.map.ground",
       "floor": 3,
       "modes": [
         "atmo-light",
@@ -506,13 +533,13 @@
       "note": "the map renders in its light theme in both themes until a dark basemap exists"
     },
     {
-      "fg": "intent.color.map.pin.icon",
-      "bg": "intent.color.map.pin.coworking",
+      "fg": "patterns.color.map.pin.icon",
+      "bg": "patterns.color.map.pin.coworking",
       "floor": 3
     },
     {
-      "fg": "intent.color.map.pin.park",
-      "bg": "intent.color.map.ground",
+      "fg": "patterns.color.map.pin.park",
+      "bg": "patterns.color.map.ground",
       "floor": 3,
       "modes": [
         "atmo-light",
@@ -522,467 +549,564 @@
       "note": "the map renders in its light theme in both themes until a dark basemap exists"
     },
     {
-      "fg": "intent.color.map.pin.icon",
-      "bg": "intent.color.map.pin.park",
+      "fg": "patterns.color.map.pin.icon",
+      "bg": "patterns.color.map.pin.park",
       "floor": 3
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.hover",
       "floor": 3,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 3,
-      "over": "intent.color.surface.canvas"
+      "over": "patterns.color.surface.canvas"
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.hover",
       "floor": 3,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 3,
-      "over": "intent.color.surface.card"
+      "over": "patterns.color.surface.card"
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.text.primary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.primary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.hover",
       "floor": 4.5,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.text.secondary",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.text.secondary",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 4.5,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.hover",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.hover",
       "floor": 3,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.border.strong",
-      "bg": "intent.color.overlay.pressed",
+      "fg": "patterns.color.border.strong",
+      "bg": "patterns.color.overlay.pressed",
       "floor": 3,
-      "over": "intent.color.surface.raised"
+      "over": "patterns.color.surface.raised"
     },
     {
-      "fg": "intent.color.data.sequential.1",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.sequential.1",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.1",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.sequential.1",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.1",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.sequential.1",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.2",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.sequential.2",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.2",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.sequential.2",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.2",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.sequential.2",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.3",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.sequential.3",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.3",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.sequential.3",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.3",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.sequential.3",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.4",
-      "bg": "intent.color.surface.canvas",
+      "fg": "patterns.color.data.sequential.4",
+      "bg": "patterns.color.surface.canvas",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.4",
-      "bg": "intent.color.surface.card",
+      "fg": "patterns.color.data.sequential.4",
+      "bg": "patterns.color.surface.card",
       "floor": 3
     },
     {
-      "fg": "intent.color.data.sequential.4",
-      "bg": "intent.color.surface.raised",
+      "fg": "patterns.color.data.sequential.4",
+      "bg": "patterns.color.surface.raised",
       "floor": 3
     }
   ],
   "distinct": [
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.status.negative.mark",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.status.negative.mark",
       "min": 9,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
       "axis": "green/brown"
     },
     {
-      "a": "intent.color.status.positive.text",
-      "b": "intent.color.status.negative.text",
+      "a": "patterns.color.status.positive.text",
+      "b": "patterns.color.status.negative.text",
       "min": 9,
       "carrier": "the title's words and the disc beside it",
       "axis": "green/brown"
     },
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.status.caution.mark",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.status.caution.mark",
       "min": 9,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
       "axis": "green/brown"
     },
     {
-      "a": "intent.color.status.positive.text",
-      "b": "intent.color.status.caution.text",
+      "a": "patterns.color.status.positive.text",
+      "b": "patterns.color.status.caution.text",
       "min": 9,
       "carrier": "the title's words and the disc beside it",
       "axis": "green/brown"
     },
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.status.info.mark",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.status.info.mark",
       "min": 6,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
     },
     {
-      "a": "intent.color.status.positive.text",
-      "b": "intent.color.status.info.text",
+      "a": "patterns.color.status.positive.text",
+      "b": "patterns.color.status.info.text",
       "min": 6,
       "carrier": "the title's words and the disc beside it"
     },
     {
-      "a": "intent.color.status.negative.mark",
-      "b": "intent.color.status.caution.mark",
+      "a": "patterns.color.status.negative.mark",
+      "b": "patterns.color.status.caution.mark",
       "min": 6,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
     },
     {
-      "a": "intent.color.status.negative.text",
-      "b": "intent.color.status.caution.text",
+      "a": "patterns.color.status.negative.text",
+      "b": "patterns.color.status.caution.text",
       "min": 6,
       "carrier": "the title's words and the disc beside it"
     },
     {
-      "a": "intent.color.status.negative.mark",
-      "b": "intent.color.status.info.mark",
+      "a": "patterns.color.status.negative.mark",
+      "b": "patterns.color.status.info.mark",
       "min": 9,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words",
       "axis": "blue/purple"
     },
     {
-      "a": "intent.color.status.negative.text",
-      "b": "intent.color.status.info.text",
+      "a": "patterns.color.status.negative.text",
+      "b": "patterns.color.status.info.text",
       "min": 9,
       "carrier": "the title's words and the disc beside it",
       "axis": "blue/purple"
     },
     {
-      "a": "intent.color.status.caution.mark",
-      "b": "intent.color.status.info.mark",
+      "a": "patterns.color.status.caution.mark",
+      "b": "patterns.color.status.info.mark",
       "min": 6,
       "carrier": "glyph shape (check, cross, triangle, i) and the title's words"
     },
     {
-      "a": "intent.color.status.caution.text",
-      "b": "intent.color.status.info.text",
+      "a": "patterns.color.status.caution.text",
+      "b": "patterns.color.status.info.text",
       "min": 6,
       "carrier": "the title's words and the disc beside it"
     },
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.surface.canvas",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.surface.canvas",
       "min": 6
     },
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.surface.raised",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.surface.raised",
       "min": 6
     },
     {
-      "a": "intent.color.status.positive.mark",
-      "b": "intent.color.surface.card",
+      "a": "patterns.color.status.positive.mark",
+      "b": "patterns.color.surface.card",
       "min": 6
     },
     {
-      "a": "intent.color.status.negative.mark",
-      "b": "intent.color.surface.canvas",
+      "a": "patterns.color.status.negative.mark",
+      "b": "patterns.color.surface.canvas",
       "min": 6
     },
     {
-      "a": "intent.color.status.negative.mark",
-      "b": "intent.color.surface.raised",
+      "a": "patterns.color.status.negative.mark",
+      "b": "patterns.color.surface.raised",
       "min": 6
     },
     {
-      "a": "intent.color.status.negative.mark",
-      "b": "intent.color.surface.card",
+      "a": "patterns.color.status.negative.mark",
+      "b": "patterns.color.surface.card",
       "min": 6
     },
     {
-      "a": "intent.color.status.caution.mark",
-      "b": "intent.color.surface.canvas",
+      "a": "patterns.color.status.caution.mark",
+      "b": "patterns.color.surface.canvas",
       "min": 6
     },
     {
-      "a": "intent.color.status.caution.mark",
-      "b": "intent.color.surface.raised",
+      "a": "patterns.color.status.caution.mark",
+      "b": "patterns.color.surface.raised",
       "min": 6
     },
     {
-      "a": "intent.color.status.caution.mark",
-      "b": "intent.color.surface.card",
+      "a": "patterns.color.status.caution.mark",
+      "b": "patterns.color.surface.card",
       "min": 6
     },
     {
-      "a": "intent.color.status.info.mark",
-      "b": "intent.color.surface.canvas",
+      "a": "patterns.color.status.info.mark",
+      "b": "patterns.color.surface.canvas",
       "min": 6
     },
     {
-      "a": "intent.color.status.info.mark",
-      "b": "intent.color.surface.raised",
+      "a": "patterns.color.status.info.mark",
+      "b": "patterns.color.surface.raised",
       "min": 6
     },
     {
-      "a": "intent.color.status.info.mark",
-      "b": "intent.color.surface.card",
+      "a": "patterns.color.status.info.mark",
+      "b": "patterns.color.surface.card",
       "min": 6
     },
     {
-      "a": "intent.color.dot.open",
-      "b": "intent.color.dot.attribute",
+      "a": "patterns.color.dot.open",
+      "b": "patterns.color.dot.attribute",
       "min": 9,
-      "rule": "ratio-2-or-dE-9"
+      "rule": "ratio-2-or-dE-9",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
     },
     {
-      "a": "intent.color.emphasis",
-      "b": "intent.color.mark",
+      "a": "patterns.color.dot.live",
+      "b": "patterns.color.dot.attribute",
+      "min": 9,
+      "rule": "ratio-2-or-dE-9",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.emphasis",
+      "b": "patterns.color.mark",
       "min": 6,
       "carrier": "emphasis is a highlighter beside a label, never the only signal"
     },
     {
-      "a": "intent.color.map.water",
-      "b": "intent.color.map.park",
+      "a": "patterns.color.map.water",
+      "b": "patterns.color.map.park",
       "min": 6,
       "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
     },
     {
-      "a": "intent.color.map.water",
-      "b": "intent.color.map.ground",
+      "a": "patterns.color.map.water",
+      "b": "patterns.color.map.ground",
       "min": 6,
       "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
     },
     {
-      "a": "intent.color.map.park",
-      "b": "intent.color.map.ground",
+      "a": "patterns.color.map.park",
+      "b": "patterns.color.map.ground",
       "min": 6,
       "carrier": "the area's outline; the basemap recolor is an open Atlas pattern (reference gate G2)"
     },
     {
-      "a": "intent.color.dot.open",
-      "b": "intent.color.dot.closed",
+      "a": "patterns.color.dot.open",
+      "b": "patterns.color.dot.closed",
       "min": 9,
       "rule": "ratio-2-or-dE-9",
-      "axis": "green/brown"
+      "axis": "green/brown",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
     },
     {
-      "a": "intent.color.dot.closed",
-      "b": "intent.color.dot.attribute",
+      "a": "patterns.color.dot.live",
+      "b": "patterns.color.dot.closed",
+      "min": 9,
+      "rule": "ratio-2-or-dE-9",
+      "axis": "green/brown",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.dot.closed",
+      "b": "patterns.color.dot.attribute",
       "min": 6,
       "carrier": "ring vs filled, and the word"
     },
     {
-      "a": "intent.color.data.filled",
-      "b": "intent.color.data.empty",
+      "a": "patterns.color.data.filled",
+      "b": "patterns.color.data.empty",
       "min": 9,
       "carrier": "filled vs ring"
     },
     {
-      "a": "intent.color.action.destructive.bg-hover",
-      "b": "intent.color.action.primary.bg",
+      "a": "patterns.color.action.destructive.bg-hover",
+      "b": "patterns.color.action.primary.bg",
       "min": 9,
       "carrier": "outline at rest, and the label",
       "axis": "green/brown"
     },
     {
-      "a": "intent.color.score.bg",
-      "b": "intent.color.data.filled",
+      "a": "patterns.color.score.bg",
+      "b": "patterns.color.data.filled",
       "min": 6,
       "carrier": "chip shape"
     },
     {
-      "a": "intent.color.map.pin.cafe",
-      "b": "intent.color.map.pin.library",
+      "a": "patterns.color.map.pin.cafe",
+      "b": "patterns.color.map.pin.library",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.map.pin.cafe",
-      "b": "intent.color.map.pin.coworking",
+      "a": "patterns.color.map.pin.cafe",
+      "b": "patterns.color.map.pin.coworking",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.map.pin.cafe",
-      "b": "intent.color.map.pin.park",
+      "a": "patterns.color.map.pin.cafe",
+      "b": "patterns.color.map.pin.park",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.map.pin.library",
-      "b": "intent.color.map.pin.coworking",
+      "a": "patterns.color.map.pin.library",
+      "b": "patterns.color.map.pin.coworking",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.map.pin.library",
-      "b": "intent.color.map.pin.park",
+      "a": "patterns.color.map.pin.library",
+      "b": "patterns.color.map.pin.park",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.map.pin.coworking",
-      "b": "intent.color.map.pin.park",
+      "a": "patterns.color.map.pin.coworking",
+      "b": "patterns.color.map.pin.park",
       "min": 9,
       "carrier": "icon"
     },
     {
-      "a": "intent.color.data.sequential.1",
-      "b": "intent.color.data.sequential.2",
+      "a": "patterns.color.data.sequential.1",
+      "b": "patterns.color.data.sequential.2",
       "min": 6,
       "carrier": "bar height"
     },
     {
-      "a": "intent.color.data.sequential.2",
-      "b": "intent.color.data.sequential.3",
+      "a": "patterns.color.data.sequential.2",
+      "b": "patterns.color.data.sequential.3",
       "min": 6,
       "carrier": "bar height"
     },
     {
-      "a": "intent.color.data.sequential.3",
-      "b": "intent.color.data.sequential.4",
+      "a": "patterns.color.data.sequential.3",
+      "b": "patterns.color.data.sequential.4",
       "min": 6,
       "carrier": "bar height"
     },
     {
-      "a": "intent.color.text.secondary",
-      "b": "intent.color.text.tertiary",
+      "a": "patterns.color.text.secondary",
+      "b": "patterns.color.text.tertiary",
       "min": 6
     },
     {
-      "a": "intent.color.text.secondary",
-      "b": "intent.color.text.primary",
+      "a": "patterns.color.text.secondary",
+      "b": "patterns.color.text.primary",
       "min": 6
     },
     {
-      "a": "intent.color.data.sequential.1",
-      "b": "intent.color.dot.open",
+      "a": "patterns.color.data.sequential.1",
+      "b": "patterns.color.dot.open",
       "min": 9,
-      "carrier": "bar against dot, and the word"
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
     },
     {
-      "a": "intent.color.data.sequential.2",
-      "b": "intent.color.dot.open",
+      "a": "patterns.color.data.sequential.1",
+      "b": "patterns.color.dot.live",
       "min": 9,
-      "carrier": "bar against dot, and the word"
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
     },
     {
-      "a": "intent.color.data.sequential.3",
-      "b": "intent.color.dot.open",
+      "a": "patterns.color.data.sequential.2",
+      "b": "patterns.color.dot.open",
       "min": 9,
-      "carrier": "bar against dot, and the word"
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
     },
     {
-      "a": "intent.color.data.sequential.4",
-      "b": "intent.color.dot.open",
+      "a": "patterns.color.data.sequential.2",
+      "b": "patterns.color.dot.live",
       "min": 9,
-      "carrier": "bar against dot, and the word"
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.data.sequential.3",
+      "b": "patterns.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.data.sequential.3",
+      "b": "patterns.color.dot.live",
+      "min": 9,
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.data.sequential.4",
+      "b": "patterns.color.dot.open",
+      "min": 9,
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atmo-light",
+        "atmo-dark",
+        "brand-os-light",
+        "brand-os-dark"
+      ]
+    },
+    {
+      "a": "patterns.color.data.sequential.4",
+      "b": "patterns.color.dot.live",
+      "min": 9,
+      "carrier": "bar against dot, and the word",
+      "modes": [
+        "atlas-light",
+        "atlas-dark"
+      ]
     }
   ]
 }

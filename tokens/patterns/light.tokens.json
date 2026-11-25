@@ -1,8 +1,9 @@
 {
-  "intent": {
+  "$description": "Patterns, light: where each meaning is applied. Points at Intent; type, motion, widths and elevation point at Brand.",
+  "patterns": {
     "$extensions": {
       "studio.atmo": {
-        "mode": "atmo-dark",
+        "mode": "atmo-light",
         "inherits": null,
         "overrides": [],
         "provenance": {
@@ -17,60 +18,61 @@
       "surface": {
         "canvas": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.base.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.canvas"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.canvas",
+                "confirmed": "Confirmed round 2: the brand white becomes #faf6f2"
               }
             }
           }
         },
         "raised": {
           "$type": "color",
-          "$value": "{core.color.neutral.900}",
+          "$value": "{intent.color.neutral.100}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.surface-raised"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-raised"
               }
             }
           }
         },
         "inset": {
           "$type": "color",
-          "$value": "{core.color.neutral.800}",
+          "$value": "{intent.color.neutral.200}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.surface-inset"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-inset"
               }
             }
           }
         },
         "card": {
           "$type": "color",
-          "$value": "{core.color.neutral.900}",
+          "$value": "{intent.color.base.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.surface-card"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-card"
               }
             }
           }
         },
         "inverse": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.surface-inverse"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-inverse"
               }
             }
           }
@@ -79,55 +81,55 @@
       "text": {
         "primary": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.text-primary"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-primary"
               }
             }
           }
         },
         "display": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.text-display"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-display"
               }
             }
           }
         },
         "secondary": {
           "$type": "color",
-          "$value": "{core.color.neutral.300}",
+          "$value": "{intent.color.neutral.700}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.text-secondary"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-secondary"
               }
             }
           }
         },
         "on-inverse": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.text-on-inverse"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-on-inverse"
               }
             }
           }
         },
         "disabled": {
           "$type": "color",
-          "$value": "{core.color.neutral.600}",
+          "$value": "{intent.color.neutral.400}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -142,7 +144,7 @@
         },
         "on-inverse-secondary": {
           "$type": "color",
-          "$value": "{core.color.neutral.600}",
+          "$value": "{intent.color.neutral.400}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -157,7 +159,7 @@
         },
         "tertiary": {
           "$type": "color",
-          "$value": "{core.color.neutral.400}",
+          "$value": "{intent.color.neutral.600}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -173,43 +175,43 @@
       "border": {
         "divider": {
           "$type": "color",
-          "$value": "{core.color.neutral.800}",
+          "$value": "{intent.color.neutral.200}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.border-divider"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-divider"
               }
             }
           }
         },
         "control": {
           "$type": "color",
-          "$value": "{core.color.neutral.500}",
+          "$value": "{intent.color.neutral.500}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.border-control"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-control"
               }
             }
           }
         },
         "strong": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.border-strong"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-strong"
               }
             }
           }
         },
         "on-inverse": {
           "$type": "color",
-          "$value": "{core.color.neutral.200}",
+          "$value": "{intent.color.neutral.800}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -227,12 +229,12 @@
         "primary": {
           "bg": {
             "$type": "color",
-            "$value": "{core.color.neutral.50}",
+            "$value": "{intent.color.neutral.950}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.action-bg",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.action-bg",
                   "confirmed": "Confirmed round 2: Atmo's primary action is ink"
                 }
               }
@@ -240,31 +242,31 @@
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{core.color.neutral.200}",
+            "$value": "{intent.color.neutral.800}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.action-bg-hover"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.action-bg-hover"
                 }
               }
             }
           },
           "text": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.neutral.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.action-text"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.action-text"
                 }
               }
             }
           },
           "bg-pressed": {
             "$type": "color",
-            "$value": "{core.color.neutral.50}",
+            "$value": "{intent.color.neutral.950}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -277,7 +279,7 @@
           },
           "bg-disabled": {
             "$type": "color",
-            "$value": "{core.color.neutral.800}",
+            "$value": "{intent.color.neutral.200}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -289,7 +291,7 @@
           },
           "text-disabled": {
             "$type": "color",
-            "$value": "{core.color.neutral.500}",
+            "$value": "{intent.color.neutral.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -303,13 +305,13 @@
         "destructive": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.clay.400}",
+            "$value": "{intent.color.error.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "destructive label and outline at rest, 4.5:1 on card and canvas. One brand red, 2026-10-14: was signal-red.350; clay.400 takes the role now that red and signal red are retired",
+                  "rule": "destructive label and outline at rest, 4.5:1 on card and canvas. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
                   "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
@@ -317,13 +319,13 @@
           },
           "border": {
             "$type": "color",
-            "$value": "{core.color.clay.400}",
+            "$value": "{intent.color.error.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "destructive outline at rest, same as its label. One brand red, 2026-10-14: was signal-red.350; clay.400 takes the role now that red and signal red are retired",
+                  "rule": "destructive outline at rest, same as its label. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
                   "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
@@ -331,13 +333,13 @@
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{core.color.clay.400}",
+            "$value": "{intent.color.error.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "destructive hover fills solid; unmistakable against rest in both themes. One brand red, 2026-10-14: was signal-red.350; clay.400 takes the role now that red and signal red are retired",
+                  "rule": "destructive hover fills solid; unmistakable against rest in both themes. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
                   "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
@@ -345,13 +347,13 @@
           },
           "bg-pressed": {
             "$type": "color",
-            "$value": "{core.color.clay.300}",
+            "$value": "{intent.color.error.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "destructive pressed. One brand red, 2026-10-14: was signal-red.300; clay.300 takes the role now that red and signal red are retired",
+                  "rule": "destructive pressed. One brand red, 2026-10-14: was signal-red.700; clay.700 takes the role now that red and signal red are retired",
                   "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): Delete is a strict outline in a bright red; hover fills solid; no faint fills on outlined buttons. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
@@ -359,7 +361,7 @@
           },
           "text-hover": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -371,42 +373,52 @@
               }
             }
           }
+        },
+        "accent": {
+          "$description": "The primary action filled in the accent, for a product that leads with it (Atlas)",
+          "bg": {
+            "$value": "{intent.color.accent.700}"
+          }
         }
       },
       "selected": {
         "bg": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.select-bg"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.select-bg"
               }
             }
           }
         },
         "text": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.select-text"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.select-text"
               }
             }
           }
+        },
+        "bg-accent": {
+          "$value": "{intent.color.accent.900}",
+          "$description": "A selected chip or row in the accent"
         }
       },
       "mark": {
         "$type": "color",
-        "$value": "{core.color.neutral.50}",
+        "$value": "{intent.color.neutral.950}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
               "kind": "extracted",
-              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.mark"
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.mark"
             }
           }
         }
@@ -414,19 +426,19 @@
       "focus": {
         "ring": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.focus"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.focus"
               }
             }
           }
         },
         "ring-on-inverse": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -435,55 +447,59 @@
               }
             }
           }
+        },
+        "ring-accent": {
+          "$value": "{intent.color.accent.900}",
+          "$description": "The focus ring in the accent"
         }
       },
       "map": {
         "ground": {
           "$type": "color",
-          "$value": "{core.color.neutral.900}",
+          "$value": "{intent.color.neutral.100}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.map-ground"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.map-ground"
               }
             }
           }
         },
         "grid": {
           "$type": "color",
-          "$value": "{core.color.neutral.800}",
+          "$value": "{intent.color.neutral.200}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.map-grid"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.map-grid"
               }
             }
           }
         },
         "water": {
           "$type": "color",
-          "$value": "{core.color.blue.900}",
+          "$value": "{intent.color.info.100}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.map-water"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.map-water"
               }
             }
           }
         },
         "park": {
           "$type": "color",
-          "$value": "{core.color.green.800}",
+          "$value": "{intent.color.success.200}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "derived",
                 "rule": "round 4 had green-100 / green-900, which sits at the map ground's own lightness and vanishes under deutan (ΔE 0.8 against n100). One step further from the ground, as Atlas already has it",
                 "from": [
-                  "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.map-park",
+                  "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.map-park",
                   "atlas map.park"
                 ]
               }
@@ -492,24 +508,24 @@
         },
         "marker": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.marker"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.marker"
               }
             }
           }
         },
         "marker-ring": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "extracted",
-                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.marker-ring"
+                "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.marker-ring"
               }
             }
           }
@@ -517,7 +533,7 @@
         "pin": {
           "cafe": {
             "$type": "color",
-            "$value": "{core.color.ochre.500}",
+            "$value": "{intent.color.warning.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -531,7 +547,7 @@
           },
           "library": {
             "$type": "color",
-            "$value": "{core.color.blue.500}",
+            "$value": "{intent.color.info.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -545,7 +561,7 @@
           },
           "coworking": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.950}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -559,7 +575,7 @@
           },
           "park": {
             "$type": "color",
-            "$value": "{core.color.green.700}",
+            "$value": "{intent.color.success.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -573,7 +589,7 @@
           },
           "icon": {
             "$type": "color",
-            "$value": "{core.color.neutral.50}",
+            "$value": "{intent.color.neutral.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -585,16 +601,20 @@
               }
             }
           }
+        },
+        "marker-accent": {
+          "$value": "{intent.color.accent.900}",
+          "$description": "The map marker in the accent"
         }
       },
       "skeleton": {
         "$type": "color",
-        "$value": "{core.color.neutral.800}",
+        "$value": "{intent.color.neutral.200}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
               "kind": "extracted",
-              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.skeleton",
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.skeleton",
               "confirmed": "Confirmed round 2: back cards are skeletons"
             }
           }
@@ -602,12 +622,12 @@
       },
       "emphasis": {
         "$type": "color",
-        "$value": "{core.color.green.400}",
+        "$value": "{intent.color.accent.500}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
               "kind": "extracted",
-              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.emphasis",
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.emphasis",
               "confirmed": "ATMO-7 (2026-09-28): forest green leads"
             }
           }
@@ -616,7 +636,7 @@
       "dot": {
         "open": {
           "$type": "color",
-          "$value": "{core.color.green.400}",
+          "$value": "{intent.color.success.500}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -632,7 +652,7 @@
         },
         "attribute": {
           "$type": "color",
-          "$value": "{core.color.neutral.50}",
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -646,7 +666,7 @@
         },
         "closed": {
           "$type": "color",
-          "$value": "{core.color.neutral.500}",
+          "$value": "{intent.color.neutral.700}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -657,18 +677,22 @@
               }
             }
           }
+        },
+        "live": {
+          "$value": "{intent.color.live.550}",
+          "$description": "The open-now dot in signal green"
         }
       },
       "status": {
         "positive": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.green.300}",
+            "$value": "{intent.color.success.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.pos-text",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.pos-text",
                   "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
@@ -676,41 +700,41 @@
           },
           "mark": {
             "$type": "color",
-            "$value": "{core.color.green.400}",
+            "$value": "{intent.color.success.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-02",
-                  "rule": "dark grounds mirror the light rule: the disc takes 400, the first step lighter than the ground that clears 3:1 (usage rule: marks on dark take 400 or lighter). Every state at the same step, as on light",
-                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)",
-                  "source": "Atmo specimen, round 4 (2026-10-02): usage.marks_dark"
+                  "rule": "state disc at the 500 step on light grounds, every state",
+                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
             }
           },
           "on-mark": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.disc-glyph"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph"
                 }
               }
             }
           },
           "surface": {
             "$type": "color",
-            "$value": "{core.color.green.900}",
+            "$value": "{intent.color.success.100}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "derived",
-                  "rule": "the dark mirror of the 100 surface",
+                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles)",
                   "from": [
-                    "Atmo token architecture, decision record, §4"
+                    "Atmo token architecture, decision record, §4",
+                    "Atmo specimen, round 4 (2026-10-02): status.tinted_option_a"
                   ]
                 }
               }
@@ -720,13 +744,13 @@
         "negative": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.clay.400}",
+            "$value": "{intent.color.error.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface. One brand red, 2026-10-14: was signal-red.350; clay.400 takes the role now that red and signal red are retired",
+                  "rule": "negative title in the signal red, 4.5:1 on canvas, card, raised and status.negative.surface. One brand red, 2026-10-14: was signal-red.600; clay.600 takes the role now that red and signal red are retired",
                   "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
@@ -734,40 +758,41 @@
           },
           "mark": {
             "$type": "color",
-            "$value": "{core.color.clay.200}",
+            "$value": "{intent.color.error.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "confirmed": "Decided 2026-10-02 at the token build: the negative disc steps off 500 so positive and negative differ in lightness, not only in hue, for red-green color-vision deficiency. Confirmed 2026-10-14: clay and red become one ramp, hue 35",
-                  "rule": "negative disc at 300, one step past the other states, inside \"600 or lighter\". One brand red, 2026-10-14: was red.300; clay.200 takes the role now that red and signal red are retired"
+                  "rule": "negative disc on light: signal-red.700; against the positive disc ΔE 26.0 / 15.0 / 26.5 (normal / deutan / protan). One brand red, 2026-10-14: was signal-red.700; clay.700 takes the role now that red and signal red are retired",
+                  "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): errors and negative status move to the signal red. Confirmed 2026-10-14: clay and red become one ramp, hue 35"
                 }
               }
             }
           },
           "on-mark": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.disc-glyph"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph"
                 }
               }
             }
           },
           "surface": {
             "$type": "color",
-            "$value": "{core.color.clay.900}",
+            "$value": "{intent.color.error.100}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
-                  "rule": "the dark mirror of the 100 surface. One brand red, 2026-10-14: was red.900; clay.900 takes the role now that red and signal red are retired",
+                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles). One brand red, 2026-10-14: was red.100; clay.100 takes the role now that red and signal red are retired",
                   "from": [
-                    "Atmo token architecture, decision record, §4"
+                    "Atmo token architecture, decision record, §4",
+                    "Atmo specimen, round 4 (2026-10-02): status.tinted_option_a"
                   ],
                   "date": "2026-10-14",
                   "confirmed": "Confirmed 2026-10-14: clay and red become one ramp, hue 35"
@@ -779,12 +804,12 @@
         "caution": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.ochre.300}",
+            "$value": "{intent.color.warning.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.cau-text",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.cau-text",
                   "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
@@ -792,41 +817,41 @@
           },
           "mark": {
             "$type": "color",
-            "$value": "{core.color.ochre.400}",
+            "$value": "{intent.color.warning.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-02",
-                  "rule": "dark grounds mirror the light rule: the disc takes 400, the first step lighter than the ground that clears 3:1 (usage rule: marks on dark take 400 or lighter). Every state at the same step, as on light",
-                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)",
-                  "source": "Atmo specimen, round 4 (2026-10-02): usage.marks_dark"
+                  "rule": "state disc at the 500 step on light grounds, every state",
+                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
             }
           },
           "on-mark": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.cau-glyph"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.cau-glyph"
                 }
               }
             }
           },
           "surface": {
             "$type": "color",
-            "$value": "{core.color.ochre.900}",
+            "$value": "{intent.color.warning.100}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "derived",
-                  "rule": "the dark mirror of the 100 surface",
+                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles)",
                   "from": [
-                    "Atmo token architecture, decision record, §4"
+                    "Atmo token architecture, decision record, §4",
+                    "Atmo specimen, round 4 (2026-10-02): status.tinted_option_a"
                   ]
                 }
               }
@@ -836,12 +861,12 @@
         "info": {
           "text": {
             "$type": "color",
-            "$value": "{core.color.blue.300}",
+            "$value": "{intent.color.info.700}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.inf-text",
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.inf-text",
                   "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
@@ -849,41 +874,41 @@
           },
           "mark": {
             "$type": "color",
-            "$value": "{core.color.blue.400}",
+            "$value": "{intent.color.info.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-02",
-                  "rule": "dark grounds mirror the light rule: the disc takes 400, the first step lighter than the ground that clears 3:1 (usage rule: marks on dark take 400 or lighter). Every state at the same step, as on light",
-                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)",
-                  "source": "Atmo specimen, round 4 (2026-10-02): usage.marks_dark"
+                  "rule": "state disc at the 500 step on light grounds, every state",
+                  "confirmed": "Confirmed round 4: toasts use (b), neutral toast with a filled state disc at the 500 step on light grounds; the title keeps the state text step (4.5:1)"
                 }
               }
             }
           },
           "on-mark": {
             "$type": "color",
-            "$value": "{core.color.neutral.950}",
+            "$value": "{intent.color.base.50}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "extracted",
-                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.disc-glyph"
+                  "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph"
                 }
               }
             }
           },
           "surface": {
             "$type": "color",
-            "$value": "{core.color.blue.900}",
+            "$value": "{intent.color.info.100}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "derived",
-                  "rule": "the dark mirror of the 100 surface",
+                  "rule": "proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's tinted set, option a, is retired with its title/body/icon roles)",
                   "from": [
-                    "Atmo token architecture, decision record, §4"
+                    "Atmo token architecture, decision record, §4",
+                    "Atmo specimen, round 4 (2026-10-02): status.tinted_option_a"
                   ]
                 }
               }
@@ -893,7 +918,7 @@
       },
       "shadow-tint": {
         "$type": "color",
-        "$value": "{core.color.shadow.deep-ink}",
+        "$value": "{intent.color.neutral.950}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
@@ -901,7 +926,7 @@
               "rule": "the brand's own ink tints its shadows on light grounds (Atlas: green-950, the specimen's rgb 30 38 27 snapped to the ramp); dark grounds take the deep warm ink, because ink on an ink canvas casts nothing",
               "from": [
                 "Atmo specimen, round 4 (2026-10-02): --shadow-rgb",
-                "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.shadow-rgb"
+                "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.shadow-rgb"
               ]
             }
           }
@@ -909,57 +934,39 @@
       },
       "glass": {
         "$type": "color",
-        "$value": {
-          "colorSpace": "oklch",
-          "components": [
-            0.2511,
-            0.0083,
-            59.3
-          ],
-          "alpha": 0.8,
-          "hex": "#25211e"
-        },
+        "$value": "{intent.color.base.50}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
               "kind": "extracted",
-              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-dark.glass",
+              "source": "Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.glass",
               "confirmed": "Confirmed round 2: glass is accepted",
-              "note": "neutral.950 at 0.8; chrome only"
+              "note": "neutral.50 at 0.85; chrome only"
             },
-            "composite_of": "{core.color.neutral.950}"
+            "alpha": 0.85
           }
         }
       },
       "scrim": {
         "$type": "color",
-        "$value": {
-          "colorSpace": "oklch",
-          "components": [
-            0.12,
-            0.008,
-            67.7
-          ],
-          "alpha": 0.6,
-          "hex": "#070504"
-        },
+        "$value": "{intent.color.neutral.950}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
               "kind": "derived",
-              "rule": "proposal §4 names one scrim value. shadow.deep-ink at 0.6: never behind text, only behind a modal sheet. Not in any specimen, so it needs eyes",
+              "rule": "proposal §4 names one scrim value. neutral.950 at 0.4: never behind text, only behind a modal sheet. Not in any specimen, so it needs eyes",
               "from": [
                 "Atmo token architecture, decision record, §4"
               ]
             },
-            "composite_of": "{core.color.shadow.deep-ink}"
+            "alpha": 0.4
           }
         }
       },
       "score": {
         "bg": {
           "$type": "color",
-          "$value": "{core.color.green.300}",
+          "$value": "{intent.color.success.700}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -973,7 +980,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{core.color.neutral.950}",
+          "$value": "{intent.color.neutral.50}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -989,7 +996,7 @@
       "data": {
         "filled": {
           "$type": "color",
-          "$value": "{core.color.neutral.200}",
+          "$value": "{intent.color.base.800}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1003,7 +1010,7 @@
         },
         "empty": {
           "$type": "color",
-          "$value": "{core.color.neutral.500}",
+          "$value": "{intent.color.base.500}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1018,7 +1025,7 @@
         "sequential": {
           "1": {
             "$type": "color",
-            "$value": "{core.color.neutral.500}",
+            "$value": "{intent.color.base.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
@@ -1032,13 +1039,13 @@
           },
           "2": {
             "$type": "color",
-            "$value": "{core.color.clay.300}",
+            "$value": "{intent.color.error.800}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "busyness step 2 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. Busyness on clay, 2026-10-14: was ember.420; level 2 takes clay.300",
+                  "rule": "busyness step 2 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. Busyness on clay, 2026-10-14: was ember.550; level 2 takes clay.800",
                   "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
                 }
               }
@@ -1046,13 +1053,13 @@
           },
           "3": {
             "$type": "color",
-            "$value": "{core.color.clay.400}",
+            "$value": "{intent.color.error.600}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.420; clay.400 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.400; level 3 takes clay.400",
+                  "rule": "busyness step 3 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.550; clay.500 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.500; level 3 takes clay.600",
                   "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
                 }
               }
@@ -1060,13 +1067,13 @@
           },
           "4": {
             "$type": "color",
-            "$value": "{core.color.clay.500}",
+            "$value": "{intent.color.error.500}",
             "$extensions": {
               "studio.atmo": {
                 "provenance": {
                   "kind": "decided",
                   "date": "2026-10-14",
-                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.350; clay.300 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.300; level 4 takes clay.500",
+                  "rule": "busyness step 4 of 4: neutral to red, every step 3:1 on canvas, card and raised; adjacent steps ΔE 4 or more under deutan and protan, carried by bar height below 6. One brand red, 2026-10-14: was signal-red.650; clay.700 takes the role now that red and signal red are retired. Busyness on clay, 2026-10-14: was clay.700; level 4 takes clay.500",
                   "confirmed": "Confirmed 2026-10-14: ember folds into clay; busyness takes option C, the middle version reversed, so the busiest level is the most colourful"
                 }
               }
@@ -1077,59 +1084,45 @@
       "overlay": {
         "hover": {
           "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.9751,
-              0.0068,
-              67.7
-            ],
-            "alpha": 0.06,
-            "hex": "#faf6f2"
-          },
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
                 "date": "2026-10-03",
-                "rule": "hover on rows, menu items and icon-only buttons: neutral.50 at 0.06 over the element's own ground; text on the composite 4.5:1",
+                "rule": "hover on rows, menu items and icon-only buttons: neutral.950 at 0.05 over the element's own ground; text on the composite 4.5:1",
                 "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
               },
-              "composite_of": "{core.color.neutral.50}"
+              "alpha": 0.05
             }
           }
         },
         "pressed": {
           "$type": "color",
-          "$value": {
-            "colorSpace": "oklch",
-            "components": [
-              0.9751,
-              0.0068,
-              67.7
-            ],
-            "alpha": 0.1,
-            "hex": "#faf6f2"
-          },
+          "$value": "{intent.color.neutral.950}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "decided",
                 "date": "2026-10-03",
-                "rule": "pressed on rows, menu items and icon-only buttons: neutral.50 at 0.10",
+                "rule": "pressed on rows, menu items and icon-only buttons: neutral.950 at 0.10",
                 "confirmed": "Confirmed 2026-10-03 (Atlas step 5, round 2): outline buttons hover by border only; a faint fill stays only for rows, menu items and icon-only buttons"
               },
-              "composite_of": "{core.color.neutral.50}"
+              "alpha": 0.1
             }
           }
         }
+      },
+      "mark-accent": {
+        "$value": "{intent.color.accent.900}",
+        "$description": "The mark in the accent"
       }
     },
     "font": {
       "family": {
         "sans": {
           "$type": "fontFamily",
-          "$value": "{core.font.sans}",
+          "$value": "{brand.font.sans}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1145,7 +1138,7 @@
       "feature-settings": {
         "text": {
           "$type": "string",
-          "$value": "{core.text.feature-settings.text}",
+          "$value": "{brand.text.feature-settings.text}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1159,7 +1152,7 @@
         },
         "numeric": {
           "$type": "string",
-          "$value": "{core.text.feature-settings.numeric}",
+          "$value": "{brand.text.feature-settings.numeric}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1177,11 +1170,11 @@
       "display-l": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.11xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-36}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.11xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-36}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1192,7 +1185,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.007
           }
         }
@@ -1200,11 +1193,11 @@
       "display-m": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.10xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-30}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.10xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-30}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1215,7 +1208,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.0084
           }
         }
@@ -1223,11 +1216,11 @@
       "display-s": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.9xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-25}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.9xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-25}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1238,7 +1231,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.0101
           }
         }
@@ -1246,11 +1239,11 @@
       "display-xs": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.8xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-21}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.8xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-21}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1261,7 +1254,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.012
           }
         }
@@ -1269,11 +1262,11 @@
       "heading-l": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.7xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-19}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.7xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-19}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1284,7 +1277,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.1014
           }
         }
@@ -1292,11 +1285,11 @@
       "heading-m": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.6xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-16}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.6xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-16}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1307,7 +1300,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.1228
           }
         }
@@ -1315,11 +1308,11 @@
       "heading-s": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.5xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-14}",
-          "letterSpacing": "{core.text.tracking.minus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.5xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-14}",
+          "letterSpacing": "{brand.text.tracking.minus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1330,7 +1323,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.1667
           }
         }
@@ -1338,11 +1331,11 @@
       "subheading-l": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.4xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-12}",
-          "letterSpacing": "{core.text.tracking.minus-1}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.4xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-12}",
+          "letterSpacing": "{brand.text.tracking.minus-1}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1353,7 +1346,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.2
           }
         }
@@ -1361,11 +1354,11 @@
       "subheading-m": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.3xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-10}",
-          "letterSpacing": "{core.text.tracking.minus-1}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.3xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-10}",
+          "letterSpacing": "{brand.text.tracking.minus-1}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1376,7 +1369,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.2121
           }
         }
@@ -1384,11 +1377,11 @@
       "subheading-s": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.2xl}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-9}",
-          "letterSpacing": "{core.text.tracking.minus-1}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.2xl}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-9}",
+          "letterSpacing": "{brand.text.tracking.minus-1}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1399,7 +1392,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.2857
           }
         }
@@ -1407,11 +1400,11 @@
       "body-xl": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.xl}",
-          "fontWeight": "{core.font-weight.regular}",
-          "lineHeight": "{core.text.line-height.leading-9}",
-          "letterSpacing": "{core.text.tracking.minus-1}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.xl}",
+          "fontWeight": "{brand.font-weight.regular}",
+          "lineHeight": "{brand.text.line-height.leading-9}",
+          "letterSpacing": "{brand.text.tracking.minus-1}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1422,7 +1415,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.5652
           }
         }
@@ -1430,11 +1423,11 @@
       "body-l": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.lg}",
-          "fontWeight": "{core.font-weight.regular}",
-          "lineHeight": "{core.text.line-height.leading-7}",
-          "letterSpacing": "{core.text.tracking.0}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.lg}",
+          "fontWeight": "{brand.font-weight.regular}",
+          "lineHeight": "{brand.text.line-height.leading-7}",
+          "letterSpacing": "{brand.text.tracking.0}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1445,7 +1438,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.4737
           }
         }
@@ -1453,11 +1446,11 @@
       "body-m": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.base}",
-          "fontWeight": "{core.font-weight.regular}",
-          "lineHeight": "{core.text.line-height.leading-6}",
-          "letterSpacing": "{core.text.tracking.0}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.base}",
+          "fontWeight": "{brand.font-weight.regular}",
+          "lineHeight": "{brand.text.line-height.leading-6}",
+          "letterSpacing": "{brand.text.tracking.0}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1468,7 +1461,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.5
           }
         }
@@ -1476,11 +1469,11 @@
       "body-s": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.sm}",
-          "fontWeight": "{core.font-weight.regular}",
-          "lineHeight": "{core.text.line-height.leading-5}",
-          "letterSpacing": "{core.text.tracking.0}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.sm}",
+          "fontWeight": "{brand.font-weight.regular}",
+          "lineHeight": "{brand.text.line-height.leading-5}",
+          "letterSpacing": "{brand.text.tracking.0}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1491,7 +1484,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "lineHeightRatio": 1.5385
           }
         }
@@ -1499,11 +1492,11 @@
       "label": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.xs}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-4}",
-          "letterSpacing": "{core.text.tracking.plus-2}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.xs}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-4}",
+          "letterSpacing": "{brand.text.tracking.plus-2}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1514,7 +1507,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "note": "sentence case: dot-pattern labels",
             "lineHeightRatio": 1.4545
           }
@@ -1523,11 +1516,11 @@
       "label-caps": {
         "$type": "typography",
         "$value": {
-          "fontFamily": "{intent.font.family.sans}",
-          "fontSize": "{core.text.font-size.xs}",
-          "fontWeight": "{core.font-weight.medium}",
-          "lineHeight": "{core.text.line-height.leading-4}",
-          "letterSpacing": "{core.text.tracking.plus-6}"
+          "fontFamily": "{patterns.font.family.sans}",
+          "fontSize": "{brand.text.font-size.xs}",
+          "fontWeight": "{brand.font-weight.medium}",
+          "lineHeight": "{brand.text.line-height.leading-4}",
+          "letterSpacing": "{brand.text.tracking.plus-6}"
         },
         "$extensions": {
           "studio.atmo": {
@@ -1538,7 +1531,7 @@
               "confirmed": "decided in the token build, 2026-10-02: role names and leading per proposal §3; the Design System's names win (§4)",
               "source": "Atmo token architecture, decision record: §3, §4; Atmo specimen, round 4 (2026-10-02):"
             },
-            "fontFeatureSettings": "{intent.font.feature-settings.text}",
+            "fontFeatureSettings": "{patterns.font.feature-settings.text}",
             "textTransform": "uppercase",
             "note": "Confirmed round 3: caps tracking is +0.06em. Confirmed round 2: dot-pattern labels use sentence case; all caps has a place in other label text",
             "lineHeightRatio": 1.4545
@@ -1550,7 +1543,7 @@
       "feedback": {
         "duration": {
           "$type": "duration",
-          "$value": "{core.duration.150}",
+          "$value": "{brand.duration.150}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1559,20 +1552,20 @@
                 "rule": "Settled: feedback 150ms",
                 "confirmed": "Confirmed round 3: motion is Settled, as the starting point"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         },
         "duration-exit": {
           "$type": "duration",
-          "$value": "{core.duration.105}",
+          "$value": "{brand.duration.105}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "derived",
                 "rule": "70% of the enter duration"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         }
@@ -1580,7 +1573,7 @@
       "component": {
         "duration": {
           "$type": "duration",
-          "$value": "{core.duration.300}",
+          "$value": "{brand.duration.300}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1589,20 +1582,20 @@
                 "rule": "Settled: component 300ms",
                 "confirmed": "Confirmed round 3: motion is Settled, as the starting point"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         },
         "duration-exit": {
           "$type": "duration",
-          "$value": "{core.duration.210}",
+          "$value": "{brand.duration.210}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "derived",
                 "rule": "70% of the enter duration"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         }
@@ -1610,7 +1603,7 @@
       "layout": {
         "duration": {
           "$type": "duration",
-          "$value": "{core.duration.600}",
+          "$value": "{brand.duration.600}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1619,20 +1612,20 @@
                 "rule": "Settled: layout 600ms",
                 "confirmed": "Confirmed round 3: motion is Settled, as the starting point"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         },
         "duration-exit": {
           "$type": "duration",
-          "$value": "{core.duration.420}",
+          "$value": "{brand.duration.420}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
                 "kind": "derived",
                 "rule": "70% of the enter duration"
               },
-              "reduced-motion": "{core.duration.0}"
+              "reduced-motion": "{brand.duration.0}"
             }
           }
         }
@@ -1640,7 +1633,7 @@
       "easing": {
         "enter": {
           "$type": "cubicBezier",
-          "$value": "{core.easing.enter}",
+          "$value": "{brand.easing.enter}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1654,7 +1647,7 @@
         },
         "exit": {
           "$type": "cubicBezier",
-          "$value": "{core.easing.exit}",
+          "$value": "{brand.easing.exit}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1672,7 +1665,7 @@
       "width": {
         "hairline": {
           "$type": "dimension",
-          "$value": "{core.stroke.1}",
+          "$value": "{brand.stroke.1}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -1692,7 +1685,7 @@
     "focus": {
       "width": {
         "$type": "dimension",
-        "$value": "{core.stroke.2}",
+        "$value": "{brand.stroke.2}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
@@ -1709,7 +1702,7 @@
       },
       "offset": {
         "$type": "dimension",
-        "$value": "{core.stroke.2}",
+        "$value": "{brand.stroke.2}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
@@ -1729,16 +1722,7 @@
         "$type": "shadow",
         "$value": [
           {
-            "color": {
-              "colorSpace": "oklch",
-              "components": [
-                0.12,
-                0.008,
-                67.7
-              ],
-              "alpha": 0.06,
-              "hex": "#070504"
-            },
+            "color": "{intent.color.neutral.950}",
             "offsetX": {
               "value": 0,
               "unit": "px"
@@ -1757,16 +1741,7 @@
             }
           },
           {
-            "color": {
-              "colorSpace": "oklch",
-              "components": [
-                0.12,
-                0.008,
-                67.7
-              ],
-              "alpha": 0.1,
-              "hex": "#070504"
-            },
+            "color": "{intent.color.neutral.950}",
             "offsetX": {
               "value": 0,
               "unit": "px"
@@ -1788,14 +1763,13 @@
         "$extensions": {
           "studio.atmo": {
             "provenance": {
-              "kind": "derived",
-              "rule": "core.shadow.floating geometry and alphas, tinted with shadow.deep-ink",
-              "from": [
-                "core.shadow.floating",
-                "color.shadow-tint"
-              ]
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --shadow-floating"
             },
-            "css": "0px 1px 2px rgb(7 5 4 / 0.06), 0px 6px 16px rgb(7 5 4 / 0.1)"
+            "layerAlpha": [
+              0.06,
+              0.1
+            ]
           }
         }
       },
@@ -1803,16 +1777,7 @@
         "$type": "shadow",
         "$value": [
           {
-            "color": {
-              "colorSpace": "oklch",
-              "components": [
-                0.12,
-                0.008,
-                67.7
-              ],
-              "alpha": 0.06,
-              "hex": "#070504"
-            },
+            "color": "{intent.color.neutral.950}",
             "offsetX": {
               "value": 0,
               "unit": "px"
@@ -1831,16 +1796,7 @@
             }
           },
           {
-            "color": {
-              "colorSpace": "oklch",
-              "components": [
-                0.12,
-                0.008,
-                67.7
-              ],
-              "alpha": 0.16,
-              "hex": "#070504"
-            },
+            "color": "{intent.color.neutral.950}",
             "offsetX": {
               "value": 0,
               "unit": "px"
@@ -1862,14 +1818,13 @@
         "$extensions": {
           "studio.atmo": {
             "provenance": {
-              "kind": "derived",
-              "rule": "core.shadow.overlay geometry and alphas, tinted with shadow.deep-ink",
-              "from": [
-                "core.shadow.overlay",
-                "color.shadow-tint"
-              ]
+              "kind": "extracted",
+              "source": "Atmo specimen, round 4 (2026-10-02): --shadow-overlay"
             },
-            "css": "0px 2px 6px rgb(7 5 4 / 0.06), 0px 16px 48px rgb(7 5 4 / 0.16)"
+            "layerAlpha": [
+              0.06,
+              0.16
+            ]
           }
         }
       }

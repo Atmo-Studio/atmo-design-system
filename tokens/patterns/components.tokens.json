@@ -15,7 +15,7 @@
                 "confirmed": "Confirmed round 4: menu button option (a), label weight raised to match the line stroke (about 650, one Patterns token), lines stretched wider",
                 "source": "Atmo specimen, round 4 (2026-10-02): type.stem_units_satoshi, menu_icon.options[a]"
               },
-              "role": "{intent.type.body-s} for size, leading and tracking; this token overrides its weight only"
+              "role": "{patterns.type.body-s} for size, leading and tracking; this token overrides its weight only"
             },
             "studio.atmo.figma": {
               "scopes": []
@@ -49,7 +49,7 @@
         },
         "line": {
           "$type": "dimension",
-          "$value": "{core.stroke.1-5}",
+          "$value": "{brand.stroke.1-5}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -86,7 +86,7 @@
     "section": {
       "radius": {
         "$type": "dimension",
-        "$value": "{core.radius.2xl}",
+        "$value": "{brand.radius.2xl}",
         "$extensions": {
           "studio.atmo": {
             "provenance": {
@@ -101,7 +101,7 @@
       "inset": {
         "narrow": {
           "$type": "dimension",
-          "$value": "{core.spacing.2}",
+          "$value": "{brand.spacing.2}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -116,7 +116,7 @@
         },
         "medium": {
           "$type": "dimension",
-          "$value": "{core.spacing.3}",
+          "$value": "{brand.spacing.3}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -131,7 +131,7 @@
         },
         "wide": {
           "$type": "dimension",
-          "$value": "{core.spacing.4}",
+          "$value": "{brand.spacing.4}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -258,7 +258,7 @@
         },
         "radius": {
           "$type": "dimension",
-          "$value": "{core.radius.2xl}",
+          "$value": "{brand.radius.2xl}",
           "$extensions": {
             "studio.atmo": {
               "provenance": {
@@ -308,7 +308,7 @@
             }
           }
         },
-        "$description": "The card paints {intent.color.surface.inverse} with {intent.color.text.on-inverse}; no pattern token re-points an Intent role (proposal §2)."
+        "$description": "The card paints {patterns.color.surface.inverse} with {patterns.color.text.on-inverse}; no pattern token re-points an Intent role (proposal §2)."
       }
     },
     "dot": {

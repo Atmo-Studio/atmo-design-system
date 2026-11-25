@@ -2,14 +2,14 @@
 // sync pushes through the Plugin API, and what scripts/parity.mjs compares a Figma dump against.
 //
 // Collection membership comes from the source file a token was defined in:
-//   core.tokens.json      → 01 Core     (one mode, "Value")
-//   intent/*.tokens.json  → 02 Intent   (one mode per brand × theme)
-//   patterns.tokens.json  → 03 Patterns (one mode, "Value")
+//   brand.tokens.json        → 01 Brand    (one mode, "Value")
+//   intent/*.tokens.json     → 02 Intent   (one mode per sub-brand)
+//   patterns/*.tokens.json   → 03 Patterns (one mode per theme; component geometry the same in both)
 // A token may set $extensions["studio.atmo.figma"] to { skip, type, value, scopes, name }.
 import { walk, aliasOf, resolveValue, publicPath } from './tokens.mjs';
 import { toHex, hexToRgb } from './color.mjs';
 
-export const COLLECTIONS = { core: '01 Core', intent: '02 Intent', patterns: '03 Patterns' };
+export const COLLECTIONS = { brand: '01 Brand', intent: '02 Intent', patterns: '03 Patterns' };
 
 export const modeLabel = (mode) =>
   mode
@@ -19,12 +19,12 @@ export const modeLabel = (mode) =>
     .replace(/ (Light|Dark)$/, ' $1');
 
 const collectionOf = (file) =>
-  file.startsWith('core') ? 'core' : file.startsWith('intent/') ? 'intent' : file.startsWith('patterns') ? 'patterns' : null;
+  file.startsWith('brand') ? 'brand' : file.startsWith('intent/') ? 'intent' : file.startsWith('patterns') ? 'patterns' : null;
 
 export const figmaName = (path) => publicPath(path).replaceAll('.', '/');
 
-// Core colors are hidden from the pickers: products and files consume Intent, never raw steps.
-// Intent colors show only in the pickers their role belongs in.
+// Brand and Intent colors are hidden from the pickers: products and files consume Patterns.
+// Patterns colors show only in the pickers their role belongs in.
 const FILL = ['FRAME_FILL', 'SHAPE_FILL'];
 const MARK = ['SHAPE_FILL', 'STROKE_COLOR'];
 const COLOR_SCOPES = [
@@ -37,7 +37,7 @@ const COLOR_SCOPES = [
 ];
 const scopesFor = (col, name, type) => {
   if (type !== 'color') return null;
-  if (col === 'core') return [];
+  if (col !== 'patterns') return [];
   return COLOR_SCOPES.find(([re]) => re.test(name))[1];
 };
 
@@ -90,7 +90,8 @@ export function figmaPayload(modes) {
       const ext = token.$extensions?.['studio.atmo.figma'] ?? {};
       if (ext.skip || ['typography', 'shadow'].includes(type)) continue;
       const name = ext.name ?? figmaName(path);
-      const modeName = col === 'intent' ? modeLabel(mode) : 'Value';
+      const [brand, theme] = [mode.replace(/-(light|dark)$/, ''), mode.match(/(light|dark)$/)[1]];
+      const modeName = col === 'intent' ? modeLabel(brand) : col === 'patterns' ? modeLabel(theme) : 'Value';
       const alias = aliasOf(token);
       const value = alias && !('value' in ext) ? { alias: figmaName(alias) } : figmaValue(token, type, tree, ext);
       const v = vars.get(name) ?? {
@@ -102,7 +103,7 @@ export function figmaPayload(modes) {
         description: token.$description ?? '',
         values: {},
       };
-      if (col !== 'intent' && v.values.Value !== undefined) continue;
+      if (v.values[modeName] !== undefined) continue;
       v.values[modeName] = value;
       vars.set(name, v);
     }
@@ -129,11 +130,11 @@ export function figmaPayload(modes) {
     }
   for (const v of vars.values()) v.scopes ??= [];
 
-  // Effect styles carry Intent's elevation in the default mode. Figma styles have no modes.
+  // Effect styles carry Patterns' elevation in the default brand and theme. Figma styles have no modes.
   const effects = [];
   const [, first] = entries[0];
   for (const [p, token, type] of walk(first.tree)) {
-    if (type !== 'shadow' || !first.origin[p.join('.')]?.startsWith('intent/')) continue;
+    if (type !== 'shadow' || !first.origin[p.join('.')]?.startsWith('patterns/')) continue;
     const layers = [resolveValue(first.tree, token.$value)].flat().map((s) => ({
       color: figmaValue({ $value: s.color }, 'color', first.tree, {}),
       offsetX: s.offsetX.value,
@@ -148,7 +149,7 @@ export function figmaPayload(modes) {
     collections: Object.fromEntries(
       Object.entries(COLLECTIONS).map(([k, name]) => [
         name,
-        { modes: k === 'intent' ? entries.map(([m]) => modeLabel(m)) : ['Value'] },
+        { modes: k === 'intent' ? [...new Set(entries.map(([m]) => modeLabel(m.replace(/-(light|dark)$/, ''))))] : k === 'patterns' ? ['Light', 'Dark'] : ['Value'] },
       ]),
     ),
     variables: [...vars.values()],

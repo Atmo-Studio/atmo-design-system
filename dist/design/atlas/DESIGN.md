@@ -8,33 +8,33 @@ colors:
   tertiary: "#48536f" # decided 2026-10-02: pinned anchor: Storm Blue #48536f
   neutral: "#faf6f2" # decided 2026-10-02: pinned anchor: neutral-50 is the brand white
   ink: "#25211e" # decided 2026-10-02: pinned anchor: neutral-950 is the brand black
-  surface: "#faf6f2" # decided 2026-10-03: Atlas Light's ground is the brand white, with green kept as the accent: raised, inset and dividers stay...
-  surface-raised: "#e2ecdc" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-raised
-  surface-inset: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-inset
+  surface: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.canvas
+  surface-raised: "#e2ecdc" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-raised
+  surface-inset: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-inset
   surface-card: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-card
-  surface-inverse: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.surface-inverse
-  on-surface: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-primary
-  on-surface-secondary: "#4c5c42" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-secondary
-  on-surface-display: "#3b4833" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-display
+  surface-inverse: "#1f261a" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.surface-inverse
+  on-surface: "#1f261a" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-primary
+  on-surface-secondary: "#4c5c42" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-secondary
+  on-surface-display: "#1f261a" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-display
   on-surface-disabled: "#8ba47d" # derived: proposal §4 sets disabled text at 400 on light; dark takes the mirror step, 600. Exempt from contrast...
-  on-inverse: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.text-on-inverse
+  on-inverse: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.text-on-inverse
   on-inverse-secondary: "#8ba47d" # derived: the step closest to the inverse ground that still clears 4.5:1; reproduces the specimen's n400 on the n950...
-  border-divider: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-divider
-  border-control: "#728a62" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-control
-  border-strong: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.border-strong
-  action: "#4c5c42" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-bg
-  action-hover: "#3b4833" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-bg-hover
-  action-pressed: "#4c5c42" # extracted: Atmo specimen, round 4 (2026-10-02): .menu-btn:active / .btn:active
-  on-action: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.action-text
+  border-divider: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-divider
+  border-control: "#728a62" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-control
+  border-strong: "#1f261a" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.border-strong
+  action: "#4c5c42" # decided 2026-10-02: shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (13.34); Confirmed round 2:...
+  action-hover: "#3b4833" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.action-bg-hover
+  action-pressed: "#1f261a" # extracted: Atmo specimen, round 4 (2026-10-02): .menu-btn:active / .btn:active
+  on-action: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.action-text
   action-disabled: "#cadcc1" # derived: the inset step: a recessed fill that no longer reads as the ink action. Exempt from contrast floors (WCAG...
   on-action-disabled: "#728a62" # derived: the control-border step on the disabled fill; legible, visibly inactive. Exempt (inactive component)....
-  selected: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.select-bg
-  on-selected: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.select-text
-  focus-ring: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.focus
-  emphasis: "#2c3625" # decided 2026-10-02: Atlas emphasis is neutral: the text color. Round 4 withdrew the bright-green emphasis dot
-  dot-open: "#448648" # decided 2026-10-02: "Open" takes the bright green dot: #448648 on light, #8ed28f on dark
-  dot-attribute: "#2c3625" # decided 2026-10-02: informational attribute dots ("Quiet before 10") are neutral and match the label text
-  positive: "#2c3625" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.pos-text
+  selected: "#2c3625" # decided 2026-10-02: shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); Confirmed round 2:...
+  on-selected: "#edf4e9" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.select-text
+  focus-ring: "#2c3625" # decided 2026-10-02: shared OKLCH L curve, chroma solved per step for one CAM16 colorfulness target (9.85); Confirmed round 2:...
+  emphasis: "#728a62" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.emphasis
+  dot-open: "#448648" # decided 2026-10-02: approved hex for Atlas's "Open" dot; computed in round 4 as oklch(0.56 0.115 145); off the shared band by...
+  dot-attribute: "#1f261a" # decided 2026-10-02: informational attribute dots ("Quiet before 10") are neutral and match the label text
+  positive: "#4c5c42" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.pos-text
   positive-mark: "#728a62" # decided 2026-10-02: state disc at the 500 step on light grounds, every state
   on-positive-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
   positive-surface: "#e2ecdc" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
@@ -50,7 +50,7 @@ colors:
   info-mark: "#6e80a1" # decided 2026-10-02: state disc at the 500 step on light grounds, every state
   on-info-mark: "#faf6f2" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.disc-glyph
   info-surface: "#e0eaf4" # derived: proposal §4 splits each status into text, mark and surface; the surface takes the 100 step (round 4's...
-  skeleton: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atlas-light.skeleton
+  skeleton: "#cadcc1" # extracted: Atmo specimen, round 4 (2026-10-02): intent_modes.atmo-light.skeleton
   error: "{colors.negative}"
 typography:
   label: # decided 2026-10-02: 11/16, weight 500, tracking +0.02em. Size from the 1.2 scale; leading per §3; tracking and weight by size...
@@ -206,19 +206,19 @@ Generated from [tokens/](tokens/) by `npm run build`. Do not edit this file: cha
 
 ## Overview
 
-Atlas is a theme extending Atmo core. It is green-led: its surfaces, text and action all come from the green ramp, over the same brand white as Atmo. Red and blue are reserved for system states.
+Atlas is a sub-brand of Atmo: the same Brand primitives and the same Patterns roles, with its Intent mapping neutral to the green ramp. It is green-led: its surfaces, text and action all come from the green ramp, over the same brand white as Atmo. Red and blue are reserved for system states.
 
 The brand narrative this section is meant to carry is not written yet. Its source document is still to come, and nothing here stands in for it.
 
 ## Colors
 
-Every color sits on one of five 11-step ramps (neutral, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
+Every color sits on one of five 11-step Brand ramps (stone, green, clay, blue and ochre), apart from the two signal greens Atlas uses for its "Open" dot. Intent gives each ramp its meaning per sub-brand (neutral, accent, error, success, warning, info, base), and Patterns applies those meanings per theme, so the names below are the roles to use. The ramps share one OKLCH lightness curve and one colorfulness target per step, so the same step reads equally light and equally colorful in every hue. The hex values here are sRGB fallbacks; the CSS ships the OKLCH value to browsers that support it. Reproduction tolerance is ΔE00 ≤ 2, and ≤ 1 for the identity colors.
 
 - **Primary (`#4c5c42`):** forest green, hue 134. The lead accent and, in Atlas, the action color.
 - **Secondary (`#84402f`):** fired clay, the warm supporting accent and the one brand red, which carries errors too.
 - **Tertiary (`#48536f`):** Storm Blue, the cool supporting accent, pinned at the blue ramp's 700.
 - **Neutral (`#faf6f2`) and ink (`#25211e`):** the brand white and the warm black. Never pure white or pure black.
-- **Action (`#4c5c42`):** green is the primary action.
+- **Action (`#4c5c42`):** green is the primary action, through the accent action role.
 - **Status:** positive is green, negative is clay, caution is ochre and info is blue. A status always shows as a filled disc carrying a glyph (check, cross, triangle, i), never as a bare dot. On light grounds the discs sit at 500, negative at 700, so positive and negative differ in lightness as well as hue. Among the status colors, ochre is caution, and its disc may run past the palette's chroma. Map categories each take their own hue from the palette, so a pin can be ochre or blue without meaning a state.
 - **Dots:** "Open" takes `#448648`. Informational attributes take a neutral dot that matches the text. Two dots told apart by color also differ by 2:1 in lightness or by ΔE 9.
 

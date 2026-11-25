@@ -20,7 +20,7 @@ const dim = (v) => (typeof v === 'object' && 'unit' in v ? `${v.value}${v.unit}`
 
 // Type sizes and leading ship in rem, so text follows the visitor's browser setting and its leading
 // grows with it. The source keeps px, which Figma reads; 16px is 1rem.
-const REM_PATHS = /^core\.text\.(font-size|line-height)\./;
+const REM_PATHS = /^brand\.text\.(font-size|line-height)\./;
 const rem = (v) =>
   typeof v === 'object' && v.unit === 'px' ? `${+(v.value / 16).toFixed(4)}rem` : dim(v);
 
@@ -117,8 +117,8 @@ function block(selector, { base, modern }, indent = '') {
   return s;
 }
 
-const isCore = (path) => path.startsWith('core.');
-const isThemed = (path) => !path.startsWith('core.');
+const isCore = (path) => path.startsWith('brand.') || path.startsWith('intent.');
+const isThemed = (path) => path.startsWith('patterns.');
 
 // Reduced motion is not a mode: each duration names its reduced value in an extension.
 function reduced(tree) {
@@ -134,7 +134,7 @@ const brands = {};
 for (const [mode, { tree }] of Object.entries(modes)) {
   const [brand, theme] = [mode.replace(/-(light|dark)$/, ''), mode.match(/(light|dark)$/)[1]];
   (brands[brand] ??= {})[theme] = tree;
-  // Standalone file per brand × theme: Core, then Intent and Patterns for this mode.
+  // Standalone file per brand × theme: Brand and Intent, then Patterns for this theme.
   out(
     `dist/css/${mode}.css`,
     HEADER + block(':root', declarations(tree, isCore)) + block(':root', declarations(tree, isThemed)) + reduced(tree),

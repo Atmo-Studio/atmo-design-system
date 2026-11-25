@@ -2,8 +2,9 @@
 // and resolves aliases. Follows the DTCG 2025.10 format and resolver modules.
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-export const ROOT = resolve(dirname(new URL(import.meta.url).pathname), '../..');
+export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const readJson = (p) => JSON.parse(readFileSync(resolve(ROOT, p), 'utf8'));
 
 export const resolver = () => readJson('tokens/atmo.resolver.json');
@@ -31,36 +32,56 @@ export function* walk(node, path = [], type) {
 }
 
 function sourcesOf(ref, doc) {
-  const [, kind, name] = ref.split('/'); // "#/sets/core" or "#/modifiers/mode"
+  const [, kind, name] = ref.split('/'); // "#/sets/brand" or "#/modifiers/theme"
   return { kind, name, def: doc[kind][name] };
 }
 
-// Returns { [contextName]: { tree, origin } } for the resolver's single modifier.
+// A color that aliases a ramp step at an opacity, or a shadow whose layers do, keeps the alias in
+// the source and the opacity in an extension. Loading writes the composite out, since a CSS var()
+// and a Figma alias cannot carry an opacity.
+function composite(tree) {
+  for (const [p, token, type] of walk(tree)) {
+    const x = token.$extensions?.['studio.atmo'];
+    if (type === 'color' && x?.alpha !== undefined && aliasOf(token)) {
+      x.composite_of = token.$value;
+      token.$value = { ...resolveValue(tree, token.$value), alpha: x.alpha };
+    }
+    if (type === 'shadow' && Array.isArray(x?.layerAlpha))
+      token.$value = token.$value.map((l, i) => ({ ...l, color: { ...resolveValue(tree, l.color), alpha: x.layerAlpha[i] } }));
+  }
+}
+
+// Returns { [brand-theme]: { tree, origin } }: every sub-brand in every theme. Brand, then the
+// sub-brand's Intent, then the theme's Patterns, then the sets after them.
 // origin maps a token path to the source file that last set it, for provenance.
 export function loadModes() {
   const doc = resolver();
   const order = doc.resolutionOrder.map((r) => sourcesOf(r.$ref, doc));
-  const modifier = order.find((o) => o.kind === 'modifiers');
+  const brands = Object.keys(doc.modifiers.brand.contexts);
+  const themes = Object.keys(doc.modifiers.theme.contexts);
   const out = {};
-  for (const ctx of Object.keys(modifier.def.contexts)) {
-    const tree = {};
-    const origin = {};
-    for (const step of order) {
-      const files = step.kind === 'sets' ? step.def.sources : step.def.contexts[ctx];
-      for (const f of files) {
-        const src = readJson(`tokens/${f.$ref}`);
-        for (const [p] of walk(src)) origin[p.join('.')] = f.$ref;
-        merge(tree, src);
+  for (const brand of brands)
+    for (const theme of themes) {
+      const pick = { brand, theme };
+      const tree = {};
+      const origin = {};
+      for (const step of order) {
+        const files = step.kind === 'sets' ? step.def.sources : step.def.contexts[pick[step.name]];
+        for (const f of files) {
+          const src = readJson(`tokens/${f.$ref}`);
+          for (const [p] of walk(src)) origin[p.join('.')] = f.$ref;
+          merge(tree, src);
+        }
       }
+      composite(tree);
+      out[`${brand}-${theme}`] = { tree, origin };
     }
-    out[ctx] = { tree, origin };
-  }
-  return { doc, modifier: modifier.name, modes: out };
+  return { doc, modifier: 'brand x theme', modes: out };
 }
 
-// The name a token is published under: its path without the tier prefix. core.color.neutral.50
-// becomes color.neutral.50, which is --color-neutral-50 in CSS and color/neutral/50 in Figma.
-export const publicPath = (path) => path.replace(/^(core|intent|patterns)\./, '');
+// The name a token is published under: its path without the layer prefix. brand.color.stone.50
+// becomes color.stone.50, which is --color-stone-50 in CSS and color/stone/50 in Figma.
+export const publicPath = (path) => path.replace(/^(brand|intent|patterns)\./, '');
 
 export function get(tree, path) {
   return path.split('.').reduce((n, k) => (n == null ? n : n[k]), tree);
