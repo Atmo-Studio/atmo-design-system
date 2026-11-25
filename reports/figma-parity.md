@@ -2,15 +2,22 @@
 
 # Figma parity
 
-The Atmo Design System Figma library against `dist/figma/sync.json`, checked inside the library by `dist/figma/parity-check.js`. Each line compared holds a variable's name, type, scopes, code syntax and its value in every mode. Captured 2026-10-14T22:55:06.770Z.
+The Atmo Design System Figma library against `dist/figma/sync.json`, checked inside the library by `dist/figma/parity-check.js`. Each line compared holds a variable's name, type, scopes, code syntax and its value in every mode. Captured 2026-11-25T03:44:04.036Z.
 
-- **Variables:** 270 in code; 01 Core 152, 02 Intent 91, 03 Patterns 27 in Figma
+- **Variables:** 356 in code; 01 Brand 152, 02 Intent 80, 03 Patterns 124 in Figma
 - **Effect styles:** 2 in code, 2 in Figma
 - **Differences:** 0
 
 | Collection | Checksum | Match |
 |---|---|---|
-| 01 Core | `1a0057dfb6e894` | yes |
-| 02 Intent | `f7f77d273750e` | yes |
-| 03 Patterns | `de4480854a906` | yes |
+| 01 Brand | `ce50a7700ec0d` | yes |
+| 02 Intent | `1e46a210ad8e65` | yes |
+| 03 Patterns | `9a3b8d873fe06` | yes |
 | Effect styles | `93b58606787f3` | yes |
+
+## Not in this sync
+
+- **Text styles.** The 16 type roles (six in Atlas) have no Figma text styles yet. Figma's cloud plugin runtime cannot load Satoshi Variable, so styles set in it cannot be created or edited from here. The 48 existing `text-*` styles were left as they are. This waits on Satoshi being added as a shared organization font, or on a sync run from the Figma desktop app.
+- **Shadows outside Atmo Light.** Figma effect styles have no modes, so `elevation/floating` and `elevation/overlay` carry Atmo Light's values. Dark and Atlas shadows live in code; `color/shadow-tint` holds their tint per mode.
+- **Older bindings in the library.** The Decent Design System and lilac library bindings, the dangling references to the deleted `Typography` collection and the "113 px" label on text-10xl were not touched, because they sit on existing pages.
+- **Tints per sub-brand.** A Figma alias cannot carry an opacity, so `color/glass`, `color/scrim` and `color/overlay/*` hold raw values in Patterns, the Atmo ones. Atlas's green-tinted versions live in code only.
